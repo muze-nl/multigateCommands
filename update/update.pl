@@ -6,7 +6,7 @@ use strict;
 my $multidir = $ENV{MULTI_ROOT};
 my $dstdir = "${multidir}/commands";
 #Fixme, get from configfile
-my $repos = 'https://svn.muze.nl/svn/multigate_commands/trunk/';
+#my $repos = 'https://svn.muze.nl/svn/multigate_commands/trunk/';
 my $svn_user = '';
 my $svn = '/usr/bin/svn';
 
@@ -27,11 +27,9 @@ unless ($command =~ /^\w+$/) {
    exit 0;
 }
 
-my $svn_url = $repos . $command;
 
 #Do the svn stuff!
-my $credentials = ( (defined $svn_user and $svn_user =~ /^\w+$/ ) ? "--username $svn_user" : "");
-my $commandline = "$svn update $credentials $svn_url";
+my $commandline = "$svn update $dstdir/$command";
 print STDERR "commandline = $commandline\n";
 my $pid = open( README, "$commandline |") or die "Couldn't fork svn: $!\n";
 my $files = 0 ;
@@ -40,7 +38,7 @@ while (my $line = <README>) {
    if ($line =~ /^[AUD]\s+.*?$/) {
      #looks OK...
      $files++;
-   } elsif ($line =~ /^Checked out revision (\d+)\.$/) {
+   } elsif ($line =~ /^At revision (\d+)\.$/) {
      #Tada!
      print "Done ($files files updated, rev $1)\n";
    } else {
