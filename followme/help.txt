@@ -1,0 +1,1 @@
+followme [protocol] : set followme to given protocol

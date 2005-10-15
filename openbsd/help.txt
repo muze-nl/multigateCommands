@@ -1,0 +1,1 @@
+openbsd [<major>.<minor>] geeft de meest recente regel uit de errata voor die release. Zonder argumenten wordt de meest recente release genomen.

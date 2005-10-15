@@ -1,0 +1,1 @@
+Geeft van een karakter de ascii waarde, of van een ascii waarde het bijbehoordene karakter.

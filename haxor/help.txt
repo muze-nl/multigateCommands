@@ -1,0 +1,3 @@
+Translates a string from plaintext to haxor.
+Syntax: haxor <string>
+Example: Example will be translated to 3x4mpl3

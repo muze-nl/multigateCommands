@@ -1,0 +1,3 @@
+at: scheduler for commands
+absolute time: at hh:mm command 
+relative from now: at +[[days:]hours:]minutes command

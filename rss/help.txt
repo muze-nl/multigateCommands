@@ -1,0 +1,3 @@
+rss <url or code> [number]: retrieves rss-feed from url and show number items (default 1, max 5). code is a shortcut for some urls
+rss code: lists all known codes
+rss add <code> <url>: add a new code to the list

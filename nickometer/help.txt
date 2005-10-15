@@ -1,0 +1,1 @@
+nickometer <nick>: calculates nickname lameness, using alghorithm by Adam Spiers <adam.spiers@new.ox.ac.uk> (c) 1998

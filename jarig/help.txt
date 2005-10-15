@@ -1,0 +1,1 @@
+jarig [username | maandnummer] : geeft verjaardagen in komende maand of in [maandnummer] of de verjaardag van [user]

@@ -1,0 +1,1 @@
+vote [partij]: wat ga jij stemmen? Zonder argument geeft het een tussenstand. Let op: je voorkeur wordt met naam erbij opgeslagen op de server om te voorkomen dat mensen 2x stemmen. Wisselen kan, laatste stem telt.

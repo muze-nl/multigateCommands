@@ -1,0 +1,2 @@
+vertaal <code> <woord>: vertaalt woord van of naar nederlands. (Codes: en, ne, fn, nf, dn, nd, in, ni, sn, sn)
+zie ook: http://www.euroglotonline.nl/default.html

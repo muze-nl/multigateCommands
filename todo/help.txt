@@ -1,0 +1,1 @@
+todo {add item | del nummer}: toevoegen en verwijderen van todo items; zonder parameters geeft todo een overzicht van de todo-list, alfabetisch gesorteerd

@@ -1,0 +1,1 @@
+seen <nickname>: zoekt naar laatste uitspraak van nickname in irc-logfiles

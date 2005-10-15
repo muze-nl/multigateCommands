@@ -1,0 +1,1 @@
+pwgen [-c] [-n] [-s] [lengte]: geeft 1 random password, gegenereerd door pwgen

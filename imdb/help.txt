@@ -1,0 +1,3 @@
+imdb--Internet Movie DataBase, returns a summary on a given movie.
+syntax: imdb [searchstring]
+searchstring: (part of) the movie title.

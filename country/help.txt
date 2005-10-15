@@ -1,0 +1,1 @@
+country: geeft land bij landencode en landencode bij land.

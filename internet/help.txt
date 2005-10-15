@@ -1,0 +1,3 @@
+internet-- search the web. Returns URL of first hit of Google.
+Syntax: internet [search string]
+Search string: What it is that you are looking for on the web.

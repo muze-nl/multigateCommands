@@ -1,0 +1,2 @@
+super {tijds-indicatie | substring | help} - meldt welke supermarkten er (nog) open zijn op een bepaald moment.
+  tijds-indicatie = {"nu"|"zo"|"ma"|"di"|"wo"|"do"|"vr"|"za"|[-+]\d+[mMhHuU]}

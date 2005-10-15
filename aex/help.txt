@@ -1,0 +1,1 @@
+Geeft de huidige AEX koers weer.

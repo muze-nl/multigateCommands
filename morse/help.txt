@@ -1,0 +1,3 @@
+morse -- Translate something into morse code
+usage: morse [string]
+string: Whatever it is you want to translate to morse code.

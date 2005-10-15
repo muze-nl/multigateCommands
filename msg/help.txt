@@ -1,0 +1,1 @@
+msg [groupname | username] : send message to all members of the group or to a user. messages will go to currect preferred protocol(s). see: followme

@@ -1,0 +1,1 @@
+animo <n>: geeft een animo-smiley van lengte n; default lengte 6; 0 < n < 20

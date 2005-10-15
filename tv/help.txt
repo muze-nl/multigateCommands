@@ -1,0 +1,1 @@
+tv {nu,straks,film,<zender>,<zoekterm>} [tijd] [aantal] - zoekt in tv gegevens van vandaag

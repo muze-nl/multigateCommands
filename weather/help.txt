@@ -1,0 +1,1 @@
+weather <location>: current weather and forecasts from CNN Weather services

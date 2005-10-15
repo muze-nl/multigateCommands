@@ -1,0 +1,2 @@
+box <command> <boxname> <username> [amount] ; command={add,delete,inc,dec,get,set}
+Admin function for accounting

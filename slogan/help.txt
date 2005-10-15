@@ -1,0 +1,1 @@
+slogan <word> ... - genereert een slogan m.b.v. http://www.sloganizer.net/en/

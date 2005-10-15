@@ -1,0 +1,1 @@
+help <topic> : geeft help voor <topic>

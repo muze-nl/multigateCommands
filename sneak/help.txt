@@ -1,0 +1,1 @@
+sneak {predict,open <password>, add, sluit <password>} - voorspelt films in de sneak en kan een lijstje bijhouden van mensen die mee gaan

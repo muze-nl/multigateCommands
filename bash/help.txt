@@ -1,0 +1,1 @@
+bash <ID>: gives quote #ID from bash.org

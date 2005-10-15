@@ -1,0 +1,1 @@
+windchill [locatie] - geeft de windchill-factor (gevoelstemperatuur) volgens oude en nieuwe formules. (bron temperatuur en windsnelheid: KNMI)

@@ -1,0 +1,1 @@
+tt <pagina>[-subpagina]: geeft de inhoud van die teletekst pagina (vb: tt 105  of tt 120-2)

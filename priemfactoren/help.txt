@@ -1,0 +1,1 @@
+priemfactoren [nummer] - geeft de priemfactoren waaruit [nummer] is opgebouwd

@@ -1,0 +1,1 @@
+whoami: geeft username en userlevel als je herkend wordt door multigate.

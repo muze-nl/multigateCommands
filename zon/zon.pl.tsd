@@ -1,0 +1,37 @@
+#!/usr/bin/perl -w
+
+use strict;
+use Astro::Sunrise;
+
+# locations
+my %locations = (		# [ lat, long ]
+		# City hall Enschede: f = 52 13' 13.5" N, l = 6 53' 50.8" E
+#		'Enschede'	=> [ 52.27, 6.87417 ],
+		'Enschede'	=> [ 52.22041,  6.89744 ],
+
+		# Berlin, Germany 52  30 N  13  25 E
+		'Berlin'	=> [ 52.50000, 13.41667 ],
+	);
+
+# default location
+my $location = 'Enschede';
+
+my $loc = shift;
+if (defined $loc && $loc =~ /\S/) {
+	$loc =~ s/^\s+//;
+	$loc =~ s/\s+$//;
+	$location = $loc;
+}
+
+$location = "\u\L$location";
+unless (defined $locations{$location}) {
+	print "Lokatie '$location' niet gevonden.";
+	exit 0;
+}
+
+my ($lat, $long) = @{$locations{$location}};
+
+my $op    = sun_rise( $long, $lat );
+my $onder = sun_set( $long,  $lat );
+
+print "[$location] zon op $op; zon onder $onder\n";

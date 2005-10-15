@@ -1,0 +1,1 @@
+pasen [jaartal]: geeft de datum waarop pasen valt in dat jaar.

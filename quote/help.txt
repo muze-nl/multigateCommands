@@ -1,0 +1,2 @@
+quote [add <something>] - without parameters it shows a random quote
+quote [count|ls] [keyword] - tries to find a quote with keyword in it, otherwise displays random quote; count=count entries, ls=list all entries

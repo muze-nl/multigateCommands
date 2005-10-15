@@ -1,0 +1,1 @@
+inchometer <tekst>: berekent de inch-count van deze tekst.

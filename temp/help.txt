@@ -1,0 +1,1 @@
+temp geeft de huidige weersituatie op de campus. temp <weerstation> geeft de weersituatie op <weerstation> (Terschelling, Den Helder, Schiphol, Rotterdam, Vlissingen, Leeuwarden, Eelde, Twenthe, Lelystad, De Bilt, Eindhoven en Maastricht)

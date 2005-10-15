@@ -1,0 +1,3 @@
+A = new Array("geïntegreerde ","collectieve ","parallelle ","graduele ","schematische ","formatieve ","optimale ","gesynchroniseerde ","functionele ","optionele ", "geobjectiveerde ", "uitgekristalliseerde ", "normatieve ");
+B = new Array("beleids","rationaliserings","systeem","management","productiviteits","normaliserings","structuur","utiliteits","ontwikkelings","organisatie");
+C = new Array("standaardisatie","synthese","inschaling","mobiliteit","analyse","programmering","fasering","projectie","stabilisatie","flexibiliteit","rapportage");

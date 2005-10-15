@@ -1,0 +1,1 @@
+convert <landcode> <bedrag> : geeft de omrekening van en naar euro. Voorbeeld: "convert USD 100" levert 100 dollar in euro en 100 euro in dollars. In plaats van <landcode> is het vaak ook mogelijk om de landnaam te gebruiken.

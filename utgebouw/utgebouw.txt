@@ -1,0 +1,59 @@
+1,Charlie,CH,CHARLIE,Portiersloge,1
+2,Spiegel,SP,SPIEGEL,BB-gebouw,2
+3,Vleugel,VL,VLEUGEL,Bestuursvleugel,2A
+4,carillon,,,Carillon,28
+5,hogedruklab,HD,HOGEDRUKLAB,Hogedruklaboratorium,5
+6,Paviljoen,PA,PAVILJOEN,Paviljoen,3
+7,Seinhuis,SE,SEINHUIS,PTT-gebouwtje,4
+8,Garage,GA,GARAGE,Garagecomplex/Utechno,4
+9,Citadel,CI,CITADEL,KCT-gebouw,7
+10,Ravelijn,RA,RAVELIJN,TO-gebouw,8
+11,Zilverling,ZI,ZILVERLING,INF-gebouw,9
+12,Waaier,WA,WAAIER,Collegezalencomplex,9A
+13,Matrix,MA,MATRIX,Hal D,--
+17,Langezijds,LA,LANGEZIJDS,CT-gebouw,6
+18,AKI,AKI,AKI,AKI,38
+19,Temp,TE,TEMP,Gebouw B,39
+20,Horsttoren,HT,HORSTTOREN,WB-gebouw Toren,10
+21,Horstring,HR,HORSTRING,WB-gebouw Ring ,10
+22,Westhorst,WH,WESTHORST,WB-gebouw hal IV,10
+23,Kleinhorst,KH,KLEINHORST,WB-gebouw hal I,10
+24,Noordhorst,NH,NOORDHORST,WB-gebouw hal II,10
+26,Oosthorst,OH,OOSTHORST,WB-gebouw hal III,10
+27,Meander,ME,MEANDER,,
+28,Zuidhorst,ZH,ZUIDHORST,WB-gebouw hal V,10
+29,pinetum,,,Pinetum de Horstlanden,29
+30,afvalstoffendepot,AF,AFVALDEPOT,CAD,34
+31,windpark,WP,WINDPARK,WOT,31
+32,biomagnetisch centrum,BI,BIOMAGN C,Biomagnetisch Centrum,30
+40,Erve Holzik,ER,ERVE HOLZIK,Erve Holzik,32
+41,Cubicus,CU,CUBICUS,TWRC-gebouw,11
+42,Faculty Club,FC,FACULTY CLUB,Boerderij,12
+43,Schuur,SR,SCHUUR,Schuur,12A
+44,Drienerburght,DR,DRIENERB,Drienerburght,15
+45,Hogekamp,HO,HOGEKAMP,EL/TN-gebouw,13
+46,cleanrooms,CL,CLEANROOMS ,MESA+,13A
+47,Vrijhof,VR,VRIJHOF,Vrijhof,14
+48,Bastille,BA,BASTILLE,Bastille,16
+49,Sportcentrum,SC,SPORTCENTRUM,Sportcentrum,17
+55,winkelcentrum,WI,WINKELCENTR,Winkelcentrum,18
+56,amfitheater,AM,AMFITHEATER,Openluchttheater,21
+57,zwembad,ZW,ZWEMBAD,Openluchtzwembad,20
+58,Sleutel,SL,SLEUTEL,de Sleutel,22
+59,Mondriaan,MO,MONDRIAAN,Gastenwoningen,33
+60,Vlinder,VI,VLINDER,de vlinder,23
+61,medisch centrum,MC,MEDISCH C,Medisch Centrum,19
+62,Boerderij Bosch,BB,BOERD BOSCH,Boerderij Bosch,41
+63,blokhutten,BL,BLOKHUTTEN,Blokhutten,40
+64,tennispark,TP,TENNISPARK,Tennispark,27
+65,Logica,LO,LOGICA,Logica,26
+66,BTC,BTC,BTC,BTC, Twinning Centre,36
+67,Capitool 15,CA,CAPITOOL,Capitool 15,43
+68,B&S-park,B&S,B&S-PARK,TSM,35A
+69,Institutenweg 1,IN,INSTITUTENW,Institutenweg 1,42
+,,BO,BOUWHUIS,,
+,,LE,LEEUWARDEN,,
+M,medewerkerswoningen,,,Stafwoningen,25
+S,studentenhuisvesting,,,Studentenhuisvesting,24
+H,bushalte,,,bushalte,H
+P,parkeerplaats,,,parkeersplaats,P

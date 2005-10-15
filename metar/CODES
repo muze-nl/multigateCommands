@@ -1,0 +1,3311 @@
+# Full listing of METAR location codes, taken nicely from 
+# http://weather.noaa.gov/weather/ccworld.html
+# Contributed to mweather by Equinoxe <equinoxe@iname.com>  22/01/2001
+
+-Albania
+ LATI -> Tirana
++
+-Angola
+ FNLU -> Luanda
++
+-Antarctic
+ NZCM -> Williams Field
++
+-Antigua and Barbuda
+ TAPA -> Vc Bird International Airport Antigua
++
+-Algeria
+ DAUA -> Adrar
+ DABB -> Annaba
+ DABC -> Constantine
+ DAAG -> Dar-El-Beida
+ DAUG -> Ghardaia
+ DAUH -> Hassi-Messaoud
+ DAUZ -> In Amenas
+ DAOO -> Oran / Es Senia
+ DAAT -> Tamanrasset / Aguenna
+ DABS -> Tebessa
+ DAON -> Tlemcen Zenata 
++
+-Argentina
+ SABE -> Aeroparque Bs. As. Aerodrome
+ SAZB -> Bahia Blanca Aerodrome
+ SAZS -> Bariloche Aerodrome
+ SAVC -> Comodoro Rivadavia Aerodrome
+ SAAC -> Concordia Aerodrome
+ SACO -> Cordoba Aerodrome
+ SARC -> Corrientes Aero.
+ SADD -> Don Torcuato Aerodrome
+ SAEZ -> Ezeiza Aerodrome
+ SARF -> Formosa Aerodrome
+ SARI -> Iguazu Aerodrome
+ SASJ -> Jujuy Aerodrome
+ SAZM -> Mar Del Plata Aerodrome
+ SAME -> Mendoza Aerodrome
+ SAZN -> Neuquen Aerodrome
+ SARL -> Paso De Los Libres Aerodrome
+ SARP -> Posadas Aero.
+ SARE -> Resistencia Aero.
+ SAWG -> Rio Gallegos Aerodrome
+ SAWE -> Rio Grande B. A.
+ SAAR -> Rosario Aerodrome
+ SASA -> Salta Aerodrome
+ SANU -> San Juan Aerodrome
+ SANE -> Santiago Del Estero Aero.
+ SAAV -> Sauce Viejo Aerodrome
+ SAVT -> Trelew Aerodrome
+ SANT -> Tucuman Aerodrome
+ SAOR -> Villa Reynolds Aerodrome
++
+-Armenia
+ UGEE -> Yerevan
++
+-Aruba
+ TNCA -> Queen Beatrix Airport, Aruba
++
+-Australia
+ YPAD -> Adelaide Airport
+ YBAS -> Alice Springs Aerodrome
+ YPPH -> Belmont Perth Airport 
+ YBBN -> Brisbane Airport M. O
+ YBRM -> Broome Airport
+ YPEA -> Bullsbrook Pearce Amo
+ YBCS -> Cairns Airport
+ YSCB -> Canberra
+ YPDN -> Darwin Airport
+ YSDU -> Dubbo
+ YMHB -> Hobart Airport
+ YPTN -> Katherine Aerodrome
+ YPLM -> Learmonth Airport
+ YMML -> Melbourne Airport
+ YSNF -> Norfolk Island Airport
+ YPPD -> Port Hedland Pardoo
+ YSRI -> Richmond Aus-Afb 
+ YBRK -> Rockhampton Airport
+ YSSY -> Sydney Airport
+ YBTL -> Townsville Amo
++
+-Austria
+ LOWG -> Graz-Thalerhof-Flughafen
+ LOWI -> Innsbruck-Flughafen
+ LOWK -> Klagenfurt-Flughafen
+ LOWL -> Linz / Hoersching-Flughafen
+ LOWS -> Salzburg-Flughafen
+ LOWW -> Wien / Schwechat-Flughafen
++
+-Azerbaijan
+ UBBB -> Baku / Bine Airport
++
+-Bahamas
+ MYGF -> Freeport, Grand Bahama
+ MYNN -> Nassau Airport
++
+-Bahrain
+ OBBI -> Bahrain International Airport 
++
+-Bangladesh
+ VGEG -> Chittagong Patenga 
+ VGZR -> Kurmitola, Dia
++
+-Barbados
+ TBPB -> Grantley Adams
++
+-Belarus
+ UMMS -> Minsk
+ EVRA -> Riga Airport
+ UMII -> Vitebsk
++
+-Belgium
+ EBAW -> Antwerpen / Deurne
+ EBBE -> Beauvechain
+ EBLG -> Bierset
+ EBBT -> Brasschaat
+ EBBR -> Bruxelles National
+ EBCI -> Charleroi / Gosselies
+ EBCV -> Chievres
+ EBLB -> Elsenborn
+ EBFS -> Florennes
+ EBTN -> Goetsenhoven
+ EBBL -> Kleine Brogel
+ EBFN -> Koksijde
+ EBOS -> Oostende Airport 
+ EBDT -> Schaffen
+ EBSP -> Spa / La Sauveniere
++
+-Belize
+ MZBZ -> Belize / Phillip Goldston Intl. Airport
++
+-Benin
+ DBBB -> Cotonou
++
+-Bermuda
+ TXKF -> Bermuda
++
+-Bolivia
+ SLCA -> Camiri
+ SLCN -> Charana
+ SLCO -> Cobija
+ SLCB -> Cochabamba
+ SLCP -> Concepcion
+ SLLP -> La Paz / Alto
+ SLMG -> Magdalena
+ SLOR -> Oruro
+ SLPO -> Potosi
+ SLPS -> Puerto Suarez
+ SLRY -> Reyes
+ SLRI -> Riberalta
+ SLRB -> Robore
+ SLRQ -> Rurrenabaque
+ SLSI -> San Ignacio De Velasco
+ SLJO -> San Joaquin
+ SLJE -> San Jose De Chiquitos
+ SLSA -> Santa Ana
+ SLSU -> Sucre
+ SLTJ -> Tarija
+ SLTR -> Trinidad
+ SLVM -> Villamontes
+ SLVR -> Viru-Viru
+ SLYA -> Yacuiba
++
+-Botswana
+ FBFT -> Francistown
+ FBGZ -> Ghanzi
+ FBJW -> Jwaneng
+ FBKE -> Kasane
+ FBMN -> Maun
+ FBSK -> Seretse Khama International Airport
+ FBSW -> Shakawe
+ FBTS -> Tsabong
+ FBTE -> Tshane
++
+-Brazil
+ SBAF -> Afonsos Aeroporto 
+ SBAT -> Alta Floresta Aeroporto 
+ SBHT -> Altamira
+ SBAR -> Aracaju Aeroporto 
+ SBBG -> Bage Aeroporto 
+ SBBU -> Bauru
+ SBBE -> Belem Aeroporto 
+ SBCF -> Belo Horizonte
+ SBBH -> Belo Horizonte Aeroporto 
+ SBBV -> Boa Vista Aeropor-To 
+ SBBR -> Brasilia Aeroporto 
+ SBKG -> Campina Grande
+ SBKP -> Campinas Aeroporto 
+ SBCG -> Campo Grande Aeroporto 
+ SBCV -> Caravelas Aeropor-To 
+ SBAA -> Conceicao Do Araguaia
+ SBCR -> Corumba
+ SBCY -> Cuiaba Aeroporto 
+ SBBI -> Curitiba
+ SBCT -> Curitiba Aeroporto 
+ SBEG -> Eduardo Gomes International
+ SBFN -> Fernando De Noronha
+ SBFL -> Florianopolis Aeroporto 
+ SBFZ -> Fortaleza Aeropor-To 
+ SBFI -> Foz Do Iguacu Aeroporto 
+ SBGL -> Galeao
+ SBGO -> Goiania Aeroporto 
+ SBGW -> Guaratingueta
+ SBGR -> Guarulhos Civ / Mil 
+ SBIL -> Ilheus Aeroporto 
+ SBIZ -> Imperatriz
+ SBIH -> Itaituba
+ SBLO -> Londrina Aeroporto 
+ SBME -> Macae
+ SBMQ -> Macapa
+ SBMO -> Maceio Aeroporto 
+ SBMN -> Manaus Aeroporto 
+ SBMA -> Maraba
+ SBMT -> Marte Civ / Mil 
+ SBNT -> Natal Aeroporto
+ SBPK -> Pelotas
+ SBYS -> Pirassununga
+ SBPC -> Pocos De Caldas
+ SBPP -> Ponta Pora Aeropor-To 
+ SBCO -> Porto Alegre
+ SBPA -> Porto Alegre Aero-Porto 
+ SBPN -> Porto Nacional Aeroporto 
+ SBPV -> Porto Velho Aeroporto 
+ SBDN -> Presidente Prudente
+ SBRF -> Recife Aeroporto 
+ SBJR -> Rio / Jacarepagua
+ SBRB -> Rio Branco
+ SBRJ -> Rio De Janeiro Aeroporto 
+ SBSV -> Salvador Aeroporto 
+ SBSC -> Santa Cruz Aeropor-To 
+ SBSM -> Santa Maria Aero-Porto 
+ SBSN -> Santarem-Aeroporto
+ SBST -> Santos Aeroporto 
+ SBSJ -> Sao Jose Dos Campo 
+ SBSL -> Sao Luiz Aeroporto 
+ SBSP -> Sao Paulo Aeropor-To 
+ SBTT -> Tabatinga
+ SBTF -> Tefe
+ SBTE -> Teresina Aeroporto 
+ SBTU -> Tucurui
+ SBUR -> Uberaba
+ SBUG -> Uruguaiana Aeroporto 
+ SBVH -> Vilhena Aeroporto 
+ SBVT -> Vitoria Aeroporto 
++
+-British Indian Ocean Territory
+ FJDG -> Diego Garcia
++
+-Brunei Darussalam
+ WBSB -> Brunei Airport
++
+-Bulgaria
+ LBBG -> Burgas
+ LBPD -> Plovdiv
+ LBSF -> Sofia Observ. 
+ LBWN -> Varna
++
+-Burundi
+ HBBA -> Bujumbura
++
+-Cambodia
+ VDPP -> Phnom-Penh / Pochentong
++
+-Cameroon
+ FKKD -> Douala Obs.
++
+-Canada
+ CYXX -> Abbotsford, B. C.
+ CYBG -> Bagotville, Que.
+ CYYC -> Calgary International, Alta.
+ CYCB -> Cambridge Bay, N. W. T.
+ CYCH -> Chatham Can-Mil 
+ CZUM -> Churchill Falls, Nfld.
+ CYYQ -> Churchill, Man.
+ CYOD -> Cold Lake, Alta.
+ CYQQ -> Comox, B. C.
+ CYZS -> Coral Harbour, N. W. T.
+ CYEG -> Edmonton International, Alta.
+ CYET -> Edson, Alta.
+ CZFM -> Fort Mcpherson Airport
+ CYFC -> Fredericton, N. B.
+ CYQX -> Gander Int. Airport, Nfld.
+ CYYR -> Goose, Nfld.
+ CYZX -> Greenwood, N. S.
+ CYHZ -> Halifax International Airport 
+ CYFB -> Iqaluit, N. W. T.
+ CYAH -> La Grande Iv, Que.
+ CYGL -> La Grande Riviere, Que
+ CYZY -> Mackenzie, B. C.
+ CYNM -> Matagami, Que.
+ CYXH -> Medicine Hat, Alta.
+ CYQM -> Moncton, N. B.
+ CYUL -> Montreal / Dorval International, Que
+ CYMX -> Montreal / Mirabel
+ CYBU -> Nipawin, Sask.
+ CYOC -> Old Crow Airport
+ CYOW -> Ottawa Int'L. Ont.
+ CYYF -> Penticton, B. C.
+ CYZT -> Port Hardy, B. C.
+ CYPG -> Portage Southport A
+ CYQB -> Quebec, Que
+ CYUY -> Rouyn Airport
+ CWZZ -> Saglek Bay 
+ CYAY -> Saint Anthony Airport
+ CYZV -> Sept-Iles, Que.
+ CYAW -> Shearwater, N. S.
+ CYUA -> Shingle Point, Y. T.
+ CYYT -> St. John's, Nfld
+ CYJT -> Stephenville, Nfld.
+ CYYN -> Swift Current, Sask.
+ CYQY -> Sydney, N. S.
+ CYTH -> Thompson Weather Office, Man
+ CYYZ -> Toronto Pearson Int'L. Ont.
+ CYTR -> Trenton, Ont.
+ CYVR -> Vancouver International Air-Port, B. C.
+ CYYJ -> Victoria Int. Airportb. C.
+ CYQG -> Windsor, Ont.
+ CYWG -> Winnipeg Int. Airportman.
+ CYZF -> Yellowknife, N. W. T.
++
+-Cape Verde
+ GVAC -> Sal
++
+-Cayman Islands
+ MWCR -> Owen Roberts Airportgrand Cayman
++
+-Central African Republic
+ FEFF -> Bangui
++
+-Chad
+ FTTJ -> Ndjamena
++
+-Chile
+ SCFA -> Antofagasta
+ SCAR -> Arica
+ SCIE -> Concepcion
+ SCHA -> Copiapo
+ SCDA -> Iquique / Diego Arac
+ SCIP -> Isla De Pascua
+ SCSE -> La Serena
+ SCEL -> Pudahuel
+ SCTE -> Puerto Montt
+ SCCI -> Punta Arenas
++
+-China
+ ZBAA -> Beijing
+ ZUUU -> Chengdu
+ ZYTL -> Dalian
+ ZGGG -> Guangzhou
+ ZSHC -> Hangzhou
+ ZSOF -> Hefei
+ ZPPP -> Kunming
+ ZGNN -> Nanning
+ ZSSS -> Shanghai / Hongqiao
+ ZGSZ -> Shenzhen
+ ZBYN -> Taiyuan
+ ZBTJ -> Tianjin / Zhangguizhu
+ ZWWW -> Urum-Qi / Diwopu
+ ZSAM -> Xiamen
++
+-Christmas Island
+ YPXM -> Christmas Island Aerodrome
+ YPCC -> Cocos Island Airport
++
+-Colombia
+ SKBQ -> Barranquilla / Ernestocortissoz
+ SKBO -> Bogota / Eldorado
+ SKBG -> Bucaramanga / Palonegro
+ SKCL -> Cali / Alfonso Bonillaaragon
+ SKCG -> Cartagena / Rafael Nunez
+ SKLT -> Leticia / Vasquez Cobo
+ SKMD -> Medellin / Olaya Herrera
+ SKPE -> Pereira / Matecana
+ SKRG -> Rionegro / J. M. Cordova
+ SKSP -> San Andres Isla / Sesquicentenario
+ SKSM -> Santa Marta / Simon Bolivar
++
+-Comoros
+ FMCZ -> Dzaoudzi / Pamanzi Mayotte 
+ FMCH -> Hahaya International Airport
++
+-Congo
+ FCBB -> Brazzaville / Maya-Maya
+ FCPP -> Pointe-Noire
++
+-Cook Islands
+ NCRG -> Rarotonga
++
+-Costa Rica
+ MRCH -> Chacarita
+ MROC -> Juan Santamaria
+ MRLB -> Liberia
+ MRLM -> Puerto Limon
+ MRPV -> Tobias Bolanos International
++
+-Cote D'Ivoire
+ DIAP -> Abidjan
++
+-Croatia
+ LDDU -> Dubrovnik / Cilipi
+ LDPL -> Pula Aerodrome
+ LDRI -> Rijeka / Omisalj
+ LDSP -> Split / Resnik
+ LDZD -> Zadar / Zemunik
+ LDZA -> Zagreb / Pleso
++
+-Cuba
+ MUHA -> Aeropuerto Jose Mar-Ti, Rancho-Boyeros, Habana
+ MUBA -> Baracoa, Oriente
+ MUBY -> Bayamo 
+ MUCM -> Camaguey Aeropuerto
+ MUCL -> Cayo Largo Del Sur
+ MUGT -> Guantanamo, Oriente
+ MUHG -> Holguin Civ / Mil 
+ MUVT -> Las Tunas, Las Tunas
+ MUMZ -> Manzanillo, Oriente
+ MUMO -> Moa Military 
+ MUNG -> Nueva Gerona, Isla De Pinos
+ MUCU -> Santiago De Cuba, Oriente
+ MUVR -> Varadero, Matanzas
+ MUCA -> Venezuela, Ciego De Avila
++
+-Cyprus
+ LCRA -> Akrotiri
+ LCEN -> Ercan
+ LCLK -> Larnaca Airport
+ LCPH -> Paphos Airport
++
+-Czech Republic
+ LKTB -> Brno / Turany
+ LKMT -> Ostrava / Mosnov
+ LKPR -> Praha / Ruzyne
++
+-Denmark
+ EKYT -> Aalborg
+ EKBI -> Billund Lufthavn
+ EKEB -> Esbjerg
+ EKKA -> Karup
+ EKCH -> Koebenhavn / Kastrup
+ EKRK -> Koebenhavn / Roskilde
+ EKMB -> Maribo Lufthavn
+ EKOD -> Odense / Beldringe
+ EKRN -> Roenne
+ EKSN -> Sindal Flyveplads
+ EKSV -> Skive Lufthavn
+ EKSP -> Skrydstrup
+ EKSB -> Soenderborg Lufthavn
+ EKVG -> Soervaag / Vagar
+ EKVJ -> Stauning Lufthavn
+ EKTS -> Thisted Lufthavn
+ EKAH -> Tirstrup
+ EKVL -> Vaerloese
+ EKVD -> Vamdrup
+ EKVA -> Vandel
++
+-Djibouti
+ HDAM -> Djibouti \ Ambouli
++
+-Dominica
+ TDCF -> Canefield Airport
+ TDPD -> Melville Hall Airport
++
+-Dominican Republic
+ MDLR -> La Romana International Airport
+ MDSD -> Las Americas
+ MDPP -> Puerto Plata International
+ MDPC -> Punta Cana
+ MDST -> Santiago
++
+-Ecuador
+ SEGU -> Guayaquil / Simon Bolivar
+ SELT -> Latacunga
+ SEMT -> Manta
+ SEQU -> Quito / Mariscal Sucre
++
+-Egypt
+ HEAX -> Alexandria / Nouzha
+ HESN -> Asswan
+ HECA -> Cairo Airport
+ HELX -> Luxor
+ HEMM -> Mersa Matruh
+ HEPS -> Port Said
+ HESH -> Sharm El Sheikhintl
++
+-El Salvador
+ MSAC -> Acajutla
+ MSLP -> El Salvador Intl. Airport / Comalapa
+ MSSM -> San Miguel / El Papalon
+ MSSS -> San Salvador / Ilopango
+ MSSA -> Santa Ana / El Palmar
++
+-Ethiopia
+ HAAB -> Addis Ababa
+ HADR -> Dire Dawa
++
+-Fiji
+ NFFN -> Nandi
+ NFNA -> Nausori
++
+-Finland
+ EFHF -> Helsinki-Malmi
+ EFHK -> Helsinki-Vantaa
+ EFIV -> Ivalo
+ EFJY -> Jyvaskyla
+ EFKE -> Kemi
+ EFKK -> Kruunupyy
+ EFKU -> Kuopio
+ EFMA -> Mariehamn / Aland Island
+ EFOU -> Oulu
+ EFPO -> Pori
+ EFRO -> Rovaniemi
+ EFTP -> Tampere / Pirkkala
+ EFTU -> Turku
+ EFVA -> Vaasa
++
+-France
+ LFBA -> Agen
+ LFKJ -> Ajaccio
+ LFSB -> Bale-Mulhouse
+ LFKB -> Bastia
+ LFOB -> Beauvais
+ LFBZ -> Biarritz
+ LFBD -> Bordeaux / Merignac
+ LFLD -> Bourges
+ LFRB -> Brest
+ LFRK -> Caen
+ LFKC -> Calvi
+ LFMD -> Cannes
+ LFBC -> Cazaux
+ LFLB -> Chambery / Aix-Les-Bains
+ LFRC -> Cherbourg / Maupertus
+ LFLC -> Clermont-Ferrand
+ LFBG -> Cognac
+ LFSC -> Colmar
+ LFSD -> Dijon
+ LFRD -> Dinard
+ LFOE -> Evreux
+ LFKF -> Figari
+ LFLS -> Grenoble / St. Geoirs
+ LFTH -> Hyeres
+ LFOH -> La Heve
+ LFRH -> Lann Bihoue
+ LFRO -> Lannion / Servel
+ LFRM -> Le Mans
+ LFAT -> Le Touquet
+ LFQQ -> Lille
+ LFBL -> Limoges
+ LFSX -> Luxeuil
+ LFLY -> Lyon / Bron
+ LFLL -> Lyon / Satolas
+ LFML -> Marseille / Marignane
+ LFSF -> Metz / Frescaty
+ LFJL -> Metz-Nancy-Lorraine
+ LFBM -> Mont-De-Marsan
+ LFMT -> Montpellier
+ LFSN -> Nancy / Essey
+ LFSO -> Nancy / Ochey
+ LFRS -> Nantes
+ LFMN -> Nice
+ LFTW -> Nimes / Garons
+ LFPB -> Paris / Le Bourget
+ LFPG -> Paris-Aeroport Charles De Gaulle
+ LFPO -> Paris-Orly
+ LFBP -> Pau
+ LFMP -> Perpignan
+ LFBI -> Poitiers
+ LFRQ -> Quimper
+ LFSR -> Reims
+ LFRN -> Rennes
+ LFOP -> Rouen
+ LFRT -> Saint-Brieuc
+ LFSI -> St-Dizier
+ LFMH -> St-Etienne Boutheon
+ LFCG -> St-Girons
+ LFRZ -> St-Nazaire
+ LFST -> Strasbourg
+ LFBT -> Tarbes / Ossun
+ LFSL -> Toul / Rosieres
+ LFBO -> Toulouse / Blagnac
+ LFOT -> Tours
+ LFPN -> Toussus Le Noble
+ LFQB -> Troyes
+ LFLV -> Vichy
+ LFPV -> Villacoublay
++
+-French Guiana
+ SOCA -> Cayenne / Rochambeau
++
+-French Polynesia
+ NTTO -> Hao
+ NTAA -> Tahiti-Faaa
++
+-Gabon
+ FOON -> Franceville / Mvengue
+ FOOL -> Libreville
+ FOOG -> Port-Gentil
++
+-Gambia
+ GBYD -> Banjul / Yundum
++
+-Georgia
+ UGGG -> Tbilisi
++
+-Germany
+ EDMA -> Augsburg
+ EDQD -> Bayreuth
+ EDDB -> Berlin-Schoenefeld
+ EDDT -> Berlin-Tegel
+ EDDI -> Berlin-Tempelhof
+ EDVE -> Braunschweig
+ EDDW -> Bremen
+ ETHC -> Celle
+ EDLW -> Dortmund / Wickede
+ EDDC -> Dresden-Klotzsche
+ EDDL -> Duesseldorf
+ ETHS -> Fassberg
+ EDDF -> Frankfurt / M-Flughafen
+ EDNY -> Friedrichshafen
+ EDFH -> Hahn
+ EDHI -> Hamburg-Finkenwerder
+ EDDH -> Hamburg-Fuhlsbuettel
+ EDDV -> Hannover
+ EDQM -> Hof
+ ETHI -> Itzehoe
+ EDVK -> Kassel / Calden
+ EDDK -> Koeln / Bonn
+ EDDP -> Leipzig-Schkeuditz
+ EDWD -> Lemwerder
+ EDHL -> Luebeck-Blankensee
+ EDLN -> Monchengladbach
+ EDDG -> Muenster / Osnabrueck
+ EDDM -> Munich / Riem
+ EDDN -> Nuernberg
+ EDMO -> Oberpfaffenhofen
+ EDLP -> Paderborn / Lippstadt
+ ETHE -> Rheine-Bentlage
+ EDDR -> Saarbruecken / Ensheim
+ EDDS -> Stuttgart-Echterdingen
+ EDXW -> Westerland / Sylt
++
+-Ghana
+ DGAA -> Accra
++
+-Gibraltar
+ LXGB -> Gibraltar
++
+-Greece
+ LGPZ -> Aktion Airport 
+ LGAL -> Alexandroupoli Airport 
+ LGAD -> Andravida Airport 
+ LGRX -> Araxos Airport 
+ LGAT -> Athinai Airport 
+ LGKV -> Chrysoupoli Airport 
+ LGEL -> Elefsis Airport 
+ LGIR -> Heraklion Airport 
+ LGKL -> Kalamata Airport 
+ LGKF -> Kefalhnia Airport 
+ LGKR -> Kerkyra Airport 
+ LGKO -> Kos Airport 
+ LGKZ -> Kozani Airport 
+ LGLM -> Limnos Airport 
+ LGMT -> Mytilini Airport 
+ LGRP -> Rhodes Airport 
+ LGSM -> Samos Airport 
+ LGSR -> Santorini Island
+ LGSK -> Skiathos Island
+ LGSA -> Souda Airport 
+ LGTS -> Thessaloniki Airport 
+ LGZA -> Zakinthos Airport 
++
+-Greenland
+ BGCO -> Constable Pynt
+ BGGH -> Godthaab / Nuuk
+ BGJN -> Jacobshavn Lufthavn
+ BGKK -> Kulusuk Lufthavn
+ BGBW -> Narsarsuaq
+ BGSF -> Sdr Stroemfjord
+ BGTL -> Thule A. B.
++
+-Grenada
+ TGPY -> Point Salines Airport
++
+-Guadeloupe
+ TFFR -> Le Raizet, Guadeloupe
++
+-Guatemala
+ MGFL -> Flores
+ MGGT -> Guatemala Aeropuertola Aurora 
+ MGHT -> Huehuetenango
+ MGPB -> Puerto Barrios
+ MGQZ -> Quezaltenango
+ MGSJ -> San Jose
+ MGZA -> Zacapa
++
+-Guinea-Bissau
+ GGOV -> Bissau Aeroport 
++
+-Guinea
+ GUCY -> Conakry / Gbessia
++
+-Guyana
+ SYTM -> Timehri Airport
++
+-Haiti
+ MTPP -> Port-Au-Prince / Aeroport International
++
+-Honduras
+ MHAM -> Amapala
+ MHCA -> Catacamas
+ MHCH -> Choluteca
+ MHLC -> La Ceiba Airport 
+ MHLE -> La Esperanza
+ MHLM -> La Mesa San Pedro Sula 
+ MHSC -> Nueva Ocotepeque
+ MHPL -> Puerto Lempira
+ MHRO -> Roatan
+ MHSR -> Santa Rosa De Copan
+ MHTG -> Tegucigalpa
+ MHTE -> Tela
+ MHYR -> Yoro
++
+-Hong Kong
+ VHHH -> Hong Kong Inter-National Airport
++
+-Hungary
+ LHBP -> Budapest / Ferihegy
+ LHPA -> Papa
+ LHSY -> Szombathely
++
+-Iceland
+ BIEG -> Egilsstadir
+ BIKF -> Keflavikurflugvollur
+ BIRK -> Reykjavik
++
+-India
+ VAAH -> Ahmadabad
+ VIAR -> Amritsar
+ VABB -> Bombay / Santacruz
+ VECC -> Calcutta / Dum Dum
+ VOHY -> Hyderabad Airport
+ VOMM -> Madras / Minambakkam
+ VANP -> Nagpur Sonegaon
+ VIDP -> New Delhi / Palam
+ VEPT -> Patna
+ VOTV -> Thiruvananthapuram
+ VOTR -> Tiruchchirapalli
+ VIBN -> Varanasi / Babatpur
++
+-Indonesia
+ WRLL -> Balikpapan / Sepinggan
+ WABB -> Biak / Mokmer
+ WRRR -> Denpasar / Ngurah-Rai
+ WIII -> Jakarta / Soekarno-Hatta
+ WIIH -> Jakarta Halim Perdanakusuma
+ WIMM -> Medan / Polonia
+ WRSJ -> Surabaya / Juanda
+ WRLR -> Tarakan / Juwata
+ WAAA -> Ujung Pandang / Hasanuddin
++
+-Iran, Islamic Republic of
+ OIAW -> Ahwaz
+ OIKB -> Bandarabbass
+ OIFM -> Esfahan
+ OIKK -> Kerman
+ OIMM -> Mashhad
+ OISS -> Shiraz
+ OITT -> Tabriz
+ OIII -> Tehran-Mehrabad
++
+-Ireland
+ EICK -> Cork Airport
+ EIDW -> Dublin Airport
+ EINN -> Shannon Airport
++
+-Israel
+ LLBG -> Ben-Gurion International Airport
+ LLET -> Eilat
+ LLOV -> Ovda
++
+-Italy
+ LIMG -> Albenga
+ LIEA -> Alghero
+ LIBA -> Amendola
+ LIPA -> Aviano
+ LIBD -> Bari / Palese Macchie
+ LIME -> Bergamo / Orio Al Serio
+ LIPE -> Bologna / Borgo Panigale
+ LIPB -> Bolzano
+ LIPL -> Brescia / Ghedi
+ LIBR -> Brindisi
+ LIEE -> Cagliari / Elmas
+ LIEB -> Capo Bellavista
+ LIMU -> Capo Mele
+ LIQC -> Capri
+ LICC -> Catania / Fontanarossa
+ LICZ -> Catania / Sigonella
+ LIPC -> Cervia
+ LIBC -> Crotone
+ LIED -> Decimomannu
+ LIVD -> Dobbiaco
+ LIPY -> Falconara
+ LIPF -> Ferrara
+ LIRQ -> Firenze / Peretola
+ LIPK -> Forli
+ LIVF -> Frontone
+ LIRH -> Frosinone
+ LIMJ -> Genova / Sestri
+ LIBV -> Gioia Del Colle
+ LIRS -> Grosseto
+ LIBG -> Grottaglie
+ LIRG -> Guidonia
+ LICA -> Lamezia Terme
+ LICD -> Lampedusa
+ LIRL -> Latina
+ LIBN -> Lecce
+ LICF -> Messina
+ LIML -> Milano / Linate
+ LIMC -> Milano / Malpensa
+ LIQO -> Monte Argentario
+ LIMO -> Monte Bisbino
+ LIVC -> Monte Cimone
+ LIMY -> Monte Malanotte
+ LIBQ -> Monte Scuro
+ LIRK -> Monte Terminillo
+ LIRN -> Napoli / Capodichino
+ LIMN -> Novara / Cameri
+ LIEO -> Olbia / Costa Smeralda
+ LIVP -> Paganella
+ LICJ -> Palermo / Punta Raisi
+ LICG -> Pantelleria
+ LIMV -> Passo Dei Giovi
+ LIMT -> Passo Della Cisa
+ LIVR -> Passo Rolle
+ LIRZ -> Perugia
+ LIBP -> Pescara
+ LIMS -> Piacenza
+ LIMH -> Pian Rosa
+ LIRP -> Pisa / S. Giusto
+ LIRE -> Pratica Di Mare
+ LIVM -> Punta Marina
+ LICR -> Reggio Calabria
+ LIVE -> Resia Pass 
+ LIQN -> Rieti
+ LIPR -> Rimini
+ LIRA -> Roma / Ciampino
+ LIRU -> Roma / Urbe
+ LIRF -> Roma Fiumicino
+ LIPQ -> Ronchi Dei Legionari
+ LIBY -> S. Maria Di Leuca
+ LIQW -> Sarzana / Luni
+ LIVO -> Tarvisio
+ LIMK -> Torino / Bric Della Croce
+ LIMF -> Torino / Caselle
+ LICT -> Trapani / Birgi
+ LIRT -> Trevico
+ LIPS -> Treviso / Istrana
+ LIPH -> Treviso / S. Angelo
+ LIVT -> Trieste
+ LIPI -> Udine / Rivolto
+ LIPZ -> Venezia / Tessera
+ LIPX -> Verona / Villafranca
+ LIPT -> Vicenza
+ LIRV -> Viterbo
++
+-Jamaica
+ MKJP -> Kingston / Norman Manley
+ MKJS -> Montego Bay / Sangster
++
+-Japan
+ RJOE -> Akeno Ab
+ RJSK -> Akita Airport
+ RJKA -> Amami Airport
+ RJSA -> Aomori Airport
+ RJCA -> Asahikawa Ab
+ RJEC -> Asahikawa Airport
+ RJFA -> Ashiya Ab
+ RJTA -> Atsugi United States Naval Air Station
+ RJAO -> Chichijima
+ RJCC -> Chitose Ab
+ RJCJ -> Chitose Japanese Air Self Defense Force 
+ RJTF -> Chofu Airport
+ RJAT -> Fuji Ab
+ RJFE -> Fukue Airport
+ RJNF -> Fukui Airport
+ RJFF -> Fukuoka Airport
+ RJNG -> Gifu Ab
+ RJTH -> Hachijojima Airport
+ RJSH -> Hachinohe Ab
+ RJCH -> Hakodate Airport
+ RJNH -> Hamamatsu Ab
+ RJSI -> Hanamaki Airport
+ RJOA -> Hiroshima Airport
+ RJOF -> Hofu Ab
+ RJAH -> Hyakuri Ab
+ RJAI -> Ichikawa 
+ RJDB -> Iki Airport
+ RJTJ -> Iruma Ab
+ RJOI -> Iwakuni Marine Corps Air Station
+ RJAW -> Iwojima
+ RJOC -> Izumo Airport
+ RODN -> Kadena Ab
+ RJFK -> Kagoshima Airport
+ RJDK -> Kamigoto
+ RJFY -> Kanoya Ab
+ RJBB -> Kansai International Airport
+ RJAK -> Kasumigaura Ab
+ RJSU -> Kasuminome Ab
+ RJKI -> Kikai Island
+ RJTK -> Kisarazu Ab
+ RJFR -> Kitakyushu Airport
+ RJOK -> Kochi Airport
+ RJNK -> Komatsu Ab
+ RJOP -> Komatsujima Ab
+ RJFT -> Kumamoto Airport
+ RJCK -> Kushiro Airport
+ RJAF -> Matsumoto Airport
+ RJST -> Matsushima Ab
+ RJOM -> Matsuyama Airport
+ RJCM -> Memambetsu Airport
+ RJDM -> Metabaru Ab
+ RJOH -> Miho Ab
+ RJAM -> Minamitorishima
+ RJSM -> Misawa Ab
+ RJTQ -> Miyakejima Airport
+ RJFM -> Miyazaki Airport
+ RJEB -> Mombetsu Airport
+ RJFU -> Nagasaki Airport
+ RJNN -> Nagoya Airport
+ ROAH -> Naha Airport
+ RJCN -> Nakashibetsu Airport
+ RJBD -> Nankishirahama Airport
+ RJAA -> New Tokyo Inter-National Airport
+ RJSN -> Niigata Airport
+ RJFN -> Nyutabaru Ab
+ RJCB -> Obihiro Airport
+ RJFO -> Oita Airport
+ RJDO -> Ojika Island 
+ RJOB -> Okayama Airport
+ RJNO -> Oki Airport
+ RJKB -> Okinoerabu
+ RJEO -> Okushiri Island
+ RJSO -> Ominato Ab
+ RJOO -> Osaka International Airport
+ RJTO -> Oshima Airport
+ RJOZ -> Ozuki Ab
+ RJCR -> Rebun Island
+ RJER -> Rishiri Island
+ RJCO -> Sapporo Ab
+ RJSS -> Sendai Airport
+ RJTL -> Shimofusa Ab
+ RJNY -> Shizuhama Ab
+ RJTC -> Tachikawa Ab
+ RJBT -> Tajima
+ RJOT -> Takamatsu Airport
+ RJFG -> Tanegashima Airport
+ RJTE -> Tateyama Ab
+ RJCT -> Tokachi Japanese Ground Self Defense Force 
+ RJKN -> Tokunoshima Island
+ RJOS -> Tokushima Ab
+ RJTI -> Tokyo Heliport
+ RJTT -> Tokyo International Airport
+ RJOR -> Tottori Airport
+ RJNT -> Toyama Airport
+ RJFZ -> Tsuiki Ab
+ RJDT -> Tsushima Airport
+ RJTU -> Utsunomiya Ab
+ RJCW -> Wakkanai Airport
+ RJFC -> Yakushima
+ RJSC -> Yamagata Airport
+ RJDC -> Yamaguchi Ube Airport
+ RJOY -> Yao Airport
+ RJTX -> Yokosuka Fwf
+ RJTY -> Yokota Ab
+ RJTR -> Zama Airfield
++
+-Jordan
+ OJAM -> Amman Airport
+ OJAQ -> Aqaba Airport
+ LLJR -> Jerusalem Airport
+ OJAI -> Queen Alia Airport
++
+-Kenya
+ HKEL -> Eldoret
+ HKEM -> Embu
+ HKGA -> Garissa
+ HKKG -> Kakamega
+ HKKR -> Kericho
+ HKKS -> Kisii
+ HKKI -> Kisumu
+ HKKT -> Kitale
+ HKLU -> Lamu
+ HKLO -> Lodwar
+ HKMU -> Makindu
+ HKML -> Malindi
+ HKMA -> Mandera
+ HKMB -> Marsabit
+ HKME -> Meru
+ HKMO -> Mombasa
+ HKMY -> Moyale
+ HKNC -> Nairobi / Dagoretti
+ HKJK -> Nairobi / Kenyatta Airport
+ HKNW -> Nairobi / Wilson
+ HKNK -> Nakuru
+ HKNO -> Narok
+ HKNI -> Nyeri
+ HKVO -> Voi
+ HKWJ -> Wajir
++
+-Kiribati
+ NGTA -> Tarawa
++
+-Korea, Democratic People's Republic of
+ ZKPY -> Pyongyang
++
+-Korea, Republic of
+ RKSX -> Camp Stanley / H-207
+ RKPC -> Cheju International Airport
+ RKTU -> Chongju Ab
+ RKTM -> Mangilsan Ab
+ RKSO -> Osan Ab
+ RKTB -> Paekado
+ RKSP -> Paengnyongdo Ab
+ RKTH -> Pohang Ab
+ RKPK -> Pusan / Kimhae International Airport
+ RKSG -> Pyongtaek Ab
+ RKTS -> Sangju
+ RKSS -> Seoul / Kimp'O International Airport
+ RKSF -> Seoul / Yongdungp'O Rokaf Wc
+ RKSM -> Seoul E Ab
+ RKTE -> Songmu Ab
+ RKSW -> Suwon Ab
+ RKTT -> Taegu
+ RKTN -> Taegu Ab
+ RKTF -> Taejon
+ RKPU -> Ulsan
+ RKTW -> Woong Cheon
+ RKTY -> Yechon Ab
+ RKSU -> Yeoju Range
+ RKSQ -> Yeonpyeungdo
+ RKSY -> Yongsan / H-208 Hp
+ RKJY -> Yosu Airport
++
+-Kuwait
+ OKBK -> Kuwait Internationalairport
++
+-Lao People's Democratic Republic
+ VLVT -> Vientiane
++
+-Lebanon
+ OLBA -> Beyrouth Aeroport 
++
+-Libyan Arab Jamahiriya
+ HLLB -> Benina
+ HLLT -> Tripoli Inter-National Airport
++
+-Lithuania
+ EYVI -> Vilnius
++
+-Luxembourg
+ ELLX -> Luxembourg / Luxembourg
++
+-Macau
+ VMMC -> Taipa
++
+-Macedonia, the Former Yugoslav Republic of
+ LWOH -> Ohrid
+ LWSK -> Skopje-Petrovec
++
+-Madagascar
+ FMMI -> Antananarivo / Ivato
+ FMMT -> Tamatave
++
+-Malawi
+ FWCL -> Chileka
+ FWUU -> Mzuzu
++
+-Malaysia
+ WBKK -> Kota Kinabalu
+ WMKK -> Kuala Lumpur / Subang
+ WBGG -> Kuching
+ WMKP -> Penang / Bayan Lepas
++
+-Maldives
+ VRMM -> Male
++
+-Mali
+ GABS -> Bamako / Senou
++
+-Malta
+ LMML -> Luqa
++
+-Marshall Islands
+ PKWA -> Kwajalein / Bucholz
+ PKMJ -> Majuro / Marshall Island
++
+-Martinique
+ TFFF -> Le Lamentin
++
+-Mauritania
+ GQPP -> Nouadhibou
+ GQNN -> Nouakchott
++
+-Mauritius
+ FIMP -> Plaisance Mauritius 
++
+-Mexico
+ MMAA -> Acapulco / G. Alvarez
+ MMMD -> Aerop. Internacional Merida, Yuc
+ MMAN -> Aerop. Internacional Monterrey, N. L.
+ MMAS -> Aguascalientes, Ags.
+ MMBT -> Bahias De Huatulco 
+ MMCP -> Campeche, Camp.
+ MMUN -> Cancun International Airport
+ MMCM -> Chetumal, Q. Roo
+ MMCU -> Chihuahua International Airport
+ MMCE -> Ciudad Del Carmen 
+ MMCS -> Ciudad Juarez International 
+ MMCV -> Ciudad Victoria Airport
+ MMIA -> Colima 
+ MMCZ -> Cozumel Civ / Mil 
+ MMCB -> Cuernavaca, Mor.
+ MMCL -> Culiacan, Sin.
+ MMLO -> Del Bajio / Leon
+ MMGL -> Don Miguel / Guadalaj
+ MMDO -> Durango Airport
+ MMVR -> Gen. Heriberto Jara
+ MMGM -> Guaymas International Airport
+ MMHO -> Hermosillo, Son.
+ MMZH -> Ixtapa-Zihuatanejo
+ MMLP -> La Paz International Airport
+ MMLM -> Los Mochis Airport
+ MMZO -> Manzanillo International 
+ MMMA -> Matamoros International 
+ MMMZ -> Mazatlan / G. Buelna
+ MMML -> Mexicali International Airport 
+ MMMX -> Mexico City / Licenci
+ MMMT -> Minatitlan
+ MMMV -> Monclova, Coah.
+ MMMY -> Monterrey / Gen Maria
+ MMMM -> Morelia New
+ MMNL -> Nuevo Laredo International 
+ MMOX -> Oaxaca / Xoxocotlan
+ MMPG -> Piedras Negras, Coah.
+ MMPB -> Puebla, Pue.
+ MMPS -> Puerto Escondido 
+ MMPR -> Puerto Vallarta / Lic
+ MMQT -> Queretaro, Qro.
+ MMRX -> Reynosa International Airport 
+ MMIO -> Saltillo, Coah.
+ MMSD -> San Jose Del Cabo 
+ MMSP -> San Luis Potosi, S. L. P.
+ MMCN -> Santa Rosalia, B. C. S.
+ MMTM -> Tampico / Gen Fj Mina
+ MMTP -> Tapachula 
+ MMEP -> Tepic, Nay.
+ MMTJ -> Tijuana International Airport 
+ MMTO -> Toluca / Jose Maria 
+ MMTC -> Torreon, Coah.
+ MMTL -> Tulancingo 
+ MMTG -> Tuxtla Gutierrez, Chis.
+ MMPN -> Uruapan / Gen Rayon
+ MMVA -> Villahermosa 
+ MMZC -> Zacatecas Airport
++
+-Micronesia, Federated States of
+ PTSA -> Kusaie / Kosrae East
+ PTPN -> Ponape Island
+ PTKK -> Truk Intl / Moen Island
+ PTYA -> Yap Island
++
+-Morocco
+ GMAA -> Agadir
+ GMTA -> Al Hoceima
+ GMFF -> Fes-Sais
+ GMMX -> Marrakech
+ GMMN -> Nouasseur
+ GMFO -> Oujda
+ GMME -> Rabat-Sale
+ GMTT -> Tanger Aerodrome 
+ GMTN -> Tetuan / Sania Ramel
++
+-Mozambique
+ FQBR -> Beira
+ FQMA -> Maputo / Mavalane
++
+-Myanmar
+ VBRR -> Mingaladon
++
+-Nauru
+ ANAU -> Nauru Airport
++
+-Nepal
+ VNKT -> Kathmandu Airport
++
+-Netherlands Antilles
+ TNCB -> Flamingo Airport, Bonaire
+ TNCC -> Hato Airport, Curacao
+ TNCM -> Juliana Airport, Saint Maarten
+ TNCE -> Roosevelt Airport Saint Eustatius
++
+-Netherlands
+ EHAM -> Amsterdam Airport Schiphol
+ EHKD -> De Kooy
+ EHDL -> Deelen
+ EHEH -> Eindhoven
+ EHGR -> Gilze-Rijen
+ EHGG -> Groningen Airport Eelde
+ EHLW -> Leeuwarden
+ EHBK -> Maastricht Airport Zuid Limburg
+ EHRD -> Rotterdam Airport Zestienhoven
+ EHSB -> Soesterberg
+ EHTW -> Twenthe
+ EHVB -> Valkenburg
+ EHVL -> Vlieland
+ EHVK -> Volkel
+ EHWO -> Woensdrecht
++
+-New Caledonia
+ NWWW -> La Tontouta Nlle-Caledonie 
++
+-New Zealand
+ NZAA -> Auckland Airport
+ NZCH -> Christchurch
+ PLCH -> Christmas / Cassidy
+ NZWN -> Wellington Airport
++
+-Nicaragua
+ MNBL -> Bluefields
+ MNCH -> Chinandega
+ MNJG -> Jinotega
+ MNJU -> Juigalpa
+ MNMG -> Managua A. C. Sandino
+ MNPC -> Puerto Cabezas
+ MNRS -> Rivas
++
+-Niger
+ DRRN -> Niamey-Aero
++
+-Norway
+ ENAL -> Alesund / Vigra
+ ENAT -> Alta Lufthavn
+ ENAN -> Andoya
+ ENNA -> Banak
+ ENDU -> Bardufoss
+ ENBR -> Bergen / Flesland
+ ENBV -> Berlevag
+ ENBO -> Bodo Vi
+ ENBN -> Bronnoysund / Bronnoy
+ ENDI -> Dagali
+ ENEK -> Ekofisk Oil Platform
+ ENEV -> Evenes
+ ENFG -> Fagernes Leirin
+ ENFL -> Floro
+ ENBL -> Forde / Bringeland
+ ENFR -> Frigg
+ ENGC -> Gullfax Platform 
+ ENHF -> Hammerfest
+ ENHD -> Haugesund / Karmoy
+ ENHV -> Honningsvag / Valan
+ ENKR -> Kirkenes Lufthavn
+ ENCN -> Kristiansand / Kjevik
+ ENKB -> Kristiansund / Kvernberget
+ ENLK -> Leknes
+ ENLI -> Lista Flyplass
+ ENMH -> Mehamn
+ ENRA -> Mo I Rana / Rossvoll
+ ENML -> Molde / Aro
+ ENMS -> Mosjoen Kjaerstad
+ ENNM -> Namsos Lufthavn
+ ENNK -> Narvik Iii
+ ENNO -> Notodden
+ ENOL -> Orland Iii
+ ENOV -> Orsta-Volda / Hovden
+ ENOA -> Oseberg 
+ ENFB -> Oslo / Fornebu
+ ENGM -> Oslo / Gardermoen
+ ENRO -> Roros Lufthavn
+ ENRM -> Rorvik / Ryum
+ ENRS -> Rost Flyplass
+ ENRY -> Rygge
+ ENSD -> Sandane / Anda
+ ENST -> Sandnessjoen / Stokka
+ ENSN -> Skien-Geiteryggen
+ ENSG -> Sogndal / Haukasen
+ ENSR -> Sorkjosen
+ ENZV -> Stavanger / Sola
+ ENSO -> Stord / Soerstokken
+ ENSK -> Storkmarknes / Skagen
+ ENSB -> Svalbard Lufthavn
+ ENSH -> Svolvaer / Helle
+ ENTO -> Torp
+ ENTC -> Tromso / Langnes
+ ENVA -> Trondheim / Vaernes
+ ENVD -> Vadso
++
+-Oman
+ OOMA -> Masirah
+ OOSQ -> Saiq
+ OOSA -> Salalah
+ OOMS -> Seeb, International Airport
+ OOTH -> Thumrait
++
+-Pakistan
+ OPRN -> Islamabad Airport
+ OPKC -> Karachi Airport
+ OPLA -> Lahore Airport
+ OPNH -> Nawabshah
++
+-Palau
+ PTRO -> Koror / Palau Island
++
+-Panama
+ MPBO -> Bocas Del Toro International
+ MPDA -> David
+ MPHO -> Howard Air Force Base
+ MPMG -> Marcos A. Gelabert
+ MPSA -> Santiago
+ MPTO -> Tocumen
++
+-Paraguay
+ SGES -> Aeropuerto Guarany
+ SGAS -> Asuncion / Aeropuerto
++
+-Peru
+ SPHY -> Andahuayla
+ SPQU -> Arequipa
+ SPHO -> Ayacucho
+ SPJR -> Cajamarca
+ SPPY -> Chachapoyas
+ SPHI -> Chiclayo
+ SPEO -> Chimbote
+ SPZO -> Cuzco
+ SPNC -> Huanuco
+ SPQT -> Iquitos
+ SPJI -> Juanjui
+ SPJL -> Juliaca
+ SPIM -> Lima-Callao / Aerop. Internacional Jorgechavez
+ SPSO -> Pisco
+ SPUR -> Piura
+ SPCL -> Pucallpa
+ SPTU -> Puerto Maldonado
+ SPJA -> Rioja
+ SPTN -> Tacna
+ SPYL -> Talara
+ SPST -> Tarapoto
+ SPGM -> Tingo Maria
+ SPRU -> Trujillo
+ SPME -> Tumbes
+ SPMS -> Yurimaguas
++
+-Philippines
+ RPVM -> Masbate
+ RPLL -> Ninoy Aquino Inter-National Airport
+ RPLB -> Subic Bay Weather Station
++
+-Poland
+ EPGD -> Gdansk-Rebiechowo
+ EPKT -> Katowice
+ EPKK -> Krakow
+ EPPO -> Poznan
+ EPRZ -> Rzeszow-Jasionka
+ EPSC -> Szczecin
+ EPWA -> Warszawa-Okecie
+ EPWR -> Wroclaw Ii
++
+-Portugal
+ LPBJ -> Beja
+ LPFR -> Faro / Aeroporto
+ LPFU -> Funchal / S. Catarina
+ LPLA -> Lajes Acores 
+ LPPT -> Lisboa / Portela
+ LPPD -> Ponta Delgada / Nordela Acores 
+ LPPR -> Porto / Pedras Rubras
+ LPPS -> Porto Santo
+ LPAZ -> Santa Maria Acores 
++
+-Puerto Rico
+ TJBQ -> Aquadilla / Borinquen
+ TISX -> Christiansted / Alex. Hamilton Field, Saint Croix
+ TJSJ -> Luis Munoz Marin
+ TJMZ -> Mayaguez / Eugenio
+ TJPS -> Ponce / Mercedita 
++
+-Qatar
+ OTBD -> Doha International Airport
++
+-Reunion
+ FMEE -> Saint-Denis / Gillot
++
+-Romania
+ LRAR -> Arad
+ LRBS -> Bucuresti / Imh
+ LROP -> Bucuresti Otopeni
+ LRIA -> Iasi
+ LRCK -> Kogalniceanu
+ LRTR -> Timisoara
+ LRTM -> Tirgu Mures
+ LRTC -> Tulcea
++
+-Russian Federation
+ UHMA -> Anadyr
+ UHMD -> Buhta Providenja
+ UIAA -> Chita
+ UHHH -> Habarovsk
+ UIII -> Irkutsk
+ UEEE -> Jakutsk
+ UHSS -> Juzhno-Sahalinsk
+ UHMM -> Magadan
+ UUEE -> Moscow / Sheremet'Ye 
+ UUWW -> Moscow / Vnukovo 
+ UWPP -> Penza
+ UHPP -> Petropavlovsk-Kamchatskij
+ ULLI -> St. Peterburg
+ UUEM -> Tver
+ UIUU -> Ulan-Ude
+ UHWW -> Vladivostok
++
+-Rwanda
+ HRYR -> Kigali
++
+-Saint Helena
+ FHAW -> Wide Awake Field Ascension Island 
++
+-Saint Kitts and Nevis
+ TKPK -> Golden Rock
++
+-Saint Lucia
+ TLPL -> Hewanorra International Airport
+ TLPC -> Vigie
++
+-Saint Vincent and the Grenadines
+ TVSV -> Arnos Vale
++
+-Samoa
+ NSFA -> Faleolo Intl / Apia
++
+-Sao Tome and Principe
+ FPST -> S. Tome
++
+-Saudi Arabia
+ OEAB -> Abha
+ OEAH -> Al Ahsa
+ OEBA -> Al Baha
+ OEPA -> Al Qaysumah
+ OESK -> Al-Jouf
+ OERR -> Arar
+ OEBH -> Bisha
+ OEDW -> Dawadmi
+ OEDR -> Dhahran
+ OEGS -> Gassim
+ OEGN -> Gizan
+ OEGT -> Guriat
+ OEKK -> Hafr Al-Batin
+ OEHL -> Hail
+ OEJN -> Jeddah King Abdul Aziz International Airport 
+ OEKM -> Khamis Mushait
+ OERK -> King Khaled International Airport
+ OEMA -> Madinah
+ OEMK -> Makkah
+ OENG -> Najran
+ OERF -> Rafha
+ OERY -> Riyadh
+ OESH -> Sharurah
+ OETB -> Tabuk
+ OETF -> Taif
+ OETR -> Turaif
+ OEWD -> Wadi Al Dawasser Airport
+ OEWJ -> Wejh
+ OEYN -> Yenbo
++
+-Senegal
+ GOGS -> Cap-Skirring
+ GOOY -> Dakar / Yoff
+ GOSS -> Saint-Louis
+ GOTT -> Tambacounda
+ GOGG -> Ziguinchor
++
+-Seychelles
+ FSIA -> Seychelles Inter-National Airport
++
+-Sierra Leone
+ GFLL -> Lungi
++
+-Singapore
+ WSSS -> Singapore / Changi Airport
+ WSAP -> Singapore / Paya Lebar
++
+-Slovakia
+ LZIB -> Bratislava Ivanka
+ LZTT -> Poprad / Tatry
++
+-Slovenia
+ LJLJ -> Ljubljana / Brnik
+ LJMB -> Maribor / Slivnica
+ LJPZ -> Portoroz
++
+-Solomon Islands
+ AGGH -> Honiara / Henderson
++
+-Somalia
+ HCMM -> Mogadiscio
++
+-South Africa
+ FABM -> Bethlehem Airport
+ FABL -> Bloemfontein J. B. M. Hertzog 
+ FACT -> Cape Town D. F. Malan 
+ FADN -> Durban Louis Botha 
+ FAEL -> East London
+ FAGG -> George Airport
+ FAJS -> Jan Smuts
+ FALW -> Langebaanweg
+ FALT -> Lichtenburg
+ FAPB -> Pietersburg
+ FAPE -> Port Elizabeth
+ FAPR -> Pretoria
+ FASB -> Springbok
+ FAUP -> Upington
++
+-Spain
+ LEAL -> Alicante / El Altet
+ LEAM -> Almeria / Aeropuerto
+ LEAS -> Asturias / Aviles
+ LEBL -> Barcelona / Aeropuerto
+ LEBB -> Bilbao / Sondica
+ GCFV -> Fuerteventura / Aeropuerto
+ LEGE -> Gerona / Costa Brava
+ LEGR -> Granada / Aeropuerto
+ GCHI -> Hierro / Aeropuerto
+ LEIB -> Ibiza / Es Codola
+ LEJR -> Jerez De La Fronteraaeropuerto
+ LECO -> La Coruna / Alvedro
+ GCLA -> La Palma / Aeropuerto
+ GCRR -> Lanzarote / Aeropuerto
+ GCLP -> Las Palmas De Gran Canaria / Gando
+ LEMD -> Madrid / Barajas
+ LEVS -> Madrid / Cuatro Vientos
+ LEMG -> Malaga / Aeropuerto
+ GEML -> Melilla
+ LEMH -> Menorca / Mahon
+ LELC -> Murcia / San Javier
+ LEPA -> Palma De Mallorca / Son San Juan
+ LEPP -> Pamplona / Noain
+ LERS -> Reus / Aeropuerto
+ LESO -> San Sebastian / Fuenterrabia
+ LEXJ -> Santander / Parayas
+ LEST -> Santiago / Labacolla
+ LEZL -> Sevilla / San Pablo
+ GCXO -> Tenerife / Los Rodeos
+ GCTS -> Tenerife Sur
+ LEVC -> Valencia / Aeropuerto
+ LEVD -> Valladolid / Villanubla
+ LEVX -> Vigo / Peinador
+ LEVT -> Vitoria
+ LEZG -> Zaragoza / Aeropuerto
++
+-Sri Lanka
+ VCBI -> Katunayake
++
+-Sudan
+ HSSS -> Khartoum
++
+-Suriname
+ SMJP -> Johan A. Pengel
++
+-Swaziland
+ FDMS -> Manzini / Matsapa Airport
++
+-Sweden
+ ESGG -> Goteborg / Landvetter
+ ESGP -> Goteborg / Save
+ ESGJ -> Jonkoping Flygplats
+ ESSQ -> Karlstad Flygplats
+ ESNQ -> Kiruna Airport
+ ESDA -> Ljungbyhed
+ ESMS -> Malmo / Sturup
+ ESSP -> Norrkoping
+ ESDF -> Ronneby
+ ESSA -> Stockholm / Arlanda
+ ESSB -> Stockholm / Bromma
+ ESNN -> Sundsvall-Harnosand Flygplats
+ ESGT -> Trollhattan Private 
+ ESNU -> Umea Flygplats
+ ESOW -> Vasteras / Hasslo
+ ESMX -> Vaxjo
+ ESSV -> Visby Flygplats
++
+-Switzerland
+ LSZB -> Bern / Belp 
+ LSGG -> Geneve-Cointrin
+ LSZA -> Lugano
+ LSGS -> Sion
+ LSZH -> Zurich-Kloten
++
+-Syrian Arab Republic
+ OSAP -> Aleppo International Airport
+ OSDI -> Damascus Int. Airport
+ OSLK -> Lattakia
++
+-Taiwan
+ RCFS -> Chia Tung
+ RCTP -> Chiang Kai Shek
+ RCKU -> Chiayi Tw-Afb 
+ RCQS -> Chihhang Tw-Afb 
+ RCBS -> Chinmem / Shatou Air Force Base 
+ RCLM -> Dongsha
+ RCNO -> Dongshi
+ RCFN -> Feng Nin Tw-Afb 
+ RCKW -> Hengchun
+ RCPO -> Hsinchu Tw-Afb 
+ RCYU -> Hulien Ab
+ RCMS -> Ilan
+ RCAY -> Kangshan Tw-Afb 
+ RCKH -> Kaohsiung International Airport
+ RCQC -> Makung Ab
+ RCFG -> Mazu
+ RCUK -> Pa Kuei / Bakuai
+ RCSQ -> Pingtung North Air Force Base 
+ RCDC -> Pingtung South Air Force Base 
+ RCSS -> Sungshan / Taipei
+ RCLG -> Taichung Tw-Afb 
+ RCNN -> Tainan Tw-Afb 
+ RCGM -> Taoyuan Ab = 589650
+ RCMQ -> Wuchia Observatory
++
+-Tajikistan
+ UTDD -> Dushanbe
++
+-Tanzania, United Republic of
+ HTAR -> Arusha
+ HTBU -> Bukoba
+ HTDA -> Dar Es Salaam Airport
+ HTDO -> Dodoma
+ HTIR -> Iringa
+ HTKA -> Kigoma
+ HTKJ -> Kilimanjaro Airport
+ HTMB -> Mbeya
+ HTMG -> Morogoro
+ HTMS -> Moshi
+ HTMU -> Musoma
+ HTMW -> Mwanza
+ HTPE -> Pemba / Karume Airport
+ HTSE -> Same
+ HTSY -> Shinyanga
+ HTSO -> Songea
+ HTTB -> Tabora Airport
+ HTTG -> Tanga
+ HTZA -> Zanzibar / Kisauni
++
+-Thailand
+ VTCC -> Chiang Mai
+ VTBD -> Don Muang
+ VTSS -> Hat Yai
+ VTSP -> Phuket Airport
+ VTBU -> Rayong
++
+-Togo
+ DXXX -> Lome
++
+-Tonga
+ NFTF -> Fua'Amotu
++
+-Trinidad and Tobago
+ TTCP -> Crown Pt./ Scarborou
+ TTPP -> Piarco International Airport, Trinidad
++
+-Tunisia
+ DTTB -> Bizerte
+ DTTJ -> Djerba Mellita
+ DTTR -> El Borma
+ DTTG -> Gabes
+ DTMB -> Habib Bourguiba 
+ DTTN -> Jendouba
+ DTTK -> Kairouan
+ DTTL -> Kelibia
+ DTTD -> Remada
+ DTTX -> Sfax El-Maou
+ DTTZ -> Tozeur
+ DTTA -> Tunis-Carthage
++
+-Turkey
+ LTAG -> Adana / Incirlik
+ LTAF -> Adana / Sakirpasa
+ LTAH -> Afyon
+ LTBT -> Akhisar
+ LTAC -> Ankara / Esenboga
+ LTAD -> Ankara / Etimesgut
+ LTAI -> Antalya
+ LTBF -> Balikesir
+ LTBG -> Bandirma
+ LTCJ -> Batman
+ LTBE -> Bursa
+ LTBU -> Corlu
+ LTBS -> Dalaman
+ LTCC -> Diyarbakir
+ LTCA -> Elazig
+ LTCE -> Erzurum
+ LTBI -> Eskisehir
+ LTAJ -> Gaziantep
+ LTBA -> Istanbul / Ataturk
+ LTBJ -> Izmir / Adnan Menderes
+ LTBL -> Izmir / Cigli
+ LTAU -> Kayseri / Erkilet
+ LTAN -> Konya
+ LTAT -> Malatya / Erhac
+ LTAP -> Merzifon
+ LTAE -> Murted Tur-Afb 
+ LTCK -> Mus Tur-Afb 
+ LTAQ -> Samsun
+ LTAR -> Sivas
+ LTAV -> Sivrihisar
+ LTBQ -> Topel Tur-Afb 
+ LTCG -> Trabzon
+ LTCH -> Urfa
+ LTCI -> Van
++
+-Tuvalu
+ NGFU -> Funafuti
++
+-Uganda
+ HUEN -> Entebbe Airport
+ HUKS -> Kasese
+ HUMA -> Mbarara
+ HUSO -> Soroti
++
+-Ukraine
+ UKBB -> Boryspil
+ UKKK -> Kyiv
+ UKLL -> L'Viv
+ UKOO -> Odesa
++
+-United Arab Emirates
+ OMAD -> Abu Dhabi Bateen Airport
+ OMAA -> Abu Dhabi International Airport
+ OMAL -> Al Ain International Airport
+ OMDB -> Dubai International Airport
+ OMFJ -> Fujairah
+ OMRK -> Ras Al Khaimah International Airport
+ OMSJ -> Sharjah International Airport
++
+-United Kingdom
+ EGPD -> Aberdeen / Dyce
+ EGJA -> Alderney / Channel Island
+ EGAA -> Belfast / Aldergrove Airport
+ EGAC -> Belfast / Harbour
+ EGPL -> Benbecula
+ EGUB -> Benson
+ EGKB -> Biggin Hill 
+ EGBB -> Birmingham / Airport
+ EGNH -> Blackpool Airport
+ EGDM -> Boscombe Down
+ EGQM -> Boulmer
+ EGHH -> Bournemouth Airport
+ EGGD -> Bristol / Lulsgate 
+ EGSC -> Cambridge
+ EGFF -> Cardiff-Wales Airport
+ EGNC -> Carlisle
+ EGBE -> Coventry Airport 
+ EGTC -> Cranfield
+ EGDR -> Culdrose
+ EGPN -> Dundee / Riverside
+ EGNX -> East Midlands
+ EGPH -> Edinburgh Airport
+ EGAE -> Eglinton / Londonderr
+ EGTE -> Exeter Airport
+ EGLF -> Farnborough
+ EGPF -> Glasgow Airport
+ EGJB -> Guernsey Airport
+ EGNJ -> Humberside
+ EGPE -> Inverness / Dalcross
+ EGNS -> Isle Of Man / Ronaldsway Airport
+ EGJJ -> Jersey Airport
+ EGQK -> Kinloss
+ EGNM -> Leeds And Bradford
+ EGQL -> Leuchars
+ EGGP -> Liverpool Airport 
+ EGKK -> London / Gatwick Airport
+ EGLL -> London / Heathrow Airport
+ EGLC -> London City Airport
+ EGQS -> Lossiemouth
+ EGGW -> Luton Airport 
+ EGMD -> Lydd Airport 
+ EGDL -> Lyneham
+ EGCC -> Manchester Airport
+ EGVP -> Middle Wallop
+ EGNT -> Newcastle 
+ EGSH -> Norwich Weather Centre
+ EGHD -> Plymouth / Roborough
+ EGDP -> Portland / Rnas
+ EGPK -> Prestwick Airport
+ EGDG -> Saint Mawgan
+ EGPM -> Scatsa / Shetland Island
+ EGHE -> Scilly, Saint Mary'S
+ EGOS -> Shawbury
+ EGKA -> Shoreham Airport
+ EGHI -> Southampton / Weather Centre
+ EGMC -> Southend-On-Sea 
+ EGSS -> Stansted Airport
+ EGBJ -> Staverton Private 
+ EGPO -> Stornoway
+ EGPB -> Sumburgh Cape 
+ EGFH -> Swansea
+ EGNV -> Tees-Side
+ EGPU -> Tiree
+ EGPW -> Unst Island
+ EGOV -> Valley
+ EGPC -> Wick
+ EGDY -> Yeovilton
++
+-United States Minor Outlying Islands
+ PGUM -> Agana, Guam, Mariana Islands
+ PGUA -> Andersen Air Force Base
+ PJON -> Johnston Island
+ NSTU -> Pago Pago / Int. Airp.
+ PGWT -> Peipeinimaru
+ PGRO -> Rota Intl / Rota Island
+ PGSN -> Saipan / Isley Coast Guard Station
+ PWAK -> Wake Island Airfld
++
+-United States
+ KABR -> Aberdeen, Aberdeen Regional Airport
+ KABI -> Abilene, Abilene Regional Airport
+ KVJI -> Abingdon
+ PADK -> Adak, Naval Air Station
+ KADG -> Adrian, Lenawee County Airport
+ KANW -> Ainsworth Municipal
+ KAFF -> Air Force Academy
+ KAIT -> Aitkin NDB Automatic Weather Observing / Reporting System 
+ KCAK -> Akron, Akron-Canton Regional Airport
+ KAKO -> Akron, Akron-Washington County Airport
+ KEET -> Alabaster, Shelby County Airport
+ KALM -> Alamogordo-White
+ KALS -> Alamosa, San Luis Valley Regional Airport
+ KALB -> Albany, Albany County Airport
+ KABY -> Albany, Southwest Georgia Regional Airport
+ KAEL -> Albert Lea Automatic Weather Observing / Reporting System 
+ KABQ -> Albuquerque, Albuquerque International Airport
+ KESF -> Alexandria, Alexandria Esler Regional Airport
+ KAEX -> Alexandria, Alexandria International Airport
+ KAXN -> Alexandria, Chandler Field
+ KAXA -> Algona
+ KALI -> Alice, Alice International Airport
+ KABE -> Allentown, Lehigh Valley International Airport
+ KAIA -> Alliance, Alliance Municipal Airport
+ KAMG -> Alma, Bacon County Airport
+ KAPN -> Alpena, Alpena County Regional Airport
+ KALN -> Alton / St. Louis Regional
+ KAOO -> Altoona, Altoona-Blair County Airport
+ KO00 -> Alturas
+ KLTS -> Altus Air Force Base
+ KAMA -> Amarillo, Amarillo International Airport
+ PAFM -> Ambler
+ K7R3 -> Amelia / Lake Palourd
+ KAMW -> Ames, Ames Municipal Airport
+ PAKP -> Anaktuvuk Pass
+ PAED -> Anchorage / Elmendorf Air Force Base
+ PANC -> Anchorage, Anchorage International Airport
+ KAID -> Anderson Municipal
+ KAND -> Anderson, Anderson County Airport
+ K12N -> Andover, Aeroflex-Andover Airport
+ KLBX -> Angleton / Lake Jackson, Brazoria County Airport
+ PANI -> Aniak
+ KARB -> Ann Arbor, Ann Arbor Municipal Airport
+ PANT -> Annette Island
+ KANB -> Anniston, Anniston Metropolitan Airport
+ KAIG -> Antigo - Lang Automatic Weather Observing / Reporting System 
+ KAQQ -> Apalachicola, Apalachicola
+ KATW -> Appleton / Outagamie
+ KACV -> Arcata / Eureka, Arcata Airport
+ PARC -> Arctic Village
+ KADM -> Ardmore Municipal
+ KAWO -> Arlington Municipal
+ KGKY -> Arlington, Arlington Municipal Airport
+ KAVL -> Asheville, Asheville Regional Airport
+ KOFP -> Ashland, Hanover County Municipal Airport
+ KASX -> Ashland, Kennedy Memorial Airport
+ KHZY -> Ashtabula, Ashtabula County Airport
+ KASE -> Aspen, Aspen-Pitkin County Airport
+ KAST -> Astoria, Astoria Regional Airport
+ KAHN -> Athens, Athens Airport
+ KPDK -> Atlanta, De Kalb-Peachtree Airport
+ KFTY -> Atlanta, Fulton County Airport-Brown Field
+ KATL -> Atlanta, Hartsfield Atlanta International Airport
+ KFFC -> Atlanta, Peachtree City-Falcon Field
+ KAIO -> Atlantic
+ KACY -> Atlantic City, Atlantic City International Airport
+ KLEW -> Auburn-Lewiston
+ KAUO -> Auburn-Opelika Airport
+ KAUG -> Augusta, Augusta State Airport
+ KAGS -> Augusta, Bush Field
+ KDNL -> Augusta, Daniel Field
+ KARR -> Aurora, Aurora Municipal Airport
+ KUAO -> Aurora, Aurora State Airport
+ KU31 -> Austin
+ KAUM -> Austin Municipal
+ KAUS -> Austin, Mueller Municipal Airport
+ KAVX -> Avalon, Catalina Airport
+ KBKE -> Baker, Baker Municipal Airport
+ KBFL -> Bakersfield, Meadows Field
+ KMTN -> Baltimore / Martin
+ KBWI -> Baltimore, Baltimore-Washington International Airport
+ KDMH -> Baltimore, Inner Harbor
+ KBGR -> Bangor, Bangor International Airport
+ KBHB -> Bar Harbor Automatic Weather Observing / Reporting System
+ KBAD -> Barksdale Air Force Base
+ KMPV -> Barre / Montpelier, Knapp State Airport
+ PABR -> Barrow, Post Rogers Memorial Airport
+ PABA -> Barter Island
+ KBVO -> Bartlesville, Bartlesville Municipal Airport
+ KBOW -> Bartow Municipal
+ KBVX -> Batesville Automatic Weather Observing / Reporting System
+ KBTR -> Baton Rouge, Baton Rouge Metropolitan, Ryan Field
+ KBTL -> Battle Creek, Kellogg Airport
+ KB23 -> Battle Mountain
+ KBDE -> Baudette, Baudette International Airport
+ KBAB -> Beale Air Force Base / Marysvile
+ KBIE -> Beatrice Municipal
+ KNBC -> Beaufort, Marine Corps Air Station
+ KMRH -> Beaufort, Smith Field
+ KBUO -> Beaumont
+ KBPT -> Beaumont / Port Arthur, Jefferson County Airport
+ KBVI -> Beaver Falls Airport
+ KBKW -> Beckley, Raleigh County Memorial Airport
+ KBED -> Bedford, Hanscom Field
+ KEFC -> Belle Fourche
+ KBLI -> Bellingham, Bellingham International Airport
+ KBLM -> Belmar-Farmdale
+ KBJI -> Bemidji
+ KDDH -> Bennington, Bennington Morse State Airport
+ KBBB -> Benson Municipal
+ KBEH -> Benton Harbor, Southwest Michigan Regional Airport
+ KVBT -> Bentonville Automatic Weather Observing / Reporting System
+ KBSM -> Bergstrom, Austin-Bergstrom International Airport
+ KBML -> Berlin, Berlin Municipal Airport
+ PABE -> Bethel / Bethel Airport
+ PABT -> Bettles
+ KBVY -> Beverly, Beverly Municipal Airport
+ KBYS -> Bicycle Lake U. S. Army Airfield, Ca
+ KBPI -> Big Piney, Big Piney-Marbleton Airport
+ PALV -> Big River Lake
+ KBIL -> Billings, Billings Logan International Airport
+ KBGM -> Binghamton, Binghamton Regional Airport
+ KBHM -> Birmingham, Birmingham International Airport
+ KBIH -> Bishop, Bishop Airport
+ KBIS -> Bismarck, Bismarck Municipal Airport
+ K4BL -> Blanding 
+ KBID -> Block Island Automatic Weather Observing / Reporting System
+ KBMI -> Bloomington / Normal
+ KBMG -> Bloomington, Monroe County Airport
+ KBLF -> Bluefield, Mercer County Airport
+ KBLH -> Blythe, Blythe Airport
+ KHKA -> Blytheville, Blytheville Municipal Airport
+ KBOI -> Boise, Boise Air Terminal
+ KBNW -> Boone Municipal
+ KBGD -> Borger, Hutchinson County Airport
+ KOVS -> Boscobel, Boscobel Airport
+ KBOS -> Boston, Logan International Airport
+ KBWG -> Bowling Green, Bowling Green-Warren County Regional Airport
+ KBZN -> Bozeman, Gallatin Field
+ KBFD -> Bradford, Bradford Regional Airport
+ PHSF -> Bradshaw Army Air Field / Hawaii
+ KBRD -> Brainerd, Brainerd-Crow Wing County Regional Airport
+ KPWT -> Bremerton National Automatic Weather Observing / Reporting System
+ KHDE -> Brewster Field Airport
+ KBDR -> Bridgeport, Sikorsky Memorial Airport
+ KTRI -> Bristol / Johnson / Kingsport, Tri-City Regional Airport
+ KBBW -> Broken Bow Municipal
+ K4BK -> Brookings
+ KBKX -> Brookings Automatic Weather Observing / Reporting System
+ KBKV -> Brooksville, Hernando County Airport
+ KBJC -> Broomfield / Jeffco
+ KBRO -> Brownsville, Brownsville / South Padre Island International Airport
+ KBQK -> Brunswick / Glynco
+ KSSI -> Brunswick, McKinnon Airport
+ KNHZ -> Brunswick, Naval Air Station
+ KBCE -> Bryce Canyon, Bryce Canyon Airport
+ KBKF -> Buckley Air National Guard Base / Denver
+ K2WX -> Buffalo
+ KBUF -> Buffalo, Greater Buffalo International Airport
+ KBYG -> Buffalo, Johnson County Airport
+ KU17 -> Bullfrog Marina
+ KBUR -> Burbank, Burbank-Glendale-Pasadena Airport
+ KBYI -> Burley, Burley Municipal Airport
+ K75S -> Burlington / Mt Vern
+ KBUY -> Burlington, Burlington Alamance Regional Airport
+ KBTV -> Burlington, Burlington International Airport
+ KBRL -> Burlington, Burlington Regional Airport
+ KITR -> Burlington, Carson County Airport
+ KBMQ -> Burnet, Burnet Municipal Craddock Field
+ KBNO -> Burns, Burns Municipal Airport
+ KBTP -> Butler County Automatic Weather Observing / Reporting System
+ KBTM -> Butte, Mooney Airport
+ KCAD -> Cadillac / Wexford County
+ KCPS -> Cahokia / St. Louis, St. Louis Downtown-Parks Airport
+ KOZR -> Cairns Army Air Field / Ozark
+ KEUL -> Caldwell Automatic Weather Observing / Reporting System
+ KCDW -> Caldwell, Essex County Airport
+ KP38 -> Caliente
+ KCMA -> Camarillo Automatic Weather Observing / Reporting System
+ KCBG -> Cambridge Municipal
+ K7R5 -> Cameron Heliport
+ KADW -> Camp Springs / Andrews Air Force Base
+ KCZZ -> Campo
+ KCVS -> Cannon Air Force Base / Clovis
+ PATW -> Cantwell
+ KCGI -> Cape Girardeau, Cape Girardeau Regional Airport
+ PALU -> Cape Lisburne Airways Facilities Sector
+ PAEH -> Cape Newenham Airways Facilities Sector
+ PACZ -> Cape Romanzoff Airways Facilities Sector
+ KMDH -> Carbondale / Murphysboro, Southern Illinois Airport
+ KCAR -> Caribou, Caribou Municipal Airport
+ KCNM -> Carlsbad, Cavern City Air Terminal
+ KCRQ -> Carlsbad, McClellan-Palomar Airport
+ KCIN -> Carroll
+ KCGZ -> Casa Granda Automatic Weather Observing / Reporting System
+ KCZK -> Cascade Locks State
+ KCPR -> Casper, Natrona County International Airport
+ KNZC -> Cecil, Naval Air Station
+ KCDC -> Cedar City, Cedar City Municipal Airport
+ KCID -> Cedar Rapids, Cedar Rapids Municipal Airport
+ KCDR -> Chadron, Chadron Municipal Airport
+ KU15 -> Challis, Challis Airport
+ KE33 -> Chama
+ K9V9 -> Chamberlain, Chamberlain Municipal Airport
+ KCMI -> Champaign / Urbana, University Of Illinois-Willard Airport
+ PALR -> Chandalar Lake
+ KCNU -> Chanute, Chanute Martin Johnson Airport
+ KCNC -> Chariton
+ KCCY -> Charles City
+ KCHS -> Charleston, Charleston Air Force Base
+ KCRW -> Charleston, Yeager Airport
+ KCLT -> Charlotte, Charlotte / Douglas International Airport
+ KCHO -> Charlottesville, Charlottesville-Albemarle Airport
+ KCQX -> Chatham, Chatham Municipal Airport
+ KCHA -> Chattanooga, Lovell Field
+ KCWF -> Chenault Airpark
+ KNKT -> Cherry Point, Marine Corps Air Station
+ KCYS -> Cheyenne, Cheyenne Airport
+ KCGX -> Chicago / Meigs
+ KUGN -> Chicago / Waukegan
+ KDPA -> Chicago / West Chicago, Dupage Airport
+ KPWK -> Chicago / Wheeling, Pal-Waukee Airport
+ KMDW -> Chicago, Chicago Midway Airport
+ KORD -> Chicago, Chicago-O'Hare International Airport
+ KCIC -> Chico Municipal 
+ KCEF -> Chicopee Falls / Westover Air Force Base
+ KCDS -> Childress, Childress Municipal Airport
+ KCDJ -> Chillicothe, Chillicothe Agri-Science Center
+ KNID -> China Lake, Naval Air Facility
+ KCNO -> Chino, Chino Airport
+ KCIU -> Chippewa International Automatic Weather Observing / Reporting System
+ PAEC -> Chulitna
+ KLUK -> Cincinnati, Cincinnati Municipal Airport Lunken Field
+ PACR -> Circle City Airport
+ KICL -> Clarinda
+ KCAV -> Clarion
+ KCKB -> Clarksburg, Benedum Airport
+ K40B -> Clayton Lake
+ KCAO -> Clayton, Clayton Municipal Airpark
+ KN97 -> Clearfield, Clearfield-Lawrence Airport
+ KCGF -> Cleveland / Cuyahoga
+ KBKL -> Cleveland, Burke Lakefront Airport
+ KCLE -> Cleveland, Cleveland-Hopkins International Airport
+ KCQC -> Clines Corner
+ KCWI -> Clinton Municipal Automatic Weather Observing / Reporting System
+ KCSM -> Clinton, Clinton-Sherman Airport
+ KCOQ -> Cloquet Automatic Weather Observing / Reporting System
+ KCVN -> Clovis Municipal Automatic Weather Observing / Reporting System
+ KCOF -> Cocoa / Patrick Air Force Base
+ KCOD -> Cody
+ KCOE -> Coeur D'Alene Automatic Weather Observing / Reporting System
+ KCFV -> Coffeyville, Coffeyville Municipal Airport
+ PACD -> Cold Bay, Cold Bay Airport
+ KCLL -> College Station, Easterwood Field
+ KCOS -> Colorado Springs, City Of Colorado Springs Municipal Airport
+ KCAE -> Columbia, Columbia Metropolitan Airport
+ KCUB -> Columbia, Columbia Owens Downtown Airport
+ KCOU -> Columbia, Columbia Regional Airport
+ KBAK -> Columbus / Balkalar 
+ KCBM -> Columbus Air Force Base
+ KOLU -> Columbus Municipal Automatic Weather Observing / Reporting System
+ KCSG -> Columbus, Columbus Metropolitan Airport
+ KOSU -> Columbus, Ohio State University Airport
+ KCMH -> Columbus, Port Columbus International Airport
+ KCQV -> Colville Municipal
+ KCCR -> Concord, Buchanan Field
+ KCON -> Concord, Concord Municipal Airport
+ KCNK -> Concordia, Blosser Municipal Airport
+ KCXO -> Conroe, Montgomery County Airport
+ KP59 -> Copper Harbor
+ PACV -> Cordova / Mile 13
+ K4CR -> Corona / Lincoln
+ KCRP -> Corpus Christi, Corpus Christi International Airport
+ KNGP -> Corpus Christi, Naval Air Station
+ KCRS -> Corsicana, Campbell Field-Corsicana Municipal Airport
+ KCEZ -> Cortez, Cortez-Montezuma County Airport
+ KCVO -> Corvallis Municipal Automatic Weather Observing / Reporting System
+ KCOT -> Cotulla, Cotulla-La Salle County Airport
+ KCBF -> Council Bluffs
+ KCVG -> Covington / Cincinnati, Cincinnati / Northern Kentucky International Airport
+ KCAG -> Craig, Craig-Moffat Airport
+ KCEC -> Crescent City
+ KCSQ -> Creston
+ KCEW -> Crestview, Sikes Airport
+ KCKN -> Crookston Municipal Field
+ KCTY -> Cross City, Cross City Airport
+ KCSV -> Crossville, Crossville Memorial Airport
+ K0V1 -> Custer, Custer County Airport
+ KCTB -> Cut Bank Automatic Weather Observing / Reporting System
+ KDAG -> Daggett, Barstow-Daggett Airport
+ KDHT -> Dalhart, Dalhart Municipal Airport
+ KADS -> Dallas / Addison Airport
+ KDFW -> Dallas / Fort Worth, Dallas / Fort Worth International Airport
+ KDAL -> Dallas, Dallas Love Field
+ KRBD -> Dallas, Redbird Airport
+ KDXR -> Danbury, Danbury Municipal Airport
+ KDAN -> Danville, Danville Regional Airport
+ KDVN -> Davenport, Davenport Municipal Airport
+ KDMA -> Davis-Monthan Air Force Base
+ KFFO -> Dayton / Wright-Patterson Air Force Base
+ KDAY -> Dayton, Cox Dayton International Airport
+ KMGY -> Dayton, Dayton General Airport South Airport
+ KDAB -> Daytona Beach, Daytona Beach Regional Airport
+ PASC -> Deadhorse
+ KDEC -> Decatur, Decatur Airport
+ KDCU -> Decatur, Pryor Field
+ KDEH -> Decorah
+ KDEW -> Deer Park, Deer Park Airport
+ PADE -> Deering 
+ KDFI -> Defiance, Defiance Memorial Airport
+ KDRT -> Del Rio, Del Rio International Airport
+ KU24 -> Delta
+ KDMN -> Deming, Deming Municipal Airport
+ KDNS -> Denison
+ KDTO -> Denton, Denton Municipal Airport
+ KAPA -> Denver, Centennial Airport
+ KDEN -> Denver, Denver International Airport
+ KDSM -> Des Moines, Des Moines International Airport
+ KDTS -> Destin, Destin-Ft. Walton Beach Airport
+ KDTL -> Detroit Lakes Automatic Weather Observing / Reporting System
+ KDET -> Detroit, Detroit City Airport
+ KDTW -> Detroit, Detroit Metropolitan Wayne County Airport
+ KYIP -> Detroit, Willow Run Airport
+ KDVL -> Devils Lake Automatic Weather Observing / Reporting System
+ KDIK -> Dickinson, Dickinson Municipal Airport
+ PADL -> Dillingham Municipal, Ak
+ KDLN -> Dillon, Dillon Airport
+ KDDC -> Dodge City, Dodge City Regional Airport
+ KDHN -> Dothan, Dothan Airport
+ KDUG -> Douglas Bisbee International
+ KDGW -> Douglas, Converse County Airport
+ KDOV -> Dover Air Force Base
+ K3DU -> Drummond
+ KDUJ -> Du Bois Automatic Weather Observing / Reporting System
+ KPSK -> Dublin / New River Valley
+ KDBQ -> Dubuque, Dubuque Regional Airport
+ KDPG -> Dugway Proving Grounds
+ KEGI -> Duke Field / Eglin Auxiliary
+ KDLH -> Duluth, Duluth International Airport
+ KDKK -> Dunkirk, Chautauqua County / Dunkirk Airport
+ KDRO -> Durango, Durango-La Plata County Airport
+ PADU -> Dutch Harbor
+ KDYR -> Dyersburg Automatic Weather Observing / Reporting System
+ KEGE -> Eagle County Regional
+ KBYH -> Eaker Air Force Base
+ KEAU -> Eau Claire County Airport
+ KEDW -> Edwards Air Force Base
+ PAII -> Egegik Automatic Weather Observing / Reporting System
+ KNJK -> El Centro, Naval Air Facility
+ KELD -> El Dorado, South Arkansas Regional Airport
+ KEMT -> El Monte
+ KELP -> El Paso, El Paso International Airport
+ PAEL -> Elfin Cove Seaplane
+ KECG -> Elizabeth City, Elizabeth City Coast Guard Air Station
+ KEHA -> Elkhart Automatic Weather Observing / Reporting System
+ KEKM -> Elkhart Municipal
+ KEKN -> Elkins, Elkins-Randolph County-Jennings Randolph Field
+ KEKO -> Elko, Elko Municipal-Harris Field
+ KELN -> Ellensburg, Bowers Field
+ KRCA -> Ellsworth Air Force Base
+ KELM -> Elmira, Elmira / Corning Regional Airport
+ KELO -> Ely Municipal Automatic Weather Observing / Reporting System
+ KELY -> Ely, Ely Airport
+ KBLU -> Emigrant Gap, Blue Canyon Nyack Airport
+ PAEM -> Emmonak
+ KEMP -> Emporia, Emporia Municipal Airport
+ KWDG -> Enid / Woodring Municipal
+ KEPH -> Ephrata, Ephrata Municipal Airport
+ KERI -> Erie, Erie International Airport
+ KESC -> Escanaba
+ KEST -> Estherville, Estherville Municipal Airport
+ KEUG -> Eugene, Mahlon Sweet Field
+ PAZK -> Eureka
+ KEVW -> Evanston, Evanston-Uinta County Burns Field
+ KEVV -> Evansville, Evansville Regional Airport
+ KEVM -> Eveleth Municipal Automatic Weather Observing / Reporting System
+ KPAE -> Everett, Snohomish County Airport
+ KGZH -> Evergreen, Middleton Field
+ KFFL -> Fair Field
+ PAEI -> Fairbanks / Eielson Air Force Base
+ PAFA -> Fairbanks, Fairbanks International Airport
+ KSKA -> Fairchild Air Force Base
+ KSUU -> Fairfield / Travis Air Force Base
+ KFRM -> Fairmont Municipal Automatic Weather Observing / Reporting System
+ KD07 -> Faith
+ KNFL -> Fallon, Naval Air Station
+ KFNB -> Falls City / Brenner
+ KFAR -> Fargo, Hector International Airport
+ KFBL -> Faribault Municipal Automatic Weather Observing / Reporting System
+ KFRG -> Farmingdale, Republic Airport
+ KFAM -> Farmington Airport
+ KFMN -> Farmington, Four Corners Regional Airport
+ KFVX -> Farmville
+ KFYV -> Fayetteville, Drake Field
+ KFAY -> Fayetteville, Fayetteville Regional Airport
+ KFFM -> Fergus Falls Automatic Weather Observing / Reporting System
+ KFDY -> Findlay Automatic Weather Observing / Reporting System
+ KFIT -> Fitchburg, Fitchburg Municipal Airport
+ KFLG -> Flagstaff, Flagstaff Pulliam Airport
+ KFNT -> Flint, Bishop International Airport
+ KFLP -> Flippin Automatic Weather Observing / Reporting System
+ KFLO -> Florence, Florence Regional Airport
+ KFLD -> Fond Du Lac, Fond Du Lac County Airport
+ KDAA -> Fort Belvoir
+ KLSF -> Fort Benning
+ KFBG -> Fort Bragg / Simmons Army Airfield
+ KHOP -> Fort Campbell U. S. Army Airfield
+ KFCS -> Fort Carson
+ KFNL -> Fort Collins Automatic Weather Observing / Reporting System
+ KFOD -> Fort Dodge
+ KGTB -> Fort Drum / Wheeler-Sack U. S. Army Airfield
+ KFAF -> Fort Eustis / Felker
+ PABI -> Fort Greely / Allen U. S. Army Airfield, Ak
+ KHLR -> Fort Hood
+ KGRK -> Fort Hood / Gray U. S. Army Airfield
+ KFHU -> Fort Huachuca
+ KFTK -> Fort Knox
+ KFLL -> Fort Lauderdale, Fort Lauderdale / Hollywood International Airport
+ KFXE -> Fort Lauderdale, Fort Lauderdale Executive Airport
+ KFLV -> Fort Leavenworth
+ KTBN -> Fort Leonard Wood
+ KGRF -> Fort Lewis / Gray U. S. Army Airfield
+ KFSW -> Fort Madison
+ KFMY -> Fort Myers, Page Field
+ KRSW -> Fort Myers, Southwest Florida International Airport
+ KFPR -> Fort Pierce, St. Lucie County International Airport
+ KPOE -> Fort Polk
+ KFRI -> Fort Riley
+ KJWX -> Fort Ritchie
+ KFSI -> Fort Sill
+ KFSM -> Fort Smith, Fort Smith Regional Airport
+ KFST -> Fort Stockton, Fort Stockton-Pecos County Airport
+ KFWA -> Fort Wayne, Fort Wayne International Airport
+ KAFW -> Fort Worth, Fort Worth Alliance Airport
+ KFTW -> Fort Worth, Meacham International Airport
+ KNFW -> Fort Worth, Naval Air Station
+ PFYU -> Fort Yukon
+ KFSE -> Fosston Automatic Weather Observing / Reporting System
+ K9F2 -> Fourchon Supplementary Aviation Weather Reporting Station 
+ KFFT -> Frankfort, Capital City Airport
+ KFKN -> Franklin / J B Rose
+ KFKL -> Franklin Automatic Weather Observing / Reporting System
+ KFDR -> Frederick, Frederick Municipal Airport
+ KFET -> Fremont Municipal Airport
+ KFVE -> Frenchville, Northern Aroostook Regional Airport
+ KFAT -> Fresno, Fresno Air Terminal
+ KFCH -> Fresno-Chandler
+ KFHR -> Friday Harbor, Friday Harbor Airport
+ KIZG -> Fryeburg, Eastern Slopes Regional Airport
+ KLHW -> Ft. Stewart
+ KFUL -> Fullerton, Fullerton Municipal Airport
+ KGAD -> Gadsden Municipal Automatic Weather Observing / Reporting System
+ KGAG -> Gage, Gage Airport
+ KGNV -> Gainesville, Gainesville Regional Airport
+ KGVL -> Gainesville, Gilmer Memorial Airport
+ PAGB -> Galbraith Lake
+ PAGA -> Galena A.
+ KGUP -> Gallup, Gallup Municipal Airport
+ KGLS -> Galveston, Scholes Field
+ PAGM -> Gambell Automatic Weather Observing / Reporting System
+ KGCK -> Garden City, Garden City Regional Airport
+ KN60 -> Garrison
+ KGYY -> Gary Regional
+ KAKH -> Gastonia, Gastonia Municipal Airport
+ KGLR -> Gaylord, Otsego County Airport
+ KGTU -> Georgetown Automatic Weather Observing / Reporting System
+ KGED -> Georgetown, Sussex County Airport
+ KGBN -> Gila Bend U. S. Army Airfield
+ KGCC -> Gillette, Gillette-Campbell County Airport
+ KGGW -> Glasgow, Glasgow International Airport
+ KGDV -> Glendive Automatic Weather Observing / Reporting System
+ KGFL -> Glens Falls, Warren County Airport
+ KGHW -> Glenwood Automatic Surface Observing System 
+ KGTR -> Golden Tri Automatic Weather Observing / Reporting System
+ KGLD -> Goodland, Renner Field
+ KGYR -> Goodyear Municipal
+ KGSH -> Goshen, Goshen Municipal Airport
+ KGCN -> Grand Canyon, Grand Canyon National Park Airport
+ KRDR -> Grand Forks Air Force Base
+ KGFK -> Grand Forks, Grand Forks International Airport
+ KGRI -> Grand Island, Central Nebraska Regional Airport
+ KAXO -> Grand Isle Supplementary Aviation Weather Reporting Station 
+ KGJT -> Grand Junction, Walker Field
+ KP61 -> Grand Marais
+ KGNA -> Grand Marais, The Bay of Grand Marais
+ KGPZ -> Grand Rapids Automatic Weather Observing / Reporting System
+ KGRR -> Grand Rapids, Kent County International Airport
+ KS80 -> Grangeville 
+ KGNT -> Grants, Grants-Milan Municipal Airport
+ KGBD -> Great Bend Automatic Weather Observing / Reporting System
+ KGTF -> Great Falls, Great Falls International Airport
+ KGXY -> Greeley / Weld Automatic Weather Observing / Reporting System
+ KGRB -> Green Bay, Austin Straubel International Airport
+ KU28 -> Green River Range
+ KGSO -> Greensboro, Piedmont Triad International Airport
+ KGVT -> Greenville / Majors
+ KGMU -> Greenville, Greenville Downtown Airport
+ KGLH -> Greenville, Greenville Municipal Airport
+ KGWO -> Greenwood, Greenwood-LeFlore Airport
+ KGSP -> Greer, Greenville-Spartanburg Airport
+ KGEY -> Greybull, South Big Horn County Airport
+ KRME -> Griffiss Air Force Base / Rome
+ KGUS -> Grissom Air Force Base / Peru
+ KGON -> Groton / New London, Groton-New London Airport
+ KGPT -> Gulfport, Gulfport-Biloxi Regional Airport
+ PAGK -> Gulkana / Intl. Fld.
+ KGUC -> Gunnison Automatic Weather Observing / Reporting System
+ PAGS -> Gustavus
+ KGOK -> Guthrie, Guthrie Municipal Airport
+ KGUY -> Guymon / Guymon Municipal Airport
+ KHGR -> Hagerstown, Washington County Regional Airport
+ KSUN -> Hailey / Friedman Memorial
+ PAHN -> Haines
+ KHMM -> Hamilton / Ravalli County
+ KHAO -> Hamilton, Hamilton-Fairfield Airport
+ KCMX -> Hancock, Houghton County Memorial Airport
+ KHMS -> Hanford
+ KO18 -> Hanford, Hanford Municipal Airport
+ K4HV -> Hanksville 
+ KHRL -> Harlingen, Rio Grande Valley International Airport
+ K3HT -> Harlowton
+ KCXY -> Harrisburg, Capital City Airport
+ KMDT -> Harrisburg, Harrisburg International Airport
+ KHRO -> Harrison, Boone County Airport
+ KHFD -> Hartford, Hartford-Brainard Airport
+ KHSI -> Hastings, Hastings Municipal Airport
+ KHSE -> Hatteras, Mitchell Field
+ KHVR -> Havre, Havre City-County Airport
+ KHHR -> Hawthorne, Hawthorne Municipal Airport
+ KHDN -> Hayden / Yampa Automatic Weather Observing / Reporting System
+ PAHZ -> Hayes River
+ KHYS -> Hays Municipal Automatic Weather Observing / Reporting System
+ KHWD -> Hayward, Hayward Air Terminal
+ KHYR -> Hayward, Hayward Municipal Airport
+ PAHV -> Healy River Airport
+ KHLN -> Helena, Helena Regional Airport
+ KEHR -> Henderson City
+ KS22 -> Hermiston, Hermiston Municipal Airport
+ KHEI -> Hettinger, Hettinger Municipal Airport
+ KHIB -> Hibbing, Chisholm-Hibbing Airport
+ KHKY -> Hickory, Hickory Regional Airport
+ KHIF -> Hill Air Force Base / Ogden
+ KHLC -> Hill City, Hill City Municipal Airport
+ KHLX -> Hillsville
+ PHTO -> Hilo, Hilo International Airport
+ KHBR -> Hobart, Hobart Municipal Airport
+ KHOB -> Hobbs / Lea County
+ KBIV -> Holland, Tulip City Airport
+ KHMN -> Holloman Air Force Base
+ PAHO -> Homer
+ KHST -> Homestead Air Force Base
+ KHDO -> Hondo, Hondo Municipal Airport
+ PHNL -> Honolulu, Honolulu International Airport
+ PAOH -> Hoonah Seaplane
+ KHQM -> Hoquiam, Bowerman Airport
+ KHSP -> Hot Springs / Ingalls
+ KHOT -> Hot Springs, Memorial Field
+ KHTL -> Houghton Lake, Roscommon County Airport
+ KHUL -> Houlton, Houlton International Airport
+ KHUM -> Houma-Terrebonne
+ KEFD -> Houston / Ellington
+ KT02 -> Houston, Clover Field
+ KHOU -> Houston, Hobby Airport
+ KDWH -> Houston, Hooks Memorial Airport
+ KIAH -> Houston, Houston Intercontinental Airport
+ KSVN -> Hunter U. S. Army Airfield 
+ KHNB -> Huntingburg
+ KHTS -> Huntington, Tri-State Airport
+ KHSV -> Huntsville, Huntsville International / Jones Field
+ KUTS -> Huntsville, Huntsville Municipal Airport
+ KHRT -> Hurlburt Field
+ KHON -> Huron, Huron Regional Airport
+ PAHS -> Huslia
+ KHCD -> Hutchinson Automatic Weather Observing / Reporting System
+ KHUT -> Hutchinson, Hutchinson Municipal Airport
+ KHYA -> Hyannis, Barnstable Municipal-Boardman Airport
+ PAHY -> Hydaburg Seaplane
+ KIDA -> Idaho Falls, Fanning Field
+ PAIL -> Iliamna / Iliamna Airport
+ KNRS -> Imperial Beach, Naval Auxiliary Landing Field
+ KIML -> Imperial Municipal
+ KIPL -> Imperial, Imperial County Airport
+ PAIM -> Indian Mountain Airways Facilities Sector
+ KIDI -> Indiana / Stewart Field
+ KEYE -> Indianapolis, Eagle Creek Airpark
+ KIND -> Indianapolis, Indianapolis International Airport
+ KINL -> International Falls, Falls International Airport
+ K7R4 -> Intracoastal City
+ KIYK -> Inyokern
+ KIOW -> Iowa City, Iowa City Municipal Airport
+ KIMT -> Iron Mountain / Kingsford, Ford Airport
+ KIWD -> Ironwood Automatic Weather Observing / Reporting System
+ KISP -> Islip, Long Island Mac Arthur Airport
+ KITH -> Ithaca / Tompkins County
+ KJXN -> Jackson / Reynolds
+ KJAC -> Jackson Hole Automatic Weather Observing / Reporting System
+ KMJQ -> Jackson Municipal Automatic Weather Observing / Reporting System
+ KJKL -> Jackson, Carroll Airport
+ KJAN -> Jackson, Jackson International Airport
+ KMKL -> Jackson, McKellar-Sipes Regional Airport
+ KOAJ -> Jacksonville Automatic Weather Observing / Reporting System
+ KCRG -> Jacksonville, Craig Municipal Airport
+ KJAX -> Jacksonville, Jacksonville International Airport
+ KNIP -> Jacksonville, Naval Air Station
+ KNCA -> Jacksonville, New River, Marine Corps Air Station
+ KAFN -> Jaffrey, Jaffrey Municipal-Silver Ranch Airport
+ KJHW -> Jamestown Automatic Weather Observing / Reporting System
+ KJMS -> Jamestown, Jamestown Municipal Airport
+ KJVL -> Janesville / Rock County
+ KJEF -> Jefferson City, Jefferson City Memorial Airport
+ KU73 -> Jerome, Jerome County Airport
+ KJST -> Johnstown, Johnstown-Cambria County Airport
+ KJBR -> Jonesboro, Jonesboro Municipal Airport
+ KJLN -> Joplin, Joplin Regional Airport
+ KJDN -> Jordan, Jordan Airport
+ KJCT -> Junction, Kimble County Airport
+ PAJN -> Juneau, Juneau International Airport
+ PHOG -> Kahului, Kahului Airport
+ PHKO -> Kailua / Kona, Keahole Airport
+ KAIZ -> Kaiser Memorial Automatic Weather Observing / Reporting System 
+ PAFE -> Kake Seaplane Base
+ KAZO -> Kalamazoo, Kalamazoo / Battle Creek International Airport
+ KFCA -> Kalispell, Glacier Park International Airport
+ PAKV -> Kaltag, Kaltag Airport
+ PHNG -> Kaneohe, Marine Corps Air Station
+ KMKC -> Kansas City, Kansas City Downtown Airport
+ KMCI -> Kansas City, Kansas City International Airport
+ KGVW -> Kansas City, Richards-Gebaur Airport
+ KEAR -> Kearney Municipal Automatic Weather Observing / Reporting System
+ KEEN -> Keene / Dillant Automatic Weather Observing / Reporting System
+ KBIX -> Keesler Air Force Base / Biloxi
+ PHBK -> Kekaha, Pacific Missile Test Facility Barking Sands
+ KSKF -> Kelly Air Force Base
+ KKLS -> Kelso-Longview Automatic Weather Observing / Reporting System
+ PAEN -> Kenai, Kenai Municipal Airport
+ KENW -> Kenosha, Kenosha Regional Airport
+ KEOK -> Keokuk Municipal
+ PAKT -> Ketchikan, Ketchikan International Airport
+ KEYW -> Key West, Key West International Airport
+ KNQX -> Key West, Naval Air Station
+ KILE -> Killeen Municipal Automatic Weather Observing / Reporting System
+ PAKN -> King Salmon, King Salmon Airport
+ KIGM -> Kingman, Kingman Airport
+ KNQI -> Kingsville, Naval Air Station
+ KISO -> Kinston / Stallings
+ KIRK -> Kirksville, Kirksville Regional Airport
+ PAVL -> Kivalina, Kivalina Airport
+ KLMT -> Klamath Falls, Klamath Falls International Airport
+ PAKW -> Klawock
+ KOXV -> Knoxville
+ KTYS -> Knoxville, McGhee Tyson Airport
+ PADQ -> Kodiak
+ PAOT -> Kotzebue, Wien Memorial Airport
+ KLSE -> La Crosse, La Crosse Municipal Airport
+ KLGD -> La Grande Automatic Weather Observing / Reporting System
+ KLHX -> La Junta, La Junta Municipal Airport
+ KPOC -> La Verne / Brackett
+ KLCI -> Laconia Municipal Automatic Weather Observing / Reporting System
+ KLFT -> Lafayette, Lafayette Regional Airport
+ KLAF -> Lafayette, Purdue University Airport
+ PHJH -> Lahaina / West Maui
+ KLCH -> Lake Charles, Lake Charles Regional Airport
+ PALH -> Lake Hood Seaplane
+ KNEL -> Lakehurst Naval Air Station
+ KLAL -> Lakeland Regional
+ K4LW -> Lakeview
+ KLKV -> Lakeview Automatic Weather Observing / Reporting System
+ KLAA -> Lamar, Lamar Municipal Airport
+ KLWD -> Lamoni, Lamoni Municipal Airport
+ PHNY -> Lanai City Airport
+ KWJF -> Lancaster / Fox Field
+ KLHQ -> Lancaster, Fairfield County Airport
+ KLNS -> Lancaster, Lancaster Airport
+ KLND -> Lander
+ KLFI -> Langley Air Force Base
+ KLAN -> Lansing, Capital City Airport
+ KLAR -> Laramie, Laramie Regional Airport
+ KLRD -> Laredo International Airport
+ KLRU -> Las Cruces International
+ KLVS -> Las Vegas, Las Vegas Municipal Airport
+ KLAS -> Las Vegas, McCarran International Airport
+ KLBE -> Latrobe / Westmorland
+ KDLF -> Laughlin, Laughlin Air Force Base Auxiliary Airfield
+ KLWM -> Lawrence, Lawrence Municipal Airport
+ KLWV -> Lawrenceville, Lawrenceville-Vincennes International Airport
+ KLAW -> Lawton, Lawton Municipal Airport
+ KLRJ -> Le Marine Aviation Reporting Station
+ KLXV -> Leadville, Lake County Airport
+ KLEB -> Lebanon, Lebanon Municipal Airport
+ KJYO -> Leesburg / Godfrey
+ KLEE -> Leesburg, Leesburg Municipal Airport
+ KY22 -> Lemmon
+ KNLC -> Lemoore, Naval Air Station
+ KLWB -> Lewisburg / Greenbrier
+ KLWS -> Lewiston, Lewiston-Nez Perce County Airport
+ KLWT -> Lewistown Municipal
+ KLEX -> Lexington, Blue Grass Airport
+ KLBL -> Liberal Municipal Automatic Weather Observing / Reporting System
+ KP67 -> Lidgerwood Remote Automatic Meteorological Observing System
+ PHLI -> Lihue, Lihue Airport
+ KAOH -> Lima, Lima Allen County Airport
+ KLIC -> Limon, Limon Municipal Airport
+ KLNK -> Lincoln, Lincoln Municipal Airport
+ KLXL -> Little Falls Automatic Weather Observing / Reporting System
+ KLRF -> Little Rock Air Force Base
+ KLIT -> Little Rock, Adams Field
+ KLVK -> Livermore, Livermore Municipal Airport
+ KLVM -> Livingston, Mission Field
+ KLGU -> Logan, Logan-Cache Airport
+ KLPC -> Lompoc Automatic Weather Observing / Reporting System
+ KLOZ -> London, London-Corbin Airport-Magee Field
+ KLNR -> Lone Rock, Tri-County Regional Airport
+ KLGB -> Long Beach, Long Beach Airport
+ KGGG -> Longview, Gregg County Airport
+ KLPR -> Lorain / Elyria, Lorain County Regional Airport
+ KLAM -> Los Alamos
+ KLAX -> Los Angeles, Los Angeles International Airport
+ KLOU -> Louisville, Bowman Field
+ KSDF -> Louisville, Standiford Field
+ KLOL -> Lovelock, Derby Field
+ KP69 -> Lowell
+ KLBB -> Lubbock, Lubbock International Airport
+ KLFK -> Lufkin, Angelina County Airport
+ KLUF -> Luke Air Force Base / Phoenix
+ KLBT -> Lumberton, Lumberton Municipal Airport
+ KLYH -> Lynchburg, Lynchburg Regional Airport
+ KMCF -> Macdill Air Force Base, Fl.
+ KHFF -> Mackall U. S. Army Airfield
+ KMCN -> Macon, Middle Georgia Regional Airport
+ KMAE -> Madera, Madera Municipal Airport
+ KMSN -> Madison, Dane County Regional-Truax Field
+ KMLD -> Malad City
+ K77M -> Malta
+ KMMH -> Mammoth / June Lakes
+ KHEF -> Manassas Municipal Automatic Weather Observing / Reporting System
+ KMHT -> Manchester, Manchester Airport
+ KMHK -> Manhattan, Manhattan Municipal Airport
+ KMBL -> Manistee Automatic Weather Observing / Reporting System
+ KP75 -> Manistique
+ KMTW -> Manitowoc Municipal Automatic Weather Observing / Reporting System
+ KMKT -> Mankato Automatic Weather Observing / Reporting System
+ PAML -> Manley Hot Springs 
+ KMFD -> Mansfield, Mansfield Lahm Municipal Airport
+ KMQI -> Manteo / Dare County Regional
+ KMTH -> Marathon, Marathon Airport
+ KMRF -> Marfa
+ KMAI -> Marianna, Marianna Municipal Airport
+ KMGE -> Marietta / Dobbins Air Force Base
+ KMKJ -> Marion / Wytheville
+ KMWA -> Marion Regional
+ KMNN -> Marion, Marion Municipal Airport
+ KMQT -> Marquette
+ KMML -> Marshall / Ryan Automatic Weather Observing / Reporting System
+ KMIW -> Marshalltown, Marshalltown Municipal Airport
+ KMFI -> Marshfield, Marshfield Municipal Airport
+ KMRB -> Martinsburg, Eastern West Virginia Regional Airport
+ KMTV -> Martinsville
+ KMYV -> Marysville, Yuba County Airport
+ KMCW -> Mason City, Mason City Municipal Airport
+ KMSS -> Massena, Massena International-Richards Field
+ KMHR -> Mather Field
+ KMTO -> Mattoon / Charleston, Coles County Memorial Airport
+ KMEB -> Maxton, Laurinburg-Maxton Airport
+ KMXF -> Maxwell Air Force Base / Montgomery
+ KNRB -> Mayport, Naval Air Facility
+ KPWG -> Mc Gregor Automatic Weather Observing / Reporting System
+ KMLC -> McAlester, McAlester Regional Airport
+ KMFE -> McAllen, Miller International Airport
+ KMYL -> McCall, McCall Airport
+ PAMX -> McCarthy
+ KMCC -> McClellan Air Force Base
+ KMCB -> McComb, McComb / Pike County Airport
+ KIAB -> McConnell Air Force Base
+ KMCK -> McCook, McCook Municipal Airport
+ KMMT -> McEntire Air National Guard Weather Facility Base
+ PAMC -> McGrath
+ PAIN -> McKinley Park
+ KTKI -> McKinney, McKinney Municipal Airport
+ KMMV -> McMinnville, McMinnville Municipal Airport
+ KWRI -> Mcguire Air Force Base
+ KMEH -> Meacham, Meacham
+ KMFR -> Medford, Rogue Valley International Airport
+ KP28 -> Medicine Lodge, Medicine Lodge
+ KEEO -> Meeker, Meeker Airport
+ PAMY -> Mekoryuk
+ KMLB -> Melbourne, Melbourne International Airport
+ KMFV -> Melfa / Accomack Airport
+ KMEM -> Memphis, Memphis International Airport
+ KMNM -> Menominee Automatic Weather Observing / Reporting System
+ KMCE -> Merced, Merced Municipal Airport
+ KDRA -> Mercury, Desert Rock Airport
+ KMEI -> Meridian, Key Field
+ KNMM -> Meridian, Naval Air Station
+ PAMR -> Merrill Field
+ KFFZ -> Mesa / Falcon Field
+ KTMB -> Miami, Kendall-Tamiami Executive Airport
+ KMIA -> Miami, Miami International Airport
+ KOPF -> Miami, Opa Locka Airport
+ PAMD -> Middleton Island, Ak
+ KMAF -> Midland, Midland International Airport
+ PMDY -> Midway Island Naval Air Facility
+ KMLS -> Miles City, Wiley Field
+ KMLF -> Milford, Milford Municipal Airport
+ KMLT -> Millinocket, Millinocket Municipal Airport
+ KMIV -> Millville, Millville Municipal Airport
+ KNSE -> Milton, Whiting Field North
+ KMWC -> Milwaukee / Timmerman
+ KMKE -> Milwaukee, General Mitchell International Airport
+ PAMH -> Minchumina
+ KMWL -> Mineral Wells, Mineral Wells Airport
+ KANE -> Minneapolis / Blaine
+ KMIC -> Minneapolis, Crystal Airport
+ KFCM -> Minneapolis, Flying Cloud Airport
+ KMSP -> Minneapolis, Minneapolis-St. Paul International Airport
+ KARV -> Minocqua / Woodruff
+ KMIB -> Minot Air Force Base
+ KMOT -> Minot, Minot International Airport
+ KMSO -> Missoula, Missoula International Airport
+ KMHE -> Mitchell Automatic Weather Observing / Reporting System
+ KCNY -> Moab, Canyonlands Field
+ KBFM -> Mobile, Mobile Downtown Airport
+ KMOB -> Mobile, Mobile Regional Airport
+ KY26 -> Mobridge
+ KMBG -> Mobridge, Mobridge Municipal Airport
+ KMOD -> Modesto, Modesto City-County-Sham Field
+ KMHV -> Mojave
+ KMLI -> Moline, Quad-City Airport
+ PHMK -> Molokai Automatic Meteorological Observing System
+ KEQY -> Monroe, Monroe Airport
+ KMLU -> Monroe, Monroe Regional Airport
+ KSIY -> Montague / Siskiyou
+ KMTP -> Montauk, Montauk Airport
+ KMRY -> Monterey, Monterey Peninsula Airport
+ KMVE -> Montevideo Automatic Weather Observing / Reporting System
+ KMGM -> Montgomery, Dannelly Field
+ KMGJ -> Montgomery, Orange County Airport
+ KMSV -> Monticello Automatic Weather Observing / Reporting System
+ KMXO -> Monticello Municipal
+ KLLQ -> Monticello, Monticello Municipal Airport
+ KMTJ -> Montrose, Montrose Regional Airport
+ KVAD -> Moody Air Force Base
+ KMGW -> Morgantown, Morgantown Municipal-Hart Field
+ K4MY -> Moriarty
+ KMOX -> Morris Municipal Automatic Weather Observing / Reporting System
+ KMMU -> Morristown Municipal
+ KMVL -> Morrisville, Morrisville-Stowe State Airport
+ KMWH -> Moses Lake, Grant County Airport
+ KCWA -> Mosinee / Central Wisconsin
+ KVAY -> Mount Holly, South Jersey Regional Airport
+ KMWT -> Mount Ida
+ KMHS -> Mount Shasta
+ KMVN -> Mount Vernon Automatic Weather Observing / Reporting System
+ KMWN -> Mount Washington
+ KMWS -> Mount Wilson
+ KMUO -> Mountain Home Air Force Base
+ KBPK -> Mountain Home, Baxter County Regional Airport
+ KNUQ -> Mountain View, Moffett Field
+ KMUI -> Muir Army Air Field / Indiantown
+ KMLP -> Mullan Pass, Mullan Pass Vor
+ KMIE -> Muncie, Delaware County-Johnson Field
+ KMUT -> Muscatine
+ KMSL -> Muscle Shoals, North West Alabama Regional Airport
+ KMKG -> Muskegon, Muskegon County Airport
+ KMKO -> Muskogee, Davis Field
+ KMYR -> Myrtle Beach Air Force Base
+ KOQU -> N. Kingston / Quonset
+ KTTS -> NASA Shuttle Facility
+ PABN -> Nabesna / Devil Mountain
+ KOCH -> Nacogdoches Automatic Weather Observing / Reporting System
+ KACK -> Nantucket, Nantucket Memorial Airport
+ KAPC -> Napa, Napa County Airport
+ KAPF -> Naples Municipal
+ KASH -> Nashua / Boire Field
+ KBNA -> Nashville, Nashville International Airport
+ KHEZ -> Natchez / Hardy Automatic Weather Observing / Reporting System
+ KEED -> Needles Airport
+ KLSV -> Nellis Air Force Base
+ PANN -> Nenana / Mun.
+ KEWB -> New Bedford, New Bedford Regional Airport
+ KEWN -> New Bern, Craven County Regional Airport
+ KBAX -> New Braunfels, New Braunfels Municipal Airport
+ KHVN -> New Haven, Tweed-New Haven Airport
+ KARA -> New Iberia, Acadiana Regional Airport
+ KNEW -> New Orleans, Lakefront Airport
+ KNBG -> New Orleans, Naval Air Station
+ KMSY -> New Orleans, New Orleans International Airport
+ KPHD -> New Philadelphia, Harry Clever Field
+ KRRF -> New Port Richey, Tampa Bay Executive Airport
+ KULM -> New Ulm Municipal Automatic Weather Observing / Reporting System
+ KJFK -> New York, Kennedy International Airport
+ KLGA -> New York, La Guardia Airport
+ KVTA -> Newark, Newark Heath Airport
+ KEWR -> Newark, Newark International Airport
+ KSWF -> Newburgh / Stewart
+ KJNW -> Newport
+ KONP -> Newport Municipal
+ KPHF -> Newport News, Newport News / Williamsburg International Airport
+ KUUU -> Newport, Newport State Airport
+ KEWK -> Newton Automatic Weather Observing / Reporting System
+ KTNU -> Newton Municipal
+ KIAG -> Niagara Falls, Niagara Falls International Airport
+ PAWN -> Noatak
+ K13A -> Nogales Automatic Meteorological Observing System 
+ PAOM -> Nome, Nome Airport
+ KNGU -> Norfolk, Naval Air Station
+ KORF -> Norfolk, Norfolk International Airport
+ KOFK -> Norfolk, Stefan Memorial Airport
+ KAQW -> North Adams, Harriman-And-West Airport
+ KOTH -> North Bend Automatic Weather Observing / Reporting System
+ KCRE -> North Myrtle Beach, Grand Strand Airport
+ KLBF -> North Platte, North Platte Regional Airport
+ PAOR -> Northway, Northway Airport
+ KSBD -> Norton Air Force Base / San Bern
+ KOWD -> Norwood, Norwood Memorial Airport
+ PAQT -> Nuiqsut, Nuiqsut Airport
+ KONL -> O'Neill / Baker Field
+ PHNA -> Oahu, Barbers Point, Naval Air Station
+ K76S -> Oak Harbor Airpark
+ KOAK -> Oakland, Metropolitan Oakland International Airport
+ KOCF -> Ocala Municipal Automatic Weather Observing / Reporting System
+ KNFG -> Oceanside, Camp Pendleton, Marine Corps Air Station
+ KODO -> Odessa, Odessa-Schlemeyer Field
+ KOLZ -> Oelwen
+ KOGD -> Ogden, Ogden-Hinckley Airport
+ KOGS -> Ogdensburg International
+ KPWA -> Oklahoma City, Wiley Post Airport
+ KOKC -> Oklahoma City, Will Rogers World Airport
+ KOJC -> Olathe, Johnson County Executive Airport
+ KIXD -> Olathe, New Century Aircenter
+ KOLM -> Olympia, Olympia Airport
+ KOFF -> Omaha / Offutt Air Force Base
+ KOMA -> Omaha, Eppley Airfield
+ KOMK -> Omak, Omak Airport
+ KONT -> Ontario, Ontario International Airport
+ KONO -> Ontario, Ontario Municipal Airport
+ KORC -> Orange City
+ KORE -> Orange, Orange Municipal Airport
+ KOGB -> Orangeburg, Orangeburg Municipal Airport
+ KODX -> Ord / Sharp Field
+ KSFB -> Orlando / Sanford Airport
+ KORL -> Orlando, Orlando Executive Airport
+ KMCO -> Orlando, Orlando International Airport
+ KOVE -> Oroville, Oroville Municipal Airport
+ KORB -> Orr
+ KOSH -> Oshkosh, Wittman Regional Airport
+ KFMH -> Otis Air National Guard Base
+ KOTM -> Ottumwa, Ottumwa Industrial Airport
+ KOWA -> Owatonna Automatic Weather Observing / Reporting System
+ KOWB -> Owensboro / Daviess
+ KOXC -> Oxford Automatic Weather Observing / Reporting System
+ KOXR -> Oxnard, Oxnard Airport
+ KPAH -> Paducah, Barkley Regional Airport
+ KPGA -> Page, Page Municipal Airport
+ KPSX -> Palacios Municipal
+ KPSP -> Palm Springs, Palm Springs Regional Airport
+ KTRM -> Palm Springs, Thermal Airport
+ KPMD -> Palmdale, Palmdale Production Flight Plant
+ PAAQ -> Palmer
+ KPAO -> Palo Alto Airport
+ KPFN -> Panama City, Panama City-Bay County International Airport
+ KPRX -> Paris / Cox Field
+ KPKD -> Park Rapids, Park Rapids Municipal Airport
+ KPKB -> Parkersburg / Wilson
+ KPPF -> Parsons, Tri-City Airport
+ KPQL -> Pascagoula, Lott International Airport
+ KPSC -> Pasco, Tri-Cities Airport
+ KPRB -> Paso Robles, Paso Robles Municipal Airport
+ KPTN -> Patterson Memorial
+ KNHK -> Patuxent River, Naval Air Station
+ KSFZ -> Pawtucket Automatic Weather Observing / Reporting System
+ PAXK -> Paxson
+ K0E4 -> Payson
+ KPSM -> Pease Air Force Base / Portsmouth
+ KPLN -> Pellston, Pellston Regional Airport
+ KPDT -> Pendleton, Eastern Oregon Regional At Pendleton Airport
+ KPEO -> Penn Yan, Penn Yan Airport
+ KNPA -> Pensacola, Naval Air Station
+ KPNS -> Pensacola, Pensacola Regional Airport
+ KPIA -> Peoria, Greater Peoria Regional Airport
+ K40J -> Perry-Foley, Perry-Foley Airport
+ PAPG -> Petersburg
+ KPTB -> Petersburg Automatic Weather Observing / Reporting System
+ KPNE -> Philadelphia, Northeast Philadelphia Airport
+ KPHL -> Philadelphia, Philadelphia International Airport
+ KPHP -> Philip, Philip Airport
+ KPBH -> Phillips / Price County
+ KAPG -> Phillips Army Air Field / Aberdeen
+ KPHX -> Phoenix, Phoenix Sky Harbor International Airport
+ KDVT -> Phoenix, Phoenix-Deer Valley Municipal Airport
+ KPIR -> Pierre, Pierre Regional Airport
+ K5I3 -> Pikeville Remote Automatic Meteorological Observing System 
+ KPIB -> Pine Belt Regional Automatic Weather Observing / Reporting System
+ KPBF -> Pine Bluff, Grider Field
+ KIEN -> Pine Ridge, Pine Ridge Airport
+ KGDP -> Pine Springs, Guadalupe Mountains National Park
+ KPQN -> Pipestone Automatic Weather Observing / Reporting System
+ KPGV -> Pitt-Greenville Airport
+ KAGC -> Pittsburgh, Allegheny County Airport
+ KPIT -> Pittsburgh, Pittsburgh International Airport
+ KPSF -> Pittsfield, Pittsfield Municipal Airport
+ KPLB -> Plattsburgh, Clinton County Airport
+ KPYM -> Plymouth, Plymouth Municipal Airport
+ KPIH -> Pocatello, Pocatello Regional Airport
+ PAPO -> Point Hope Automatic Weather Observing / Reporting System
+ PPIZ -> Point Lay
+ KNTD -> Point Mugu, Naval Air Warfare Center
+ K87Q -> Point Piedras Blanca
+ KPMP -> Pompano Beach, Pompano Beach Airpark
+ KPNC -> Ponca City, Ponca City Municipal Airport
+ KPTK -> Pontiac, Oakland County International Airport
+ KPOB -> Pope Air Force Base
+ KP02 -> Poplar Bluff, Mo.
+ KPOF -> Poplar Bluff, Poplar Bluff Municipal Airport
+ PAAP -> Port Alexander
+ PALJ -> Port Alsworth
+ KCLM -> Port Angeles, William R. Fairchild International Airport
+ PAPH -> Port Heiden
+ KP58 -> Port Hope
+ KT31 -> Port Isabel, Port Isabel-Cameron County Airport
+ KPTV -> Porterville Automatic Weather Observing / Reporting System
+ KPDX -> Portland, Portland International Airport
+ KPWM -> Portland, Portland International Jetport
+ KHIO -> Portland, Portland-Hillsboro Airport
+ KTTD -> Portland, Portland-Troutdale Airport
+ KPTW -> Pottstown, Pottstown Limerick Airport
+ KPOU -> Poughkeepsie, Dutchess County Airport
+ KPRC -> Prescott, Love Field
+ KPQI -> Presque Isle
+ KPUC -> Price, Carbon County Airport
+ KPNM -> Princeton
+ KPVD -> Providence, Green State Airport
+ KPVC -> Provincetown Automatic Weather Observing / Reporting System
+ KPVU -> Provo Municipal Automatic Weather Observing / Reporting System
+ KPUB -> Pueblo, Pueblo Memorial Airport
+ KPUW -> Pullman / Moscow, Pullman / Moscow Regional Airport
+ KPGD -> Punta Gorda, Charlotte County Airport
+ PAPT -> Puntilla
+ KNYG -> Quantico, Marine Corps Air Facility
+ KUIL -> Quillayute, Quillayute State Airport
+ KUIN -> Quincy Municipal / Baldwin
+ KRAC -> Racine, Batten International Airport
+ KRDU -> Raleigh / Durham, Raleigh-Durham International Airport
+ KRNM -> Ramona, Ramona Airport
+ KRND -> Randolph Air Force Base
+ KRAP -> Rapid City, Rapid City Regional Airport
+ KRTN -> Raton, Raton Municipal \ Crews Field Airport
+ KRWL -> Rawlins Municipal
+ KRDG -> Reading, Reading Regional Airport
+ KRBL -> Red Bluff, Red Bluff Municipal Airport
+ KRDK -> Red Oak
+ KRDD -> Redding, Redding Municipal Airport
+ KRDM -> Redmond Automatic Weather Observing / Reporting System
+ KRWF -> Redwood Falls, Redwood Falls Municipal Airport
+ KRNO -> Reno, Reno Tahoe International Airport
+ KRNT -> Renton, Renton Municipal Airport
+ KRXE -> Rexburg, Rexburg-Madison County Airport
+ KRHI -> Rhinelander, Rhinelander-Oneida County Airport
+ KRIC -> Richmond, Richmond International Airport
+ KLCK -> Rickenbacker Air National Guard Base
+ KRIL -> Rifle, Garfield County Regional Airport
+ KRIV -> Riverside / March Air Force Base
+ KRAL -> Riverside, Riverside Municipal Airport
+ KRIW -> Riverton, Riverton Regional Airport
+ KRZZ -> Roanoke Rapids, Halifax County Airport
+ KROA -> Roanoke, Roanoke Regional Airport
+ KROC -> Rochester, Greater Rochester International Airport
+ KRST -> Rochester, Rochester Municipal Airport
+ KUZA -> Rock Hill, Rock Hill - York County Airport
+ KRKS -> Rock Springs
+ KRFD -> Rockford, Greater Rockford Airport
+ KRKD -> Rockland / Knox Automatic Weather Observing / Reporting System
+ KRKP -> Rockport, Aransas County Airport
+ KRWI -> Rocky Mount, Rocky Mount-Wilson Airport
+ KROG -> Rogers Automatic Weather Observing / Reporting System
+ KVIH -> Rolla / Vichy, Rolla National Airport
+ KP88 -> Rome Automatic Meteorological Observing System
+ KRMG -> Rome, R. B. Russell Airport
+ KREO -> Rome, Rome
+ TJNR -> Roosevelt Roads, Naval Station
+ KROX -> Roseau Municipal Automatic Weather Observing / Reporting System
+ KRBG -> Roseburg, Roseburg Regional Airport
+ KROW -> Roswell, Roswell Industrial Air Center Airport
+ KSRR -> Ruidoso Regional
+ KRSL -> Russell, Russell Municipal Airport
+ KRUE -> Russellville, Russellville Municipal Airport
+ KRUT -> Rutland State Automatic Weather Observing / Reporting System
+ KRPE -> Sabine Pass
+ KSAC -> Sacramento, Sacramento Executive Airport
+ KSMF -> Sacramento, Sacramento Metropolitan Airport
+ KE74 -> Safford Automatic Meteorological Observing System
+ KSAD -> Safford, Safford Municipal Airport
+ KMBS -> Saginaw, MBSy International Airport
+ KSGU -> Saint George Automatic Weather Observing / Reporting System
+ K1V4 -> Saint Johnsbury
+ PASM -> Saint Mary's Automatic Weather Observing / Reporting System
+ PASN -> Saint Paul
+ KSLE -> Salem, McNary Field
+ KSLN -> Salina, Salina Municipal Airport
+ KSNS -> Salinas, Salinas Municipal Airport
+ KSBY -> Salisbury, Salisbury-Wicomico County Regional Airport
+ K27U -> Salmon
+ KSMN -> Salmon / Lemhi Automatic Weather Observing / Reporting System
+ KSLC -> Salt Lake City, Salt Lake City International Airport
+ KP92 -> Salt Point
+ KSJT -> San Angelo, Mathis Field
+ KSAT -> San Antonio, San Antonio International Airport
+ KSSF -> San Antonio, Stinson Municipal Airport
+ KSQL -> San Carlos Airport
+ KSEE -> San Diego / Gillespie
+ KSDM -> San Diego, Brown Field Municipal Airport
+ KNKX -> San Diego, Miramar, Naval Air Station
+ KMYF -> San Diego, Montgomery Field
+ KNZY -> San Diego, North Island, Naval Air Station
+ KSAN -> San Diego, San Diego International-Lindbergh Field
+ KSFO -> San Francisco, San Francisco International Airport
+ KRHV -> San Jose / Reid / Hillv
+ KSJC -> San Jose, San Jose International Airport
+ KSBP -> San Luis Obispo, San Luis Obispo County-Mc Chesney Field
+ KNSI -> San Nicholas Island
+ PASD -> Sand Point
+ KSDB -> Sandberg
+ KP07 -> Sanderson
+ KSFM -> Sanford Municipal Automatic Weather Observing / Reporting System
+ KSNA -> Santa Ana, John Wayne Airport-Orange County Airport
+ KSBA -> Santa Barbara, Santa Barbara Municipal Airport
+ KSAF -> Santa Fe, Santa Fe County Municipal Airport
+ KSMX -> Santa Maria, Santa Maria Public Airport
+ KSMO -> Santa Monica, Santa Monica Municipal Airport
+ KSTS -> Santa Rosa, Sonoma County Airport
+ KSLK -> Saranac Lake, Adirondack Regional Airport
+ KSRQ -> Sarasota / Bradenton, Sarasota-Bradenton International Airport
+ KANJ -> Sault Ste. Marie
+ KSAV -> Savannah, Savannah International Airport
+ PASA -> Savoonga Airport
+ KSPB -> Scappoose, Scappoose Industrial Airpark
+ KSCH -> Schenectady Airport
+ KBLV -> Scott Air Force Base / Belleville
+ KBFF -> Scottsbluff, Heilig Field
+ KSDL -> Scottsdale, Scottsdale Airport
+ KBFI -> Seattle, Seattle Boeing Field
+ KSEA -> Seattle, Seattle-Tacoma International Airport
+ KDMO -> Sedalia, Sedalia Memorial Airport
+ PASK -> Selawik
+ KMTC -> Selfridge Air National Guard Base
+ KSEG -> Selinsgrove, Penn Valley Airport
+ PAWD -> Seward
+ KSXT -> Sexton Summit,
+ KGSB -> Seymour-Johnson Air Force Base
+ KEZF -> Shannon Airport
+ KSSC -> Shaw Air Force Base
+ KSBM -> Sheboygan, Sheboygan County Memorial Airport
+ KGEZ -> Shelbyville, Shelbyville Municipal Airport
+ KSHL -> Sheldon
+ KO87 -> Shelter Cove
+ KSHN -> Shelton, Sanderson Field
+ PASY -> Shemya, Eareckson As
+ KSDA -> Shenandoah Municipal
+ KSHR -> Sheridan, Sheridan County Airport
+ KF39 -> Sherman-Denison
+ PASH -> Shishmaref Automatic Weather Observing / Reporting System
+ KSOW -> Show Low Municipal
+ KDTN -> Shreveport, Shreveport Downtown Airport
+ KSHV -> Shreveport, Shreveport Regional Airport
+ KSNY -> Sidney, Sidney Municipal Airport
+ KSDY -> Sidney-Richland
+ KSLG -> Siloam Spring Automatic Weather Observing / Reporting System
+ KBFW -> Silver Bay
+ KSUX -> Sioux City, Sioux Gateway Airport
+ KFSD -> Sioux Falls, Foss Field
+ K8D3 -> Sisseton, Sisseton Municipal Airport
+ PASI -> Sitka, Sitka Airport
+ PAGY -> Skagway
+ PASW -> Skwentna
+ PADT -> Slana Airport
+ KASD -> Slidell, Slidell Airport
+ KMQY -> Smyrna
+ PALK -> Snowshoe Lake
+ KU78 -> Soda Springs / Tigert
+ PASX -> Soldotna
+ KSME -> Somerset Automatic Weather Observing / Reporting System
+ KN52 -> Somerville, Somerset Airport
+ KSBN -> South Bend, Michiana Regional Airport
+ KTVL -> South Lake Tahoe, Lake Tahoe Airport
+ K7R8 -> South Marsh Island
+ KS58 -> South Timbalier
+ KSOP -> Southern Pines Automatic Weather Observing / Reporting System
+ PASV -> Sparrevohn Airways Facilities Sector
+ KSPA -> Spartanburg Memorial
+ KSPF -> Spearfish / Clyde Ice
+ KSPW -> Spencer, Spencer Municipal Airport
+ KP35 -> Spickard
+ KSFF -> Spokane, Felts Field
+ KGEG -> Spokane, Spokane International Airport
+ KASG -> Springdale Municipal
+ KSPI -> Springfield, Capital Airport
+ KSPD -> Springfield, Comanche National Grassland
+ KVSF -> Springfield, Hartness State Springfield Airport
+ KSGF -> Springfield, Springfield Regional Airport
+ KSET -> St. Charles, St. Charles County Smartt Airport
+ KPHN -> St. Clair County International
+ KSTC -> St. Cloud, St. Cloud Municipal Airport
+ KSTJ -> St. Joseph, Rosecrans Memorial Airport
+ KSTL -> St. Louis, Lambert-St. Louis International Airport
+ KSUS -> St. Louis, Spirit Of St. Louis Airport
+ KSTP -> St. Paul, St. Paul Downtown Holman Field
+ KPIE -> St. Petersburg / Clearwater, St. Petersburg / Clearwater International Airport
+ KSPG -> St. Petersburg, Whitted Airport
+ KSMP -> Stampede Pass
+ KUNV -> State College
+ KSHD -> Staunton / Shenandoah
+ KSBS -> Steamboat Springs
+ KSQI -> Sterling Rockfalls
+ KSWO -> Stillwater, Stillwater Municipal Airport
+ KSCK -> Stockton, Stockton Metropolitan Airport
+ KSLB -> Storm Lake
+ KSUE -> Sturgeon Bay
+ KSGT -> Stuttgart Automatic Weather Observing / Reporting System
+ KFWN -> Sussex, Sussex Airport
+ PAJV -> Sutton
+ KNJM -> Swansboro, Bogue Field, Marine Corps Auxiliary Landing Field
+ KSYR -> Syracuse, Syracuse Hancock International Airport
+ KTCM -> Tacoma / McChord Air Force Base
+ KTIW -> Tacoma, Tacoma Narrows Airport
+ PATK -> Talkeetna
+ KTLH -> Tallahassee, Tallahassee Regional Airport
+ KTPA -> Tampa, Tampa International Airport
+ PATA -> Tanana
+ KSKX -> Taos Municipal Airport Automatic Weather Observing / Reporting System
+ PATL -> Tatalina Automatic Weather Observing / Reporting System
+ KTAN -> Taunton, Taunton Municipal Airport
+ KTQE -> Tekamah, Tekamah Municipal Airport
+ KTEX -> Telluride Regional
+ KTPL -> Temple / Miller Automatic Weather Observing / Reporting System
+ KHUF -> Terre Haute, Hulman Regional Airport
+ KTRL -> Terrell, Terrell Municipal Airport
+ KTEB -> Teterboro, Teterboro Airport
+ KTXK -> Texarkana, Texarkana Regional-Webb Field
+ KDLS -> The Dalles, The Dalles Municipal Airport
+ KTVF -> Thief River Automatic Weather Observing / Reporting System
+ K3TH -> Thompson Falls
+ PATC -> Tin City Airways Facilities Sector
+ KTIK -> Tinker Air Force Base
+ KTIX -> Titusville
+ PATG -> Togiac Village Automatic Weather Observing / Reporting System
+ KTDZ -> Toledo, Metcalf Field
+ KTOL -> Toledo, Toledo Express Airport
+ KTDO -> Toledo-Winlock Memorial
+ KTPH -> Tonopah, Tonopah Airport
+ KT62 -> Tooele
+ KFOE -> Topeka, Forbes Field
+ KTOP -> Topeka, Philip Billard Municipal Airport
+ KTOA -> Torrance Municipal
+ K4SL -> Torreon
+ KTOR -> Torrington, Torrington Municipal Airport
+ KTVC -> Traverse City, Cherry Capital Airport
+ KTTN -> Trenton, Mercer County Airport
+ KTAD -> Trinidad / Animas Co.
+ KTOI -> Troy, Troy Municipal Airport
+ KTRK -> Truckee-Tahoe
+ KTCS -> Truth Or Consequences, Truth Or Consequences Municipal Airport
+ KTUS -> Tucson, Tucson International Airport
+ KTCC -> Tucumcari, Tucumcari Municipal Airport
+ KRVS -> Tulsa, Jones Jr. Airport
+ KTUL -> Tulsa, Tulsa International Airport
+ KTUP -> Tupelo, Tupelo Municipal-Lemons Airport
+ KTCL -> Tuscaloosa, Tuscaloosa Municipal Airport
+ KNXP -> Twenty-Nine Palms, Marine Corps Air-Ground Combat Center
+ KTWF -> Twin Falls, Joslin Field-Magic Valley Regional Airport
+ KTWM -> Two Harbors
+ KTYR -> Tyler, Tyler Pounds Field
+ KPAM -> Tyndall Air Force Base
+ KUKI -> Ukiah Municipal Automatic Weather Observing / Reporting System
+ PAUM -> Umiat
+ PAUN -> Unalakleet
+ KUCA -> Utica, Oneida County Airport
+ KVCB -> Vacaville, Nut Tree Airport
+ PAVD -> Valdez 2
+ KVLD -> Valdosta Regional
+ KVTN -> Valentine, Miller Field
+ KVPS -> Valparaiso / Eglin Air Force Base
+ KVPZ -> Valparaiso, Porter County Municipal Airport
+ KVNY -> Van Nuys, Van Nuys Airport
+ KEND -> Vance Air Force Base / Enid
+ KVUO -> Vancouver, Pearson Airpark
+ KVBG -> Vandenberg Air Force Base
+ KXVW -> Vandenberg Range
+ K7R1 -> Venice, Venice Heliport
+ KVEL -> Vernal, Vernal Airport
+ KVRB -> Vero Beach, Vero Beach Municipal Airport
+ KTVR -> Vicksburg, Vicksburg / Tallulah Regional Airport
+ KVCT -> Victoria, Victoria Regional Airport
+ KMVY -> Vineyard Haven, Marthas Vineyard Airport
+ KNTU -> Virginia Beach, Oceana, Naval Air Station
+ KBCB -> Virginia Tech Airport
+ KVIS -> Visalia Municipal Automatic Weather Observing / Reporting System
+ KVOK -> Volk / Camp Douglas
+ KACT -> Waco, Waco Regional Airport
+ PAWI -> Wainwright Distant Early Warning 
+ PAFB -> Wainwright U. S. Army Airfield
+ KAKQ -> Wakefield, Wakefield Municipal Airport
+ KALW -> Walla Walla, Walla Walla Regional Airport
+ KWAL -> Wallops Island, Wallops Flight Facility Airport
+ KARG -> Walnut Ridge Automatic Weather Observing / Reporting System 
+ KWRB -> Warner Robins Air Force Base
+ KAWG -> Washington
+ KAFJ -> Washington Automatic Weather Observing / Reporting System 
+ KDCA -> Washington DC, Reagan National Airport
+ KIAD -> Washington DC, Washington-Dulles International Airport
+ KALO -> Waterloo, Waterloo Municipal Airport
+ KRYV -> Watertown
+ KART -> Watertown, Watertown International Airport
+ KATY -> Watertown, Watertown Municipal Airport
+ KWVL -> Waterville Automatic Weather Observing / Reporting System
+ KWVI -> Watsonville, Watsonville Municipal Airport
+ KAUW -> Wausau, Wausau Downtown Airport
+ KEBS -> Webster City
+ KEAT -> Wenatchee, Pangborn Memorial Airport
+ KENV -> Wendover / Air Force Auxillary Field
+ KPBI -> West Palm Beach, Palm Beach International Airport
+ KUNO -> West Plains, West Plains Municipal Airport
+ KWYS -> West Yellowstone
+ KBAF -> Westfield, Barnes Municipal Airport
+ KFOK -> Westhampton Beach, The Gabreski Airport
+ KETH -> Wheaton NDB Automatic Weather Observing / Reporting System
+ PHHI -> Wheeler Air Force Base / Oahu
+ KHLG -> Wheeling, Wheeling Ohio County Airport
+ KNUW -> Whidbey Island, Naval Air Station
+ KHPN -> White Plains, Westchester County Airport
+ K2C2 -> White Sands
+ KHIE -> Whitefield, Mount Washington Regional Airport
+ KSZL -> Whiteman Air Force Base
+ PAWR -> Whittier
+ KSPS -> Wichita Falls, Sheppard Air Force Base
+ KAAO -> Wichita, Colonel James Jabara Airport
+ KICT -> Wichita, Wichita Mid-Continent Airport
+ KAWH -> Wildhorse Reservation / Elko
+ KWWD -> Wildwood Automatic Weather Observing / Reporting System
+ KAVP -> Wilkes-Barre - Scranton, Wilkes-Barre / Scranton International Airport
+ KIWA -> Williams Air Force Base / Chandler
+ KIPT -> Williamsport, Williamsport-Lycoming County Airport
+ KIJD -> Willimantic, Windham Airport
+ KISN -> Williston, Sloulin Field International Airport
+ KILL -> Willmar / Rice Automatic Weather Observing / Reporting System
+ KLNN -> Willoughby
+ PAUO -> Willow Airport 
+ KNXX -> Willow Grove, Naval Air Station
+ KILN -> Wilmington, Airborne Airpark Airport
+ KILG -> Wilmington, New Castle County Airport
+ KILM -> Wilmington, New Hanover International Airport
+ KOKV -> Winchester Regional
+ KRQE -> Window Rock, Window Rock Airport
+ KBDL -> Windsor Locks, Bradley International Airport
+ KWLD -> Winfield / Arkansas City, Strother Field
+ KINK -> Wink, Winkler County Airport
+ KWMC -> Winnemucca, Winnemucca Municipal Airport
+ KSFD -> Winner - Bob Wiley Field
+ KONA -> Winona Municipal Automatic Weather Observing / Reporting System
+ KINW -> Winslow, Winslow Municipal Airport
+ KINT -> Winston Salem, Smith Reynolds Airport
+ KGIF -> Winter Haven, Winter Haven's Gilbert Airport
+ KIWI -> Wiscasset, Wiscasset Airport
+ KISW -> Wisconsin Rapids, Alexander Field South Wood County Airport
+ KLNP -> Wise / Lonesome Pine
+ KOLF -> Wolf Point, Clayton Airport
+ KBJJ -> Wooster, Wayne County Airport
+ KORH -> Worcester, Worcester Regional Airport
+ KWRL -> Worland, Worland Municipal Airport
+ KOTG -> Worthington Automatic Weather Observing / Reporting System
+ PAWG -> Wrangell
+ KOSC -> Wurtsmith Air Force Base
+ KYKM -> Yakima, Yakima Air Terminal
+ PAYA -> Yakutat
+ KYKN -> Yankton Automatic Weather Observing / Reporting System
+ KP60 -> Yellowstone Lake
+ KTHV -> York, York Airport
+ KYNG -> Youngstown, Youngstown-Warren Regional Airport
+ KYUM -> Yuma / Yuma International
+ KNYL -> Yuma, Marine Corps Air Station
+ KZZV -> Zanesville, Zanesville Municipal Airport
++
+-Uruguay
+ SUAG -> Artigas
+ SULS -> Capitan Corbeta
+ SUMU -> Carrasco
+ SUCA -> Colonia
+ SUDU -> Durazno
+ SUPE -> Maldonado / Punta Est
+ SUAA -> Melilla
+ SUPU -> Paysandu
+ SURV -> Rivera
+ SUSO -> Salto
+ SUTB -> Tacuarembo
++
+-Uzbekistan
+ UTSS -> Samarkand
+ UTTT -> Tashkent
+ UTST -> Termez
++
+-Vanuatu
+ NVVV -> Bauerfield Efate 
++
+-Venezuela
+ SVAC -> Acarigua
+ SVBC -> Barcelona
+ SVBI -> Barinas
+ SVBM -> Barquisimeto
+ SVCL -> Calabozo
+ SVFM -> Caracas / La Carlota
+ SVMI -> Caracas / Maiquetia Aerop. Intl. Simon Bolivar
+ SVCS -> Caracas / Oscar Macha
+ SVCB -> Ciudad Bolivar
+ SVCR -> Coro
+ SVCU -> Cumana
+ SVGU -> Guanare
+ SVPR -> Guayana / Manuel Car 
+ SVGI -> Guiria
+ SVHG -> Higuerote
+ SVLF -> La Fria
+ SVMC -> Maracaibo-La Chinita
+ SVBS -> Maracay-B. A. Sucre
+ SVMG -> Margarita / Del Carib
+ SVMT -> Maturin
+ SVMN -> Mene Grande
+ SVMD -> Merida
+ SVMP -> Metropolitano Private 
+ SVJC -> Paraguana / Josefa
+ SVPM -> Paramillo Private 
+ SVPC -> Pto. Cabello
+ SVPA -> Puerto Ayacucho
+ SVSA -> San Antonio Del Tachira
+ SVSP -> San Felipe
+ SVSR -> San Fernando De Apure
+ SVST -> San Tome Private 
+ SVSZ -> Santa Barbara Zulia
+ SVSE -> Santa Elena De Uairen
+ SVSO -> Sto. Domingo
+ SVTM -> Tumeremo
+ SVVA -> Valencia
+ SVVL -> Valera
+ SVVP -> Valle De La Pascua
++
+-Viet Nam
+ VVDN -> Da Nang
+ VVNB -> Ha Noi
+ VVTS -> Ho Chi Minh
++
+-Virgin Islands, British
+ TUPJ -> Beef Island, Tortola
++
+-Virgin Islands, U.S.
+ TIST -> Charlotte Amalie, Cyril E. King International Airport, Saint Thomas
++
+-Yemen
+ OYAA -> Aden
+ OYHD -> Hodeidah
+ OYMB -> Marib 
+ OYSN -> Sana'A
+ OYSY -> Sayun
+ OYSQ -> Socotra
+ OYTZ -> Taiz
++
+-Yugoslavia
+ LYBE -> Beograd / Surcin
+ LYNI -> Nis
+ LYTI -> Podgorica / Golubovci
+ LYPG -> Podgorica Titograd 
+ LYPR -> Pristina
+ LQSA -> Sarajevo / Butmir
+ LYTV -> Tivat
++
+-Zaire
+ FZAA -> Kinshasa / N'Djili
++
+-Zambia
+ FLLI -> Livingstone
+ FLLS -> Lusaka Internationalairport
+ FLND -> Ndola
++
+-Zimbabwe
+ FVCZ -> Buffalo Range
+ FVBU -> Bulawayo Airport
+ FVTL -> Gweru
+ FVHA -> Harare Kutsaga 
+ FVMV -> Masvingo
+ FVFA -> Victoria Falls
++

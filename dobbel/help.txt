@@ -1,0 +1,1 @@
+dobbel [xdn] :rolt met x n-zijdige dobbelstenen. default is 1 rol met een 6-zijdige dobbelsteen (1d6)

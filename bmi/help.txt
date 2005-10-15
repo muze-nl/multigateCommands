@@ -1,0 +1,1 @@
+bmi <lengte in cm> <gewicht in kg>: berekent body-mass-index (vb: bmi 189 81)

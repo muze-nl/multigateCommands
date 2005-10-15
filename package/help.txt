@@ -1,0 +1,1 @@
+package <file>: searches in which debian package this file is located (stable; i386). maxresults = 5 (partial filenames are allowed)

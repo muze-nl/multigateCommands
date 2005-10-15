@@ -1,0 +1,1 @@
+getip <webchat encoded ip>: geeft echte ip

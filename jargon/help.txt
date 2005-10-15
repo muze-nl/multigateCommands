@@ -1,0 +1,1 @@
+jargon [zoekterm] - geeft de jargon file entry van [zoekterm]

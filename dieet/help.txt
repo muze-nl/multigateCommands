@@ -1,0 +1,2 @@
+dieet [add <something>] - zonder parameters een random dieetidee
+dieet [count] [keyword] - zoekt een idee met keyword erin, anders random; count telt alleen de resultaten 

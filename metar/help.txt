@@ -1,0 +1,1 @@
+metar <4-lettercode>: geeft weerrapport van de gevraagde locatie. (lokaties: http://www.gironet.nl/home/aviator1/icao4/icao4.htm)

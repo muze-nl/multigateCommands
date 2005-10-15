@@ -1,0 +1,1 @@
+hooikoorts: geeft de hooikoorts-status voor vandaag terug

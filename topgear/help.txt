@@ -1,0 +1,1 @@
+topgear [add <something>] - without parameters it shows a random quote

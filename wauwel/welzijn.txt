@@ -1,0 +1,3 @@
+A = new Array("creatief ","een stukje ","holistisch ","existentieel ","lichamelijk ","geestelijk ","spiritueel ","religieus ","dynamisch ");
+B = new Array("omvattend ","vervullend ","sociaal ","vermenselijkend ","wezenlijk ","groepsmatig ","natuurlijk ","binnenwerelds ","innerlijk ","kritisch ");
+C = new Array("aanreiken","duiden","omvatten","invoelen","verwerken","anders-zijn","jezelf-zijn","naar-de-ander-gaan","verwerkelijken","vermaatschappelijken");

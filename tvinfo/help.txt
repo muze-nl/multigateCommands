@@ -1,0 +1,1 @@
+tvinfo <zender>: Beschrijving van huidige programma op zender.

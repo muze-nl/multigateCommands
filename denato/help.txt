@@ -1,0 +1,1 @@
+denato: plakt alle eerste letters van alle woorden aan elkaar.

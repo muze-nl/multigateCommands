@@ -1,0 +1,81 @@
+
+   Noteringswijze guldens: VV/NLG
+   Contante Noteringen, Vreemde Valuta t.o.v. NLG
+   Bij de samenstelling van deze koerslijst is de nodige zorgvuldigheid
+   in acht genomen.
+   ABN AMRO Bank N.V. aanvaardt geen enkele aansprakelijkheid voor
+   drukfouten of onjuistheden.
+   Aan deze gegevens in deze koerslijst kunnen geen rechten worden
+   ontleend.
+   
+   
+   vrijdag 05 oktober 2001 13:30 uur
+   Land              per ISO  Aankoop   Midden  Verkoop
+   Aruba               1 AWG   1.3437   1.3520   1.3603
+   Australië           1 AUD   1.2142   1.2175   1.2209
+   Bahrein             1 BHD   6.3876   6.4061   6.4248
+   Canada              1 CAD   1.5319   1.5346   1.5373
+   China Renminbi    100 CNY      #NA      #NA      #NA
+   Cyprus              1 CYP   n.v.t.   3.8662   3.8832
+   
+   Denemarken        100 DKK  29.6098  29.6397  29.6696
+   Egypte              1 EGP   0.5651   0.5680   0.5709
+   Engeland            1 GBP   3.5567   3.5595   3.5624
+   Filipijnen        100 PHP   n.v.t.   4.6887   4.9522
+   Hongkong          100 HKD  30.7351  30.8211  30.9076
+   IJsland           100 ISK   2.3258   2.3444   2.3632
+   
+   India             100 INR   n.v.t.   5.0544   5.1428
+   Indonesië       10000 IDR      #NA      #NA      #NA
+   Israël              1 ILS   n.v.t.   0.5551   0.5593
+   Japan           10000 JPY 199.9737 200.1553 200.3373
+   Kenia             100 KES   2.9580   3.0607   3.1708
+   Koeweit             1 KWD   7.8986   7.9270   7.9556
+   
+   Malawi              1 MWK   n.v.t.   0.0394   0.0412
+   Malta               1 MTL   n.v.t.   5.5093   5.5300
+   Marokko           100 MAD   n.v.t.  21.4787  21.7973
+   Mexico            100 MXN  24.4043  25.0992  25.8348
+   Ned.Antillen        1 ANG   1.3437   1.3520   1.3603
+   Nieuwzeeland        1 NZD   0.9938   0.9972   1.0005
+   
+   Noorwegen         100 NOK  27.3413  27.3753  27.4093
+   Oman                1 OMR   6.2605   6.2784   6.2963
+   Pakistan          100 PKR   n.v.t.   3.8526   3.9564
+   Polen             100 PLN   n.v.t.  57.9924  58.2992
+   Qatar             100 QAR  65.6844  66.0783  66.4769
+   Saudiarabië       100 SAR  63.7832  64.1546  64.5303
+   
+   Singapore           1 SGD   1.3429   1.3470   1.3511
+   Slovenië          100 SIT   n.v.t.   1.0063   1.0298
+   Slowakijë         100 SKK   5.0084   5.0660   5.1249
+   Sri Lanka         100 LKR   n.v.t.   2.6712   2.7720
+   Suriname            1 SRG   n.v.t.   0.0011   0.0011
+   Thailand          100 THB   5.3038   5.4013   5.5024
+   
+   Tsjechië          100 CZK   6.5102   6.5489   6.5881
+   Tunesië             1 TND   n.v.t.   1.6952   1.7083
+   Turkije           100 TRL   0.0001   0.0001   0.0002
+   Ver.Ar.Emiraten   100 AED  65.1022  65.4892  65.8807
+   Ver. Staten         1 USD   2.4037   2.4063   2.4090
+   Zimbabwe            1 ZWD   n.v.t.   0.0441   0.0459
+   
+   Zuidafrika          1 ZAR   0.2562   0.2577   0.2593
+   Zweden            100 SEK  22.5790  22.6022  22.6254
+   Zwitserland       100 CHF 148.0988 148.1984 148.2981
+   
+   Meer Actuele Koersen
+   
+   [1][prodpijltje.gif] Noteringswijze direct: Euro/VV (1 euro in vreemde
+   valuta)
+   [2][prodpijltje.gif] Noteringswijze guldens: VV/NLG (vreemde valuta in
+   guldens)
+   [3][prodpijltje.gif] Termijnnoteringen (agio / disagio)
+   [4][prodpijltje.gif] Bankpapier & Reischeques
+
+References
+
+   1. http://www.abnamro.nl/ibs/valutacentrum/eurovv.html
+   2. http://www.abnamro.nl/ibs/valutacentrum/vvnlg.html
+   3. http://www.abnamro.nl/ibs/valutacentrum/termijn.html
+   4. http://www.abnamro.nl/ibs/valutacentrum/bank.html

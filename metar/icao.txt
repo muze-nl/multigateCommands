@@ -1,0 +1,3657 @@
+10AK    Nuiqsut, Nuiqsut Airport  AK  United States
+AGGH    Honiara / Henderson  Solomon Islands
+AGGL    Santa Cruz  Solomon Islands
+AGGM    Munda  Solomon Islands
+ANAU    Nauru Airport  Nauru
+AYMD    Madang  Papua New Guinea
+AYPY    Moresby  Papua New Guinea
+AYWK    Wewak  Papua New Guinea
+BGAM    Tasiilaq  Greenland
+BGAS    Angisoq  Greenland
+BGAT    Aputiteeq  Greenland
+BGBW    Narsarsuaq  Greenland
+BGCO    Constable Pynt  Greenland
+BGDB    Daneborg  Greenland
+BGDH    Danmarkshavn  Greenland
+BGEM    Egedesminde  Greenland
+BGFH    Frederikshaab  Greenland
+BGGD    Groennedal  Greenland
+BGGH    Godthaab / Nuuk  Greenland
+BGHB    Holsteinsborg  Greenland
+BGJH    Julianehaab  Greenland
+BGJN    Jacobshavn Lufthavn  Greenland
+BGKK    Kulusuk Lufthavn  Greenland
+BGKT    Cape Tobin Automated Reporting Station   Greenland
+BGPC    Prins Christian Sund  Greenland
+BGSC    Scoresbysund  Greenland
+BGSF    Sdr Stroemfjord  Greenland
+BGTL    Thule A. B.  Greenland
+BIAR    Akureyri  Iceland
+BIEG    Egilsstadir  Iceland
+BIGR    Grimsey  Iceland
+BIHN    Akurnes  Iceland
+BIKF    Keflavikurflugvollur  Iceland
+BIRG    Raufarhofn  Iceland
+BIRK    Reykjavik  Iceland
+BIST    Stykkisholmur  Iceland
+BIVM    Vestmannaeyjar  Iceland
+BIVO    Skjaldthingsstadir  Iceland
+BIX1    Biloxi, Keesler Air Force Base, Navu  MS  United States
+BIX2    Biloxi, Keesler Air Force Base, Navu  MS  United States
+BIX3    Biloxi, Keesler Air Force Base, Navu  MS  United States
+CTPP    Camp Canargus  Haiti
+CWAC    Nitinat Lake Meteorological Aeronautical Presentation System   Canada
+CWAD    Cape Mudge Light House   Canada
+CWAE    Whistler   Canada
+CWAF    Ile Rouge Meteorological Aeronautical Presentation System   Canada
+CWAG    La Scie, Nfld.  Canada
+CWAH    Amherst, N. S.  Canada
+CWAJ    Erieau Meteorological Aeronautical Presentation System   Canada
+CWAN    Amphitrite Point  Canada
+CWAQ    Coronach Spc  Canada
+CWAR    Argentia, Nfld  Canada
+CWAS    Pam Rocks  Canada
+CWAU    Dryad Point Light House   Canada
+CWAV    Sundre  Canada
+CWAX    St. Anthony, Nfld.  Canada
+CWBA    Banff, Alta.  Canada
+CWBE    Killarney Meteorological Aeronautical Presentation System   Canada
+CWBF    Burgeo Automated Reporting Station   Canada
+CWBG    Big Creek   Canada
+CWBI    Britt, Ont.  Canada     P
+CWBJ    Inner Whalebacks  Canada
+CWBK    Caribou Point Meteorological Aeronautical Presentation System   Canada
+CWBL    Bachelors Island Automated Reporting Station   Canada
+CWBM    Beaverlodge  Canada
+CWBO    Brooks Automatic Weather Reporting System   Canada
+CWBR    B, R  Canada
+CWBT    Longue Point De Mongue  Canada
+CWBV    Beaven Island, N. S.  Canada
+CWBY    Port Menier, Que.  Canada
+CWBZ    St Anicet  Canada
+CWCA    Cartwright, Nfld.  Canada
+CWCB    Nanakwa Shoals  Canada
+CWCD    Saskatoon Kernen  Canada
+CWCH    Atikokan Automated Reporting Station   Canada
+CWCI    Caribou Island, Ont.  Canada
+CWCJ    Pukaskwa   Canada
+CWCL    Clinton, B. C.  Canada
+CWCM    Carberry Mcdc  Canada
+CWCN    Malloch Dome Automatic Weather Reporting System   Canada
+CWCO    Collingwood Automatic Weather Reporting System   Canada
+CWCQ    Chatham Automatic Weather Reporting System   Canada
+CWCS    Cote-Ste-Cath Mot  Canada
+CWCT    Coronation Automated Reporting Station   Canada
+CWCU    Barrie, Ont.  Canada
+CWCX    Clut Lake Automated Reporting Station   Canada
+CWDA    Englee Meteorological Aeronautical Presentation System   Canada
+CWDB    Burwash Automatic Weather Reporting System   Canada
+CWDC    Uranium City, Sask.  Canada
+CWDE    Lac Benoit  Canada
+CWDF    Oliphant \ Ont  Canada
+CWDH    Daniel's Harbour, Nfld  Canada
+CWDI    Badger, Nfld  Canada
+CWDJ    Regina University  Canada
+CWDK    Claresholm Automatic Weather Reporting System   Canada
+CWDL    Dease Lake B. C.  Canada
+CWDM    Chevery, Que.  Canada
+CWDN    Wasaga Beach Automatic Weather Reporting System   Canada
+CWDO    Twillingate Meteorological Aeronautical Presentation System   Canada
+CWDP    Manouane-Est Automated Reporting Station   Canada
+CWDQ    La Tuque  Canada
+CWDS    St. Lawrence, Nfld.  Canada
+CWDT    Chute Des Passes  Canada
+CWDU    Cop Upper  Canada
+CWDV    Upsala, Ont.  Canada
+CWDZ    Drumheller East  Canada
+CWEA    Pinawa Automatic Weather Reporting System   Canada
+CWEB    Estevan Point, B. C.  Canada
+CWEC    Welcome Island  Canada
+CWEE    Chamouchouane Automatic Weather Reporting System  Canada
+CWEF    Saint Paul Island Meteorological Aeronautical Presentation System   Canada
+CWEG    Alberta Weather Centre   Canada
+CWEH    Eastend Cypress, Sask  Canada
+CWEI    Melita, Man  Canada
+CWEJ    Bow Drill Iii  Canada
+CWEK    Grey Islet Meteorological Aeronautical Presentation System   Canada
+CWEL    Entrance Island Automatic Weather Reporting System   Canada
+CWEO    Lac Eon, Que  Canada
+CWEP    East Point, P. E. I  Canada
+CWEQ    Swan River, Man.  Canada
+CWER    Ile D'Orleans Automated Reporting Station   Canada
+CWET    Egbert Meteorological Aeronautical Presentation System   Canada
+CWEU    Eureka, N. W. T.  Canada
+CWEV    Ellice River Automated Reporting Station   Canada
+CWEW    L'Assomption  Canada
+CWEZ    Saturna Island Meteorological Aeronautical Presentation System   Canada
+CWFD    Cape Dyer, N. W. T.  Canada
+CWFE    Elk Island National Park  Canada
+CWFF    Melfort Automatic Weather Reporting System   Canada
+CWFG    Sartine Island Meteorological Aeronautical Presentation System   Canada
+CWFH    St. Shotts  Canada
+CWFJ    Cardston Automated Reporting Station   Canada
+CWFL    Fort Reliance   Canada
+CWFM    Chatham Point Lighthouse   Canada
+CWFN    Cree Lake Meteorological Aeronautical Presentation System   Canada
+CWFP    Nain  Canada
+CWFQ    Frelighsburg  Canada
+CWFR    Horsefly River, Bc  Canada
+CWFU    Little Macatina  Canada
+CWFW    Baie Comeau  Canada
+CWFX    Colville Lake  Canada
+CWFY    Conne River  Canada
+CWFZ    Fort Reliance, Nwt  Canada
+CWGB    Ballenas Island Automatic Weather Reporting System   Canada
+CWGD    Goderich Automatic Weather Reporting System   Canada
+CWGF    Garden River Automatic Weather Reporting System   Canada
+CWGH    Grenadier Island   Canada
+CWGJ    Montreal River Radar Site  Canada
+CWGL    Lagoon City   Canada
+CWGM    Waterton Park Gate  Canada
+CWGN    Gretna, Man.  Canada
+CWGP    Pemberton Automatic Weather Reporting System   Canada
+CWGQ    Roquemaure  Canada
+CWGR    Iles-De-La-Madelein  Canada
+CWGT    Sisters Island Automatic Weather Reporting System   Canada
+CWGV    Carp Radar Site  Canada
+CWGW    Sparwood Automatic Weather Reporting System   Canada
+CWGY    Esther   Canada
+CWGZ    Grise Fiord Airport  Canada
+CWHA    Highvale  Canada
+CWHC    Vancouver Automatic Weather Reporting System   Canada
+CWHE    Ellerslie  Canada
+CWHH    Hunters Point Mar  Canada
+CWHI    Three Hills  Canada
+CWHL    Holland Rock Automatic Weather Reporting System   Canada
+CWHM    Varennes  Canada
+CWHN    Jimmy Lake   Canada
+CWHO    Hopedale Meteorological Aeronautical Presentation System   Canada
+CWHP    Heath Point Meteorological Aeronautical Presentation System   Canada
+CWHS    Bernard Harbour  Canada
+CWHT    Haines Junction  Canada
+CWHU    Star Brook  Canada
+CWHV    Beauceville  Canada
+CWHW    Comfort Cove, Nfld.  Canada
+CWHY    Mont-Orford  Canada
+CWIC    Isachsen Meteorological Aeronautical Presentation System   Canada
+CWID    Fort Providence  Canada
+CWIE    Indian River  Canada
+CWIF    Quatsino Light Station   Canada
+CWII    Victoria Beach  Canada
+CWIJ    Lupin, N. W. T.  Canada
+CWIK    Broadview, Sask.  Canada
+CWIM    Upsala Radar Site  Canada
+CWIO    Iskut River   Canada
+CWIQ    Primrose Lake  Canada
+CWIR    Victoria Marine   Canada
+CWIT    Saint Clothilde Automated Reporting Station   Canada
+CWIW    Watrous East Automated Reporting Station   Canada
+CWIX    Mistook Automated Reporting Station   Canada
+CWIY    St Leonard Automatic Weather Reporting System  Canada
+CWIZ    L'Acadie  Canada
+CWJA    Jasper, Alta.  Canada
+CWJC    Ennadai Lake Meteorological Aeronautical Presentation System   Canada
+CWJD    Grand Rapids, Man.  Canada
+CWJH    Southend Automatic Weather Reporting System   Canada
+CWJI    Assiniboia Airport Automated Reporting Station  Canada
+CWJM    Upper Rideau Lake  Canada
+CWJN    Herschel Island Automatic Weather Reporting System   Canada
+CWJO    Jonquiere Automated Reporting Station   Canada
+CWJP    Porter Lake  Canada
+CWJR    Creston Automatic Weather Reporting System   Canada
+CWJT    St Jovite Automatic Weather Reporting System   Canada
+CWJU    Langara, B. C.  Canada
+CWJW    Jasper Warden Automated Reporting Station   Canada
+CWJX    Leader Airport Automatic Weather Reporting System   Canada
+CWJY    Yathkyed Lake Meteorological Aeronautical Presentation System   Canada
+CWJZ    Dubawnt Lake Meteorological Aeronautical Presentation System   Canada
+CWKD    Bonnard Automated Reporting Station   Canada
+CWKE    Pelly Bay  Canada
+CWKH    Malahat Automatic Weather Reporting System   Canada
+CWKI    Kitimat  Canada
+CWKK    Katatota Island  Canada
+CWKO    Rockglen, Sask.  Canada
+CWKR    King Radar Site  Canada
+CWKU    Whiskey Automated Reporting Station   Canada
+CWKV    Hope Slide  Canada
+CWKW    Cape Kakkiviak  Canada
+CWKX    Dease Lake Coastal Station  Canada
+CWLB    Lac La Biche, Alta.  Canada
+CWLE    Lucky Lake Automatic Weather Reporting System   Canada
+CWLF    Lansdowne House   Canada
+CWLG    Little Chicago  Canada
+CWLI    Liverpool Bay  Canada
+CWLM    Victoria Automatic Weather Reporting System   Canada
+CWLO    Shilo  Canada
+CWLP    Herbert Island Meteorological Aeronautical Presentation System   Canada
+CWLQ    Nipissing  Canada
+CWLS    Mount Forest, Ont.  Canada
+CWLT    Alert, N. W. T.  Canada
+CWLV    Waskesiu Lake Automated Reporting Station   Canada
+CWLX    Longstaff Bluff, N. W. T.  Canada
+CWLY    Lytton, B. C.  Canada
+CWLZ    Candle Lake  Canada
+CWMA    Masset A  Canada
+CWMD    Mould Bay Camp  Canada
+CWME    Cathedral Point Meteorological Aeronautical Presentation System   Canada
+CWMH    Mary's Harbour, Nfld.  Canada
+CWMI    Miscou Island, N. B.  Canada
+CWMJ    Maniwaki  Canada
+CWMM    P. Meadows Coastal Station Automatic Weather Reporting System  Canada
+CWMN    Mcgill Radar Site  Canada
+CWMP    Powder Lake  Canada
+CWMQ    Maplecreek Automatic Weather Reporting System   Canada
+CWMR    Merry Island   Canada
+CWMS    Mcinnes Island, B. C.  Canada
+CWMT    Lac La Martre  Canada
+CWMU    Rampart River Automatic Weather Reporting System   Canada
+CWMV    St Charles Creek  Canada
+CWMW    Maniwaki, Que.  Canada
+CWMX    Mildred Lake  Canada
+CWMZ    Western Island Meteorological Aeronautical Presentation System   Canada
+CWNB    S. E. Shoal Meteorological Aeronautical Presentation System   Canada
+CWNC    Cobourg, Ont.  Canada
+CWND    Pelly Island Automatic Weather Reporting System   Canada
+CWNH    Riviere Du Loup, Que.  Canada
+CWNI    Nipterk Base  Canada
+CWNK    Carman U Of M  Canada
+CWNL    Great Duck Island  Canada
+CWNM    Nelson Automatic Weather Reporting System   Canada
+CWNO    Satah River Automatic Weather Reporting System  Canada
+CWNP    Nakusp Automatic Weather Reporting System   Canada
+CWNQ    Nicolet Automatic Weather Reporting System   Canada
+CWNR    Nakiska Ridgetop   Canada
+CWNT    Turtle Mountain  Canada
+CWNW    Haldane River Automatic Weather Reporting System  Canada
+CWNX    Nechako River   Canada
+CWNZ    Nagagami, Ont.  Canada
+CWOA    Camsell River, N. W. T.  Canada
+CWOB    Brevoort Island  Canada
+CWOC    New Carlisle  Canada
+CWOD    Normandin  Canada
+CWOE    Onefour Automatic Weather Reporting System   Canada
+CWOH    Ste Agathe Des Mont  Canada
+CWOI    Ivvavik Park Automatic Weather Reporting System  Canada
+CWOK    Elbow Marine Aviation Reporting Station   Canada
+CWOL    Sable Island Man   Canada
+CWON    Dawson Automatic Weather Reporting System   Canada
+CWOU    Primrose Lake   Canada
+CWOY    Wynyard Marine Aviation Reporting Station   Canada
+CWPA    Henderickson Automatic Weather Reporting System  Canada
+CWPB    Beausoleil Island Automated Reporting Station   Canada
+CWPC    Port Colborne Automated Reporting Station   Canada
+CWPD    Parc Des Laurentid  Canada
+CWPH    Inukjuak, Que  Canada    P
+CWPI    Pine Island Meteorological Aeronautical Presentation System   Canada
+CWPJ    Point Escuminac Meteorological Aeronautical Presentation System   Canada
+CWPK    Parent, Que.  Canada
+CWPL    Pickle Lake, Ont.  Canada
+CWPO    Pilot Mound, Man.  Canada
+CWPQ    Montreal-Est  Canada
+CWPR    Princeton Automatic Weather Reporting System   Canada
+CWPS    Long Point Meteorological Aeronautical Presentation System   Canada
+CWPU    Puntzi Mountain, B. C.  Canada
+CWPY    Fort Chipewyan Automated Reporting Station   Canada
+CWQC    Port Alberni, B. C.  Canada
+CWQE    Toronto Headland  Canada
+CWQF    Rabbit Kettle Automated Reporting Station  Canada
+CWQG    Valcartier  Canada
+CWQH    Lennoxville  Canada
+CWQJ    Sedco   Canada
+CWQK    Race Rocks Automatic Weather Reporting System   Canada
+CWQL    Lethbridge Automated Reporting Station   Canada
+CWQM    Cap Rouge  Canada
+CWQO    Ile Bicquette  Canada
+CWQP    Point Petre, Ont.  Canada
+CWQQ    Lacombe Cda  Canada
+CWQR    Ice Auxiliary Perroquets  Canada
+CWQS    Kindakun Rocks, B. C.  Canada
+CWQV    Puinte Claveau  Canada
+CWQW    Cape Whittle  Canada
+CWQY    Hanbury River Automated Reporting Station   Canada
+CWQZ    Quesnel Automatic Weather Reporting System   Canada
+CWRA    Cape Race, Nfld  Canada
+CWRD    Red Earth  Canada
+CWRF    Pelly Bay   Canada
+CWRJ    Rosetown East, Sask  Canada
+CWRK    Bancroft Automatic Weather Reporting System  Canada
+CWRM    Rocky House Marine Aviation Reporting Station   Canada
+CWRN    Hart Island Meteorological Aeronautical Presentation System   Canada
+CWRO    Rose Spit Meteorological Aeronautical Presentation System   Canada
+CWRP    Nicholson Peninsul   Canada
+CWRQ    Trois Rivieres  Canada
+CWRT    Crowsnest  Canada
+CWRU    Solander Island Meteorological Aeronautical Presentation System   Canada
+CWRV    Camrose  Canada
+CWRW    Fourchu Head Meteorological Aeronautical Presentation System   Canada
+CWRY    Milk River  Canada
+CWRZ    Cap D'Espoir Meteorological Aeronautical Presentation System   Canada
+CWSA    Sable Island, N. S.  Canada
+CWSD    Summerside Automatic Weather Reporting System   Canada
+CWSE    Edmonton Stony Plain Alta.  Canada
+CWSF    Cap Madeleine Meteorological Aeronautical Presentation System   Canada
+CWSG    Cap Chat Meteorological Aeronautical Presentation System   Canada
+CWSH    Sousa Crk Avt   Canada
+CWSI    Simcoe, Ont.  Canada
+CWSK    Squamish Airport, B. C  Canada
+CWSL    Salmon Arm Automatic Weather Reporting System   Canada
+CWSO    Exeter Radar Site  Canada
+CWSP    Sheringham Automatic Weather Reporting System   Canada
+CWSQ    Aulvik National Park  Canada
+CWSR    Spiritwood West, Sask  Canada
+CWSS    St. Stephen, N. B.  Canada
+CWST    La Pocatiere  Canada
+CWSV    Blue River Marine Aviation Reporting Station   Canada
+CWSW    Sparwood / Elk Valley  Canada
+CWSY    Sachs Harbour, N. W. T.  Canada
+CWSZ    Fisher Branch Marine Aviation Reporting Station   Canada
+CWTA    Mc Tavish Automated Reporting Station   Canada
+CWTB    Border, Que.  Canada
+CWTC    Ethelda Bay  Canada
+CWTD    Robertson Lake Automated Reporting Station   Canada
+CWTE    Trout Lake  Canada
+CWTF    Beartooth Island  Canada
+CWTG    Pointe Des Monts  Canada
+CWTN    Cap Tourmente  Canada
+CWTO    Toronto Aes Hq   Canada
+CWTY    Trois Rivieres  Canada
+CWTZ    Toronto Island  Canada
+CWUL    Quebec Fcst Office  Canada
+CWUM    Faro, Y. T.  Canada
+CWUP    Cape Hooper, N. W. T.  Canada
+CWUR    Truro, N. S.  Canada
+CWUS    Summerland Automatic Weather Reporting System   Canada
+CWUT    Shoal Lake Airport Automated Reporting Station   Canada
+CWUU    Mackar Inlet  Canada
+CWUW    Dewar Lakes, N. W. T.  Canada
+CWUY    Rouyn  Canada
+CWVA    Bonavista, Nfld.  Canada
+CWVC    Swift Current Automatic Weather Reporting System   Canada
+CWVD    Broughton Island  Canada
+CWVE    Valleyfield  Canada
+CWVI    Vegreville Automatic Weather Reporting System   Canada
+CWVK    Vernon, B. C.  Canada
+CWVN    Val Marie Southeast, Sask  Canada
+CWVO    Vauxhall Cda  Canada
+CWVP    Cypress Hills Park  Canada
+CWVQ    Ste Anne De Bell   Canada
+CWVT    Buffalo Narrows, Sask.  Canada
+CWVV    Vic. Hartland Automatic Weather Reporting System  Canada
+CWVY    Villeroy Radar Site  Canada
+CWWA    W Vancouver Automatic Weather Reporting System   Canada
+CWWB    Burlington Piers   Canada
+CWWC    Collins Bay Automatic Weather Reporting System   Canada
+CWWE    Western Head, N. S.  Canada
+CWWF    Weyburn Automatic Weather Reporting System   Canada
+CWWK    White Rock Automatic Weather Reporting System   Canada
+CWWL    Bonilla Island Meteorological Aeronautical Presentation System   Canada
+CWWM    Grant Automatic Weather Reporting System   Canada
+CWWN    Peawanuck Meteorological Aeronautical Presentation System   Canada
+CWWO    Willow Creek  Canada
+CWWP    Wasagaming, Man.  Canada
+CWWS    George Island Meteorological Aeronautical Presentation System   Canada
+CWWU    Ingenika Point  Canada
+CWWV    Killinek Meteorological Aeronautical Presentation System   Canada
+CWWX    Cove Island Meteorological Aeronautical Presentation System   Canada
+CWWZ    Port Weller, Ont.  Canada
+CWXA    Bow Valley  Canada
+CWXI    Ferolle Point Meteorological Aeronautical Presentation System   Canada
+CWXJ    Bull Arm Automatic Weather Reporting System  Canada
+CWXL    Bow Island  Canada
+CWXM    Helmcken Island Meteorological Aeronautical Presentation System   Canada
+CWXO    Rowan Gorilla Iii  Canada
+CWXP    Pangnirtung  Canada
+CWXV    Back River Meteorological Aeronautical Presentation System   Canada
+CWXW    Alexis River Meteorological Aeronautical Presentation System   Canada
+CWYB    N. Bay Weather Office  Canada
+CWYE    Outlook Pfra  Canada
+CWYG    Charlottetown  Canada
+CWYH    Rae Lakes  Canada
+CWYJ    Victoria University  Canada
+CWYL    Yoho Park Automatic Weather Reporting System   Canada
+CWYM    Cape Mercy  Canada
+CWYO    Wynyard, Sask.  Canada
+CWYY    Osoyoos Automatic Weather Reporting System   Canada
+CWZA    Agassiz Automated Reporting Station   Canada
+CWZB    Port-Aux-Basques, Nfld.  Canada
+CWZD    Scudder Point Meteorological Aeronautical Presentation System   Canada
+CWZG    Banff Marine Aviation Reporting Station   Canada
+CWZL    Cumshewa Island Meteorological Aeronautical Presentation System   Canada
+CWZN    Sagona Island Meteorological Aeronautical Presentation System   Canada
+CWZT    Dauphin Coastal Station  Canada
+CWZV    Virginia Falls  Canada
+CWZW    Teslin Marine Aviation Reporting Station   Canada
+CWZZ    Saglek Bay   Canada
+CYAD    La Grande Iii Supplementary Aviation Weather Reporting Station   Canada
+CYAH    La Grande Iv, Que.  Canada
+CYAJ    Komakuk Beach Airport  Canada
+CYAM    Sault Ste Marie, Ont.  Canada
+CYAS    Kangirsuk Supplementary Aviation Weather Reporting Station   Canada
+CYAW    Shearwater, N. S.  Canada
+CYAY    Saint Anthony Airport  Canada
+CYAZ    Tofino Airport  Canada
+CYBB    Pelly Bay Airport  Canada
+CYBC    Baie Comeau, Que.  Canada
+CYBD    Bella Coola Airport   Canada
+CYBG    Bagotville, Que.  Canada
+CYBK    Baker Lake, N. W. T.  Canada
+CYBL    Campbell River Airport  Canada
+CYBR    Brandon, Man.  Canada
+CYBU    Nipawin, Sask.  Canada
+CYBV    Berens River Airport  Canada
+CYBW    Calgary / Springbank  Canada
+CYBX    Blanc Sablon, Que.  Canada
+CYCA    Cartwright Man   Canada
+CYCB    Cambridge Bay, N. W. T.  Canada
+CYCD    Nanaimo Airport  Canada
+CYCG    Castlegar Airport  Canada
+CYCH    Chatham Can-Mil   Canada
+CYCL    Charlo, N. B.  Canada
+CYCO    Coppermine, N. W. T.  Canada
+CYCP    Blue River, B. C.  Canada
+CYCQ    Chetwynd Airport  Canada
+CYCS    Chesterfield Inlet  Canada
+CYCT    Coronation Marine Aviation Reporting Station   Canada
+CYCX    Gagetown Can-Mil   Canada
+CYCY    Clyde, N. W. T.  Canada
+CYDA    Dawson, Y. T.  Canada
+CYDB    Burwash Airport  Canada
+CYDC    Princeton Airport   Canada
+CYDF    Deer Lake, Nfld.  Canada
+CYDM    Ross River Airport  Canada
+CYDN    Dauphin, Man.  Canada
+CYDP    Nain, Nfld  Canada     P
+CYDQ    Dawson Creek Airport   Canada
+CYED    Edmonton Namao Alta.  Canada
+CYEG    Edmonton International, Alta.  Canada
+CYEK    Arviat Airport  Canada
+CYEL    Elliot Lake Supplementary Aviation Weather Reporting Station   Canada
+CYEN    Estevan, Sask.  Canada
+CYET    Edson, Alta.  Canada
+CYEU    Eureka Man   Canada
+CYEV    Inuvik, N. W. T.  Canada
+CYFB    Iqaluit, N. W. T.  Canada
+CYFC    Fredericton, N. B.  Canada
+CYFO    Flin Flon Airport  Canada
+CYFR    Fort Resolution  Canada
+CYFS    Fort Simpson, N. W. T.  Canada
+CYFT    Makkovik Airport  Canada
+CYGE    Golden Airport  Canada
+CYGH    Fort Good Hope Airport  Canada
+CYGK    Kingston, Ont.  Canada
+CYGL    La Grande Riviere, Que  Canada
+CYGM    Gimli Industrial, Man  Canada
+CYGP    Gaspe, Que.  Canada
+CYGQ    Geraldton, Ont.  Canada
+CYGR    Iles De La Madeleineque.  Canada
+CYGT    Igloolik Airport  Canada
+CYGV    Havre St Pierre   Canada
+CYGW    Kuujjuarapik, Que.  Canada
+CYGX    Gillam, Man.  Canada
+CYHA    Quaqtaq Airport  Canada
+CYHB    Hudson Bay, Sask.  Canada
+CYHD    Dryden Airport  Canada
+CYHE    Hope, B. C.  Canada
+CYHH    Nemiscau Airport Supplementary Aviation Weather Reporting Station   Canada
+CYHI    Holman Island Airport  Canada
+CYHK    Gjoa Haven Airport  Canada
+CYHM    Hamilton Airport   Canada
+CYHU    Saint Hubert Airport   Canada
+CYHY    Hay River, N. W. T.  Canada
+CYHZ    Halifax International Airport   Canada
+CYID    Digby Airport Aviation Weather Reporting Station   Canada
+CYIK    Ivujivik Airport Supplementary Aviation Weather Reporting Station   Canada
+CYIO    Pond Inlet, N. W. T.  Canada
+CYIV    Island Lake, Man.  Canada
+CYJF    Fort Liard Airport  Canada
+CYJT    Stephenville, Nfld.  Canada
+CYKA    Kamloops, B. C.  Canada
+CYKD    Aklavik Airport  Canada
+CYKF    Waterloo Well   Canada
+CYKG    Kangiqsujuaq Supplementary Aviation Weather Reporting Station   Canada
+CYKJ    Key Lake  Canada
+CYKL    Schefferville, Que.  Canada
+CYKO    Akulivik Airport  Canada
+CYKQ    Waskaganish Airport  Canada
+CYKY    Kindersley, Sask.  Canada
+CYKZ    Toronto Buttonville  Canada
+CYLC    Kimmirut A Nwt  Canada
+CYLD    Chapleau Airport Supplementary Aviation Weather Reporting Station   Canada
+CYLJ    Meadow Lake, Sask.  Canada
+CYLL    Lloydminister, Alta.  Canada
+CYLT    Alert Airport  Canada
+CYLU    Kangiksualujjuaq A  Canada
+CYLW    Kelowna Airport  Canada
+CYMA    Mayo Airport  Canada
+CYMD    Mould Bay, N. W. T.  Canada
+CYMH    Mary's Harbour   Canada
+CYMJ    Moose Jaw, Sask.  Canada
+CYML    Charlevoix Airport  Canada
+CYMM    Fort Mcmurray, Alta.  Canada
+CYMO    Moosonee, Ont.  Canada
+CYMT    Chibougamau-Chapais, Que  Canada
+CYMU    Umiujaq  Canada
+CYMX    Montreal / Mirabel  Canada
+CYNA    Natashquan, Que.  Canada
+CYND    Gatineau Airport  Canada
+CYNE    Norway House, Man.  Canada
+CYNM    Matagami, Que.  Canada
+CYOC    Old Crow Airport  Canada
+CYOD    Cold Lake, Alta.  Canada
+CYOJ    High Level, Alta  Canada
+CYOW    Ottawa Int'L. Ont.  Canada
+CYOY    Valcartier Airport  Canada
+CYPA    Prince Albert, Sask.  Canada
+CYPC    Paulatuk Airport  Canada
+CYPD    Port Hawkesbury  Canada
+CYPE    Peace River, Alta.  Canada
+CYPG    Portage Southport A  Canada
+CYPH    Inukjuak Airport Supplementary Aviation Weather Reporting Station   Canada
+CYPL    Pickle Lake Man   Canada
+CYPN    Port Menier Man   Canada
+CYPQ    Peterborough Airport   Canada
+CYPR    Prince Rupert, B. C.  Canada
+CYPW    Powell River Airport   Canada
+CYPX    Povungnituq  Canada
+CYPY    Fort Chipewyan, Alta.  Canada
+CYPZ    Burns Lake   Canada
+CYQA    Muskoka, Ont.  Canada
+CYQB    Quebec, Que  Canada
+CYQD    The Pas, Man.  Canada
+CYQF    Red Deer, Alta.  Canada
+CYQG    Windsor, Ont.  Canada
+CYQH    Watson Lake, Y. T.  Canada
+CYQI    Yarmouth, N. S.  Canada
+CYQK    Kenora, Ont.  Canada
+CYQL    Lethbridge, Alta.  Canada
+CYQM    Moncton, N. B.  Canada
+CYQQ    Comox, B. C.  Canada
+CYQR    Regina, Sask.  Canada
+CYQT    Thunder Bay, Ont.  Canada
+CYQU    Grande Prairie, Alta.  Canada
+CYQV    Yorkton, Sask.  Canada
+CYQW    North Battleford, Sask.  Canada
+CYQX    Gander Int. Airport, Nfld.  Canada
+CYQY    Sydney, N. S.  Canada
+CYQZ    Quesnel Airport  Canada
+CYRB    Resolute, N. W. T.  Canada
+CYRJ    Roberval, Que.  Canada
+CYRL    Red Lake, Ont.  Canada
+CYRM    Rocky Mountain House, Alta  Canada
+CYRT    Rankin Inlet, N. W. T.  Canada
+CYRV    Revelstoke, B. C.  Canada
+CYSA    Sable Island Airport   Canada
+CYSB    Sudbury, Ont.  Canada
+CYSC    Sherbrooke, Que.  Canada
+CYSD    Suffield Airport  Canada
+CYSF    Stony Rapids Airport  Canada
+CYSJ    Saint John, N. B.  Canada
+CYSK    Sanikiluaq Airport  Canada
+CYSL    Saint Leonard Airport   Canada
+CYSM    Fort Smith, N. W. T.  Canada
+CYSN    Saint Catharines Airport  Canada
+CYSR    Nanisivik Airport   Canada
+CYSU    Summerside Can-Mil   Canada
+CYSY    Sachs Harbour Airport  Canada
+CYTE    Cape Dorset, N. W. T.  Canada
+CYTH    Thompson Weather Office, Man  Canada
+CYTJ    Terrace Bay Supplementary Aviation Weather Reporting Station   Canada
+CYTL    Big Trout Lake  Canada
+CYTQ    Tasiujaq A  Canada
+CYTR    Trenton, Ont.  Canada
+CYTS    Timmins, Ont.  Canada
+CYTZ    Toronto Island Airport Automated Reporting Station  Canada
+CYUA    Shingle Point, Y. T.  Canada
+CYUB    Tuktoyaktuk   Canada
+CYUI    Cape Young Airport  Canada
+CYUJ    Lady Franklin Point, N. W. T.  Canada
+CYUK    Byron Bay Airport  Canada
+CYUL    Montreal / Dorval International, Que  Canada
+CYUQ    Jenny Lind Island Airport  Canada
+CYUS    Shepherd Bay, N. W. T.  Canada
+CYUT    Repulse Bay Airport  Canada
+CYUV    Longstaff Blf Airport  Canada
+CYUX    Hall Beach, N. W. T.  Canada
+CYUY    Rouyn Airport  Canada
+CYVC    La Ronge, Sask  Canada
+CYVM    Broughton Island Airport  Canada
+CYVO    Val D'Or, Que.  Canada
+CYVP    Kuujjuaq, Que.  Canada
+CYVQ    Norman Wells, N. W. T.  Canada
+CYVR    Vancouver International Air-Port, B. C.  Canada
+CYVT    Buffalo Narrows Man  Canada
+CYVV    Wiarton, Ont.  Canada
+CYWA    Petawawa, Ont.  Canada
+CYWG    Winnipeg Int. Airportman.  Canada
+CYWH    Victoria Harbour  Canada
+CYWJ    Fort Franklin Airport  Canada
+CYWK    Wabush Lake, Nfld.  Canada
+CYWL    Williams Lake, B. C.  Canada
+CYWO    Lupin Airport Supplementary Aviation Weather Reporting Station   Canada
+CYWV    Wainwright Airport  Canada
+CYWY    Wrigley Airport  Canada
+CYXC    Cranbrook, B. C.  Canada
+CYXD    Edmonton Municipal Alta.  Canada
+CYXE    Saskatoon, Sask.  Canada
+CYXH    Medicine Hat, Alta.  Canada
+CYXJ    Fort St John, B. C.  Canada
+CYXL    Sioux Lookout, Ont.  Canada
+CYXN    Whale Cove Airport  Canada
+CYXP    Pangnirtung Airport  Canada
+CYXQ    Beaver Creek Airport  Canada
+CYXR    Earlton, Ont.  Canada
+CYXS    Prince George, B. C.  Canada
+CYXT    Terrace, B. C.  Canada
+CYXU    London, Ont.  Canada
+CYXX    Abbotsford, B. C.  Canada
+CYXY    Withehorse, Y. T.  Canada
+CYXZ    Wawa, Ont.  Canada
+CYYB    North Bay, Ont.  Canada
+CYYC    Calgary International, Alta.  Canada
+CYYD    Smithers, B. C.  Canada
+CYYE    Fort Nelson, B. C.  Canada
+CYYF    Penticton, B. C.  Canada
+CYYG    Charlottetown, P. E. I.  Canada
+CYYH    Spence Bay Airport   Canada
+CYYJ    Victoria Int. Airportb. C.  Canada
+CYYL    Lynn Lake, Man.  Canada
+CYYN    Swift Current, Sask.  Canada
+CYYQ    Churchill, Man.  Canada
+CYYR    Goose, Nfld.  Canada
+CYYT    St. John's, Nfld  Canada
+CYYU    Kapuskasing, Ont.  Canada
+CYYW    Armstrong, Ont.  Canada
+CYYY    Mont Joli, Que.  Canada
+CYYZ    Toronto Pearson Int'L. Ont.  Canada
+CYZE    Gore Bay, Ont.  Canada
+CYZF    Yellowknife, N. W. T.  Canada
+CYZG    Salliut Airport Supplementary Aviation Weather Reporting Station   Canada
+CYZH    Slave Lake, Alta  Canada
+CYZP    Sandspit, B. C.  Canada
+CYZR    Sarnia Airport   Canada
+CYZS    Coral Harbour, N. W. T.  Canada
+CYZT    Port Hardy, B. C.  Canada
+CYZU    Whitecourt, Alta.  Canada
+CYZV    Sept-Iles, Que.  Canada
+CYZW    Teslin, Y. T.  Canada
+CYZX    Greenwood, N. S.  Canada
+CYZY    Mackenzie, B. C.  Canada
+CZAG    La Grande Iv Remote Environment Automatic Data Acquisition Concept  Canada
+CZBF    Bathurst Airport Aviation Weather Reporting Station   Canada
+CZDI    Churchill Falls  Canada
+CZEM    Eastmain River Airport  Canada
+CZFA    Faro Airport  Canada
+CZFM    Fort Mcpherson Airport  Canada
+CZFN    Fort Norman Airport  Canada
+CZNB    North Bay Remote Environment Automatic Data Acquisition Concept   Canada
+CZOC    Old Crow Automatic Weather Reporting System   Canada
+CZPC    Pincher Creek Airport  Canada
+CZPK    Paulatuk Automated Reporting Station   Canada
+CZST    Stewart Airport  Canada
+CZUB    Tuktoyaktuk Automated Reporting Station   Canada
+CZUE    Cape Parry, N. W. T.  Canada
+CZUM    Churchill Falls, Nfld.  Canada
+CZVL    Edmonton / Villeneuve  Canada
+CZWN    Wainwright Automatic Weather Reporting System   Canada
+DAAD    Bou-Saada  Algeria 
+DAAE    Bejaia  Algeria
+DAAF    Aoulef   Algeria     
+DAAG    Dar-El-Beida  Algeria  
+DAAJ    Djanet  Algeria  
+DAAP    Illizi  Algeria  
+DAAS    Setif  Algeria  
+DAAT    Tamanrasset / Aguenna  Algeria     
+DAAV    Jijel Achouat  Algeria 
+DAAY    Mecheria  Algeria 
+DABB    Annaba  Algeria
+DABC    Constantine  Algeria  
+DABP    Skikda  Algeria
+DABS    Tebessa  Algeria  
+DABT    Batna  Algeria 
+DAFI    Djelfa  Algeria  
+DAOB    Tiaret  Algeria 
+DAOF    Tindouf  Algeria 
+DAOI    Chlef  Algeria  
+DAON    Tlemcen Zenata   Algeria
+DAOO    Oran / Es Senia  Algeria 
+DAOR    Bechar  Algeria 
+DAUA    Adrar  Algeria 
+DAUB    Biskra  Algeria  
+DAUE    El Golea  Algeria  
+DAUG    Ghardaia  Algeria  
+DAUH    Hassi-Messaoud  Algeria 
+DAUI    In Salah North  Algeria     
+DAUK    Touggourt  Algeria  
+DAUL    Laghouat  Algeria  
+DAUO    El Oued  Algeria  
+DAUT    Timimoun  Algeria  
+DAUU    Ouargla  Algeria  
+DAUZ    In Amenas  Algeria  
+DBBB    Cotonou  Benin
+DBBC    Bohicon  Benin 
+DBBK    Kandi  Benin  
+DBBN    Natitingou  Benin 
+DBBP    Parakou  Benin  
+DBBS    Save  Benin 
+DFCC    Ouahigouya  Burkina Faso     
+DFCO    Boromo  Burkina Faso     
+DFCP    Po  Burkina Faso     
+DFEE    Dori  Burkina Faso      
+DFEF    Fada N'Gourma  Burkina Faso     
+DFFD    Ouagadougou  Burkina Faso 
+DFOD    Dedougou  Burkina Faso     
+DFOG    Gaoua  Burkina Faso     
+DFOO    Bobo-Dioulasso  Burkina Faso 
+DGAA    Accra  Ghana 
+DGAD    Ada  Ghana
+DGAH    Ho  Ghana 
+DGAK    Akuse  Ghana 
+DGAS    Saltpond  Ghana
+DGAT    Tema  Ghana 
+DGKA    Akim Oda  Ghana
+DGKK    Koforidua  Ghana
+DGLB    Bole  Ghana 
+DGLE    Tamale  Ghana 
+DGLN    Navrongo  Ghana
+DGLW    Wa  Ghana
+DGLY    Yendi  Ghana
+DGSB    Sefwi Bekwai  Ghana
+DGSI    Kumasi  Ghana 
+DGSN    Sunyani  Ghana
+DGSW    Wenchi  Ghana
+DGTK    Takoradi  Ghana
+DGTX    Axim  Ghana
+DIAD    Adiake  Cote D'Ivoire
+DIAP    Abidjan  Cote D'Ivoire
+DIBK    Bouake  Cote D'Ivoire 
+DIBU    Bondoukou  Cote D'Ivoire
+DIDK    Dimbokro  Cote D'Ivoire
+DIDL    Daloa  Cote D'Ivoire
+DIGA    Gagnoa  Cote D'Ivoire
+DIKO    Korhogo  Cote D'Ivoire 
+DIMN    Man  Cote D'Ivoire 
+DIOD    Odienne  Cote D'Ivoire 
+DISP    San Pedro  Cote D'Ivoire
+DISS    Sassandra  Cote D'Ivoire
+DITB    Tabou  Cote D'Ivoire 
+DIYO    Yamoussoukro  Cote D'Ivoire
+DNBI    Bida  Nigeria 
+DNCA    Calabar  Nigeria 
+DNGU    Gusau  Nigeria 
+DNIB    Ibadan  Nigeria  
+DNIL    Ilorin  Nigeria 
+DNJO    Jos  Nigeria 
+DNKA    Kaduna  Nigeria 
+DNKN    Kano  Nigeria  
+DNMK    Makurdi  Nigeria  
+DNMM    Lagos / Ikeja  Nigeria  
+DNOS    Oshogbo  Nigeria 
+DNPO    Port Harcourt  Nigeria  
+DNSO    Sokoto  Nigeria 
+DNYO    Yola  Nigeria  
+DNZA    Zaria  Nigeria 
+DRRB    Birni-N'Konni  Niger      
+DRRG    Gaya  Niger     
+DRRI    Bilma  Niger      
+DRRL    Tillabery  Niger     
+DRRM    Maradi  Niger      
+DRRN    Niamey-Aero  Niger      
+DRRT    Tahoua  Niger     
+DRZA    Agadez  Niger      
+DRZF    Diffa  Niger     
+DRZG    Goure  Niger     
+DRZM    Maine-Soroa  Niger     
+DRZR    Zinder  Niger      
+DTKA    Tabarka  Tunisia      
+DTMB    Habib Bourguiba   Tunisia     
+DTTA    Tunis-Carthage  Tunisia
+DTTB    Bizerte  Tunisia
+DTTD    Remada  Tunisia  
+DTTF    Gafsa  Tunisia  
+DTTG    Gabes  Tunisia    
+DTTJ    Djerba Mellita  Tunisia
+DTTK    Kairouan  Tunisia  
+DTTL    Kelibia  Tunisia  
+DTTM    Monastir-Skanes  Tunisia
+DTTN    Jendouba  Tunisia  
+DTTR    El Borma  Tunisia  
+DTTX    Sfax El-Maou  Tunisia  
+DTTZ    Tozeur  Tunisia  
+DXAK    Atakpame  Togo 
+DXMG    Mango  Togo 
+DXNG    Niamtougou  Togo 
+DXSK    Sokode  Togo  
+DXTA    Tabligbo  Togo 
+DXXX    Lome  Togo  
+EBAW    Antwerpen / Deurne  Belgium
+EBBE    Beauvechain  Belgium
+EBBL    Kleine Brogel  Belgium
+EBBR    Bruxelles National  Belgium
+EBBT    Brasschaat  Belgium
+EBBX    Bertrix Bel-Afb   Belgium
+EBCI    Charleroi / Gosselies  Belgium
+EBCV    Chievres  Belgium
+EBDT    Schaffen  Belgium
+EBFN    Koksijde  Belgium
+EBFS    Florennes  Belgium
+EBGT    Gent / Industrie-Zone  Belgium
+EBLB    Elsenborn  Belgium
+EBLG    Bierset  Belgium
+EBMB    Melsbroek Bel-Afb   Belgium
+EBMT    Munte  Belgium
+EBOS    Oostende Airport   Belgium
+EBSP    Spa / La Sauveniere  Belgium
+EBST    Sint-Truiden  Belgium
+EBSU    St-Hubert  Belgium
+EBTN    Goetsenhoven  Belgium
+EBWE    Weelde Military   Belgium
+EBZW    Genk  Belgium
+EDAC    Altenburg Nobitz  Germany
+EDAH    Heringsdorf  Germany
+EDDB    Berlin-Schoenefeld  Germany
+EDDC    Dresden-Klotzsche  Germany
+EDDE    Erfurt-Bindersleben  Germany
+EDDF    Frankfurt / M-Flughafen  Germany
+EDDG    Muenster / Osnabrueck  Germany
+EDDH    Hamburg-Fuhlsbuettel  Germany
+EDDI    Berlin-Tempelhof  Germany
+EDDK    Koeln / Bonn  Germany
+EDDL    Duesseldorf  Germany
+EDDM    Munich / Riem  Germany
+EDDN    Nuernberg  Germany
+EDDP    Leipzig-Schkeuditz  Germany
+EDDR    Saarbruecken / Ensheim  Germany
+EDDS    Stuttgart-Echterdingen  Germany
+EDDT    Berlin-Tegel  Germany
+EDDV    Hannover  Germany
+EDDW    Bremen  Germany
+EDFH    Hahn  Germany
+EDHI    Hamburg-Finkenwerder  Germany
+EDHK    Kiel / Holtenau Civilian  Germany
+EDHL    Luebeck-Blankensee  Germany
+EDLN    Monchengladbach  Germany
+EDLP    Paderborn / Lippstadt  Germany
+EDLW    Dortmund / Wickede  Germany
+EDMA    Augsburg  Germany
+EDMO    Oberpfaffenhofen  Germany
+EDNY    Friedrichshafen  Germany
+EDQD    Bayreuth  Germany
+EDQM    Hof  Germany
+EDTZ    Konstanz  Germany
+EDVE    Braunschweig  Germany
+EDVK    Kassel / Calden  Germany
+EDWD    Lemwerder  Germany
+EDXW    Westerland / Sylt  Germany
+EDZE    Essen  Germany
+EFHA    Halli  Finland
+EFHF    Helsinki-Malmi  Finland
+EFHK    Helsinki-Vantaa  Finland
+EFHL    Hailuoto  Finland
+EFHT    Ahtari  Finland
+EFIL    Ilmajoki  Finland
+EFIV    Ivalo  Finland
+EFJO    Joensuu  Finland
+EFJY    Jyvaskyla  Finland
+EFKA    Kauhava  Finland
+EFKE    Kemi  Finland
+EFKI    Kajaani  Finland
+EFKK    Kruunupyy  Finland
+EFKS    Kuusamo  Finland
+EFKT    Kittila  Finland
+EFKU    Kuopio  Finland
+EFMA    Mariehamn / Aland Island  Finland
+EFMI    Mikkeli  Finland
+EFOU    Oulu  Finland
+EFPE    Pello  Finland
+EFPO    Pori  Finland
+EFPU    Pudasjarvi  Finland
+EFRO    Rovaniemi  Finland
+EFSA    Savonlinna  Finland
+EFSO    Sodankyla  Finland
+EFSU    Suomussalmi  Finland
+EFTP    Tampere / Pirkkala  Finland
+EFTU    Turku  Finland
+EFUT    Utti  Finland
+EFVA    Vaasa  Finland
+EFVI    Viitasaari  Finland
+EFVR    Varkaus  Finland
+EGAA    Belfast / Aldergrove Airport  United Kingdom
+EGAC    Belfast / Harbour  United Kingdom
+EGAE    Eglinton / Londonderr  United Kingdom
+EGBB    Birmingham / Airport  United Kingdom
+EGBE    Coventry Airport   United Kingdom
+EGBJ    Staverton Private   United Kingdom
+EGCC    Manchester Airport  United Kingdom
+EGDB    Plymouth  United Kingdom
+EGDC    Chivenor  United Kingdom
+EGDG    Saint Mawgan  United Kingdom
+EGDK    Kemble Royal Air Force Base   United Kingdom
+EGDL    Lyneham  United Kingdom
+EGDM    Boscombe Down  United Kingdom
+EGDP    Portland / Rnas  United Kingdom
+EGDR    Culdrose  United Kingdom    P
+EGDX    St Athan Royal Air Force Base  United Kingdom
+EGDY    Yeovilton  United Kingdom
+EGFF    Cardiff-Wales Airport  United Kingdom
+EGFH    Swansea  United Kingdom
+EGGD    Bristol / Lulsgate   United Kingdom
+EGGP    Liverpool Airport   United Kingdom
+EGGW    Luton Airport   United Kingdom
+EGHD    Plymouth / Roborough  United Kingdom
+EGHE    Scilly, Saint Mary'S  United Kingdom
+EGHH    Bournemouth Airport  United Kingdom
+EGHI    Southampton / Weather Centre  United Kingdom
+EGJA    Alderney / Channel Island  United Kingdom
+EGJB    Guernsey Airport  United Kingdom
+EGJJ    Jersey Airport  United Kingdom
+EGKA    Shoreham Airport  United Kingdom
+EGKB    Biggin Hill   United Kingdom
+EGKK    London / Gatwick Airport  United Kingdom
+EGLC    London City Airport  United Kingdom
+EGLF    Farnborough  United Kingdom
+EGLL    London / Heathrow Airport  United Kingdom
+EGMC    Southend-On-Sea   United Kingdom
+EGMD    Lydd Airport   United Kingdom
+EGNC    Carlisle  United Kingdom
+EGNH    Blackpool Airport  United Kingdom
+EGNJ    Humberside  United Kingdom
+EGNL    Walney Island  United Kingdom
+EGNM    Leeds And Bradford  United Kingdom
+EGNR    Hawarden  United Kingdom
+EGNS    Isle Of Man / Ronaldsway Airport  United Kingdom
+EGNT    Newcastle   United Kingdom
+EGNV    Tees-Side  United Kingdom
+EGNX    East Midlands  United Kingdom
+EGOD    Llanbedr  United Kingdom
+EGOM    Spadeadam  United Kingdom
+EGOP    Pembrey Sands  United Kingdom
+EGOS    Shawbury  United Kingdom
+EGOV    Valley  United Kingdom
+EGOY    West Freugh  United Kingdom
+EGPA    Kirkwall Airport  United Kingdom
+EGPB    Sumburgh Cape   United Kingdom
+EGPC    Wick  United Kingdom
+EGPD    Aberdeen / Dyce  United Kingdom
+EGPE    Inverness / Dalcross  United Kingdom
+EGPF    Glasgow Airport  United Kingdom
+EGPH    Edinburgh Airport  United Kingdom
+EGPK    Prestwick Airport  United Kingdom
+EGPL    Benbecula  United Kingdom
+EGPM    Scatsa / Shetland Island  United Kingdom
+EGPN    Dundee / Riverside  United Kingdom
+EGPO    Stornoway  United Kingdom
+EGPT    Perth / Scone   United Kingdom
+EGPU    Tiree  United Kingdom
+EGPW    Unst Island  United Kingdom
+EGQA    Tain Range  United Kingdom
+EGQJ    Machrihanish  United Kingdom
+EGQK    Kinloss  United Kingdom
+EGQL    Leuchars  United Kingdom
+EGQM    Boulmer  United Kingdom
+EGQS    Lossiemouth  United Kingdom
+EGRB    London Weather Centre  United Kingdom
+EGRR    Bracknell / Beaufort Park  United Kingdom
+EGSC    Cambridge  United Kingdom
+EGSH    Norwich Weather Centre  United Kingdom
+EGSS    Stansted Airport  United Kingdom
+EGTC    Cranfield  United Kingdom
+EGTE    Exeter Airport  United Kingdom
+EGTG    Filton Private   United Kingdom
+EGTH    Hatfeild Private   United Kingdom
+EGUA    Upper Heyford Royal Air Force Base   United Kingdom
+EGUB    Benson  United Kingdom
+EGUC    Aberporth  United Kingdom
+EGUF    Farnborough Military   United Kingdom
+EGUL    Lakenheath Royal Air Force Base  United Kingdom
+EGUM    Manston  United Kingdom
+EGUN    Mildenhall Royal Air Force Base  United Kingdom
+EGUP    Sculthorpe Af Met   United Kingdom
+EGUW    Wattisham  United Kingdom
+EGUY    Wyton Royal Air Force Base  United Kingdom
+EGVA    Fairford Royal Air Force Base  United Kingdom
+EGVG    Woodbridge Royal Air Force Base   United Kingdom
+EGVI    Greenham Common Royal Air Force Base  United Kingdom
+EGVJ    Bentwaters Royal Air Force Base   United Kingdom
+EGVN    Brize Norton  United Kingdom
+EGVO    Odiham  United Kingdom
+EGVP    Middle Wallop  United Kingdom
+EGWC    Cosford Royal Air Force Base  United Kingdom
+EGWU    Northolt  United Kingdom
+EGWZ    Alconbury Royal Air Force Base  United Kingdom
+EGXC    Coningsby Royal Air Force Base  United Kingdom
+EGXD    Disforth  United Kingdom
+EGXE    Leeming  United Kingdom
+EGXF    Cowden  United Kingdom
+EGXG    Church Fenton  United Kingdom
+EGXH    Honington Royal Air Force Base  United Kingdom
+EGXJ    Cottesmore  United Kingdom
+EGXN    Newton  United Kingdom
+EGXT    Wittering  United Kingdom
+EGXU    Linton-On-Ouse  United Kingdom
+EGXV    Leconfield  United Kingdom
+EGXW    Waddington  United Kingdom
+EGXZ    Topcliffe Royal Air Force Base   United Kingdom
+EGYC    Coltishall  United Kingdom
+EGYD    Cranwell  United Kingdom
+EGYE    Barkston Heath Royal Air Force Base   United Kingdom
+EGYH    Holbeach  United Kingdom
+EGYM    Marham  United Kingdom
+EGYP    Mount Pleasant Airport  South Georgia and the South Sandwich Islands
+EGYW    Wainfleet  United Kingdom
+EHAM    Amsterdam Airport Schiphol  Netherlands
+EHBK    Maastricht Airport Zuid Limburg  Netherlands
+EHDB    De Bilt  Netherlands
+EHDL    Deelen  Netherlands
+EHEH    Eindhoven  Netherlands
+EHGG    Groningen Airport Eelde  Netherlands
+EHGR    Gilze-Rijen  Netherlands
+EHKD    De Kooy  Netherlands
+EHLW    Leeuwarden  Netherlands
+EHRD    Rotterdam Airport Zestienhoven  Netherlands
+EHSB    Soesterberg  Netherlands
+EHTW    Twenthe  Netherlands
+EHVB    Valkenburg  Netherlands
+EHVK    Volkel  Netherlands
+EHVL    Vlieland  Netherlands
+EHWO    Woensdrecht  Netherlands
+EICK    Cork Airport  Ireland
+EIDW    Dublin Airport  Ireland
+EIME    Casement Aerodrome  Ireland
+EINN    Shannon Airport  Ireland
+EKAH    Tirstrup  Denmark
+EKAT    Anholt Island Automated Reporting Station   Denmark
+EKAV    Avno Danish Air Force Base   Denmark
+EKBI    Billund Lufthavn  Denmark
+EKCH    Koebenhavn / Kastrup  Denmark
+EKEB    Esbjerg  Denmark
+EKHO    Lindtorp Airport  Denmark
+EKHS    Hadsund  Denmark
+EKKA    Karup  Denmark
+EKMB    Maribo Lufthavn  Denmark
+EKOD    Odense / Beldringe  Denmark
+EKRK    Koebenhavn / Roskilde  Denmark
+EKRN    Roenne  Denmark
+EKSB    Soenderborg Lufthavn  Denmark
+EKSN    Sindal Flyveplads  Denmark
+EKSP    Skrydstrup  Denmark
+EKST    Sydfyns Flyveplads  Denmark
+EKSV    Skive Lufthavn  Denmark
+EKTS    Thisted Lufthavn  Denmark
+EKVA    Vandel  Denmark
+EKVD    Vamdrup  Denmark
+EKVG    Soervaag / Vagar  Denmark
+EKVJ    Stauning Lufthavn  Denmark
+EKVL    Vaerloese  Denmark
+EKYT    Aalborg  Denmark
+ELLX    Luxembourg / Luxembourg  Luxembourg
+ENAL    Alesund / Vigra  Norway
+ENAN    Andoya  Norway
+ENAS    Ny-Alesund Ii  Norway
+ENAT    Alta Lufthavn  Norway
+ENBJ    Bjornoya  Norway
+ENBL    Forde / Bringeland  Norway
+ENBM    Voss-Bo  Norway
+ENBN    Bronnoysund / Bronnoy  Norway
+ENBO    Bodo Vi  Norway
+ENBR    Bergen / Flesland  Norway
+ENBS    Batsfjord  Norway
+ENBV    Berlevag  Norway
+ENCN    Kristiansand / Kjevik  Norway
+ENDI    Dagali  Norway
+ENDU    Bardufoss  Norway
+ENEK    Ekofisk Oil Platform  Norway
+ENEV    Evenes  Norway
+ENFB    Oslo / Fornebu  Norway
+ENFG    Fagernes Leirin  Norway
+ENFL    Floro  Norway
+ENFR    Frigg  Norway
+ENGC    Gullfax Platform   Norway
+ENGM    Oslo / Gardermoen  Norway
+ENHD    Haugesund / Karmoy  Norway
+ENHF    Hammerfest  Norway
+ENHK    Hasvik  Norway
+ENHO    Hopen  Norway
+ENHV    Honningsvag / Valan  Norway
+ENJA    Jan Mayen  Norway
+ENKA    Kautokeino  Norway
+ENKB    Kristiansund / Kvernberget  Norway
+ENKR    Kirkenes Lufthavn  Norway
+ENLI    Lista Flyplass  Norway
+ENLK    Leknes  Norway
+ENMH    Mehamn  Norway
+ENML    Molde / Aro  Norway
+ENMS    Mosjoen Kjaerstad  Norway
+ENNA    Banak  Norway
+ENNK    Narvik Iii  Norway
+ENNM    Namsos Lufthavn  Norway
+ENNO    Notodden  Norway
+ENOA    Oseberg   Norway
+ENOL    Orland Iii  Norway
+ENOV    Orsta-Volda / Hovden  Norway
+ENRA    Mo I Rana / Rossvoll  Norway
+ENRM    Rorvik / Ryum  Norway
+ENRO    Roros Lufthavn  Norway
+ENRS    Rost Flyplass  Norway
+ENRY    Rygge  Norway
+ENSB    Svalbard Lufthavn  Norway
+ENSD    Sandane / Anda  Norway
+ENSG    Sogndal / Haukasen  Norway
+ENSH    Svolvaer / Helle  Norway
+ENSK    Storkmarknes / Skagen  Norway
+ENSN    Skien-Geiteryggen  Norway
+ENSO    Stord / Soerstokken  Norway
+ENSR    Sorkjosen  Norway
+ENSS    Svartnes  Norway
+ENST    Sandnessjoen / Stokka  Norway
+ENTC    Tromso / Langnes  Norway
+ENTO    Torp  Norway
+ENVA    Trondheim / Vaernes  Norway
+ENVD    Vadso  Norway
+ENZV    Stavanger / Sola  Norway
+EPGD    Gdansk-Rebiechowo  Poland
+EPKK    Krakow  Poland
+EPKO    Koszalin  Poland
+EPKT    Katowice  Poland
+EPPO    Poznan  Poland
+EPRZ    Rzeszow-Jasionka  Poland
+EPSC    Szczecin  Poland
+EPSK    Slupsk   Poland
+EPWA    Warszawa-Okecie  Poland
+EPWR    Wroclaw Ii  Poland
+EPZG    Zielona Gora  Poland
+ESCF    Linkoping / Malmen  Sweden
+ESCL    Soderhamn  Sweden
+ESCM    Uppsala  Sweden
+ESDA    Ljungbyhed  Sweden
+ESDB    Angelholm  Sweden
+ESDF    Ronneby  Sweden
+ESGG    Goteborg / Landvetter  Sweden
+ESGJ    Jonkoping Flygplats  Sweden
+ESGP    Goteborg / Save  Sweden
+ESGR    Skovde Flygplats  Sweden
+ESGT    Trollhattan Private   Sweden
+ESIB    Satenas  Sweden
+ESKM    Siljan / Mora  Sweden
+ESKN    Skavasta / Stockholm  Sweden
+ESMK    Kristianstad / Everod  Sweden
+ESMQ    Kalmar  Sweden
+ESMS    Malmo / Sturup  Sweden
+ESMT    Halmstad Swedish Air Force Base   Sweden
+ESMV    Hagshult  Sweden
+ESMX    Vaxjo  Sweden
+ESNG    Gallivare  Sweden
+ESNJ    Jokkmokk  Sweden
+ESNK    Kramfors Flygplats  Sweden
+ESNN    Sundsvall-Harnosand Flygplats  Sweden
+ESNO    Ornskoldsvik Airport  Sweden
+ESNQ    Kiruna Airport  Sweden
+ESNS    Skelleftea Airport  Sweden
+ESNU    Umea Flygplats  Sweden
+ESOE    Orebro Private   Sweden
+ESOW    Vasteras / Hasslo  Sweden
+ESPA    Lulea / Kallax  Sweden
+ESPC    Ostersund / Froson  Sweden
+ESPD    Gunnarn  Sweden
+ESPE    Vidsel  Sweden
+ESSA    Stockholm / Arlanda  Sweden
+ESSB    Stockholm / Bromma  Sweden
+ESSD    Borlange  Sweden
+ESSF    Hultsfred Swedish Air Force Base   Sweden
+ESSK    Gavle / Sandviken Air Force Base  Sweden
+ESSL    Linkoping / Saab  Sweden
+ESSP    Norrkoping  Sweden
+ESSQ    Karlstad Flygplats  Sweden
+ESSV    Visby Flygplats  Sweden
+ETAD    Spangdahlem  Germany
+ETAR    Ramstein  Germany
+ETAS    Sembach United States Air Force Operated Base In Foreign Country   Germany
+ETBA    Aachen / Merzbruck  Germany
+ETCE    Mebstetten / Albstadt  Germany
+ETEB    Ansbach / Katterbach  Germany
+ETEH    Bad Kreuznach  Germany
+ETEU    Giebelstadt  Germany
+ETGB    Bergen  Germany
+ETGG    Gluecksburg / Meierwik  Germany
+ETGI    Idar-Oberstein  Germany
+ETGK    Kuemmersruck  Germany
+ETGM    Meppen  Germany
+ETGW    Wittstock  Germany
+ETGY    Kalkar  Germany
+ETGZ    Messstetten  Germany
+ETHA    Altenstadt  Germany
+ETHB    Bueckeburg  Germany
+ETHC    Celle  Germany
+ETHE    Rheine-Bentlage  Germany
+ETHF    Fritzlar  Germany
+ETHI    Itzehoe  Germany
+ETHL    Laupheim  Germany
+ETHM    Mendig  Germany
+ETHN    Niederstetten  Germany
+ETHR    Roth  Germany
+ETHS    Fassberg  Germany
+ETHT    Cottbus Flugplatz   Germany
+ETIC    Grafenwoehr  Germany
+ETID    Hanau  Germany
+ETIE    Heidelberg  Germany
+ETIH    Hohenfels  Germany
+ETIK    Illesheim  Germany
+ETIN    Kitzingen Usa \ Af   Germany
+ETME    Eggebek  Germany
+ETMK    Kiel-Holtenau  Germany
+ETMN    Nordholz  Germany
+ETND    Diepholz  Germany
+ETNG    Geilenkirchen  Germany
+ETNH    Hohn  Germany
+ETNJ    Jever  Germany
+ETNL    Laage  Germany
+ETNN    Noervenich  Germany
+ETNP    Hopsten  Germany
+ETNR    Preschen  Germany
+ETNS    Schleswig-Jagel  Germany
+ETNT    Wittmundhaven  Germany
+ETNU    Trollenhagen  Germany
+ETNW    Wunstorf  Germany
+ETOR    Coleman Mannheim   Germany
+ETOU    Wiesbaden  Germany
+ETSA    Landsberg  Germany
+ETSB    Buechel  Germany
+ETSE    Erding  Germany
+ETSF    Fuerstenfeldbruck  Germany
+ETSH    Holzdorf  Germany
+ETSI    Ingolstadt  Germany
+ETSL    Lechfeld  Germany
+ETSM    Memmingen  Germany
+ETSN    Neuburg / Donau  Germany
+ETSP    Pferdsfeld  Germany
+ETUL    Laarbruch  Germany
+ETUN    Nordhorn  Germany
+ETUO    Guetersloh  Germany
+ETUR    Brueggen  Germany
+EVRA    Riga Airport  Belarus
+EYVI    Vilnius  Lithuania
+FAAB    Alexander Bay  South Africa
+FAAN    Aliwal North  South Africa
+FABL    Bloemfontein J. B. M. Hertzog   South Africa
+FABM    Bethlehem Airport  South Africa
+FABY    Beaufort West  South Africa
+FACL    Carolina  South Africa
+FACT    Cape Town D. F. Malan   South Africa
+FACV    Calvinia  South Africa
+FADA    De Aar  South Africa
+FADN    Durban Louis Botha   South Africa
+FAEL    East London  South Africa
+FAEO    Ermelo  South Africa
+FAFF    Frankfort  South Africa
+FAFR    Fraserburg  South Africa
+FAGB    Gobabis  Namibia
+FAGE    Gough Island  South Africa
+FAGG    George Airport  South Africa
+FAGM    Johannesburg / Rand  South Africa
+FAGR    Graaff Reinet  South Africa
+FAHS    Hoedspruit  South Africa
+FAIR    Pretoria Irene   South Africa
+FAJS    Jan Smuts  South Africa
+FAKM    Kimberley  South Africa
+FALA    Lanseria Civ / Mil   South Africa
+FALT    Lichtenburg  South Africa
+FALW    Langebaanweg  South Africa
+FALY    Ladysmith  South Africa
+FAMB    Middelburg  South Africa
+FAME    Marion Island  South Africa
+FAMG    Margate  South Africa
+FAMM    Mmabatho Airport  South Africa
+FAMO    Mossel Bay Cape Saint Blaize   South Africa
+FANC    Newcastle  South Africa
+FANS    Nelspruit  South Africa
+FAOB    Overberg  South Africa
+FAOH    Oudtshoorn  South Africa
+FAPB    Pietersburg  South Africa
+FAPE    Port Elizabeth  South Africa
+FAPH    Phalaborwa  South Africa
+FAPI    Pietersburg Civil   South Africa
+FAPJ    Port St Johns  South Africa
+FAPM    Pietermaritzburg  South Africa
+FAPR    Pretoria  South Africa
+FAQT    Queenstown  South Africa
+FARB    Richard Bay  South Africa
+FASB    Springbok  South Africa
+FATC    Tristan Da Cunha  South Africa
+FATZ    Tzaneen   South Africa
+FAUP    Upington  South Africa
+FAUT    Umtata  South Africa
+FAVB    Vryburg  South Africa
+FAVR    Vredendal  South Africa
+FAVY    Vryheid  South Africa
+FAWB    Wonderboom / Pretoria  South Africa
+FAWK    Waterkloof Lmb  South Africa
+FAWM    Welkom  South Africa
+FAWW    Windhoek  Namibia
+FBFT    Francistown  Botswana
+FBGZ    Ghanzi  Botswana
+FBJW    Jwaneng  Botswana
+FBKE    Kasane  Botswana
+FBLT    Letlhakane  Botswana
+FBMN    Maun  Botswana
+FBSK    Seretse Khama International Airport  Botswana
+FBSN    Sua-Pan  Botswana
+FBSW    Shakawe  Botswana
+FBTE    Tshane  Botswana
+FBTS    Tsabong  Botswana
+FCBB    Brazzaville / Maya-Maya  Congo
+FCBD    Djambala  Congo
+FCBM    Mouyondzi  Congo
+FCBO    M'Pouya  Congo
+FCBS    Sibiti  Congo
+FCOG    Gamboma  Congo
+FCOI    Impfondo  Congo
+FCOM    Makoua  Congo
+FCOS    Souanke  Congo
+FCOU    Ouesso  Congo
+FCPA    Makabana  Congo
+FCPL    Loubomo  Congo
+FCPP    Pointe-Noire  Congo
+FDMS    Manzini / Matsapa Airport  Swaziland
+FEFA    Alindao  Central African Republic
+FEFB    Obo  Central African Republic
+FEFF    Bangui  Central African Republic
+FEFG    Bangassou  Central African Republic
+FEFI    Birao  Central African Republic
+FEFL    Bossembele  Central African Republic
+FEFM    Bambari  Central African Republic
+FEFN    N'Dele  Central African Republic
+FEFO    Bouar  Central African Republic
+FEFR    Bria  Central African Republic
+FEFS    Bossangoa  Central African Republic
+FEFT    Berberati  Central African Republic
+FEFY    Yalinga  Central African Republic
+FHAW    Wide Awake Field Ascension Island
+FIMP    Plaisance Mauritius   Mauritius
+FIMR    Rodrigues  Mauritius
+FJDG    Diego Garcia  Unknown
+FKAB    Banyo  Cameroon
+FKAF    Bafia  Cameroon
+FKAG    Abong-Mbang  Cameroon
+FKAL    Lomie  Cameroon
+FKAM    Meiganga  Cameroon
+FKAN    Nkongsamba  Cameroon
+FKAO    Betare-Oya  Cameroon
+FKAY    Yoko  Cameroon
+FKKA    Maroua-Salak  Cameroon
+FKKB    Kribi  Cameroon
+FKKC    Tiko  Cameroon
+FKKD    Douala Obs.  Cameroon
+FKKF    Mamfe  Cameroon
+FKKI    Batouri  Cameroon
+FKKM    Koundja  Cameroon
+FKKN    Ngaoundere  Cameroon
+FKKR    Garoua  Cameroon
+FKKV    Bamenda   Cameroon
+FKKY    Younde Ii  Cameroon
+FKYS    Yaounde  Cameroon
+FLBA    Mbala  Zambia
+FLCH    Choma  Zambia
+FLCP    Chipata  Zambia
+FLIK    Isoka  Zambia
+FLKB    Kawambwa  Zambia
+FLKO    Kaoma  Zambia
+FLKS    Kasama  Zambia
+FLKW    Kabwe  Zambia
+FLLC    Lusaka City Airport  Zambia
+FLLD    Lundazi  Zambia
+FLLI    Livingstone  Zambia
+FLLS    Lusaka International Airport  Zambia
+FLMA    Mansa  Zambia
+FLMG    Mongu  Zambia
+FLMP    Mpika  Zambia
+FLMW    Mwinilunga  Zambia
+FLND    Ndola  Zambia
+FLPA    Kasempa  Zambia
+FLPE    Petauke  Zambia
+FLPO    Kabompo  Zambia
+FLSE    Serenje  Zambia
+FLSN    Senanga  Zambia
+FLSS    Sesheke  Zambia
+FLSW    Solwezi  Zambia
+FLZB    Zambezi  Zambia
+FMCH    Hahaya International Airport  Comoros
+FMCV    Ouani Anjouan   Comoros
+FMCZ    Dzaoudzi / Pamanzi Mayotte   Comoros
+FMEE    Saint-Denis / Gillot Reunion   Unknown
+FMEP    Saint-Pierre Reunion   Unknown
+FMME    Antsirabe  Madagascar
+FMMH    Mahanoro  Madagascar
+FMMI    Antananarivo / Ivato  Madagascar
+FMMO    Maintirano  Madagascar
+FMMS    Sainte-Marie Aerodrome  Madagascar
+FMMT    Tamatave  Madagascar
+FMMV    Morondava  Madagascar
+FMNA    Diego-Suarez  Madagascar
+FMND    Andapa  Madagascar
+FMNH    Antalaha  Madagascar
+FMNL    Analalava  Madagascar
+FMNM    Majunga  Madagascar
+FMNN    Fascene Nossi-Be   Madagascar
+FMNQ    Besalampy  Madagascar
+FMNS    Sambava  Madagascar
+FMNV    Vohemar  Madagascar
+FMSD    Fort-Dauphin  Madagascar
+FMSF    Fianarantsoa  Madagascar
+FMSG    Farafangana  Madagascar
+FMSM    Mananjary  Madagascar
+FMSO    Ranohira  Madagascar
+FMSR    Morombe  Madagascar
+FMST    Tulear  Madagascar
+FNBG    Monbaca Benguela   Angola
+FNCA    Cabinda  Angola
+FNHU    Huambo Nova Lisboa   Angola
+FNKU    Bie Silva Porto   Angola
+FNLU    Luanda  Angola
+FOGM    Mouila  Gabon
+FOGR    Lambarene  Gabon
+FOOB    Bitam  Gabon
+FOOC    Cocobeach  Gabon
+FOOD    Moanda  Gabon
+FOOE    Mekambo  Gabon
+FOOG    Port-Gentil  Gabon
+FOOK    Makokou  Gabon
+FOOL    Libreville  Gabon
+FOOM    Mitzic  Gabon
+FOON    Franceville / Mvengue  Gabon
+FOOR    Lastoursville  Gabon
+FOOT    Tchibanga  Gabon
+FOOY    Mayumba  Gabon
+FPPR    Principe  Unknown
+FPST    S. Tome  Unknown
+FQBR    Beira  Mozambique
+FQCB    Cuamba  Mozambique
+FQCH    Chimoio  Mozambique
+FQIN    Inhambane  Mozambique
+FQLC    Lichinga  Mozambique
+FQLU    Lumbo  Mozambique
+FQMA    Maputo / Mavalane  Mozambique
+FQMP    Mocimboa Da Praia  Mozambique
+FQNP    Nampula  Mozambique
+FQPB    Pemba  Mozambique
+FQQL    Quelimane  Mozambique
+FQTE    Tete  Mozambique
+FQTT    Tete / Chingozi  Mozambique
+FQVL    Vilanculos  Mozambique
+FQXA    Xai Xai  Mozambique
+FSIA    Seychelles Inter-National Airport  Seychelles
+FSSS    Seychelles International Airport Rawinsonde Station   Seychelles
+FTTA    Sarh  Chad
+FTTC    Abeche  Chad
+FTTD    Moundou  Chad
+FTTJ    Ndjamena  Chad
+FTTK    Bokoro  Chad
+FTTL    Bol-Berim  Chad
+FTTN    Am-Timan  Chad
+FTTP    Pala  Chad
+FTTY    Faya  Chad
+FVBB    Beitbridge  Zimbabwe
+FVBI    Binga  Zimbabwe
+FVBU    Bulawayo Airport  Zimbabwe
+FVCH    Chipinge  Zimbabwe
+FVCZ    Buffalo Range  Zimbabwe
+FVFA    Victoria Falls  Zimbabwe
+FVGO    Gokwe  Zimbabwe
+FVHA    Harare Kutsaga   Zimbabwe
+FVKA    Karoi  Zimbabwe
+FVKB    Kariba  Zimbabwe
+FVMT    Mutoko  Zimbabwe
+FVMV    Masvingo  Zimbabwe
+FVRU    Rusape  Zimbabwe
+FVTL    Gweru  Zimbabwe
+FVWN    Hwange National Park  Zimbabwe
+FWCL    Chileka  Malawi
+FWCT    Chitipa  Malawi
+FWDZ    Dedza  Malawi
+FWKA    Karonga  Malawi
+FWKI    Lilongwe International Airport  Malawi
+FWKK    Nkhota Kota  Malawi
+FWMG    Mangochi  Malawi
+FWMY    Monkey Bay  Malawi
+FWMZ    Mzimba  Malawi
+FWSM    Salima  Malawi
+FWUU    Mzuzu  Malawi
+FXMM    Maseru / Moshoeshoe  Lesotho
+FXMU    Maseru-Mia  Lesotho
+FYGF    Grootfontein  Namibia
+FYKT    Keetmanshoop  Namibia
+FYLZ    Luderitz / Diaz Point  Namibia
+FYRK    Rooikop Saaf / Civ   Namibia
+FYRU    Rundu  Namibia
+FYWH    J. G. Strijdom  Namibia
+FZAA    Kinshasa / N'Djili  Zaire
+FZAG    Moanda  Zaire
+FZAM    Matadi  Zaire
+FZAN    Inga  Zaire
+FZBA    Inongo  Zaire
+FZBO    Bandundu  Zaire
+FZCA    Kikwit  Zaire
+FZCS    Kenge  Zaire
+FZEA    Mbandaka  Zaire
+FZFK    Gemena  Zaire
+FZGN    Boende  Zaire
+FZIA    Kisangani  Zaire
+FZMB    Butembo  Zaire
+FZNA    Goma  Zaire
+FZNC    Rutshuru  Zaire
+FZOA    Kindu  Zaire
+FZQA    Lubumbashi-Luano  Zaire
+FZQM    Kolwezi  Zaire
+FZRA    Manono  Zaire
+FZRF    Kalemie  Zaire
+FZRQ    Kongolo  Zaire
+FZSA    Kamina / Base  Zaire
+FZUA    Kananga  Zaire
+FZUK    Tshikapa  Zaire
+FZVA    Lodja  Zaire
+FZVI    Lusambo  Zaire
+FZVS    Ilebo  Zaire
+FZWA    Mbuji-Mayi  Zaire
+GABG    Bougouni  Mali
+GABS    Bamako / Senou  Mali
+GAGO    Gao  Mali
+GAHB    Hombori  Mali
+GAKA    Kenieba  Mali
+GAKL    Kidal  Mali
+GAKO    Koutiala  Mali
+GAKT    Kita  Mali
+GAKY    Kayes  Mali
+GAMB    Mopti  Mali
+GAMK    Menaka  Mali
+GANK    Nara  Mali
+GANR    Nioro Du Sahel  Mali
+GASG    Segou  Mali
+GASK    Sikasso  Mali
+GASN    San  Mali
+GATB    Tombouctou  Mali
+GATS    Tessalit  Mali
+GBYD    Banjul / Yundum  Gambia
+GCFV    Fuerteventura / Aeropuerto  Spain
+GCHI    Hierro / Aeropuerto  Spain
+GCLA    La Palma / Aeropuerto  Spain
+GCLP    Las Palmas De Gran Canaria / Gando  Spain
+GCRR    Lanzarote / Aeropuerto  Spain
+GCTS    Tenerife Sur  Spain
+GCXO    Tenerife / Los Rodeos  Spain
+GEML    Melilla  Spain
+GFLL    Lungi  Sierra Leone
+GGBF    Bafata  Guinea-Bissau
+GGOV    Bissau Aeroport   Guinea-Bissau
+GMAA    Agadir  Morocco
+GMAD    Agadir Al Massira  Morocco
+GMAT    Tan-Tan  Morocco
+GMFF    Fes-Sais  Morocco
+GMFI    Ifrane  Morocco
+GMFK    Errachidia  Morocco
+GMFM    Meknes  Morocco
+GMFN    Nador  Morocco
+GMFO    Oujda  Morocco
+GMFZ    Taza  Morocco
+GMMC    Casablanca  Morocco
+GMME    Rabat-Sale  Morocco
+GMMF    Sidi Ifni  Morocco
+GMMI    Essaouira  Morocco
+GMMN    Nouasseur  Morocco
+GMMS    Safi  Morocco
+GMMX    Marrakech  Morocco
+GMMY    Kenitra  Morocco
+GMMZ    Ouarzazate  Morocco
+GMTA    Al Hoceima  Morocco
+GMTN    Tetuan / Sania Ramel  Morocco
+GMTT    Tanger Aerodrome   Morocco
+GOGG    Ziguinchor  Senegal
+GOGK    Kolda  Senegal
+GOGS    Cap-Skirring  Senegal
+GOOD    Diourbel  Senegal
+GOOG    Linguere  Senegal
+GOOK    Kaolack  Senegal
+GOOY    Dakar / Yoff  Senegal
+GOSM    Matam  Senegal
+GOSP    Podor  Senegal
+GOSS    Saint-Louis  Senegal
+GOTK    Kedougou  Senegal
+GOTT    Tambacounda  Senegal
+GQNA    Aioun El Atrouss  Mauritania
+GQNB    Boutilimit  Mauritania
+GQND    Tidjikja  Mauritania
+GQNF    Kiffa  Mauritania
+GQNI    Nema  Mauritania
+GQNJ    Akjoujt  Mauritania
+GQNK    Kaedi  Mauritania
+GQNN    Nouakchott  Mauritania
+GQNR    Rosso  Mauritania
+GQPA    Atar  Mauritania
+GQPP    Nouadhibou  Mauritania
+GQPT    Bir Moghrein  Mauritania
+GSVO    Villa Cisneros  Western Sahara
+GUCY    Conakry / Gbessia  Guinea
+GUFH    Faranah / Badala  Guinea
+GUID    Kindia  Guinea
+GUKU    Kissidougou  Guinea
+GULB    Labe  Guinea
+GUMA    Macenta  Guinea
+GUNZ    N'Zerekore  Guinea
+GUOK    Boke  Guinea
+GUSI    Siguiri  Guinea
+GUXD    Kankan  Guinea
+GVAC    Sal  Cape Verde 
+HAAB    Addis Ababa  Ethiopia
+HAAG    Agordat   Ethiopia
+HAAM    Arba Minch  Ethiopia
+HAAW    Awash   Ethiopia
+HAAX    Axum  Ethiopia
+HABC    Baco / Bako   Ethiopia
+HABD    Bahar Dar  Ethiopia
+HADC    Combolcha  Ethiopia
+HADM    Debremarcos  Ethiopia
+HADR    Dire Dawa  Ethiopia
+HAGH    Ghinnir / Ginir   Ethiopia
+HAGN    Gondar  Ethiopia
+HAGO    Gode  Ethiopia
+HAGR    Gore  Ethiopia
+HAHM    Harar Meda  Ethiopia
+HAJJ    Jiggiga  Ethiopia
+HAJM    Jimma  Ethiopia
+HAKD    Kabre Dare Military   Ethiopia
+HALA    Awassa  Ethiopia
+HAMK    Makale  Ethiopia
+HAML    Masslo / Meslo   Ethiopia
+HAMS    Massawa  Ethiopia
+HANG    Neghelli  Ethiopia
+HASB    Assab  Ethiopia
+HASO    Assosa / Asosa   Ethiopia
+HATS    Tessenei / Teseney   Ethiopia
+HBBA    Bujumbura  Burundi
+HCMM    Mogadiscio  Somalia
+HCMN    Belet Uen  Somalia
+HDAM    Djibouti \ Ambouli  Djibouti
+HEAR    El Arish  Egypt
+HEAT    Asyut  Egypt
+HEAX    Alexandria / Nouzha  Egypt
+HECA    Cairo Airport  Egypt
+HEGN    Hurgada  Egypt
+HELX    Luxor  Egypt
+HEMM    Mersa Matruh  Egypt
+HEPS    Port Said  Egypt
+HESH    Sharm El Sheikhintl  Egypt
+HESN    Asswan  Egypt
+HETR    El Tor  Egypt
+HFFF    Djibouti  Djibouti
+HHAS    Asmara  Ethiopia
+HKEL    Eldoret  Kenya
+HKEM    Embu  Kenya
+HKGA    Garissa  Kenya
+HKIS    Isiolo   Kenya
+HKJK    Nairobi / Kenyatta Airport  Kenya
+HKKG    Kakamega  Kenya
+HKKI    Kisumu  Kenya
+HKKR    Kericho  Kenya
+HKKS    Kisii  Kenya
+HKKT    Kitale  Kenya
+HKLO    Lodwar  Kenya
+HKLU    Lamu  Kenya
+HKMA    Mandera  Kenya
+HKMB    Marsabit  Kenya
+HKME    Meru  Kenya
+HKML    Malindi  Kenya
+HKMO    Mombasa  Kenya
+HKMU    Makindu  Kenya
+HKMY    Moyale  Kenya
+HKNC    Nairobi / Dagoretti  Kenya
+HKNI    Nyeri  Kenya
+HKNK    Nakuru  Kenya
+HKNO    Narok  Kenya
+HKNW    Nairobi / Wilson  Kenya
+HKNY    Nanyuki   Kenya
+HKVO    Voi  Kenya
+HKWJ    Wajir  Kenya
+HLGT    Ghat  Libyan Arab Jamahiriya
+HLKF    Kufra  Libyan Arab Jamahiriya
+HLLB    Benina  Libyan Arab Jamahiriya
+HLLS    Sebha  Libyan Arab Jamahiriya
+HLLT    Tripoli Inter-National Airport  Libyan Arab Jamahiriya
+HLTD    Ghadames  Libyan Arab Jamahiriya
+HRYG    Gisenyi  Rwanda
+HRYR    Kigali  Rwanda
+HSAT    Atbara  Sudan
+HSDN    Dongola  Sudan
+HSDZ    Damazine  Sudan
+HSFS    El Fasher  Sudan
+HSGF    Gedaref  Sudan
+HSGN    Geneina  Sudan
+HSKA    Kassala  Sudan
+HSKI    Kosti  Sudan
+HSLI    Kadugli  Sudan
+HSNL    Nyala  Sudan
+HSNR    Sennar  Sudan
+HSOB    El Obeid  Sudan
+HSPN    Port Sudan International  Sudan
+HSRN    Renk  Sudan
+HSSJ    Juba  Sudan
+HSSM    Malakal  Sudan
+HSSP    Port Sudan  Sudan
+HSSS    Khartoum  Sudan
+HSSW    Wadi Halfa  Sudan
+HTAR    Arusha  Tanzania, United Republic of
+HTBU    Bukoba  Tanzania, United Republic of
+HTDA    Dar Es Salaam Airport  Tanzania, United Republic of
+HTDO    Dodoma  Tanzania, United Republic of
+HTIR    Iringa  Tanzania, United Republic of
+HTKA    Kigoma  Tanzania, United Republic of
+HTKI    Kilwa Masoko   Tanzania, United Republic of
+HTKJ    Kilimanjaro Airport  Tanzania, United Republic of
+HTMB    Mbeya  Tanzania, United Republic of
+HTMG    Morogoro  Tanzania, United Republic of
+HTMO    Mombo  Tanzania, United Republic of
+HTMS    Moshi  Tanzania, United Republic of
+HTMT    Mtwara  Tanzania, United Republic of
+HTMU    Musoma  Tanzania, United Republic of
+HTMW    Mwanza  Tanzania, United Republic of
+HTNA    Nachingwea  Tanzania, United Republic of
+HTPE    Pemba / Karume Airport  Tanzania, United Republic of
+HTSE    Same  Tanzania, United Republic of
+HTSO    Songea  Tanzania, United Republic of
+HTSY    Shinyanga  Tanzania, United Republic of
+HTTB    Tabora Airport  Tanzania, United Republic of
+HTTG    Tanga  Tanzania, United Republic of
+HTZA    Zanzibar / Kisauni  Tanzania, United Republic of
+HUAR    Arua  Uganda
+HUEN    Entebbe Airport  Uganda
+HUFP    Fort Portal   Uganda
+HUGU    Gulu  Uganda
+HUJI    Jinja  Uganda
+HUKB    Kabale  Uganda
+HUKS    Kasese  Uganda
+HULI    Lira  Uganda
+HUMA    Mbarara  Uganda
+HUMI    Masindi  Uganda
+HUMO    Moroto   Uganda
+HUSO    Soroti  Uganda
+HUTO    Tororo  Uganda 
+K01R    Claiborne Range, La. Airways Facilities Sector   LA  USA
+K01T    High Island  LA  USA
+K03Y    Hallock  MN  USA
+K07S    Deer Park, Deer Park Airport  WA  USA
+K0B9    Goat Island Remote Automatic Meteorological Observing System   ME  USA
+K0E4    Payson  AZ  USA
+K0L3    Zuma Beach  CA  USA
+K0V1    Custer, Custer County Airport  SD  USA
+K0W8    Chincoteague  VA  USA
+K0Y2    Sturgeon Bay   WI  USA
+K0Y7    Lamoni, Lamoni Municipal Airport  IA  USA
+K12B    New Castles Coast Guard Light Station   NH  USA
+K12N    Andover, Aeroflex-Andover Airport  NJ  USA
+K13A    Nogales Automatic Meteorological Observing System   AZ  USA
+K13G    Niagara Coast Guard Station   NY  USA
+K14B    Great Duck Island Coast Guard Light Station  ME  USA
+K14C    Frankfort Coast Guard Station   MI  USA
+K15B    Halfway Rock Coast Guard Light Station   ME  USA
+K15C    Milwaukee Coast Guard Light Station   WI  USA
+K16B    Heron Neck Coast Guard Light Station   ME  USA
+K16C    Kenosha Coast Guard Station   WI  USA
+K17C    Ludington Coast Guard Station   MI  USA
+K18B    Monhegan / Manana Island  ME  USA
+K18C    Michigan City Coast Guard Station   IN  USA
+K18N    New London Ledge Cg  CT  USA
+K19C    Muskegon Coast Guard Station   MI  USA
+K19D    Mora Municipal Automatic Weather Observing / Reporting System   MN  USA
+K19G    Buffalo Coast Guard Station   NY  USA
+K19R    Ship Shoal Platform  LA  USA
+K1G7    Mississippi Canyon  LA  USA
+K1J1    Saint Simon Island Coast Guard Station   GA  USA
+K1J2    Tybee Coast Guard Station   GA  USA
+K1J3    Ponce De Leon Inlet  FL  USA
+K1J4    Cape San Blas Coast Guard Station   FL  USA
+K1J5    Santa Rosa Coast Guard Station   FL  USA
+K1K5    Elkhart / Elkhart-Morton County A.  KS  USA
+K1L2    Santa Monica Pier  CA  USA
+K1O5    Montague  CA  USA
+K1S4    Scappoose, Scappoose Industrial Airpark  OR  USA
+K1V1    Rifle Aviation Weather Reporting Station   CO  USA
+K1V4    Saint Johnsbury, Saint Johnsbury  VT  USA
+K1W9    Wrightsville Beach  NC  USA
+K20B    Rockland Coast Guard Station   ME  USA
+K20C    Saint Joseph Coast Guard Station   MI  USA
+K20G    Ashtabula Coast Guard Station   OH  USA
+K20J    West Jonesport Coast Guard Station   ME  USA
+K21C    Sheboygan Coast Guard Station   WI  USA
+K21G    Marblehead Coast Guard Station   OH  USA
+K22G    Lorain / Elyria, Lorain County Regional Airport  OH  USA
+K23B    Seguin Island Coast Guard Light Station   ME  USA
+K23G    Cleveland Hrbr Coast Guard Station   OH  USA
+K24B    W. Quoddy Head Coast Guard Light Station  ME  USA
+K24G    Toledo Coast Guard Station   OH  USA
+K25B    Portsmouth Harbor  NH  USA
+K25G    Erie Coast Guard Station   PA  USA
+K26B    Isle Of Shoals Coast Guard Station   NH  USA
+K26G    Rochester Coast Guard Light Station   NY  USA
+K27B    Cape Neddick Coast Guard Light Station   ME  USA
+K27G    Lorain Coast Guard Station   OH  USA
+K27U    Salmon  ID  USA
+K27Y    Grand Marais Coast Guard Station   MI  USA
+K28G    Oswego Coast Guard Station   NY  USA
+K28K    Grncyn Blk52 Supplementary Aviation Weather Reporting Station   LA  USA
+K28T    Sabine Pass  TX  USA
+K28Y    North Manitou Shoal  MI  USA
+K29B    Boston / Hull Coast Guard Light Station   MA  USA
+K29G    Ravenna / Portage Co.  OH  USA
+K29J    Rock Hill, Rock Hill-York County Airport  SC  USA
+K29Y    Devils Island Light Station   WI  USA
+K2B8    Portland Head Coast Guard Light Station   ME  USA
+K2C2    White Sands, Nm.  NM  USA
+K2DP    Dare County Gunnery Range, Nc.  NC  USA
+K2G6    Meadville, Port Meadville Airport  PA  USA
+K2H1    Huntington B. Oil  CA  USA
+K2I4    Columbus / Bolton Field  OH  USA
+K2I8    Newark, Newark-Heath Airport  OH  USA
+K2L6    Marina Del Rey  CA  USA
+K2L7    Solana Beach  CA  USA
+K2PJ    Poinsett Range, Sumpter Sc.  SC  USA
+K2S9    Willapa Harbor  WA  USA
+K2U7    Stanley, Stanley Ranger Station  ID  USA
+K2V9    Gunnison Aviation Weather Reporting Station   CO  USA
+K2WX    Buffalo, Buffalo  SD  USA
+K30B    Sandwich Coast Guard Station   MA  USA
+K30G    Saginaw River Coast Guard Station   MI  USA
+K30N    Faulkner Island Coast Guard Light Station   CT  USA
+K30Y    Duluth Harbor Coast Guard Station   MN  USA
+K31B    Chatham Coast Guard Station   MA  USA
+K31G    Belle Isle Coast Guard Station   MI  USA
+K31Y    Eagle Harbor Coast Guard Light Station   MI  USA
+K32N    Little Gulf Island Light Station   CT  USA
+K32Y    Portage Coast Guard Station   MI  USA
+K33B    Buzzards Bay Cgsl   MA  USA
+K33G    Port Huron Coast Guard Station   MI  USA
+K34B    Gloucester Coast Guard Station   MA  USA
+K34N    Eatons Neck Coast Guard Station   NY  USA
+K34Y    Marquette Coast Guard Light Station   MI  USA
+K35B    Merrimac River Coast Guard Station   MA  USA
+K36B    Race Point Coast Guard Station   MA  USA
+K36Y    Point Betsie / Frankfort  MI  USA
+K37B    Scituate Coast Guard Station   MA  USA
+K38Y    Saint Ignace  MI  USA
+K39Y    Tawas Point Coast Guard Station   MI  USA
+K3B1    Greenville, Greenville Municipal Airport  ME  USA
+K3B2    Marshfield Airport  MA  USA
+K3DU    Drummond  MT  USA
+K3HE    Howell  MI  USA
+K3HT    Harlowton  MT  USA
+K3KM    Wichita, Colonel James Jabara Airport  KS  USA
+K3L3    Newport Beach  CA  USA
+K3O6    Treasure Island  CA  USA
+K3OI    Lamoni  IA  USA
+K3R5    New Braunfels, New Braunfels Municipal Airport  TX  USA
+K3RN    Graying Af Range, Mi.  MI  USA
+K3S2    Aurora State  OR  USA
+K3SE    Spencer, Ia.  IA  USA
+K3SM    Shelbyville, Shelbyville Municipal Airport  IN  USA
+K3SZ    St Charles, St Charles County Smartt Airport  MO  USA
+K3TH    Thompson Falls  MT  USA
+K3V8    Venice Heliport  LA  USA
+K3W4    Swansboro / Bogue  NC  USA
+K40B    Clayton Lake  ME  USA
+K40J    Perry-Foley, Perry-Foley Airport  FL  USA
+K40N    Chester County Airport  PA  USA
+K40Y    Thunder Bay Island  MI  USA
+K41G    Bath  MI  USA
+K41I    Eugene Island B266c  LA  USA
+K43F    Litchfield Municipal  MN  USA
+K43S    West Point Coast Guard Light Station   WA  USA
+K44N    Millbrook / Sky Acres  NY  USA
+K44W    Diamond Shoals Coast Guard Station   NC  USA
+K44Y    Sault Ste Marie Coast Guard Station  MI  USA
+K45B    Brant Point Coast Guard Station   MA  USA
+K45N    Bay Shore / Fire Island  NY  USA
+K45W    Oracoke Coast Guard Station   NC  USA
+K48N    Montauk Point Coast Guard Light Station   NY  USA
+K49N    East Moriches Coast Guard Station   NY  USA
+K4BK    Brookings  OR  USA
+K4BL    Blanding   UT  USA
+K4BQ    Broadus   MT  USA
+K4CB    Cuddleback Gunnery Range, Ca.  CA  USA
+K4CR    Corona / Lincoln  NM  USA
+K4DG    Douglas  WY  USA
+K4HV    Hanksville   UT  USA
+K4L7    Hermosa Beach Pier  CA  USA
+K4LW    Lakeview  OR  USA
+K4MR    Melrose Gunnery Range, Nm.  NM  USA
+K4MY    Moriarty  NM  USA
+K4OM    Omak, Wa.  WA  USA
+K4SL    Torreon  NM  USA
+K4SU    Superior Valley Gunnery Range, Ca  CA  USA
+K4SV    Strevell  ID  USA
+K4V5    Durango Aviation Weather Reporting Station   CO  USA
+K50N    Rockaway Coast Guard Station   NY  USA
+K50Q    Farallon Island  CA  USA
+K51N    Short Beach Coast Guard Station   NY  USA
+K51Q    San Francisco Pbs   CA  USA
+K52N    Wildwood  NJ  USA
+K52Q    Davis Point Aviation Weather Reporting Station   CA  USA
+K53D    Glenwood  MN  USA
+K53Q    Pillar Pt / El Granda  CA  USA
+K53S    Point Wilson Coast Guard Light Station   WA  USA
+K54N    Manasquan Inl Coast Guard Station   NJ  USA
+K54Q    Castroville / Moss  CA  USA
+K55N    Atlantic City Coast Guard Station   NJ  USA
+K56N    Sandy Hook Coast Guard Station   NJ  USA
+K5B5    Bennington, Morse State Airport  VT  USA
+K5I3    Pikeville Remote Automatic Meteorological Observing System   KY  USA
+K5L8    Long Beach   CA  USA
+K5R0    East Addition B323  TX  USA
+K61N    Indian River Coast Guard Station   DE  USA
+K61W    Annapolis Coast Guard Station   MD  USA
+K62G    Wilmette Marines   IL  USA
+K62W    Cape Henry Coast Guard Light Station   VA  USA
+K63G    Chicago / Calumet Coast Guard Station  IL  USA
+K63W    Milford Haven Coast Guard Station   VA  USA
+K64W    Parramore Beach  VA  USA
+K65W    Thomas Point Coast Guard Station   MD  USA
+K66W    Cove Point Coast Guard Light Station   MD  USA
+K67B    Castle Hill Coast Guard Station   RI  USA
+K67W    Stillpond Coast Guard Station   MD  USA
+K6B1    Rochester, Skyhaven Airport  NH  USA
+K6L9    Huntington Beach  CA  USA
+K6R0    Slidell, Slidell Airport  LA  USA
+K6R6    Dryden, Terrel County Airport  TX  USA
+K75S    Burlington / Mt Vern  WA  USA
+K76S    Oak Harbor Airpark  WA  USA
+K77M    Malta  ID  USA
+K77W    Cape Lookout Coast Guard Station   NC  USA
+K78W    S. Port / Oak Island Coast Guard Station  NC  USA
+K79J    Andalusia, Andalusia-Opp Municipal Airport  AL  USA
+K79W    Oregon Inlet Coast Guard Station   NC  USA
+K7A9    Plains / Peterson Field  GA  USA
+K7G2    Ashtabula, Ashtabula County Airport  OH  USA
+K7R1    Venice, Venice Heliport  LA  USA
+K7R2    Leeville  LA  USA
+K7R3    Amelia / Lake Palourd  LA  USA
+K7R4    Intracoastal City  LA  USA
+K7R5    Cameron Heliport  LA  USA
+K7R8    South Marsh Island  LA  USA
+K82S    Cape Disappointment  WA  USA
+K83S    Coos Bay Coast Guard Station   OR  USA
+K84J    Folly Beach Long Range Navigation   SC  USA
+K84Q    Blunts Reef Coast Guard Station   CA  USA
+K84S    Grays Harbor Coast Guard Station   WA  USA
+K85J    Georgetown Coast Guard Light Station   SC  USA
+K85Q    Santa Cruz Harbor  CA  USA
+K85S    Siuslaw River Coast Guard Station   OR  USA
+K86J    Sullivans Island Coast Guard Station   SC  USA
+K86Q    St George Reef Coast Guard Light Station  CA  USA
+K86S    Smith Island Coast Guard Light Station   WA  USA
+K87Q    Point Piedras Blanca, Point Piedras Blanca  CA  USA
+K87S    Quillayute River Coast Guard Light Station  WA  USA
+K88Q    Samoa / Humboldt Bay  CA  USA
+K88S    Tillamook Bay Coast Guard Station   OR  USA
+K89Q    Point Arena Coast Guard Light Station   CA  USA
+K8B9    Egg Rock Light Station   ME  USA
+K8D3    Sisseton, Sisseton Municipal Airport  SD  USA
+K8R0    Pascagoula Coast Guard Station   MS  USA
+K8R1    Mobile Point Coast Guard Station   AL  USA
+K8R3    Southwest Pass Coast Guard Station   LA  USA
+K8R5    Grand Isle Coast Guard Station   LA  USA
+K8R6    Calcasieu Coast Guard Station   LA  USA
+K8R7    Sabine Pass Coast Guard Station   TX  USA
+K8R8    Freeport Coast Guard Station   TX  USA
+K8Y8    Crane Lake Automatic Weather Observing / Reporting System   MN  USA
+K90S    Umpqua River Coast Guard Station   OR  USA
+K91Q    Point Blunt Coast Guard Light Station   CA  USA
+K91S    Alki Point Coast Guard Light Station   WA  USA
+K92Q    Bodega Bay Coast Guard Light Station   CA  USA
+K92S    Cape Blanco Coast Guard Station   OR  USA
+K93Q    Pigeon Point Coast Guard Light Station   CA  USA
+K93S    Cape Flattery Coast Guard Light Station   WA  USA
+K94B    Wood Island Light Station   ME  USA
+K94Q    Point Bonita Coast Guard Light Station   CA  USA
+K95B    Cape Vincent Marine Aviation Reporting Station   NY  USA
+K95Q    Point Pinos Coast Guard Light Station   CA  USA
+K95S    Yaquina Bay Coast Guard Station   OR  USA
+K96B    Owl's Head Light Station   ME  USA
+K96Q    Trinidad Head Coast Guard Light Station   CA  USA
+K96S    New Dungeness Coast Guard Station   WA  USA
+K97Q    Point Reyes Coast Guard Station   CA  USA
+K97S    Point No Point Coast Guard Station   WA  USA
+K98Q    Rio Vista Coast Guard Light Station   CA  USA
+K99Q    Port Chicago  CA  USA
+K99S    Point Robinson Coast Guard Light Station   WA  USA
+K9B2    Newport, Vt.  VT  USA
+K9B5    Bear Island Coast Guard Station   ME  USA
+K9F2    Fourchon Supplementary Aviation Weather Reporting Station   LA  USA
+K9L0    Dana Point  CA  USA
+K9R0    Galveston Coast Guard Station   TX  USA
+K9R1    Port Aransas Coast Guard Station   TX  USA
+K9V9    Chamberlain, Chamberlain Municipal Airport  SD  USA
+KA21    Portage Glacier, Portage Visitor Center  AK  USA
+KABE    Allentown, Lehigh Valley International Airport  PA  USA
+KABI    Abilene, Abilene Regional Airport  TX  USA
+KABQ    Albuquerque, Albuquerque International Airport  NM  USA
+KABR    Aberdeen, Aberdeen Regional Airport  SD  USA
+KABX    Albuquerque Nexrad  NM  USA
+KABY    Albany, Southwest Georgia Regional Airport  GA  USA
+KACK    Nantucket, Nantucket Memorial Airport  MA  USA
+KACT    Waco, Waco Regional Airport  TX  USA
+KACV    Arcata / Eureka, Arcata Airport  CA  USA
+KACY    Atlantic City, Atlantic City International Airport  NJ  USA
+KADG    Adrian, Lenawee County Airport  MI  USA
+KADM    Ardmore Municipal  OK  USA
+KADQ    Kodiak, Kodiak Airport  AK  USA
+KADS    Dallas / Addison Airport  TX  USA
+KADW    Camp Springs / Andrewsafb, Md.  MD  USA
+KAEL    Albert Lea Automatic Weather Observing / Reporting System   MN  USA
+KAEX    Alexandria, Alexandria International Airport  LA  USA
+KAFF    Air Force Academy, Co.  CO  USA
+KAFJ    Washington Automatic Weather Observing / Reporting System   PA  USA
+KAFN    Jaffrey, Jaffrey Municipal-Silver Ranch Airport  NH  USA
+KAFW    Fort Worth, Fort Worth Alliance Airport  TX  USA
+KAGC    Pittsburgh, Allegheny County Airport  PA  USA
+KAGR    Avon Park Gunnery Range, Fl.  FL  USA
+KAGS    Augusta, Bush Field  GA  USA
+KAHN unty Airport  NY  USA
+KALI    Alice, Alice International Airport  TX  USA
+KALM    Alamogordo-White  NM  USA
+KALN    Alton / St Louis Regional  IL  USA
+KALO    Waterloo, Waterloo Municipal Airport  IA  USA
+KALS    Alamosa, San Luis Valley Regional Airport  CO  USA
+KALW    Walla Walla, Walla Walla Regional Airport  WA  USA
+KAMA    Amarillo, Amarillo International Airport  TX  USA
+KAMG    Alma, Bacon County Airport  GA  USA
+KAMW    Ames, Ames Municipal Airport  IA  USA
+KAMX    Miami Nexrad   FL  USA
+KANB    Anniston, Anniston Metropolitan Airport  AL  USA
+KAND    Anderson, Anderson County Airport  SC  USA
+KANE    Minneapolis / Blaine  MN  USA
+KANN    Annette, Annette Island Airport  AK  USA
+KANW    Ainsworth Municipal  NE  USA
+KAOH    Lima, Lima Allen County Airport  OH  USA
+KAOO    Altoona, Altoona-Blair County Airport  PA  USA
+KAPA    Denver, Centennial Airport  CO  USA
+KAPC    Napa, Napa County Airport  CA  USA
+KAPF    Naples Municipal  FL  USA
+KAPG    Phillips Aaf / Aberdn  MD  USA
+KAPN    Alpena, Alpena County Regional Airport  MI  USA
+KAPV    Apple Valley  CA  USA
+KAQQ    Apalachicola, Apalachicola  FL  USA
+KAQW    North Adams, Harriman-And-West Airport  MA  USA
+KARA    New Iberia, Acadiana Regional Airport  LA  USA
+KARB    Ann Arbor, Ann Arbor Municipal Airport  MI  USA
+KARG    Walnut Ridge Automatic Weather Observing / Reporting System   AR  USA
+KARR    Chicago / Aurora, Aurora Municipal Airport  IL  USA
+KART    Watertown, Watertown International Airport  NY  USA
+KARV    Minocqua / Woodruff  WI  USA
+KASE    Aspen, Aspen-Pitkin County Airport  CO  USA
+KASG    Springdale Municipal  AR  USA
+KASH    Nashua / Boire Field  NH  USA
+KAST    Astoria, Astoria Regional Airport  OR  USA
+KASX    Ashland, Kennedy Memorial Airport  WI  USA
+KATL    Atlanta, Hartsfield Atlanta International Airport  GA  USA
+KATW    Appleton / Outagamie  WI  USA
+KATX    Seattle Nexrad   WA  USA
+KATY    Watertown, Watertown Municipal Airport  SD  USA
+KAUB    Auburn University Automatic Meteorological Observing System   AL  USA
+KAUG    Augusta, Augusta State Airport  ME  USA
+KAUM    Austin Municipal  MN  U Binghamton, Binghamton Regional Airport  NY  USA
+KBGR    Bangor, Bangor International Airport  ME  USA
+KBHB    Bar Harbor Automatic Weather Observing / Reporting System   ME  USA
+KBHK    Baker, Baker Municipal Airport  MT  USA
+KBHM    Birmingham, Birmingham International Airport  AL  USA
+KBHX    Eureka Nexrad   CA  USA
+KBID    Block Island Automatic Weather Observing / Reporting System   RI  USA
+KBIE    Beatrice Municipal  NE  USA
+KBIF    Biggs Aaf / Ft. Bliss  TX  USA
+KBIG    Delta Junction / Ft Greely, Allen Army Air Field  AK  USA
+KBIH    Bishop, Bishop Airport  CA  USA
+KBIL    Billings, Billings Logan International Airport  MT  USA
+KBIS    Bismarck, Bismarck Municipal Airport  ND  USA
+KBIV    Holland, Tulip City Airport  MI  USA
+KBIX    Keesler Afb / Biloxi  MS  USA
+KBJC    Broomfield / Jeffco  CO  USA
+KBJI    Bemidji / Mun., Mn.  MN  USA
+KBJJ    Wooster, Wayne County Airport  OH  USA
+KBKE    Baker, Baker Municipal Airport  OR  USA
+KBKF    Buckley Angb / Denver  CO  USA
+KBKL    Cleveland, Burke Lakefront Airport  OH  USA
+KBKT    Ft Pickett / Blacksto  VA  USA
+KBKV    Brooksville, Hernando County Airport  FL  USA
+KBKW    Beckley, Raleigh County Memorial Airport  WV  USA
+KBKX    Brookings Automatic Weather Observing / Reporting System   SD  USA
+KBLF    Bluefield, Mercer County Airport  WV  USA
+KBLH    Blythe, Blythe Airport  CA  USA
+KBLI    Bellingham, Bellingham International Airport  WA  USA
+KBLM    Belmar-Farmdale  NJ  USA
+KBLU    Emigrant Gap, Blue Canyon Nyack Airport  CA  USA
+KBLV    Scott Afb / Bellevill  IL  USA
+KBLX    Billing Yell Nexrad  MT  USA
+KBMG    Bloomington, Monroe County Airport  IN  USA
+KBMI    Bloomington / Normal  IL  USA
+KBML    Berlin, Berlin Municipal Airport  NH  USA
+KBMQ    Burnet, Burnet Municipal Craddock Field  TX  USA
+KBMX    Birmingham Nexrad  AL  USA
+KBNA    Nashville, Nashville International Airport  TN  USA
+KBNO    Burns, Burns Municipal Airport  OR  USA
+KBNW    Boone Municipal  IA  USA
+KBNY    Burney  CA  USA
+KBOI    Boise, Boise Air Terminal  ID  USA
+KBOS    Boston, Logan Internaton, Clemson-Oconee County Airport  SC  USA
+KCEW    Crestview, Sikes Airport  FL  USA
+KCEZ    Cortez, Cortez-Montezuma County Airport  CO  USA
+KCFV    Coffeyville, Coffeyville Municipal Airport  KS  USA
+KCGF    Cleveland / Cuyahoga  OH  USA
+KCGI    Cape Girardeau, Cape Girardeau Regional Airport  MO  USA
+KCGX    Chicago / Meigs  IL  USA
+KCGZ    Casa Granda Automatic Weather Observing / Reporting System   AZ  USA
+KCHA    Chattanooga, Lovell Field  TN  USA
+KCHH    Chatham, Ma.  MA  USA
+KCHI    Chicago Wsfo   IL  USA
+KCHO    Charlottesville, Charlottesville-Albemarle Airport  VA  USA
+KCHS    Charleston, Charleston Air Force Base  SC  USA
+KCIC    Chico Municipal   CA  USA
+KCID    Cedar Rapids, Cedar Rapids Municipal Airport  IA  USA
+KCIN    Carroll  IA  USA
+KCIU    Chippewa International Automatic Weather Observing / Reporting System   MI  USA
+KCKB    Clarksburg, Benedum Airport  WV  USA
+KCKL    Centreville, Al.  AL  USA
+KCKN    Crookston Municipal Field  MN  USA
+KCKV    Clarksville, Outlaw Field  TN  USA
+KCLE    Cleveland, Cleveland-Hopkins International Airport  OH  USA
+KCLL    College Station, Easterwood Field  TX  USA
+KCLM    Port Angeles, William R Fairchild International Airport  WA  USA
+KCLT    Charlotte, Charlotte / Douglas International Airport  NC  USA
+KCMA    Camarillo Automatic Weather Observing / Reporting System   CA  USA
+KCMH    Columbus, Port Columbus International Airport  OH  USA
+KCMI    Champaign / Urbana, University Of Illinois-Willard Airport  IL  USA
+KCMX    Hancock, Houghton County Memorial Airport  MI  USA
+KCMY    Mccoy USA Army Air Field   WI  USA
+KCNC    Chariton  IA  USA
+KCNK    Concordia, Blosser Municipal Airport  KS  USA
+KCNM    Carlsbad, Cavern City Air Terminal  NM  USA
+KCNO    Chino, Chino Airport  CA  USA
+KCNU    Chanute, Chanute Martin Johnson Airport  KS  USA
+KCNY    Moab, Canyonlands Field  UT  USA
+KCOD    Cody / Mun., Wy.  WY  USA
+KCOE    Coeur D'Alene Automatic Weather Observing / Reporting System   ID  USA
+KCOF    Cocoa / Patrick Air Force Base, Fl.  FL  USA
+KCON    Concord, Concord Municip Airport  TX  USA
+KCXY    Harrisburg, Capital City Airport  PA  USA
+KCYS    Cheyenne, Cheyenne Airport  WY  USA
+KCZD    Cozad Municipal  NE  USA
+KCZK    Cascade Locks State  OR  USA
+KCZZ    Campo, Campo  CA  USA
+KD07    Faith, Faith Municipal Airport  SD  USA
+KD45    Warroad, Mn  MN  USA
+KD97    South St Paul Municipal  MN  USA
+KDAA    Fort Belvoir / Daviso  VA  USA
+KDAB    Daytona Beach, Daytona Beach Regional Airport  FL  USA
+KDAG    Daggett, Barstow-Daggett Airport  CA  USA
+KDAL    Dallas, Dallas Love Field  TX  USA
+KDAN    Danville, Danville Regional Airport  VA  USA
+KDAX    Sacramento Nexrad  CA  USA
+KDAY    Dayton, Cox Dayton International Airport  OH  USA
+KDBQ    Dubuque, Dubuque Regional Airport  IA  USA
+KDCA    Washington Dc, Washington National Airport  VA  USA
+KDCU    Decatur, Pryor Field  AL  USA
+KDDC    Dodge City, Dodge City Regional Airport  KS  USA
+KDEC    Decatur, Decatur Airport  IL  USA
+KDEE    Deering, Deering Airport  AK  USA
+KDEH    Decorah  IA  USA
+KDEN    Denver, Denver International Airport  CO  USA
+KDEQ    De Queen, Helms Sevier County Airport  AR  USA
+KDET    Detroit, Detroit City Airport  MI  USA
+KDFI    Defiance, Defiance Memorial Airport  OH  USA
+KDFW    Dallas / Fort Worth, Dallas / Fort Worth International Airport  TX  USA
+KDGW    Douglas, Converse County Airport  WY  USA
+KDHN    Dothan, Dothan Airport  AL  USA
+KDHT    Dalhart, Dalhart Municipal Airport  TX  USA
+KDIK    Dickinson, Dickinson Municipal Airport  ND  USA
+KDIX    Phila. Nexrad   PA  USA
+KDKK    Dunkirk, Chautauqua County / Dunkirk Airport  NY  USA
+KDKX    Knoxville Downtown  TN  USA
+KDLF    Laughlin, Laughlin Air Force Base Auxiliary Airfield  TX  USA
+KDLH    Duluth, Duluth International Airport  MN  USA
+KDLN    Dillon, Dillon Airport  MT  USA
+KDLS    The Dalles, The Dalles Municipal Airport  OR  USA
+KDMA    Davis-Monthan Air Force Base  AZ  USA
+KDMN    Deming, Deming Municipal Airport  NM  USA
+KDMO    Sedalia, Sedalia Memorial Airport  MO  USA
+KDMX    Des Moines Nexrad  IA  USA
+KDNL    Augusta, Daniel Field  GA  USA
+KDso International Airport  TX  USA
+KELY    Ely, Ely Airport  NV  USA
+KELZ    Wellsville, Wellsville Municipal Airport  NY  USA
+KEMP    Emporia, Emporia Municipal Airport  KS  USA
+KEMT    El Monte   CA  USA
+KEND    Vance Afb / Enid  OK  USA
+KENN    Nenana, Nenana Municipal Airport  AK  USA
+KENV    Wendover / Af. Aux. Field, Ut.  UT  USA
+KENW    Kenosha, Kenosha Regional Airport  WI  USA
+KENX    Albany Nexrad   NY  USA
+KEOK    Keokuk Municipal  IA  USA
+KEPH    Ephrata, Ephrata Municipal Airport  WA  USA
+KEPO    Eastport, Me.  ME  USA
+KEPZ    Santa Teresa, Nm.  NM  USA
+KEQY    Monroe, Monroe Airport  NC  USA
+KERI    Erie, Erie International Airport  PA  USA
+KERV    Kerrville Municipal  TX  USA
+KESC    Escanaba, Mi.  MI  USA
+KESF    Alexandria, Alexandria Esler Regional Airport  LA  USA
+KESN    Easton / Newman / Fld  MD  USA
+KEST    Estherville, Estherville Municipal Airport  IA  USA
+KESX    Las Vegas Nexrad  NV  USA
+KETH    Wheaton Ndb Automatic Weather Observing / Reporting System   MN  USA
+KEUG    Eugene, Mahlon Sweet Field  OR  USA
+KEUL    Caldwell Automatic Weather Observing / Reporting System   ID  USA
+KEVM    Eveleth Municipal Automatic Weather Observing / Reporting System   MN  USA
+KEVV    Evansville, Evansville Regional Airport  IN  USA
+KEVW    Evanston, Evanston-Uinta County Burns Field  WY  USA
+KEWB    New Bedford, New Bedford Regional Airport  MA  USA
+KEWK    Newton Automatic Weather Observing / Reporting System   KS  USA
+KEWN    New Bern, Craven County Regional Airport  NC  USA
+KEWR    Newark, Newark International Airport  NJ  USA
+KEWX    San Antonio Nexrad  TX  USA
+KEYE    Indianapolis, Eagle Creek Airpark  IN  USA
+KEYW    Key West, Key West International Airport  FL  USA
+KEZF    Shannon Airport  VA  USA
+KF10    Henryetta Municipal  OK  USA
+KF30    Sulphur Municipal  OK  USA
+KF39    Sherman-Denison  TX  USA
+KF54    Arlington, Arlington Municipal Airport  TX  USA
+KFAF    Fort Eustis / Felker  VA  USA
+KFAM    Farmington Airport  MO  USA
+KFAR    Fargo, Hector International Airport  ND  USA
+KFAT    Fresno, Fresno Air Terminal  CAield  KS  USA
+KFOK    Westhampton Beach, The Gabreski Airport  NY  USA
+KFOQ    Freeport Supplementary Aviation Weather Reporting Station   TX  USA
+KFPR    Fort Pierce, St Lucie County International Airport  FL  USA
+KFRG    Farmingdale, Republic Airport  NY  USA
+KFRI    Fort Riley, Ks. Army   KS  USA
+KFRM    Fairmont Municipal Automatic Weather Observing / Reporting System   MN  USA
+KFSD    Sioux Falls, Foss Field  SD  USA
+KFSE    Fosston Automatic Weather Observing / Reporting System   MN  USA
+KFSI    Fort Sill, Ok. Army   OK  USA
+KFSM    Fort Smith, Fort Smith Regional Airport  AR  USA
+KFST    Fort Stockton, Fort Stockton-Pecos County Airport  TX  USA
+KFSW    Fort Madison  IA  USA
+KFTG    Denver Nexrad  CO  USA
+KFTK    Ft. Knox, Ky. Army   KY  USA
+KFTW    Fort Worth, Meacham International Airport  TX  USA
+KFTY    Atlanta, Fulton County Airport-Brown Field  GA  USA
+KFUL    Fullerton, Fullerton Municipal Airport  CA  USA
+KFVE    Frenchville, Northern Aroostook Regional Airport  ME  USA
+KFVX    Farmville  VA  USA
+KFWA    Fort Wayne, Fort Wayne International Airport  IN  USA
+KFWD    Ft Worth, Tx.  TX  USA
+KFWN    Sussex, Sussex Airport  NJ  USA
+KFWS    Dfw Nexrad  TX  USA
+KFXE    Fort Lauderdale, Fort Lauderdale Executive Airport  FL  USA
+KFYV    Fayetteville, Drake Field  AR  USA
+KGAD    Gadsen Municipal Automatic Weather Observing / Reporting System   AL  USA
+KGAG    Gage, Gage Airport  OK  USA
+KGBD    Great Bend Automatic Weather Observing / Reporting System   KS  USA
+KGBN    Gila Bend U. S. Army Airfield, Az.  AZ  USA
+KGCC    Gillette, Gillette-Campbell County Airport  WY  USA
+KGCK    Garden City, Garden City Regional Airport  KS  USA
+KGCN    Grand Canyon, Grand Canyon National Park Airport  AZ  USA
+KGDP    Pine Springs, Guadalupe Mountains National Park  TX  USA
+KGDV    Glendive Automatic Weather Observing / Reporting System   MT  USA
+KGED    Georgetown, Sussex County Airport  DE  USA
+KGEG    Spokane, Spokane International Airport  WA  USA
+KGEY    Greybull, South Big Horn County Airport  WY  USA
+KGFA    Malmstrom Air Force Base  MT  USA
+KGFK    Grand Forks, Grand Forks International Airport  ND  USA
+HDO    Hondo, Hondo Municipal Airport  TX  USA
+KHEF    Manassas Municipal Automatic Weather Observing / Reporting System   VA  USA
+KHEI    Hettinger, Hettinger Municipal Airport  ND  USA
+KHEY    Hanchey Ahp / Ozark  AL  USA
+KHEZ    Natchez / Hardy Automatic Weather Observing / Reporting System   MS  USA
+KHFD    Hartford, Hartford-Brainard Airport  CT  USA
+KHFF    Mackall U. S. Army Airfield  NC  USA
+KHGR    Hagerstown, Washington County Regional Airport  MD  USA
+KHGX    Hustn / Glvstn Nexrad  TX  USA
+KHHF    Canadian / Hemphill  TX  USA
+KHHR    Hawthorne, Hawthorne Municipal Airport  CA  USA
+KHIB    Hibbing, Chisholm-Hibbing Airport  MN  USA
+KHIE    Whitefield, Mount Washington Regional Airport  NH  USA
+KHIF    Hill Afb / Ogden  UT  USA
+KHIO    Portland, Portland-Hillsboro Airport  OR  USA
+KHKA    Blytheville, Blytheville Municipal Airport  AR  USA
+KHKS    Jackson, Hawkins Field  MS  USA
+KHKY    Hickory, Hickory Regional Airport  NC  USA
+KHLC    Hill City, Hill City Municipal Airport  KS  USA
+KHLG    Wheeling, Wheeling Ohio County Airport  WV  USA
+KHLN    Helena, Helena Regional Airport  MT  USA
+KHLR    Fort Hood, Tx. Army   TX  USA
+KHLX    Hillsville  VA  USA
+KHMM    Hamilton / Ravalli County  MT  USA
+KHMN    Holloman Air Force Base, Nm  NM  USA
+KHMS    Hanford, Wa.  WA  USA
+KHNB    Huntingburg  IN  USA
+KHNS    Haines, Haines Airport  AK  USA
+KHOB    Hobbs / Lea Co.  NM  USA
+KHOM    Homer, Homer Airport  AK  USA
+KHON    Huron, Huron Regional Airport  SD  USA
+KHOP    Fort Campbell U. S. Army Airfield, Ky.  KY  USA
+KHOT    Hot Springs, Memorial Field  AR  USA
+KHOU    Houston, Hobby Airport  TX  USA
+KHPN    White Plains, Westchester County Airport  NY  USA
+KHQM    Hoquiam, Bowerman Airport  WA  USA
+KHRL    Harlingen, Rio Grande Valley International Airport  TX  USA
+KHRO    Harrison, Boone County Airport  AR  USA
+KHRT    Hurlburt Field, Fl. Af   FL  USA
+KHSE    Hatteras, Mitchell Field  NC  USA
+KHSI    Hastings, Hastings Municipal Airport  NE  USA
+KHSP    Hot Springs / Ingalls  VA  USA
+KHSS    Hot Springs Aviation Weather Reporting Station   NC  USKIOW    Iowa City, Iowa City Municipal Airport  IA  USA
+KIPL    Imperial, Imperial County Airport  CA  USA
+KIPT    Williamsport, Williamsport-Lycoming County Airport  PA  USA
+KIRK    Kirksville, Kirksville Regional Airport  MO  USA
+KISN    Williston, Sloulin Field International Airport  ND  USA
+KISO    Kinston / Stallings  NC  USA
+KISP    Islip, Long Island Mac Arthur Airport  NY  USA
+KISW    Wisconsin Rapids, Alexander Field South Wood County Airport  WI  USA
+KITH    Ithaca / Tompkins Co.  NY  USA
+KITR    Burlington, Carson County Airport  CO  USA
+KIWA    Williams Afb / Chandl  AZ  USA
+KIWD    Ironwood Automatic Weather Observing / Reporting System   MI  USA
+KIWI    Wiscasset, Wiscasset Airport  ME  USA
+KIWS    W. Houston / Lakeside  TX  USA
+KIXD    Olathe, New Century Aircenter  KS  USA
+KIYK    Inyokern  CA  USA
+KIZG    Fryeburg, Eastern Slopes Regional Airport  ME  USA
+KJAC    Jackson Hole Automatic Weather Observing / Reporting System   WY  USA
+KJAN    Jackson, Jackson International Airport  MS  USA
+KJAX    Jacksonville, Jacksonville International Airport  FL  USA
+KJBR    Jonesboro, Jonesboro Municipal Airport  AR  USA
+KJCT    Junction, Kimble County Airport  TX  USA
+KJDN    Jordan, Jordan Airport  MT  USA
+KJEF    Jefferson City, Jefferson City Memorial Airport  MO  USA
+KJFK    New York, Kennedy International Airport  NY  USA
+KJHW    Jamestown Automatic Weather Observing / Reporting System   NY  USA
+KJKL    Jackson, Carroll Airport  KY  USA
+KJLN    Joplin, Joplin Regional Airport  MO  USA
+KJMS    Jamestown, Jamestown Municipal Airport  ND  USA
+KJNW    Newport  OR  USA
+KJOT    Joliet Park Distric  IL  USA
+KJST    Johnstown, Johnstown-Cambria County Airport  PA  USA
+KJVL    Janesville / Rock Co.  WI  USA
+KJWX    Fort Ritchie / Site R  MD  USA
+KJXN    Jackson / Reynolds  MI  USA
+KJYO    Leesburg / Godfrey  VA  USA
+KKAL    Kaltag, Kaltag Airport  AK  USA
+KKLS    Kelso-Longveiw Automatic Weather Observing / Reporting System  WA  USA
+KKVL    Kivalina, Kivalina Airport  AK  USA
+KL10    San Clemente  CA  USA
+KL13    Point Loma / Cabrillo  CA  USA
+KL14    Lafayette, Lafayette Regional Airport  LA  USA
+KLGA    New York, La Guardia Airport  NY  USA
+KLGB    Long Beach, Long Beach Airport  CA  USA
+KLGD    La Grande Automatic Weather Observing / Reporting System   OR  USA
+KLGU    Logan, Logan-Cache Airport  UT  USA
+KLHD    Anchorage, Lake Hood Sea Plane Base  AK  USA
+KLHQ    Lancaster, Fairfield County Airport  OH  USA
+KLHU    Lake Havasu Automatic Weather Observing / Reporting System   AZ  USA
+KLHW    Ft. Stewart, Ga.  GA  USA
+KLHX    La Junta, La Junta Municipal Airport  CO  USA
+KLIC    Limon, Limon Municipal Airport  CO  USA
+KLIT    Little Rock, Adams Field  AR  USA
+KLIX    Slidell / Mun. La  LA  USA
+KLIZ    Loring Afb / Limeston  ME  USA
+KLKV    Lakeview Automatic Weather Observing / Reporting System   OR  USA
+KLLQ    Monticello, Monticello Municipal Airport  AR  USA
+KLMT    Klamath Falls, Klamath Falls International Airport  OR  USA
+KLND    Lander, Lander  WY  USA
+KLNK    Lincoln, Lincoln Municipal Airport  NE  USA
+KLNN    Willoughby  OH  USA
+KLNP    Wise / Lonesome Pine  VA  USA
+KLNR    Lone Rock, Tri-County Regional Airport  WI  USA
+KLNS    Lancaster, Lancaster Airport  PA  USA
+KLOL    Lovelock, Derby Field  NV  USA
+KLOR    Fort Rucker, Lowe Army Heliport  AL  USA
+KLOT    Chicago Nexrad  IL  USA
+KLOU    Louisville, Bowman Field  KY  USA
+KLOZ    London, London-Corbin Airport-Magee Field  KY  USA
+KLPC    Lompoc Automatic Weather Observing / Reporting System   CA  USA
+KLRD    Laredo International Airport  TX  USA
+KLRF    Little Rock Air Force Base  AR  USA
+KLRJ    Le Marine Aviation Reporting Station  IA  USA
+KLRU    Las Cruces International  NM  USA
+KLRX    Elko Nexrad  NV  USA
+KLSD    Lexington / Creech  KY  USA
+KLSE    La Crosse, La Crosse Municipal Airport  WI  USA
+KLSF    Fort Benning, Ga Army   GA  USA
+KLSV    Nellis Air Force Base  NV  USA
+KLTS    Altus Air Force Base, Ok.  OK  USA
+KLTX    Wilmington Nexrad  NC  USA
+KLUF    Luke Afb / Phoenix  AZ  USA
+KLUK    Cincinnati, Cincinnati Municipal Airport Lunken Field  OH  USA
+KLVK    Livermore, Livermore Municipal Airport  CA  USA
+KLVM    Livingston, Mission Field  MT  USA
+KLVS    Las Vegas, Las / Reporting System   SD  USA
+KMHK    Manhattan, Manhattan Municipal Airport  KS  USA
+KMHN    Mullen / Hooker Co.  NE  USA
+KMHR    Mather Field  CA  USA
+KMHS    Mount Shasta,  CA  USA
+KMHT    Manchester, Manchester Airport  NH  USA
+KMHV    Mojave  CA  USA
+KMHX    Newport, Nc.  NC  USA
+KMIA    Miami, Miami International Airport  FL  USA
+KMIB    Minot Air Force Base  ND  USA
+KMIC    Minneapolis, Crystal Airport  MN  USA
+KMIE    Muncie, Delaware County-Johnson Field  IN  USA
+KMIV    Millville, Millville Municipal Airport  NJ  USA
+KMIW    Marshalltown, Marshalltown Municipal Airport  IA  USA
+KMJQ    Jackson Municipal Automatic Weather Observing / Reporting System   MN  USA
+KMKC    Kansas City, Kansas City Downtown Airport  MO  USA
+KMKE    Milwaukee, General Mitchell International Airport  WI  USA
+KMKG    Muskegon, Muskegon County Airport  MI  USA
+KMKJ    Marion / Wytheville  VA  USA
+KMKK    Kaunakakai, Molokai Airport  HI  USA
+KMKL    Jackson, Mc Kellar-Sipes Regional Airport  TN  USA
+KMKO    Muskogee, Davis Field  OK  USA
+KMKT    Mankato Automatic Weather Observing / Reporting System   MN  USA
+KMKX    Milwaukee Nexrad   WI  USA
+KMLB    Melbourne, Melbourne International Airport  FL  USA
+KMLC    Mc Alester, Mc Alester Regional Airport  OK  USA
+KMLD    Malad City  ID  USA
+KMLF    Milford, Milford Municipal Airport  UT  USA
+KMLI    Moline, Quad-City Airport  IL  USA
+KMLP    Mullan Pass, Mullan Pass Vor  ID  USA
+KMLS    Miles City, Wiley Field  MT  USA
+KMLT    Millinocket, Millinocket Municipal Airport  ME  USA
+KMLU    Monroe, Monroe Regional Airport  LA  USA
+KMMH    Mammoth / June Lakes  CA  USA
+KMMK    Meriden, Meriden Markham Municipal Airport  CT  USA
+KMML    Marshall / Ryan Automatic Weather Observing / Reporting System   MN  USA
+KMMO    Marseilles, Island  IL  USA
+KMMT    Mcentire Air National Guard Weather Facility Base  SC  USA
+KMMU    Morristown Municipal  NJ  USA
+KMMV    Mcminnville, Mcminnville Municipal Airport  OR  USA
+KMNI    Manning / Cooper Regional  SC  USA
+KMNM    Menominee Automatic Weather Observing / Reporting Sysent Astor  FL  USA
+KNAK    Annapolis, USA Naval Academy  MD  USA
+KNBC    Beaufort, Marine Corps Air Station  SC  USA
+KNBE    Dallas USA Naval Air Station   TX  USA
+KNBG    New Orleans, Naval Air Station  LA  USA
+KNBJ    Barin, Barin Field, Naval Air Facility  AL  USA
+KNBQ    Kings Bay, Naval Station  GA  USA
+KNBT    Piney Island, Bt-11 Bombing Range  NC  USA
+KNCA    Jacksonville, New River, Marine Corps Air Station  NC  USA
+KNDZ    Milton, Whiting Field South  FL  USA
+KNED    Winner, Wiley Field  SD  USA
+KNEL    Lakehurst / Nas, Nj.  NJ  USA
+KNEW    New Orleans, Lakefront Airport  LA  USA
+KNEX    Charleston Nise   SC  USA
+KNFE    Fentress, Naval Auxiliary Landing Field  VA  USA
+KNFG    Oceanside, Camp Pendleton, Marine Corps Air Station  CA  USA
+KNFJ    Milton, Choctaw Pensacola, Naval Auxiliary Landing Field  FL  USA
+KNFL    Fallon, Naval Air Station  NV  USA
+KNFW    Fort Worth, Naval Air Station  TX  USA
+KNGP    Corpus Christi, Naval Air Station  TX  USA
+KNGU    Norfolk, Naval Air Station  VA  USA
+KNGW    Corpus Christi, Cabiness Field, Naval Auxiliary Landing Field  TX  USA
+KNGZ    Alameda / Nas, Ca.  CA  USA
+KNHK    Patuxent River, Naval Air Station  MD  USA
+KNHZ    Brunswick, Naval Air Station  ME  USA
+KNID    China Lake, Naval Air Facility  CA  USA
+KNIP    Jacksonville, Naval Air Station  FL  USA
+KNIS    Cherry Point, Marine Corps Air Station  NC  USA
+KNJK    El Centro, Naval Air Facility  CA  USA
+KNJM    Swansboro, Bogue Field, Marine Corps Auxiliary Landing Field  NC  USA
+KNJW    Meridian Range, B, Meridian Range, B  MS  USA
+KNKT    Cherry Point, Marine Corps Air Station  NC  USA
+KNKX    San Diego, Miramar, Naval Air Station  CA  USA
+KNLC    Lemoore, Naval Air Station  CA  USA
+KNLT    Atlantic, Atlantic Field Olf  NC  USA
+KNMM    Meridian, Naval Air Station  MS  USA
+KNMT    Mcmullen, Mcmullen Target Site  TX  USA
+KNNZ    Point Sur  CA  USA
+KNOG    Orange Grove, Naval Auxiliary Landing Field  TX  USA
+KNOW    Port Angeles / Cgas, Wa.  WA  USA
+KNPA    Pensacola, Naval Air Station  FL  USA
+KNQI    Kingsville, Naval Air Stattem   IN  USA
+KOKV    Winchester Regional  VA  USA
+KOKX    N. Y. City Nexrad   NY  USA
+KOLD    Old Town / Dewitt Field  ME  USA
+KOLE    Olean Municipal  NY  USA
+KOLF    Wolf Point, Clayton Airport  MT  USA
+KOLM    Olympia, Olympia Airport  WA  USA
+KOLS    Nogales, Nogales International Airport  AZ  USA
+KOLU    Columbus Municipal Automatic Weather Observing / Reporting System   NE  USA
+KOLZ    Oelwen  IA  USA
+KOMA    Omaha, Eppley Airfield  NE  USA
+KOMK    Omak, Omak Airport  WA  USA
+KONA    Winona Municipal Automatic Weather Observing / Reporting System   MN  USA
+KONL    O'Neill / Baker Field  NE  USA
+KONM    Socorro Municipal  NM  USA
+KONO    Ontario, Ontario Municipal Airport  OR  USA
+KONP    Newport Municipal  OR  USA
+KONT    Ontario, Ontario International Airport  CA  USA
+KOPF    Miami, Opa Locka Airport  FL  USA
+KOQU    N. Kingston / Quonset  RI  USA
+KORB    Orr  MN  USA
+KORC    Orange City  IA  USA
+KORD    Chicago, Chicago-O'Hare International Airport  IL  USA
+KORE    Orange, Orange Municipal Airport  MA  USA
+KORF    Norfolk, Norfolk International Airport  VA  USA
+KORH    Worcester, Worcester Municipal Airport  MA  USA
+KORL    Orlando, Orlando Executive Airport  FL  USA
+KOSC    Wurtsmith Air Force Base  MI  USA
+KOSH    Oshkosh, Wittman Regional Airport  WI  USA
+KOSU    Columbus, Ohio State University Airport  OH  USA
+KOTG    Worthington Automatic Weather Observing / Reporting System   MN  USA
+KOTH    North Bend Automatic Weather Observing / Reporting System   OR  USA
+KOTM    Ottumwa, Ottumwa Industrial Airport  IA  USA
+KOUN    Norman / Max Westheimer A, Ok.  OK  USA
+KOVE    Oroville, Oroville Municipal Airport  CA  USA
+KOVS    Boscobel, Boscobel Airport  WI  USA
+KOWA    Owatonna Automatic Weather Observing / Reporting System   MN  USA
+KOWB    Owensboro / Daviess  KY  USA
+KOWD    Norwood, Norwood Memorial Airport  MA  USA
+KOWY    Owyhee  NV  USA
+KOXC    Oxford Automatic Weather Observing / Reporting System   CT  USA
+KOXR    Oxnard, Oxnard Airport  CA  USA
+KOXV    Knoxville  IA  USA
+KOZR    Cairns Aaf / Ozark  AL  URegional Airport  SD  USA
+KPIT    Pittsburgh, Pittsburgh International Airport  PA  USA
+KPJB    Payson  AZ  USA
+KPJI    Point Judith Coast Guard Station   RI  USA
+KPKB    Parkersburg / Wilson   WV  USA
+KPKD    Park Rapids, Park Rapids Municipal Airport  MN  USA
+KPKF    Park Falls, Wi.  WI  USA
+KPLB    Plattsburgh, Clinton County Airport  NY  USA
+KPLN    Pellston, Pellston Regional Airport  MI  USA
+KPMD    Palmdale, Palmdale Production Flight Plant  CA  USA
+KPMP    Pompano Beach, Pompano Beach Airpark  FL  USA
+KPNC    Ponca City, Ponca City Municipal Airport  OK  USA
+KPNE    Philadelphia, Northeast Philadelphia Airport  PA  USA
+KPNM    Princeton  MN  USA
+KPNS    Pensacola, Pensacola Regional Airport  FL  USA
+KPOB    Pope Air Force Base, Nc.  NC  USA
+KPOC    La Verne / Brackett  CA  USA
+KPOE    Fort Polk, La. Army   LA  USA
+KPOF    Poplar Bluff, Poplar Bluff Municipal Airport  MO  USA
+KPOU    Poughkeepsie, Dutchess County Airport  NY  USA
+KPPF    Parsons, Tri-City Airport  KS  USA
+KPQI    Presque Isle, Me.  ME  USA
+KPQL    Pascagoula, Lott International Airport  MS  USA
+KPQN    Pipestone Automatic Weather Observing / Reporting System   MN  USA
+KPRB    Paso Robles, Paso Robles Municipal Airport  CA  USA
+KPRC    Prescott, Love Field  AZ  USA
+KPRX    Paris / Cox Field  TX  USA
+KPSC    Pasco, Tri-Cities Airport  WA  USA
+KPSF    Pittsfield, Pittsfield Municipal Airport  MA  USA
+KPSK    Dublin / New River Valley  VA  USA
+KPSM    Pease Afb / Portsmout  NH  USA
+KPSP    Palm Springs, Palm Springs Regional Airport  CA  USA
+KPSX    Palacios Municipal  TX  USA
+KPTB    Petersburg Automatic Weather Observing / Reporting System   VA  USA
+KPTK    Pontiac, Oakland-Pontiac Airport  MI  USA
+KPTN    Patterson Memorial  LA  USA
+KPTT    Pratt Municipal  KS  USA
+KPTV    Porterville Automatic Weather Observing / Reporting System   CA  USA
+KPTW    Pottstown, Pottstown Limerick Airport  PA  USA
+KPUB    Pueblo, Pueblo Memorial Airport  CO  USA
+KPUC    Price, Carbon County Airport  UT  USA
+KPUW    Pullman / Moscow, Pullman / Moscow Regional Airport  WA  USA  4
+K    Ship Shoal 198g  LA  USA
+KS80    Grangeville   ID  USA
+KS88    Arlington Automatic Weather Observing / Reporting System   WA  USA
+KSAC    Sacramento, Sacramento Executive Airport  CA  USA
+KSAD    Safford, Safford Municipal Airport  AZ  USA
+KSAF    Santa Fe, Santa Fe County Municipal Airport  NM  USA
+KSAN    San Diego, San Diego International-Lindbergh Field  CA  USA
+KSAT    San Antonio, San Antonio International Airport  TX  USA
+KSAV    Savannah, Savannah International Airport  GA  USA
+KSBA    Santa Barbara, Santa Barbara Municipal Airport  CA  USA
+KSBD    Norton Afb / San Bern  CA  USA
+KSBM    Sheboygan, Sheboygan County Memorial Airport  WI  USA
+KSBN    South Bend, Michiana Regional Airport  IN  USA
+KSBP    San Luis Obispo, San Luis Obispo County-Mc Chesney Field  CA  USA
+KSBS    Steamboat Springs  CO  USA
+KSBY    Salisbury, Salisbury-Wicomico County Regional Airport  MD  USA
+KSCC    Deadhorse, Deadhorse Airport  AK  USA
+KSCH    Schenectady Airport  NY  USA
+KSCK    Stockton, Stockton Metropolitan Airport  CA  USA
+KSDA    Shenandoah Municipal  IA  USA
+KSDB    Sandberg,  CA  USA
+KSDF    Louisville, Standiford Field  KY  USA
+KSDL    Scottsdale, Scottsdale Airport  AZ  USA
+KSDM    San Diego, Brown Field Municipal Airport  CA  USA
+KSDY    Sidney-Richland  MT  USA
+KSEA    Seattle, Seattle-Tacoma International Airport  WA  USA
+KSEE    San Diego / Gillespie  CA  USA
+KSEG    Selinsgrove, Penn Valley Airport  PA  USA
+KSEM    Craig Field / Selma  AL  USA
+KSEP    Stephenville / Clark Field Municipal, Tx.  TX  USA
+KSEZ    Sedona Airport  AZ  USA
+KSFB    Sanford / Orlando  FL  USA
+KSFF    Spokane, Felts Field  WA  USA
+KSFM    Sanford Municipal Automatic Weather Observing / Reporting System   ME  USA
+KSFO    San Francisco, San Francisco International Airport  CA  USA
+KSFZ    Pawtucket Automatic Weather Observing / Reporting System   RI  USA
+KSGF    Springfield, Springfield Regional Airport  MO  USA
+KSGH    Springfield Municipal  OH  USA
+KSGT    Stuttgart Automatic Weather Observing / Reporting System   AR  USA
+KSGU    Saint George Automatic Weather Observing / Reporting System   UT  USA
+KSHD    Staunton / Shenandoah  VA  USA
+KSHL    Sheldon enton International Airport  FL  USA
+KSRR    Ruidoso Regional  NM  USA
+KSSC    Shaw Air Force Base, Sc.  SC  USA
+KSSF    San Antonio, Stinson Municipal Airport  TX  USA
+KSSI    Brunswick, Mc Kinnon Airport  GA  USA
+KSSU    White Sulphur Sprng  WV  USA
+KSTC    St Cloud, St Cloud Municipal Airport  MN  USA
+KSTJ    St Joseph, Rosecrans Memorial Airport  MO  USA
+KSTL    St Louis, Lambert-St Louis International Airport  MO  USA
+KSTP    St Paul, St Paul Downtown Holman Field  MN  USA
+KSTS    Santa Rosa, Sonoma County Airport  CA  USA
+KSTT    Charlotte Amalie, King Airport  VI  USA
+KSTX    Christiansted, Hamilton Airport  VI  USA
+KSUE    Sturgeon Bay  WI  USA
+KSUN    Hailey / Friedman Memorial  ID  USA
+KSUS    St Louis, Spirit Of St Louis Airport  MO  USA
+KSUU    Fairfield / Travis Afbca.  CA  USA
+KSUX    Sioux City, Sioux Gateway Airport  IA  USA
+KSVC    Silver City / Grant  NM  USA
+KSVE    Susanville Municipal  CA  USA
+KSVN    Hunter U. S. Army Airfield   GA  USA
+KSWD    Seward, Seward Airport  AK  USA
+KSWF    Newburgh / Stewart  NY  USA
+KSWO    Stillwater, Stillwater Municipal Airport  OK  USA
+KSXT    Sexton Summit,  OR  USA
+KSYR    Syracuse, Syracuse Hancock International Airport  NY  USA
+KSZL    Whiteman Air Force Base  MO  USA
+KSZN    Santa Cruz Island  CA  USA
+KT02    Houston, Clover Field  TX  USA
+KT31    Port Isabel, Port Isabel-Cameron County Airport  TX  USA
+KT46    South Brazos A70  TX  USA
+KT62    Tooele  UT  USA
+KTAD    Trinidad / Animas Co.  CO  USA
+KTAL    Tanana, Calhoun Memorial Airport  AK  USA
+KTAN    Taunton, Taunton Municipal Airport  MA  USA
+KTBN    Fort Leonard Wood  MO  USA
+KTBW    Tampa Bay Area, Fl.  FL  USA
+KTCC    Tucumcari, Tucumcari Municipal Airport  NM  USA
+KTCL    Tuscaloosa, Tuscaloosa Municipal Airport  AL  USA
+KTCM    Tacoma / Mc Chord Air Force Base, Wa.  WA  USA
+KTCS    Truth Or Consequences, Truth Or Consequences Municipal Airport  NM  USA
+KTDO    Toledo-Winlock Memorial  WA  USA
+KTDZ    Toledo, Metcalf Field  OH  USA
+KTEB    Teterboro, Teterboro Airport  NJ  USA
+KTEX    Telluride Regional  CO  USA
+KTFX   Marina  UT  USA
+KU24    Delta  UT  USA
+KU28    Green River Range   UT  USA
+KU31    Austin  NV  USA
+KU67    Roosevelt, Ut  UT  USA
+KU71    Vernal  UT  USA
+KU73    Jerome, Jerome County Airport  ID  USA
+KU78    Soda Springs / Tigert  ID  USA
+KUAO    Aurora, Aurora State Airport  OR  USA
+KUCA    Utica, Oneida County Airport  NY  USA
+KUEX    Grand Island Nexrad  NE  USA
+KUGN    Chicago / Waukegan  IL  USA
+KUIL    Quillayute, Quillayute State Airport  WA  USA
+KUIN    Quincy Muni / Baldwin  IL  USA
+KUKI    Ukiah Municipal Automatic Weather Observing / Reporting System   CA  USA
+KULM    New Ulm Municipal Automatic Weather Observing / Reporting System   MN  USA
+KUNO    West Plains, West Plains Municipal Airport  MO  USA
+KUNV    State College  PA  USA
+KUTS    Huntsville, Huntsville Municipal Airport  TX  USA
+KUUU    Newport, Newport State Airport  RI  USA
+KVAD    Moody Air Force Base, Ga  GA  USA
+KVAY    Mount Holly, South Jersey Regional Airport  NJ  USA
+KVBG    Vandenberg Air Force Base, Ca.  CA  USA
+KVBT    Bentonville Automatic Weather Observing / Reporting System   AR  USA
+KVCT    Victoria, Victoria Regional Airport  TX  USA
+KVCV    George Afb / Victorvi  CA  USA
+KVEL    Vernal, Vernal Airport  UT  USA
+KVIH    Rolla / Vichy, Rolla National Airport  MO  USA
+KVIS    Visalia Municipal Automatic Weather Observing / Reporting System   CA  USA
+KVJI    Abington  VA  USA
+KVKS    Vicksburg Municipal  MS  USA
+KVLD    Valdosta Regional  GA  USA
+KVNY    Van Nuys, Van Nuys Airport  CA  USA
+KVOK    Volk / Camp Douglas  WI  USA
+KVPC    Cartersville, Cartersville Airport  GA  USA
+KVPS    Valparaiso / Eglin Air Force Base, Fl.  FL  USA
+KVPZ    Valparaiso, Porter County Municipal Airport  IN  USA
+KVQN    Volens  VA  USA
+KVRB    Vero Beach, Vero Beach Municipal Airport  FL  USA
+KVRX    Vermillion Area  LA  USA
+KVSF    Springfield, Hartness State Springfield Airport  VT  USA
+KVTN    Valentine, Miller Field  NE  USA
+KVTX    Los Angeles Nexrad  CA  USA
+KVUO    Vancouver, Pearson Airpark  WA  USA
+KVUW    Eugene Island  LA  USA
+KW08    Weirwood LDSP    Split / Resnik  Croatia
+LDVA    Varazdin  Croatia
+LDZA    Zagreb / Pleso  Croatia
+LDZD    Zadar / Zemunik  Croatia
+LEAB    Albacete / Los Llanos  Spain
+LEAL    Alicante / El Altet  Spain
+LEAM    Almeria / Aeropuerto  Spain
+LEAS    Asturias / Aviles  Spain
+LEBA    Cordoba / Aeropuerto  Spain
+LEBB    Bilbao / Sondica  Spain
+LEBG    Burgos / Villafria  Spain
+LEBL    Barcelona / Aeropuerto  Spain
+LEBZ    Badajoz / Talavera La Real  Spain
+LECH    Calamocha  Spain
+LECO    La Coruna / Alvedro  Spain
+LECV    Madri-Colmenar  Spain
+LEGE    Gerona / Costa Brava  Spain
+LEGR    Granada / Aeropuerto  Spain
+LEGT    Madrid / Getafe  Spain
+LEHI    Hinojosa Del Duque  Spain
+LEIB    Ibiza / Es Codola  Spain
+LEJR    Jerez De La Fronteraaeropuerto  Spain
+LELC    Murcia / San Javier  Spain
+LELL    Sabadell  Spain
+LELN    Leon / Virgen Del Camino  Spain
+LELO    Logrono / Agoncillo  Spain
+LEMD    Madrid / Barajas  Spain
+LEMG    Malaga / Aeropuerto  Spain
+LEMH    Menorca / Mahon  Spain
+LEMO    Moron De La Frontera  Spain
+LEPA    Palma De Mallorca / Son San Juan  Spain
+LEPP    Pamplona / Noain  Spain
+LERI    Murcia / Alcantarilla  Spain
+LERS    Reus / Aeropuerto  Spain
+LERT    Rota  Spain
+LESA    Salamanca / Matacan  Spain
+LESO    San Sebastian / Fuenterrabia  Spain
+LEST    Santiago / Labacolla  Spain
+LETO    Madrid / Torrejon  Spain
+LEVC    Valencia / Aeropuerto  Spain
+LEVD    Valladolid / Villanubla  Spain
+LEVS    Madrid / Cuatro Vientos  Spain
+LEVT    Vitoria  Spain
+LEVX    Vigo / Peinador  Spain
+LEXJ    Santander / Parayas  Spain
+LEZA    Zaragoza United States Air Force Operated Base In Foreign Country   Spain
+LEZG    Zaragoza / Aeropuerto  Spain
+LEZL    Sevilla / San Pablo  Spain
+LFAT    Le Touquet  France
+LFBA    Agen  France
+LFBC    Cazaux  France
+LFBD    Bordeaux / Merignac  France
+LFBE    Bergerac  France
+LFBF    Toulouse / Francazal  France
+LFBG    Cognac  France
+LFBH    La Rochelle  France
+LFBI    Poitiers  France
+LFBK    Montlucon / Gueret  France
+LFBL    Limoges  France
+LFBM    Mont-De-Marsan  France
+LFBN    Niort  FrLFOW    Saint-Quentin  France
+LFPB    Paris / Le Bourget  France
+LFPC    Creil Fafb   France
+LFPG    Paris-Aeroport Charles De Gaulle  France
+LFPM    Melun  France
+LFPN    Toussus Le Noble  France
+LFPO    Paris-Orly  France
+LFPV    Villacoublay  France
+LFPW    Paris Met Center  France
+LFQB    Troyes  France
+LFQG    Nevers  France
+LFQH    Chatillon-Sur-Seine  France
+LFQI    Cambrai  France
+LFQQ    Lille  France
+LFQV    Charleville  France
+LFRA    Angers  France
+LFRB    Brest  France
+LFRC    Cherbourg / Maupertus  France
+LFRD    Dinard  France
+LFRH    Lann Bihoue  France
+LFRI    La Roche-Sur-Yon  France
+LFRJ    Landivisiau  France
+LFRK    Caen  France
+LFRL    Lanveoc Poulmic  France
+LFRM    Le Mans  France
+LFRN    Rennes  France
+LFRO    Lannion / Servel  France
+LFRQ    Quimper  France
+LFRS    Nantes  France
+LFRT    Saint-Brieuc  France
+LFRU    Morlaix / Ploujean  France
+LFRZ    St-Nazaire  France
+LFSA    Besancon  France
+LFSB    Bale-Mulhouse  France
+LFSC    Colmar  France
+LFSD    Dijon  France
+LFSF    Metz / Frescaty  France
+LFSI    St-Dizier  France
+LFSL    Toul / Rosieres  France
+LFSN    Nancy / Essey  France
+LFSO    Nancy / Ochey  France
+LFSQ    Belfort  France
+LFSR    Reims  France
+LFST    Strasbourg  France
+LFSX    Luxeuil  France
+LFTH    Hyeres  France
+LFTU    St-Raphael  France
+LFTW    Nimes / Garons  France
+LFVP    Saint-Pierre  Saint Pierre and Miquelon
+LFXA    Amberieu  France
+LFXI    Airport  France
+LFYR    Romorantin  France
+LGAD    Andravida Airport   Greece
+LGAL    Alexandroupoli Airport   Greece
+LGAT    Athinai Airport   Greece
+LGBL    Anchialos Airport   Greece
+LGEL    Elefsis Airport   Greece
+LGHI    Chios Airport   Greece
+LGIR    Heraklion Airport   Greece
+LGKA    Kastoria Airport   Greece
+LGKF    Kefalhnia Airport   Greece
+LGKL    Kalamata Airport   Greece
+LGKO    Kos Airport   Greece
+LGKR    Kerkyra Airport   Greece
+LGKV    Chrysoupoli Airport   Greece
+LGKZ    Kozani Airport   Greece
+LGLM    Limnos Airport   Greece
+LGLR    Larissa Airport   Greece
+LGMT    Mytilini Airport   Greece
+LGPZ    Aktio Gela  Italy
+LICM    Calopezzati   Italy
+LICO    Cozzo Spadaro  Italy
+LICP    Palermo Boccadifalco  Italy
+LICR    Reggio Calabria  Italy
+LICT    Trapani / Birgi  Italy
+LICU    Ustica  Italy
+LICZ    Catania / Sigonella  Italy
+LIEA    Alghero  Italy
+LIEB    Capo Bellavista  Italy
+LIEC    Capo Carbonara  Italy
+LIED    Decimomannu  Italy
+LIEE    Cagliari / Elmas  Italy
+LIEF    Capo Frasca  Italy
+LIEG    Guardiavecchia  Italy
+LIEH    Capo Caccia  Italy
+LIEL    Capo S. Lorenzo  Italy
+LIEN    Fonni  Italy
+LIEO    Olbia / Costa Smeralda  Italy
+LIEP    Perdasdefogu  Italy
+LIMC    Milano / Malpensa  Italy
+LIME    Bergamo / Orio Al Serio  Italy
+LIMF    Torino / Caselle  Italy
+LIMG    Albenga  Italy
+LIMH    Pian Rosa  Italy
+LIMJ    Genova / Sestri  Italy
+LIMK    Torino / Bric Della Croce  Italy
+LIML    Milano / Linate  Italy
+LIMN    Novara / Cameri  Italy
+LIMO    Monte Bisbino  Italy
+LIMS    Piacenza  Italy
+LIMT    Passo Della Cisa  Italy
+LIMU    Capo Mele  Italy
+LIMV    Passo Dei Giovi  Italy
+LIMY    Monte Malanotte  Italy
+LIPA    Aviano  Italy
+LIPB    Bolzano  Italy
+LIPC    Cervia  Italy
+LIPD    Udine / Campoformido  Italy
+LIPE    Bologna / Borgo Panigale  Italy
+LIPF    Ferrara  Italy
+LIPH    Treviso / S. Angelo  Italy
+LIPI    Udine / Rivolto  Italy
+LIPK    Forli  Italy
+LIPL    Brescia / Ghedi  Italy
+LIPP    Dova Area Control Center  Italy
+LIPQ    Ronchi Dei Legionari  Italy
+LIPR    Rimini  Italy
+LIPS    Treviso / Istrana  Italy
+LIPT    Vicenza  Italy
+LIPX    Verona / Villafranca  Italy
+LIPY    Falconara  Italy
+LIPZ    Venezia / Tessera  Italy
+LIQB    Arezzo  Italy
+LIQC    Capri  Italy
+LIQD    Porretta Pass  Italy
+LIQI    Gran Sasso Mountain Range   Italy
+LIQJ    Civitavecchia  Italy
+LIQK    Capo Palinuro  Italy
+LIQN    Rieti  Italy
+LIQO    Monte Argentario  Italy
+LIQP    Isola Di Palmaria  Italy
+LIQR    Radicofani  Italy
+LIQV    Volterra  Italy
+LIQW    Sarzana / Luni  Italy
+LIQZ    Ponza  Italy
+LIRA    Roma / Ciampino  Italy
+LIRB    Vigna Di Valle  Italy
+LIRE    Pratica Di Mare  Italy
+LIRF    Roma Fiumicino  Italy
+LIRG    Guidonia  IAeroporto  Portugal
+LPFU    Funchal / S. Catarina  Portugal
+LPHR    Horta / Castelo Branco Acores   Portugal
+LPLA    Lajes Acores   Portugal
+LPPD    Ponta Delgada / Nordela Acores   Portugal
+LPPR    Porto / Pedras Rubras  Portugal
+LPPS    Porto Santo  Portugal
+LPPT    Lisboa / Portela  Portugal
+LPVR    Vila Real  Portugal
+LQBI    Bihac  Yugoslavia
+LQBK    Banja Luka  Yugoslavia
+LQLV    Livno  Bosia and Herzegovina
+LQMO    Mostar  Yugoslavia
+LQSA    Sarajevo / Butmir  Yugoslavia
+LQTZ    Tuzla  Yugoslavia
+LRAR    Arad  Romania
+LRBC    Bacau  Romania
+LRBM    Baia Mare  Romania
+LRBS    Bucuresti / Imh  Romania
+LRCK    Kogalniceanu  Romania
+LRCL    Cluj-Napoca  Romania
+LRCS    Caransebes  Romania
+LRCV    Craiova  Romania
+LRIA    Iasi  Romania
+LROD    Oradea  Romania
+LROP    Bucuresti Otopeni  Romania
+LRSB    Sibiu  Romania
+LRSM    Satu Mare  Romania
+LRSV    Suceava / Salcea  Romania
+LRTC    Tulcea  Romania
+LRTM    Tirgu Mures  Romania
+LRTR    Timisoara  Romania
+LSGG    Geneve-Cointrin  Switzerland
+LSGL    Lausanne  Switzerland
+LSGN    Neuchatel  Switzerland
+LSGS    Sion  Switzerland
+LSMP    Payerne  Switzerland
+LSZA    Lugano  Switzerland
+LSZB    Bern / Belp   Switzerland
+LSZH    Zurich-Kloten  Switzerland
+LTAB    Ankara / Guvercin Lik  Turkey
+LTAC    Ankara / Esenboga  Turkey
+LTAD    Ankara / Etimesgut  Turkey
+LTAE    Murted Tur-Afb   Turkey
+LTAF    Adana / Sakirpasa  Turkey
+LTAG    Adana / Incirlik  Turkey
+LTAH    Afyon  Turkey
+LTAI    Antalya  Turkey
+LTAJ    Gaziantep  Turkey
+LTAK    Iskenderun  Turkey
+LTAN    Konya  Turkey
+LTAP    Merzifon  Turkey
+LTAQ    Samsun  Turkey
+LTAR    Sivas  Turkey
+LTAS    Zonguldak  Turkey
+LTAT    Malatya / Erhac  Turkey
+LTAU    Kayseri / Erkilet  Turkey
+LTAV    Sivrihisar  Turkey
+LTAW    Tokat  Turkey
+LTAY    Cardak  Turkey
+LTBA    Istanbul / Ataturk  Turkey
+LTBD    Aydin  Turkey
+LTBE    Bursa  Turkey
+LTBF    Balikesir  Turkey
+LTBG    Bandirma  Turkey
+LTBH    Canakkale  Turkey
+LTBI    Eskisehir  Turkey
+LTBJ    Izmir / Adnan Menderes  Turkey
+LTBL    Izmir / Cigli  Turkey
+LTBM    Isparta  Turkey
+LTBO    Usak SR    Santa Rosa De Copan  Honduras
+MHTE    Tela  Honduras
+MHTG    Tegucigalpa  Honduras
+MHYR    Yoro  Honduras
+MKJP    Kingston / Norman Manley  Jamaica
+MKJS    Montego Bay / Sangster  Jamaica
+MMAA    Acapulco / G. Alvarez  Mexico
+MMAN    Aerop. Internacional Monterrey, N. L.  Mexico
+MMAS    Aguascalientes, Ags.  Mexico
+MMBT    Bahias De Huatulco   Mexico
+MMCB    Cuernavaca, Mor.  Mexico
+MMCE    Ciudad Del Carmen   Mexico
+MMCL    Culiacan, Sin.  Mexico
+MMCM    Chetumal, Q. Roo  Mexico
+MMCN    Santa Rosalia, B. C. S.  Mexico
+MMCP    Campeche, Camp.  Mexico
+MMCS    Ciudad Juarez International   Mexico
+MMCU    Chihuahua International Airport  Mexico
+MMCV    Ciudad Victoria Airport  Mexico
+MMCZ    Cozumel Civ / Mil   Mexico
+MMDO    Durango Airport  Mexico
+MMEP    Tepic, Nay.  Mexico
+MMGL    Don Miguel / Guadalaj  Mexico
+MMGM    Guaymas International Airport  Mexico
+MMHO    Hermosillo, Son.  Mexico
+MMIA    Colima   Mexico
+MMIO    Saltillo, Coah.  Mexico
+MMLC    Lazaro Cardenas  Mexico
+MMLM    Los Mochis Airport  Mexico
+MMLO    Del Bajio / Leon  Mexico
+MMLP    La Paz International Airport  Mexico
+MMLT    Loreto, B. C. S.  Mexico
+MMMA    Matamoros International   Mexico
+MMMD    Aerop. Internacional Merida, Yuc  Mexico
+MMML    Mexicali International Airport   Mexico
+MMMM    Morelia New  Mexico
+MMMT    Minatitlan  Mexico
+MMMV    Monclova, Coah.  Mexico
+MMMX    Mexico City / Licenci  Mexico
+MMMY    Monterrey / Gen Maria  Mexico
+MMMZ    Mazatlan / G. Buelna  Mexico
+MMNL    Nuevo Laredo International   Mexico
+MMOX    Oaxaca / Xoxocotlan  Mexico
+MMPB    Puebla, Pue.  Mexico
+MMPG    Piedras Negras, Coah.  Mexico
+MMPN    Uruapan / Gen Rayon  Mexico
+MMPR    Puerto Vallarta / Lic  Mexico
+MMPS    Puerto Escondido   Mexico
+MMQT    Queretaro, Qro.  Mexico
+MMRX    Reynosa International Airport   Mexico
+MMSD    San Jose Del Cabo   Mexico
+MMSP    San Luis Potosi, S. L. P.  Mexico
+MMTC    Torreon, Coah.  Mexico
+MMTG    Tuxtla Gutierrez, Chis.  Mexico
+MMTJ    Tijuana International Airport   Mexico
+MMTL    Tulancingo   Mexico
+MMTM    Tampico YGF    Freeport, Grand Bahama  Bahamas
+MYGW    West End, Grand Bahama  Bahamas
+MYIG    Matthew Town, Inagua  Bahamas
+MYNN    Nassau Airport  Bahamas
+MYSM    Cockburn Town, San Salvador  Bahamas
+MZBZ    Belize / Phillip Goldston Intl. Airport  Belize 
+NCRG    Rarotonga  Cook Islands
+NEXC    Charleston, Navelexcen  SC  United States
+NFFN    Nandi  Fiji
+NFNA    Nausori  Fiji
+NFNK    Lakemba  Fiji
+NFNR    Rotuma  Fiji
+NFTF    Fua'Amotu  Tonga
+NFTL    Haapai  Tonga
+NGBR    Beru  Kiribati
+NGFO    Nanumea  Tuvalu
+NGFU    Funafuti  Tuvalu
+NGTA    Tarawa  Kiribati
+NGTR    Arorae  Kiribati
+NGTU    Butaritari  Kiribati
+NIUE    Alofi / Niue  Cook Islands
+NLWF    Maopoopo Ile Futuna   France
+NLWW    Hihifo Ile Wallis   France
+NSAP    Apia / Upolu Island  Samoa
+NSFA    Faleolo Intl / Apia  Samoa
+NSTU    Pago Pago / Int. Airp.  United States
+NTAA    Tahiti-Faaa  French Polynesia
+NTAT    Tubuai  French Polynesia
+NTTB    Bora-Bora  French Polynesia
+NTTG    Rangiroa / Tuamoto Island  French Polynesia
+NTTO    Hao  French Polynesia
+NTTX    Mururoa  French Polynesia
+NVSC    Sola Vanua Lava   Vanuatu
+NVSL    Lamap Malekula   Vanuatu
+NVSS    Pekoa Airport Santo   Vanuatu
+NVVV    Bauerfield Efate   Vanuatu
+NWWE    Moue Ile Des Pins   New Caledonia
+NWWK    Koumac Nlle-Caledonie   New Caledonia
+NWWL    Ouanaham Ile Lifou   New Caledonia
+NWWN    Noumea Nlle-Caledonie   New Caledonia
+NWWR    La Roche Ile Mare   New Caledonia
+NWWV    Ouloup Ile Ouvea   New Caledonia
+NWWW    La Tontouta Nlle-Caledonie   New Caledonia
+NZAA    Auckland Airport  New Zealand
+NZCH    Christchurch  New Zealand
+NZCI    Chatham Island  New Zealand
+NZCM    Williams Field  Antarctic
+NZDN    Dunedin Aerodrome  New Zealand
+NZGS    Gisborne Aerodrome  New Zealand
+NZHK    Hokitika Aerodrome  New Zealand
+NZKI    Kaikoura   New Zealand
+NZNP    New Plymouth Aerodrome  New Zealand
+NZNV    Invercargill Aerodrome  New Zealand
+NZOH    Ohakea  New Zealand
+NZPP    Paraparaumu Aerodrome  New Zealand
+NZRN    Raoul Island, Kermadec Island  New Zealand
+NZRO    Rotorua Aerodrome  New Zealand
+NZTG    Tauranga Aerodro, Islamic Republic of
+OIMT    Tabas  Iran, Islamic Republic of
+OING    Gorgan  Iran, Islamic Republic of
+OINR    Ramsar  Iran, Islamic Republic of
+OISA    Abadeh  Iran, Islamic Republic of
+OISF    Fasa  Iran, Islamic Republic of
+OISS    Shiraz  Iran, Islamic Republic of
+OITK    Khoy  Iran, Islamic Republic of
+OITR    Orumieh  Iran, Islamic Republic of
+OITS    Saghez  Iran, Islamic Republic of
+OITT    Tabriz  Iran, Islamic Republic of
+OITZ    Zanjan  Iran, Islamic Republic of
+OIYY    Yazd  Iran, Islamic Republic of
+OIZB    Zabol  Iran, Islamic Republic of
+OIZC    Chahbahar  Iran, Islamic Republic of
+OIZH    Zahedan  Iran, Islamic Republic of
+OIZI    Iranshahr  Iran, Islamic Republic of
+OIZJ    Jask  Iran, Islamic Republic of
+OJAI    Queen Alia Airport  Jordan
+OJAM    Amman Airport  Jordan
+OJAQ    Aqaba Airport  Jordan
+OJBD    Irbid  Jordan
+OJHF    H-'Safawi  Jordan
+OJHR    H-'Irwaished  Jordan
+OJMF    Mafraq  Jordan
+OJMN    Ma'An  Jordan
+OKBK    Kuwait Internationalairport  Kuwait
+OLBA    Beyrouth Aeroport   Lebanon
+OMAA    Abu Dhabi International Airport  United Arab Emirates
+OMAB    Buhasa  United Arab Emirates
+OMAD    Abu Dhabi Bateen Airport  United Arab Emirates
+OMAL    Al Ain International Airport  United Arab Emirates
+OMDB    Dubai International Airport  United Arab Emirates
+OMFJ    Fujairah  United Arab Emirates
+OMRK    Ras Al Khaimah International Airport  United Arab Emirates
+OMSJ    Sharjah International Airport  United Arab Emirates
+OOBR    Buraimi  Oman
+OOFD    Fahud  Oman
+OOKB    Khassab  Oman
+OOMA    Masirah  Oman
+OOMS    Seeb, International Airport  Oman
+OOSA    Salalah  Oman
+OOSH     Sohar Majis  Oman
+OOSQ    Saiq  Oman
+OOSR    Sur  Oman
+OOTH    Thumrait  Oman
+OPDI    Dera Ismail Khan  Pakistan
+OPJA    Jacobabad  Pakistan
+OPJI    Jiwani  Pakistan
+OPKC    Karachi Airport  Pakistan
+OPKD    Hyderabad Airport  Pakistan
+OPLA    Lahore Airport  Pakistan
+OPLH    Lahore City  Pakistan
+OPMI    Mianwali  Pakistan
+OPMT    Multan  Pakistan
+OPNH    Nawabshah  Pakistan
+OPPG    Panjgur  Pakistan
+OPPS    Peshawar  Pakistan
+OPQT      Angoon  AK  USA
+PAGS    Gustavus  AK  USA
+PAGT    Nightmute  AK  USA
+PAGY    Skagway  AK  USA
+PAHD    Homer / Municipal  AK  USA
+PAHN    Haines  AK  USA
+PAHO    Homer  AK  USA
+PAHP    Hooper Bay Automatic Weather Observing / Reporting System   AK  USA
+PAHS    Huslia  AK  USA
+PAHV    Healy River Airport  AK  USA
+PAHY    Hydaburg Seaplane  AK  USA
+PAHZ    Hayes River  AK  USA
+PAII    Egegik Automatic Weather Observing / Reporting System   AK  USA
+PAIK    Kinana / Bob Baker Me  AK  USA
+PAIL    Iliamna / Iliamna Airport  AK  USA
+PAIM    Indian Mountain Airways Facilities Sector  AK  USA
+PAIN    Mckinley Park  AK  USA
+PAIZ    Lazy Mtn / Wolverine  AK  USA
+PAJB    Biorka Island Supplementary Aviation Weather Reporting Station  AK  USA
+PAJN    Juneau, Juneau International Airport  AK  USA
+PAJO    Johnstone Point  AK  USA
+PAJV    Sutton  AK  USA
+PAKN    King Salmon, King Salmon Airport  AK  USA
+PAKO    Nikolski  AK  USA
+PAKP    Anaktuvuk Pass  AK  USA
+PAKT    Ketchikan, Ketchikan International Airport  AK  USA
+PAKU    Kuparuk Airport   AK  USA
+PAKW    Klawock  AK  USA
+PALH    Lake Hood Seaplane  AK  USA
+PALJ    Port Alsworth  AK  USA
+PALK    Snowshoe Lake  AK  USA
+PALR    Chandalar Lake  AK  USA
+PALU    Cape Lisburne Airways Facilities Sector  AK  USA
+PALV    Big River Lake  AK  USA
+PAMC    Mcgrath  AK  USA
+PAMD    Middleton Island, Ak  AK  USA
+PAMH    Minchumina  AK  USA
+PAML    Manley Hot Springs   AK  USA
+PAMR    Merrill Field  AK  USA
+PAMX    Mccarthy  AK  USA
+PAMY    Mekoryuk  AK  USA
+PANC    Anchorage, Anchorage International Airport  AK  USA
+PANI    Aniak  AK  USA
+PANN    Nenana / Mun.  AK  USA
+PANR    Funter Bay Seaplane  AK  USA
+PANT    Annette Island  AK  USA
+PANV    Annik Airport  AK  USA
+PAOH    Hoonah Seaplane  AK  USA
+PAOM    Nome, Nome Airport  AK  USA
+PAOR    Northway, Northway Airport  AK  USA
+PAOT    Kotzebue, Wien Memorial Airport  AK  USA
+PAPC    Port Clarence  AK  USA
+PAPG    Petersburg  AK  USA
+PAPH    Port Heiden  AK  USA
+PAPM    Platinum  AK  USA
+PAPO    Point Hope Automatic Weather Observing /  USA
+PJON    Johnston Island  USA Minor Outlying Islands
+PKMJ    Majuro / Marshall Island  Marshall Islands
+PKWA    Kwajalein / Bucholz  Marshall Islands
+PLCH    Christmas / Cassidy  New Zealand
+PLFA    Fanning Island  New Zealand
+PMDY    Midway Island Naval Air Facility  HI  USA
+POLI    Oliktok Distant Early Warning   AK  USA
+PPIZ    Point Lay  AK  USA
+PTKK    Truk Intl / Moen Island  Mirconesia, Federated States of
+PTPN    Ponape Island  Mirconesia, Federated States of
+PTRO    Koror / Palau Island  Mirconesia, Federated States of
+PTSA    Kusaie / Kosrae East  Mirconesia, Federated States of
+PTTK    Kosrae Carolines / V  Mirconesia, Federated States of
+PTYA    Yap Island  Mirconesia, Federated States of
+PWAK    Wake Island Airfld  USA  Minor Outlying Islands 
+RCAY    Kangshan Tw-Afb   Taiwan, Province of China
+RCBS    Chinmem / Shatou Air Force Base   Taiwan, Province of China
+RCDC    Pingtung South Air Force Base   Taiwan, Province of China
+RCFG    Mazu =    Taiwan, Province of China
+RCFN    Feng Nin Tw-Afb   Taiwan, Province of China
+RCFS    Chia Tung  Taiwan, Province of China
+RCGM    Taoyuan Ab =   Taiwan, Province of China
+RCKH    Kaohsiung International Airport  Taiwan, Province of China
+RCKU    Chiayi Tw-Afb   Taiwan, Province of China
+RCKW    Hengchun  Taiwan, Province of China
+RCLG    Taichung Tw-Afb   Taiwan, Province of China
+RCLM    Dongsha =    Taiwan, Province of China
+RCLY    Lan Yu =    Taiwan, Province of China
+RCMJ    Donggang =    Taiwan, Province of China
+RCMQ    Wuchia Observatory  Taiwan, Province of China
+RCMS    Ilan  Taiwan, Province of China
+RCNN    Tainan Tw-Afb   Taiwan, Province of China
+RCNO    Dongshi  Taiwan, Province of China
+RCPO    Hsinchu Tw-Afb   Taiwan, Province of China
+RCQC    Makung Ab =    Taiwan, Province of China
+RCQS    Chihhang Tw-Afb   Taiwan, Province of China
+RCSQ    Pingtung North Air Force Base   Taiwan, Province of China
+RCSS    Sungshan / Taipei  Taiwan, Province of China
+RCTP    Chiang Kai Shek  Taiwan, Province of China
+RCUK    Pa Kuei / Bakuai  Taiwan, Province of China
+O Rokaf Wc  Korea, Republic of
+RKSG    Pyongtaek Ab  Korea, Republic of
+RKSH    Command Post Tango  Korea, Republic of
+RKSJ    Taesong-San  Korea, Republic of
+RKSL    Seoul  Korea, Republic of
+RKSM    Seoul E Ab  Korea, Republic of
+RKSO    Osan Ab  Korea, Republic of
+RKSP    Paengnyongdo Ab  Korea, Republic of
+RKSQ    Yeonpyeungdo  Korea, Republic of
+RKSS    Seoul / Kimp'O International Airport  Korea, Republic of
+RKST    Camp Casey / Tongduch  Korea, Republic of
+RKSU    Yeoju Range  Korea, Republic of
+RKSV    Pyoripsan  Korea, Republic of
+RKSW    Suwon Ab  Korea, Republic of
+RKSX    Camp Stanley / H-  Korea, Republic of
+RKSY    Yongsan / H- Hp  Korea, Republic of
+RKTA    Andong  Korea, Republic of
+RKTB    Paekado  Korea, Republic of
+RKTD    Taejon Kor-Afb   Korea, Republic of
+RKTE    Songmu Ab  Korea, Republic of
+RKTF    Taejon  Korea, Republic of
+RKTG    Camp Walker H-   Korea, Republic of
+RKTH    Pohang Ab  Korea, Republic of
+RKTI    Jung Won Rok-Ab   Korea, Republic of
+RKTM    Mangilsan Ab  Korea, Republic of
+RKTN    Taegu Ab  Korea, Republic of
+RKTP    Hae Mi  Korea, Republic of
+RKTS    Sangju  Korea, Republic of
+RKTT    Taegu  Korea, Republic of
+RKTU    Chongju Ab  Korea, Republic of
+RKTV    Chungju  Korea, Republic of
+RKTW    Woong Cheon  Korea, Republic of
+RKTY    Yechon Ab  Korea, Republic of
+RKXX    Nightmare Range  Korea, Republic of
+ROAH    Naha Airport  Japan
+RODE    Iejima Auxiliary Ab  Japan
+RODN    Kadena Ab  Japan
+ROHF    Hamby U. S. Army Airfield  Japan
+ROIG    Ishigakijima  Japan
+ROKJ    Kumejima  Japan
+ROMD    Minamidaitojima  Japan
+ROMY    Miyakojima  Japan
+RORA    Aguni Island  Japan
+RORH    Hateruma  Japan
+RORK    Kitadaito Island  Japan
+RORS    Shimoji-Shima Island  Japan
+RORT    Tarama Island  Japan
+RORY    Yoron Island  Japan
+ROTM    Futenma Marine Corps Air Facility  Japan
+ROYN    Yonaguni Airport  Japan
+RPLB    Subic Bay Weather Station  Philippines
+RPLI    Laoag  Philippines
+RPLL    Ninoy Aquino Inter-National Airport  Philippines
+RPMD    Davao Airport  Philippines
+RPMK    Clark Ab  Philippines
+RPMPSAVV    Viedma Aerodrome  Argentina
+SAWA    Lago Argentino Aerodrome  Argentina
+SAWD    Puerto Deseado Aerodrome  Argentina
+SAWE    Rio Grande B. A.  Argentina
+SAWG    Rio Gallegos Aerodrome  Argentina
+SAWH    Ushuaia Aerodrome  Argentina
+SAWJ    San Julian Aerodrome  Argentina
+SAWP    Perito Moreno Aerodrome  Argentina
+SAWR    Gobernador Gregores Aerodrome  Argentina
+SAWU    Santa Cruz Aerodrome  Argentina
+SAZA    Azul Airport  Argentina
+SAZB    Bahia Blanca Aerodrome  Argentina
+SAZD    Dolores Aerodrome  Argentina
+SAZE    Pigue Aerodrome  Argentina
+SAZG    General Pico Aerodrome  Argentina
+SAZH    Tres Arroyos  Argentina
+SAZM    Mar Del Plata Aerodrome  Argentina
+SAZN    Neuquen Aerodrome  Argentina
+SAZP    Pehuajo Aerodrome  Argentina
+SAZQ    Rio Colorado  Argentina
+SAZR    Santa Rosa Aerodrome  Argentina
+SAZS    Bariloche Aerodrome  Argentina
+SAZT    Tandil Aerodrome  Argentina
+SAZV    Villa Gesell  Argentina
+SAZY    Chapelco  Argentina
+SBAA    Conceicao Do Araguaia  Brazil
+SBAF    Afonsos Aeroporto   Brazil
+SBAN    Anapolis Braz-Afb   Brazil
+SBAR    Aracaju Aeroporto   Brazil
+SBAT    Alta Floresta Aeroporto   Brazil
+SBBC    Benjamin Constant  Brazil
+SBBE    Belem Aeroporto   Brazil
+SBBG    Bage Aeroporto   Brazil
+SBBH    Belo Horizonte Aeroporto   Brazil
+SBBI    Curitiba  Brazil
+SBBQ    Barbacena  Brazil
+SBBR    Brasilia Aeroporto   Brazil
+SBBU    Bauru  Brazil
+SBBV    Boa Vista Aeropor-To   Brazil
+SBBW    Barra Do Garcas  Brazil
+SBCC    Cachimbo  Brazil
+SBCF    Belo Horizonte  Brazil
+SBCG    Campo Grande Aeroporto   Brazil
+SBCJ    Carajas / Maraba  Brazil
+SBCO    Porto Alegre  Brazil
+SBCP    Campos  Brazil
+SBCR    Corumba  Brazil
+SBCT    Curitiba Aeroporto   Brazil
+SBCV    Caravelas Aeropor-To   Brazil
+SBCY    Cuiaba Aeroporto   Brazil
+SBCZ    Cruzeiro Do Sul  Brazil
+SBDN    Presidente Prudente  Brazil
+SBEG    Eduardo Gomes International  Brazil
+SBEK    Jacareacanga  Brazil
+SBES    S. P. Aldeia Aerodrome   Brazil
+SBFI    Foz Do Iguacu Aeroporto   Brazil
+SBFL    Florianopolis Aeroporto   Brazil
+SBFN    Fernaibia  Paraguay
+SGNA    Nueva Asuncion  Paraguay
+SKAR    Armenia / El Eden  Colombia
+SKAS    Puerto Asis  Colombia
+SKBG    Bucaramanga / Palonegro  Colombia
+SKBO    Bogota / Eldorado  Colombia
+SKBQ    Barranquilla / Ernestocortissoz  Colombia
+SKBU    Buenaventura  Colombia
+SKCC    Cucuta / Camilo Daza  Colombia
+SKCG    Cartagena / Rafael Nunez  Colombia
+SKCL    Cali / Alfonso Bonillaaragon  Colombia
+SKEJ    Barrancabermeja / Yariguies  Colombia
+SKIB    Ibague / Perales  Colombia
+SKIP    Ipiales / San Luis  Colombia
+SKLC    Apartado / Los Cedros  Colombia
+SKLT    Leticia / Vasquez Cobo  Colombia
+SKMD    Medellin / Olaya Herrera  Colombia
+SKMR    Monteria / Los Garzones  Colombia
+SKMU    Mitu  Colombia
+SKNV    Neiva / Benito Salas  Colombia
+SKPC    Puerto Carreno / A. Guauquea  Colombia
+SKPE    Pereira / Matecana  Colombia
+SKPP    Popayan / Guillermo  Colombia
+SKPS    Pasto / Antonio Narin  Colombia
+SKPV    Providencia Isla / El Embrujo  Colombia
+SKRG    Rionegro / J. M. Cordova  Colombia
+SKRH    Riohacha / Almirante Padilla  Colombia
+SKSJ    San Jose Del Guaviare  Colombia
+SKSM    Santa Marta / Simon Bolivar  Colombia
+SKSP    San Andres Isla / Sesquicentenario  Colombia
+SKUC    Arauca / Santiago Perez  Colombia
+SKUI    Quibdo / El Carano  Colombia
+SKVP    Valledupar / Alfonso Lopez  Colombia
+SKVV    Villavicencio / Vanguardia  Colombia
+SLAP    Apolo  Bolivia
+SLAS    Ascencion De Guarayos  Bolivia
+SLCA    Camiri  Bolivia
+SLCB    Cochabamba  Bolivia
+SLCN    Charana  Bolivia
+SLCO    Cobija  Bolivia
+SLCP    Concepcion  Bolivia
+SLET    Santa Cruz / El Trompillo  Bolivia
+SLGY    Guayaramerin  Bolivia
+SLJE    San Jose De Chiquitos  Bolivia
+SLJO    San Joaquin  Bolivia
+SLJV    San Javier  Bolivia
+SLLP    La Paz / Alto  Bolivia
+SLMG    Magdalena  Bolivia
+SLOR    Oruro  Bolivia
+SLPO    Potosi  Bolivia
+SLPS    Puerto Suarez  Bolivia
+SLRB    Robore  Bolivia
+SLRI    Riberalta  Bolivia
+SLRQ    Rurrenabaque  Bolivia
+SLRY    Reyes  Bolivia
+SLSA    Santa Ana  Bolivia
+SLSB    San Borja  Bolivia
+SLSI    San Ignacio De Velasco  Bolivia
+SLSM    San Ignacio De Moxoos  Brazil
+SYGT    Georgetown  Guyana
+SYTM    Timehri Airport  Guyana 
+TAKA    Takao Radar Site  Japan
+TAPA    Vc Bird International Airport Antigua  Antigua and Barbuda
+TBPB    Grantley Adams  Barbados
+TBPO    Bridgetown City   Barbados
+TDCF    Canefield Airport  Dominica
+TDPD    Melville Hall Airport  Dominica
+TDPR    Roseau  Dominica
+TFFF    Le Lamentin  Martinique
+TFFJ    Gustavia, Saint Barthelemy  Guadeloupe
+TFFR    Le Raizet, Guadeloupe  Guadeloupe
+TGPY    Point Salines Airport  Grenada
+TIST    C. Amalie / Truman, Saint Thomas  Puerto Rico
+TISX    Christiansted / Alex. Hamilton Field, Saint Croix  Puerto Rico
+TJBQ    Aquadilla / Borinquen  Puerto Rico
+TJMZ    Mayaguez / Eugenio  Puerto Rico
+TJNR    Roosevelt Roads, Naval Station  PR  United States
+TJPS    Ponce / Mercedita   Puerto Rico
+TJSJ    Luis Munoz Marin  Puerto Rico
+TKPK    Golden Rock  Saint Kitts and Nevis
+TKPN    Charlestown / Newcast  Antigua and Barbuda
+TLPC    Vigie  Saint Lucia
+TLPL    Hewanorra International Airport  Saint Lucia
+TNCA    Queen Beatrix Airport, Aruba  Aruba
+TNCB    Flamingo Airport, Bonaire  Netherlands Antilles
+TNCC    Hato Airport, Curacao  Netherlands Antilles
+TNCE    Roosevelt Airport Saint Eustatius  Netherlands Antilles
+TNCM    Juliana Airport, Saint Maarten  Netherlands Antilles
+TRPM    Blackburne / Plymouth  Antigua and Barbuda
+TTCP    Crown Pt./ Scarborou  Trinidad and Tobago
+TTPP    Piarco International Airport, Trinidad  Trinidad and Tobago
+TTPT    Crown Point Airport, Tobago  Trinidad and Tobago
+TUPJ    Beef Island, Tortola  Virgin Islands, British
+TVSV    Arnos Vale  Saint Vincent and the Grenadines 
+UAAA    Almaty  Kazakstan
+UAFF    Bishkek  Kyrgyzstan
+UAII    Shymkent  Kazakstan
+UAOO    Kzyl-Orda  Kazakstan
+UARR    Uralsk  Kazakstan
+UATA    Aralskoe More  Kazakstan
+UATT    Aktjubinsk  Kazakstan
+UBBB    Baku / Bine Airport  Azerbaijan
+UEEE    Jakutsk  Russian Federation
+UELL    Cul'Man  Russian Federation
+UGEE    Yerevan  Armenia
+UGGG    Tbilisi  Georgia
+UGMM    Muhrani  Georgia
+UHBP    Ekimchan  Russian Federation
+UHHH   war  India
+VECC    Calcutta / Dum Dum  India
+VECX    Car Nicobar  India
+VEGK    Gorakhpur  India
+VEGT    Gauhati  India
+VEGY    Gaya  India
+VEIM    Imphal Tulihal  India
+VEJH    Jharsuguda  India
+VEJS    Jamshedpur  India
+VELR    North Lakhimpur  India
+VEMN    Dibrugarh / Mohanbari  India
+VEPB    Port Blair  India
+VEPT    Patna  India
+VERC    M. O. Ranchi  India
+VGCB    Cox's Bazar  Bangladesh
+VGEG    Chittagong Patenga   Bangladesh
+VGIS    Ishurdi  Bangladesh
+VGJR    Jessore  Bangladesh
+VGRJ    Rajshahi  Bangladesh
+VGSY    Sylhet  Bangladesh
+VGTJ    Dhaka  Bangladesh
+VGZR    Kurmitola, Dia  Bangladesh
+VHCH    Cheung Chau  Hong Kong
+VHHH    Hong Kong International Airport  Hong Kong
+VIAG    Agra  India
+VIAL    Allahabad / Bamhrauli  India
+VIAR    Amritsar  India
+VIBN    Varanasi / Babatpur  India
+VIBY    Bareilly  India
+VICX    Kanpur / Chakeri  India
+VIDD    New Delhi / Safdarjung  India
+VIDP    New Delhi / Palam  India
+VIGR    Gwalior  India
+VIHR    Hissar  India
+VIJN    Jhansi  India
+VIJO    Jodhpur  India
+VIJP    Jaipur / Sanganer  India
+VIKO    Kota Aerodrome  India
+VILK    Lucknow / Amausi  India
+VIST    Satna  India
+VIUD    Udaipur Dabok  India
+VLAP    Attopeu  Laos People's Democratic Republic
+VLIP    Pakse  Laos People's Democratic Republic
+VLLB    Luang-Prabang  Laos People's Democratic Republic
+VLSB    Sayaboury  Laos People's Democratic Republic
+VLSK    Savannakhet  Laos People's Democratic Republic
+VLSV    Saravane  Laos People's Democratic Republic
+VLTK    Thakhek  Laos People's Democratic Republic
+VLVT    Vientiane  Laos People's Democratic Republic
+VMMC    Taipa  Macau
+VNBW    Bhairawa Airport  Nepal
+VNJL    Jumla  Nepal
+VNKT    Kathmandu Airport  Nepal
+VNPK    Pokhara Airport  Nepal
+VNSI    Simra Airport  Nepal
+VNSK    Surkhet  Nepal
+VNTJ    Taplejung  Nepal
+VNVT    Biratnagar Airport  Nepal
+VOBI    Bellary  India
+VOBZ    Vijayawada / Gannavaram  India
+VOCB    Coimbatore / Peelamedu  India
+VOCC    Cochin / Willingdon  India
+VOCP    Cuddapah  India
+VOHY    Hyderabad Airport  India
+VOMD    Madurai  India
+WAJI    Sarmi  Indonesia
+WAJJ    Jayapura / Sentani  Indonesia
+WAJW    Wamena / Wamena  Indonesia
+WAKK    Merauke / Mopah  Indonesia
+WAKT    Tanah Merah / Tanah Merah  Indonesia
+WAMA    Galela / Gamarmalamu  Indonesia
+WAMG    Gorontalo / Jalaluddin  Indonesia
+WAMH    Tahuna  Indonesia
+WAMI    Toli-Toli / Lalos  Indonesia
+WAML    Palu / Mutiara  Indonesia
+WAMM    Menado / Dr. Sam Ratulangi  Indonesia
+WAMP    Poso / Kasiguncu  Indonesia
+WAMT    Ternate / Babullah  Indonesia
+WAMW    Luwuk / Bubung  Indonesia
+WAPA    Amahai  Indonesia
+WAPH    Labuha / Taliabu  Indonesia
+WAPI    Saumlaki  Indonesia
+WAPN    Sanana  Indonesia
+WAPP    Ambon / Pattimura  Indonesia
+WAPR    Namlea  Indonesia
+WASF    Fak-Fak / Torea  Indonesia
+WASK    Kaimana / Utarom  Indonesia
+WASR    Manokwari / Rendani  Indonesia
+WASS    Sorong / Jefman  Indonesia
+WBGB    Bintulu  Malaysia
+WBGG    Kuching  Malaysia
+WBGR    Miri  Malaysia
+WBGS    Sibu  Malaysia
+WBKK    Kota Kinabalu  Malaysia
+WBKL    Labuan  Malaysia
+WBKS    Sandakan  Malaysia
+WBKT    Kudat  Malaysia
+WBKW    Tawau  Malaysia
+WBSB    Brunei Airport  Brunei Darussalam
+WIAA    Sabang / Cut Bau  Indonesia
+WIAG    Menggala / Astra Ksetra  Indonesia
+WIAM    Tasikmalaya / Cibeureum  Indonesia
+WIAR    Madiun / Iswahyudi  Indonesia
+WIAS    Malang / Abdul Rahkmansaleh  Indonesia
+WIBB    Pakanbaru / Simpangtiga  Indonesia
+WIIA    Curug / Budiarto  Indonesia
+WIIB    Bandung / Husein  Indonesia
+WIIH    Jakarta Halim Perdanakusuma  Indonesia
+WIII    Jakarta / Soekarno-Hatta  Indonesia
+WIIJ    Jogyakarta / Adisucipto  Indonesia
+WIIK    Kalijati  Indonesia
+WIIL    Cilacap  Indonesia
+WIIS    Semarang / Ahmadyani  Indonesia
+WIIT    Telukbetung / Beranti  Indonesia
+WIKD    Tanjungpandan / Buluh Tumbang  Indonesia
+WIKK    Pangkalpinang / Pangkalpinang  Indonesia
+WIKN    Tanjungpinang / Kijang  Indonesia
+WIKS    Singkep / Dabo  Indonesia
+WIMB    Gunung Sitoli / Binaka  Indonesia
+WIMG    Padang / Tabing  Indonesia
+WIMM    Medan / Polonia  Indonesia
+WIMS    Sibolga / Pinangsori  Indonesia
+WIOI    Singkawang Ii  YSNF    Norfolk Island Airport  Australia
+YSNW    Nowra Ran Air Station  Australia
+YSRI    Richmond Aus-Afb   Australia
+YSSY    Sydney Airport  Australia
+YSTW    Tamworth Airport  Australia
+YSWG    Wagga Airport  Australia
+YSWM    Williamtown Aerodrome  Australia 
+ZBAA    Beijing  China
+ZBHH    Hohhot  China
+ZBTJ    Tianjin / Zhangguizhu  China
+ZBYN    Taiyuan  China
+ZGCS    Changsha  China
+ZGGG    Guangzhou  China
+ZGHK    Haikou  China
+ZGKL    Guilin  China
+ZGNN    Nanning  China
+ZGOW    Shantou  China
+ZGSZ    Shenzhen  China
+ZGZJ    Zhanjiang  China
+ZHCC    Zhengzhou  China
+ZHHH    Wuhan  China
+ZKKC    Kimchaek  Korea, Democratic People's Republic of
+ZKPY    Pyongyang  Korea, Democratic People's Republic of
+ZLIC    Yinchuan  China
+ZLJQ    Jiuquan  China
+ZLSN    Xi'An  China
+ZLXN    Xining  China
+ZLYA    Yan An  China
+ZPPP    Kunming  China
+ZSAM    Xiamen  China
+ZSCN    Nanchang  China
+ZSFZ    Fuzhou  China
+ZSGZ    Ganzhou  China
+ZSHC    Hangzhou  China
+ZSNJ    Nanjing  China
+ZSOF    Hefei  China
+ZSQD    Qingdao  China
+ZSSS    Shanghai / Hongqiao  China
+ZSTN    Jinan  China
+ZUCK    Chongqing  China
+ZUGY    Guiyang  China
+ZULS    Lhasa  China
+ZUUU    Chengdu  China
+ZWHM    Hami  China
+ZWSH    Kashi  China
+ZWTN    Hotan  China
+ZWWW    Urum-Qi / Diwopu  China
+ZWYN    Yining  China
+ZYCC    Changchun  China
+ZYQQ    Qiqihar  China
+ZYTL    Dalian  China
+ZYTX    Shenyang / Taokian  China

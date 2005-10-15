@@ -1,0 +1,1 @@
+utgebouw {nr,naam,afko} <argument> - zoekt naar <argument> als nr/naam/afko in de lijst van UT gebouwen ("omnummerapp.")

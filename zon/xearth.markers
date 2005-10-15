@@ -1,0 +1,297 @@
+
+  61.17 -150.00 "Anchorage"           # Alaska, USA
+  38.00   23.73 "Athens"              # Greece
+  33.4    44.4  "Baghdad"             # Iraq
+  13.73  100.50 "Bangkok"             # Thailand
+  39.92  116.43 "Beijing"             # China
+  54.62   -5.93   "Belfast"             # Northern Ireland
+  52.53   13.42 "Berlin"              # Germany
+  32.3   -64.7  "Bermuda"             # Bermuda
+  42.33  -71.08 "Boston"              # Massachusetts, USA
+ -15.8   -47.9  "Brasilia"            # Brazil
+  -4.2    15.3  "Brazzaville"         # Congo
+ -34.67  -58.50 "Buenos Aires"        # Argentina
+  31.05   31.25 "Cairo"               # Egypt
+  22.5    88.3  "Calcutta"            # India
+ -33.93   18.47 "Cape Town"           # South Africa
+  33.6    -7.6  "Casablanca"          # Morocco (Rabat?)
+  41.83  -87.75 "Chicago"             # Illinois, USA
+  32.78  -96.80 "Dallas"              # Texas, USA
+  28.63   77.20 "New Delhi"           # India
+  39.75 -105.00 "Denver"              # Colorado, USA
+  24.23   55.28 "Dubai"               # UAE (Abu Dhabi?)
+  53.33   -6.25 "Dublin"              # Ireland
+ -27.1  -109.4  "Easter Island"       # Easter Island
+ -18.0   178.1  "Fiji"                # Fiji
+  13.5   144.8  "Guam"                # Guam
+  60.13   25.00 "Helsinki"            # Finland
+  22.2   114.1  "Hong Kong"           # Hong Kong
+  21.32 -157.83 "Honolulu"            # Hawaii, USA
+  52.2   104.3  "Irkutsk"             # Irkutsk, Russia
+  41.0    29.0  "Istanbul"            # Turkey (Ankara?)
+  -6.13  106.75 "Jakarta"             # Indonesia
+  31.8    35.2  "Jerusalem"           # Israel
+  34.5    69.2  "Kabul"               # Afghanistan
+  27.7    85.3  "Kathmandu"           # Nepal
+  50.4    30.5  "Kiev"                # Ukraine
+   3.13  101.70 "Kuala Lumpur"        # Malaysia
+   6.45    3.47 "Lagos"               # Nigeria
+ -12.10  -77.05 "Lima"                # Peru
+  51.50   -0.17 "London"              # United Kingdom
+  40.42   -3.72 "Madrid"              # Spain
+  14.6   121.0  "Manila"              # The Phillipines
+  21.5    39.8  "Mecca"               # Saudi Arabia
+  19.4   -99.1  "Mexico City"         # Mexico
+  25.8   -80.2  "Miami"               # Florida, USA
+   6.2   -10.8  "Monrovia"            # Liberia
+  45.5   -73.5  "Montreal"            # Quebec, Canada
+  55.75   37.70 "Moscow"              # Russia
+  -1.28   36.83 "Nairobi"             # Kenya
+  59.93   10.75 "Oslo"                # Norway
+  48.87    2.33 "Paris"               # France
+ -32.0   115.9  "Perth"               # Australia
+  45.5  -122.5  "Portland"            # Oregon, USA
+  -0.2   -78.5  "Quito"               # Ecuador
+  64.15  -21.97 "Reykjavik"           # Iceland
+ -22.88  -43.28 "Rio de Janeiro"      # Brazil
+  41.88   12.50 "Rome"                # Italy
+  11.0   106.7  "Ho Chi Minh City"    # Vietnam (Hanoi?)
+  37.75 -122.45 "San Francisco"       # California, USA
+   9.98  -84.07 "San Jose"            # Costa Rica
+  18.5   -66.1  "San Juan"            # Puerto Rico
+ -33.5   -70.7  "Santiago"            # Chile
+   1.2   103.9  "Singapore"           # Singapore
+  42.67   23.30 "Sofia"               # Bulgaria
+  59.33   18.08 "Stockholm"           # Sweden
+ -33.92  151.17 "Sydney"              # Australia
+ -17.6  -149.5  "Tahiti"              # Tahiti
+  16.8    -3.0  "Timbuktu"            # Mali (Bamako?)
+  35.67  139.75 "Tokyo"               # Japan
+  43.70  -79.42 "Toronto"             # Ontario, Canada
+  32.9    13.2  "Tripoli"             # Libya
+  47.9   106.9  "Ulan Bator"          # Mongolia
+  49.22 -123.10 "Vancouver"           # B.C., Canada
+  48.22   16.37 "Vienna"              # Austria
+  38.9   -77.0  "Washington"          # United States
+ -41.28  174.78 "Wellington"          # New Zealand
+  62.5  -114.3  "Yellowknife"         # N.T., Canada
+  90.00    0.00 "North Pole"          # North Pole
+ -90.00    0.00 "South Pole"          # South Pole
+
+ 52.98 6.56 "Assen" # The Netherlands
+ 52.91 6.76 "Borger" # The Netherlands
+ 52.65 6.75 "Coevorden" # The Netherlands
+ 52.78 6.91 "Emmen" # The Netherlands
+ 52.91 6.53 "Hooghalen" # The Netherlands
+ 52.85 6.85 "Odoorn" # The Netherlands
+ 52.83 6.66 "Orvelte" # The Netherlands
+ 52.83 6.75 "Schoonoord" # The Netherlands
+ 52.36 5.20 "Almere" # The Netherlands
+ 52.45 5.66 "Biddinghuizen" # The Netherlands
+ 52.51 5.68 "Dronten" # The Netherlands
+ 52.71 5.76 "Emmeloord" # The Netherlands
+ 52.63 5.83 "Ens" # The Netherlands
+ 52.53 5.68 "Ketelhaven" # The Netherlands
+ 52.50 5.43 "Lelystad" # The Netherlands
+ 52.83 5.71 "Lemmer" # The Netherlands
+ 52.66 5.58 "Urk" # The Netherlands
+ 53.45 5.76 "Ameland" # The Netherlands
+ 53.06 5.51 "Bolsward" # The Netherlands
+ 53.33 6.00 "Dokkum" # The Netherlands
+ 53.05 5.45 "Exmorra" # The Netherlands
+ 53.18 5.55 "Franeker" # The Netherlands
+ 53.16 5.40 "Harlingen" # The Netherlands
+ 52.95 5.40 "Hindeloopen" # The Netherlands
+ 53.45 5.63 "Hollum" # The Netherlands
+ 53.28 6.15 "Kollum" # The Netherlands
+ 53.20 5.80 "Leeuwarden" # The Netherlands
+ 53.05 5.41 "Makkum" # The Netherlands
+ 53.21 5.73 "Marssum" # The Netherlands
+ 53.25 5.90 "Oenkerk" # The Netherlands
+ 53.30 5.06 "Oost-Vlieland" # The Netherlands
+ 53.46 6.16 "Schiermonnikoog" # The Netherlands
+ 52.88 5.65 "Sloten" # The Netherlands
+ 53.03 5.66 "Sneek" # The Netherlands
+ 53.28 5.66 "St. Annaparochie" # The Netherlands
+ 53.25 6.11 "Veenklooster" # The Netherlands
+ 53.11 5.46 "Witmarsum" # The Netherlands
+ 52.98 5.43 "Workum" # The Netherlands
+ 51.86 6.25 "'s-Heerenberg" # The Netherlands
+ 52.21 5.96 "Apeldoorn" # The Netherlands
+ 52.00 5.88 "Arnhem" # The Netherlands
+ 51.81 5.91 "Berg en Dal" # The Netherlands
+ 52.15 6.18 "Bronkhorst" # The Netherlands
+ 52.01 6.13 "Doesburg" # The Netherlands
+ 51.96 6.28 "Doetinchem" # The Netherlands
+ 52.41 5.81 "Doornspijk" # The Netherlands
+ 52.45 5.83 "Elburg" # The Netherlands
+ 51.78 5.93 "Groesbeek" # The Netherlands
+ 52.35 5.60 "Harderwijk" # The Netherlands
+ 52.48 6.06 "Hattem" # The Netherlands
+ 52.11 6.01 "Loenen" # The Netherlands
+ 51.83 5.86 "Nijmegen" # The Netherlands
+ 52.01 5.96 "Park Rosendael" # The Netherlands
+ 52.11 6.30 "Vorden" # The Netherlands
+ 51.81 5.25 "Zaltbommel" # The Netherlands
+ 52.13 6.20 "Zutphen" # The Netherlands
+ 53.30 6.86 "Appingedam" # The Netherlands
+ 53.00 7.16 "Bourtange" # The Netherlands
+ 53.31 6.93 "Delfzijl" # The Netherlands
+ 53.21 6.58 "Groningen" # The Netherlands
+ 53.16 6.60 "Hortus Haren" # The Netherlands
+ 53.16 6.40 "Leek" # The Netherlands
+ 53.20 7.00 "Midwolda" # The Netherlands
+ 52.61 6.71 "Slagharen" # The Netherlands
+ 53.00 6.91 "Stadskanaal" # The Netherlands
+ 53.40 6.68 "Uithuizen" # The Netherlands
+ 53.40 6.61 "Usquert" # The Netherlands
+ 53.38 6.56 "Warfum" # The Netherlands
+ 51.80 5.73 "Wijchen" # The Netherlands
+ 53.11 7.03 "Winschoten" # The Netherlands
+ 51.40 6.16 "Arcen" # The Netherlands
+ 50.95 5.98 "Brunssum" # The Netherlands
+ 50.83 5.75 "Cadier en Keer" # The Netherlands
+ 50.90 5.98 "Heerlen" # The Netherlands
+ 51.68 5.98 "Heijen" # The Netherlands
+ 50.91 5.91 "Hoensbroek" # The Netherlands
+ 50.86 6.06 "Kerkrade" # The Netherlands
+ 50.85 5.70 "Maastricht" # The Netherlands
+ 50.81 5.81 "Margraten" # The Netherlands
+ 50.76 6.00 "Raren" # The Netherlands
+ 51.20 6.00 "Roermond" # The Netherlands
+ 51.13 6.00 "St. Odilienberg" # The Netherlands
+ 51.35 6.13 "Tegelen" # The Netherlands
+ 51.16 5.85 "Thorn" # The Netherlands
+ 50.76 6.01 "Vaals" # The Netherlands
+ 50.86 5.83 "Valkenburg" # The Netherlands
+ 51.36 6.16 "Venlo" # The Netherlands
+ 50.78 6.00 "Viljen" # The Netherlands
+ 51.68 5.31 "'s-Hertogenbosch" # The Netherlands
+ 51.43 4.91 "Baarle-Nassau" # The Netherlands
+ 51.50 4.28 "Bergen op Zoom" # The Netherlands
+ 51.58 4.76 "Breda" # The Netherlands
+ 51.50 4.86 "Chaam" # The Netherlands
+ 51.43 5.50 "Eindhoven" # The Netherlands
+ 51.71 4.86 "Geertruidenberg" # The Netherlands
+ 51.58 4.78 "Ginneken" # The Netherlands
+ 51.48 5.66 "Helmond" # The Netherlands
+ 51.73 5.15 "Heusden" # The Netherlands
+ 51.65 5.03 "Kaatsheuvel" # The Netherlands
+ 51.46 5.55 "Nuenen" # The Netherlands
+ 51.50 5.30 "Oirschot" # The Netherlands
+ 51.58 5.20 "Oisterwijk" # The Netherlands
+ 51.63 4.85 "Oosterhout" # The Netherlands
+ 51.76 5.51 "Oss" # The Netherlands
+ 51.58 4.53 "Oudenbosch" # The Netherlands
+ 51.53 4.21 "Tholen" # The Netherlands
+ 51.56 5.08 "Tilburg" # The Netherlands
+ 51.70 5.06 "Waalwijk" # The Netherlands
+ 51.68 4.45 "Willemstad" # The Netherlands
+ 52.25 5.11 "'s-Gravenland" # The Netherlands
+ 52.26 4.75 "Aalsmeer" # The Netherlands
+ 52.63 4.73 "Alkmaar" # The Netherlands
+ 52.35 4.90 "Amsterdam" # The Netherlands
+ 52.31 4.58 "Bennebroek" # The Netherlands
+ 52.66 4.61 "Bergen aan Zee" # The Netherlands
+ 52.66 4.70 "Bergen" # The Netherlands
+ 52.40 4.61 "Bloemendaal" # The Netherlands
+ 52.43 5.00 "Broek in Waterland" # The Netherlands
+ 52.68 4.80 "Broek op Langendijk" # The Netherlands
+ 53.15 4.88 "De Cocksdorp" # The Netherlands
+ 53.10 4.76 "De Koog" # The Netherlands
+ 52.55 4.83 "De Rijp" # The Netherlands
+ 53.05 4.78 "Den Burg" # The Netherlands
+ 52.90 4.75 "Den Helder" # The Netherlands
+ 53.03 4.75 "Den Hoorn" # The Netherlands
+ 52.50 5.03 "Edam" # The Netherlands
+ 52.61 4.61 "Egmond aan Zee" # The Netherlands
+ 52.60 4.71 "Egmond aan den Hoef" # The Netherlands
+ 52.60 4.65 "Egmond-Binnen" # The Netherlands
+ 52.70 5.28 "Enkhuizen" # The Netherlands
+ 52.55 4.81 "Graft" # The Netherlands
+ 52.70 5.11 "Grootebroek" # The Netherlands
+ 52.38 4.63 "Haarlem" # The Netherlands
+ 52.36 4.75 "Halfweg" # The Netherlands
+ 52.35 4.61 "Heemstede" # The Netherlands
+ 52.23 5.16 "Hilversum" # The Netherlands
+ 52.63 5.06 "Hoorn" # The Netherlands
+ 52.25 5.23 "Laren" # The Netherlands
+ 52.45 5.10 "Marken" # The Netherlands
+ 52.78 5.10 "Medemblik" # The Netherlands
+ 52.46 5.03 "Monnickendam" # The Netherlands
+ 52.33 5.08 "Muiden" # The Netherlands
+ 52.30 5.16 "Naarden" # The Netherlands
+ 53.03 4.85 "Oudeschild" # The Netherlands
+ 52.50 4.93 "Purmerend" # The Netherlands
+ 52.78 4.78 "Schagen" # The Netherlands
+ 52.66 4.75 "Schermer" # The Netherlands
+ 52.41 4.66 "Spaarndam" # The Netherlands
+ 52.21 5.03 "Loenen" # The Netherlands
+ 52.30 4.56 "Vogelenzang" # The Netherlands
+ 52.50 5.06 "Volendam" # The Netherlands
+ 52.46 4.73 "Westzaan" # The Netherlands
+ 52.45 4.81 "Zaanstad" # The Netherlands
+ 52.36 4.51 "Zandvoort" # The Netherlands
+ 52.35 6.66 "Almelo" # The Netherlands
+ 52.60 6.46 "Dedemsvaart" # The Netherlands
+ 52.25 6.16 "Deventer" # The Netherlands
+ 52.21 6.55 "Diepenheim" # The Netherlands
+# 52.21 6.91 "Enschede" # The Netherlands
+ 52.71 6.10 "Giethoorn" # The Netherlands
+ 52.23 6.58 "Goor" # The Netherlands
+ 52.60 6.08 "Hasselt" # The Netherlands
+ 52.25 6.75 "Hengelo" # The Netherlands
+ 52.26 6.41 "Holten" # The Netherlands
+ 52.55 5.91 "Kampen" # The Netherlands
+ 52.25 6.50 "Markelo" # The Netherlands
+ 52.31 6.91 "Oldenzaal" # The Netherlands
+ 52.38 6.26 "Raalte" # The Netherlands
+ 52.63 6.20 "Staphorst" # The Netherlands
+ 52.51 6.10 "Zwolle" # The Netherlands
+ 52.00 5.45 "Amerongen" # The Netherlands
+ 52.15 5.38 "Amersfoort" # The Netherlands
+ 52.21 5.26 "Baarn" # The Netherlands
+ 52.18 5.01 "Breukelen" # The Netherlands
+ 51.95 5.21 "Culemborg" # The Netherlands
+ 52.03 5.35 "Doorn" # The Netherlands
+ 52.13 5.05 "Maarssen" # The Netherlands
+ 52.03 4.90 "Oudewater" # The Netherlands
+ 51.95 5.56 "Rhenen" # The Netherlands
+ 52.11 5.28 "Soesterberg" # The Netherlands
+ 52.10 5.11 "Utrecht" # The Netherlands
+ 51.96 5.35 "Wijk bij Duurstede" # The Netherlands
+ 52.08 5.25 "Zeist" # The Netherlands
+ 51.50 3.66 "Arnemuiden" # The Netherlands
+ 51.73 3.91 "Brouwershaven" # The Netherlands
+ 51.70 3.73 "Burgh-Haamstede" # The Netherlands
+ 51.66 3.75 "Burghsluis" # The Netherlands
+ 51.50 3.90 "Goes" # The Netherlands
+ 51.28 4.05 "Hulst" # The Netherlands
+ 51.50 3.60 "Middelburg" # The Netherlands
+ 51.73 3.76 "Renesse" # The Netherlands
+ 51.55 3.66 "Veere" # The Netherlands
+ 51.43 3.58 "Vlissingen" # The Netherlands
+ 51.65 3.91 "Zierikzee" # The Netherlands
+ 52.13 4.66 "Alphen aan den Rijn" # The Netherlands
+ 52.08 4.75 "Bodegraven" # The Netherlands
+ 52.06 4.66 "Boskoop" # The Netherlands
+ 52.01 4.35 "Delft" # The Netherlands
+ 51.80 4.66 "Dordrecht" # The Netherlands
+ 51.83 5.00 "Gorinchem" # The Netherlands
+ 52.01 4.71 "Gouda" # The Netherlands
+ 51.81 4.13 "Hellevoetsluis" # The Netherlands
+ 52.20 4.40 "Katwijk aan Zee" # The Netherlands
+ 51.88 4.63 "Kinderdijk" # The Netherlands
+ 51.90 5.10 "Leerdam" # The Netherlands
+ 52.16 4.50 "Leiden" # The Netherlands
+ 52.20 4.45 "Rijnsburg" # The Netherlands
+ 51.91 4.48 "Rotterdam" # The Netherlands
+ 52.08 4.26 "Scheveningen" # The Netherlands
+ 51.91 4.40 "Schiedam" # The Netherlands
+ 51.95 4.85 "Schoonhoven" # The Netherlands
+ 51.80 4.01 "Stellendam" # The Netherlands
+ 52.08 4.26 "Den Haag" # The Netherlands
+ 52.06 4.36 "Voorburg" # The Netherlands
+ 52.15 4.38 "Wassenaar" # The Netherlands
+ 51.81 5.00 "Woudrichem" # The Netherlands
+ 52.13 4.50 "Zoeterwoude-Rijndijk" # The Netherlands

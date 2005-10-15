@@ -1,0 +1,1 @@
+utfoon <nummer>: zoekt in de UT zakengids online naar een naam en afdeling bij 4 cijferige nummers

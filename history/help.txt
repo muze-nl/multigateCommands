@@ -1,0 +1,1 @@
+history [query]: geeft een random feit uit de wereldgeschiedenis t/m 1993 

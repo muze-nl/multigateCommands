@@ -1,0 +1,1 @@
+mission: generate a mission statement for everything.

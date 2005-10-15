@@ -1,0 +1,2 @@
+Evaluates an expression.
+Syntax: calc expression

@@ -1,0 +1,1 @@
+random [number] - random number between 0 and [number] ; default = 100

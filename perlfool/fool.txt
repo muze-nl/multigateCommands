@@ -1,0 +1,66 @@
+You cannot just paste code with no understanding of what is going on and expect it to work.
+You can't just make shit up and expect the computer to know what you mean, Retardo!
+You said it didn't work, but you didn't say what it would have done if it *had* worked.
+What are you really trying to accomplish here?
+Who the fuck cares which one is faster?
+Now is the time in our program where you look at the manual.
+Look at the error message!  Look at the error message!
+Looking for a compiler bug is the strategy of LAST resort.  LAST resort.
+Premature optimization is the root of all evil.
+Bad programmer!  No cookie!
+I see you omitted $! from the error message.   It won't tell you what went wrong if you don't ask it to.
+You wrote the same thing twice here.  The cardinal rule of programming is that you never ever write the same thing twice.
+Evidently it's important to you to get the wrong answer as quickly as possible.
+Gee, I don't know.  I wonder what the manual says about that?
+Well, no duh.  That's because you ignored the error message, dimwit.
+Only Sherlock Holmes can debug the program by pure deduction from the output.  You are not Sherlock Holmes.  Run the fucking debugger already.
+Always ignore the second error message unless the meaning is obvious.
+Read.  Learn.  Evolve.
+Well, then get one that *does* do auto-indent.  You can't do good work with bad tools.
+No.  You must believe the ERROR MESSAGE.  You MUST believe the error message.
+The error message is the Truth.  The error message is God.  
+It could be anything.  Too bad you didn't bother to diagnose the error, huh?
+You don't suppress error messages, you dumbass, you PAY ATTENTION and try to understand them.
+Never catch a signal except as a last resort.
+Well, if you don't know what it does, why did you put it in your program?
+Gosh, that wasn't very bright, was it?
+That's like taking a crap on someone's doorstep and then ringing the doorbell to ask for toilet paper.
+A good approach to that problem would be to hire a computer programmer.
+First get a book on programming.  Then read it.  Then write the program.
+First ask yourself `How would I do this without a computer?'  Then have the computer do it the same way.
+Would you like to see my rate card?
+I think you are asking the wrong question here.
+Holy cow.
+Because it's a syntax error.
+Because this is Perl, not C.
+Because this is Perl, not Lisp.
+Because that's the way it is.
+Because.
+If you have `some weird error', the problem is probably with your frobnitzer.
+Because the computer cannot read your mind.  Guess what?  I cannot read your mind *either*.
+You said `It doesn't work'.  The next violation will be punished by death.
+Of course it doesn't work!  That's because you don't know what you are doing!
+Sure, but you have to have some understanding also.
+Ah yes, and you are the first person to have noticed this bug since 1987.  Sure.
+Yes, that's what it's supposed to do when you say that.
+Well, what did you expect?
+Perhaps you have forgotten that this is an engineering discipline, not some sort of black magic.
+You know, this sort of thing is amenable to experimental observation.
+Perhaps your veeblefitzer is clogged.
+What happens when you try?
+Now you are just being superstitious.  
+Your question has exceeded the system limit for pronouns in a single sentence.  Please dereference and try again.
+In my experience that is a bad strategy, because the people who ask such questions are the ones who paste the answer into their program without understanding it and then complain that it oes not work'.
+Of course, this is a heuristic, which is a fancy way of saying that it doesn't work. 
+If your function is written correctly, it will handle an empty array the same way as a nonempty array.
+When in doubt, use brute force.
+Well, it might be more intuitive that way, but it would also be useless.
+Show the code.
+The bug is in you, not in Perl.
+Cargo-cult.
+So you threw in some random punctuation for no particular reason, and then you didn't get the result you expected.  Hmmmm.
+How should I know what is wrong when I haven't even seen the code?  I am not clairvoyant.
+How should I know how to do what you want when you didn't say what you wanted to do?
+It's easy to get the *wrong* answer in O(1) time.
+I guess this just goes to show that you can lead a horse to water, but you can't make him drink it.
+You are a stupid asshole.  Shut the fuck up.

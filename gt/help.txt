@@ -1,0 +1,1 @@
+gt from_to text: google translation of text (from_to: eg, es, ef, ei, ep, ge, gf, se, sf, fe, fg, fs, ie, pe)

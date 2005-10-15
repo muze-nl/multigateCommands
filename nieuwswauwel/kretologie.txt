@@ -1,0 +1,3 @@
+A = new Array("geïntegreerde ","systematische ","functionele ","multi-disciplinaire ","gekantelde ","normatieve ","sociaal-psychologische ","dynamische ","geobjectiveerde ","structurele ");
+B = new Array("begeleiding van ","organisatorische ","ontwikkeling van ","benadering van ","technologische ","relationele ","coördinatie van ","bureaucratische ","prognose van ","conservatieve ");
+C = new Array("veranderingsprocessen","modelontwikkeling","gedragsalternatieven","managementtechnieken","organisatievormen","spanningsvelden","machtsaspecten","informatiesystemen","communicatiemethoden","strategiebepaling");
