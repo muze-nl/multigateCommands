@@ -6,7 +6,6 @@ use strict;
 my $multidir = $ENV{MULTI_ROOT};
 my $dstdir = "${multidir}/commands";
 #Fixme, get from configfile
-#my $repos = 'https://svn.muze.nl/svn/multigate_commands/trunk/';
 my $svn_user = '';
 my $svn = '/usr/bin/svn';
 
@@ -33,8 +32,10 @@ my $commandline = "$svn update $dstdir/$command";
 print STDERR "commandline = $commandline\n";
 my $pid = open( README, "$commandline |") or die "Couldn't fork svn: $!\n";
 my $files = 0 ;
+my $lines = 0;
 while (my $line = <README>) {
    chomp $line;
+   $lines++;
    if ($line =~ /^[AUD]\s+.*?$/) {
      #looks OK...
      $files++;
@@ -48,3 +49,7 @@ while (my $line = <README>) {
    }
 }
 close README;
+
+if ($lines == 0 ){
+  print "Nothing done. See console for possible errors\n";
+}
