@@ -1,4 +1,4 @@
-#/usr/bin/perl -w
+#!/usr/bin/perl -w
 #useless command to test svn functionality
 
-print "versie 1\n";
+print "versie 2\n";
