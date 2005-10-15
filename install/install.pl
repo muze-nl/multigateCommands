@@ -42,9 +42,11 @@ my $commandline = "$svn checkout $credentials $svn_url $dstdir/$command";
 print STDERR "commandline = $commandline\n";
 my $pid = open( README, "$commandline |") or die "Couldn't fork svn: $!\n";
 my $files = 0 ;
+my $lines = 0;
 while (my $line = <README>) {
    #we expect a few "A filename", followed by "Checked out revision n."
    chomp $line;
+   $lines++;
    if ($line =~ /^A\s+.*?$/) {
      #looks OK...
      $files++;
@@ -58,3 +60,7 @@ while (my $line = <README>) {
    }
 }
 close README;
+
+if ($lines == 0 ) {
+   print "Nothing done. See console for possible errors\n";
+}
