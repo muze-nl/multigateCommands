@@ -9,13 +9,14 @@ use strict;
 $| = 1;
 
 my @keuzes   = qw (ja nee);
-my $histfile = "/home/multilink/multigate/commands/janee/history.txt";
-open HIST, "< $histfile";
-my $line = <HIST>;
-my ( $ja, $nee ) = split /\s/, $line, 2;
-close HIST;
-
-chomp $nee;
+my $histfile = "history.txt";
+my ($ja , $nee) = (0 , 0);
+if (open HIST, "< $histfile") {
+   my $line = <HIST>;
+   chomp $line;
+   ( $ja, $nee ) = split /\s/, $line, 2;
+   close HIST;
+} 
 
 if ( @ARGV && ( $ARGV[0] =~ /^stats?$/ ) ) {
 
