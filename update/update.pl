@@ -31,9 +31,10 @@ unless ($command =~ /^\w+$/) {
 my $commandline = "$svn update $dstdir/$command";
 print STDERR "commandline = $commandline\n";
 my $pid = open( README, "$commandline |") or die "Couldn't fork svn: $!\n";
+print STDERR "PID is $pid\n";
 my $files = 0 ;
 my $lines = 0;
-while (my $line = <README>) {
+while ( my $line = <README> ) {
    chomp $line;
    $lines++;
    if ($line =~ /^[AUD]\s+.*?$/) {
