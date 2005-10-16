@@ -1,2 +1,0 @@
-vertaal code woord: vertaalt woord van of naar nederlands. (Codes: ne,en,nd,dn,nf,fn,ni,in,ns,sn,nl,ln,na,an,nz,zn)
-zie ook: http://dictionaries.travlang.com/dutch.html
