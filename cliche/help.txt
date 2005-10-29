@@ -1,0 +1,1 @@
+cliche [word]: finds a cliche containing word, or a random one when finding none
