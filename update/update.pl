@@ -29,9 +29,9 @@ unless ($command =~ /^\w+$/) {
 
 #Do the svn stuff!
 my $commandline = "$svn update $dstdir/$command";
-print STDERR "commandline = $commandline\n";
+#print STDERR "svn commandline = $commandline\n";
 my $pid = open( README, "$commandline |") or die "Couldn't fork svn: $!\n";
-print STDERR "PID is $pid\n";
+#print STDERR "PID is $pid\n";
 my $files = 0 ;
 my $lines = 0;
 while ( my $line = <README> ) {
@@ -40,7 +40,7 @@ while ( my $line = <README> ) {
    if ($line =~ /^[AUD]\s+.*?$/) {
      #looks OK...
      $files++;
-   } elsif ($line =~ /^At revision (\d+)\.$/) {
+   } elsif ( ($line =~ /^At revision (\d+)\.$/) or ($line =~ /^Updated to revision (\d+)\.$/) ) {
      #Tada!
      print "Done ($files files updated, rev $1)\n";
    } else {
@@ -53,4 +53,5 @@ close README;
 
 if ($lines == 0 ){
   print "Nothing done. See console for possible errors\n";
+  exit 42;
 }
