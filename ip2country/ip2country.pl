@@ -9,6 +9,8 @@ my $suffix = ".zz.countries.nerd.dk";
 my $hostcommand = "/usr/bin/host";
 my $commandline = defined $ARGV[0] ? $ARGV[0] : '';
 
+($commandline) = split ' ', $commandline, 2; #only first word!
+
 if ($commandline =~ /^([-\w]+\.)+\w+$/) {
    #possible hostname...
    my $ip = inet_aton($commandline);
@@ -53,14 +55,11 @@ while (my $line = <README>) {
      print "$commandline is located in $1\n";
    } elsif ($line =~ /^.*?\.countries\.nerd\.dk\s+CNAME\s+.*?\.countries\.nerd\.dk\s*$/) {
      #some cname indirection, ignore :)
-
+   } elsif ($line =~ /^.*?does not exist, try again\s*$/) {
+     print "Unknown ip-address\n";
    } else {
      #problem?
      print STDERR "host output: $line\n";
    }
 }
 close README;
-
-if ($lines == 0 ) {
-   print "Huh? See console for possible errors :)\n";
-}
