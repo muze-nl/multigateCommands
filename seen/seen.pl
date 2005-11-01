@@ -5,6 +5,15 @@
 # Past relatief slecht in het concept van multigate!
 #
 
+BEGIN { $multiroot = $ENV{MULTI_ROOT}; }
+
+use lib "$multiroot/lib";
+use Multigate::Config qw( getconf readconfig );
+
+readconfig("../../multi.conf");    #allowed this way?
+my $chan = '#'. getconf('irc_channel');
+
+
 my $commandline = defined $ARGV[0] ? $ARGV[0] : '';
 unless ( $commandline =~ /\w+/ ) {
     print "Wie dan?\n";
@@ -13,7 +22,6 @@ unless ( $commandline =~ /\w+/ ) {
 my ( $nick, undef ) = split " ", $commandline, 2;
 
 
-my $chan   = "#dnd";
 my $logdir = "../../logs/";
 
 
