@@ -51,7 +51,7 @@ foreach $text (split(/\n/,$binnen)){
 	if($text !~ /^[ 	]*$/ ) {
 		$text =~ s/\(.+?\)//g;
 		if( verwerk($text) ){
-			print 'Binnen de ring: '. $text." | ";
+			print 'Binnen de singel: '. $text." | ";
 			last
 		}
 	}
@@ -61,7 +61,7 @@ foreach $text (split(/\n/,$buiten)){
 	if($text !~ /^[ 	]*$/ ) {
 		$text =~ s/\(.+?\)//g;
 		if( verwerk($text) ){
-			print 'Buiten de ring: '. $text."\n";
+			print 'Buiten de singel: '. $text."\n";
 			last
 		}
 	}
