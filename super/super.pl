@@ -45,7 +45,7 @@ foreach my $dag ( keys %dagen ) {
 }
 
 sub printUsage {
-    return "usage: !supermarkt {tijds-indicatie | substring | help}";
+    return "usage: !super {tijds-indicatie | substring | help}";
 }
 
 sub getArgTime {
