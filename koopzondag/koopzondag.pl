@@ -4,6 +4,21 @@
 
 use LWP::UserAgent;
 use HTTP::Cookies;
+use Date::Manip;
+use Data::Dumper;
+
+&Date_Init( 'Language=Dutch', 'DateFormat=non-US' );
+
+sub verwerk {
+	my ($text) = @_;
+	
+	$date = ParseDate($text);
+	$secs = &UnixDate($date,"%s");
+	if($secs > time()) {
+		return 1;
+	}
+	return 0;
+}
 
 $ua = new LWP::UserAgent;
 
@@ -22,6 +37,7 @@ $response = $ua->request($request);
 $html     = $response->content;
 
 $html =~ s|.*<h3>Koopzondagen voor het <a href="#kernwinkelapparaat" ar:type="to anchor">kernwinkelapparaat</a> in het kalenderjaar 2005:</h3>||sm;
+
 $html =~ /<ul>(.+?)<\/ul>.+?<ul>(.+?)<\/ul>.*/s;
 
 $binnen = $1;
@@ -30,7 +46,23 @@ $buiten = $2;
 $binnen =~ s/<.+?>//g;
 $buiten =~ s/<.+?>//g;
 
-print "BINNEN:\n";
-print $binnen;
-print "BUITEN:\n";
-print $buiten;
+
+foreach $text (split(/\n/,$binnen)){
+	if($text !~ /^[ 	]*$/ ) {
+		$text =~ s/\(.+?\)//g;
+		if( verwerk($text) ){
+			print 'Binnen de ring: '. $text." | ";
+			last
+		}
+	}
+}
+
+foreach $text (split(/\n/,$buiten)){
+	if($text !~ /^[ 	]*$/ ) {
+		$text =~ s/\(.+?\)//g;
+		if( verwerk($text) ){
+			print 'Buiten de ring: '. $text."\n";
+			last
+		}
+	}
+}
