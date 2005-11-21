@@ -36,39 +36,71 @@ unless ($command =~ /^\w+$/) {
 }
 
 if (-d "$dstdir/$command") {
-   print "Command already installed!\n";
-   exit 0;
+	my $commandline = "$svn info $dstdir/$command | grep ^URL";
+	my $pid = open( README, "$commandline |") or die "Couldn't fork svn: $!\n";
+	my $line = <README>;
+	my $svn_url = $repos . $branch .$command;
+	close(README);
+	if($line =~ /$repos/ ){
+		if($line !~ /$svn_url/){
+			switch();
+		} else {
+			print "Command already installed try update\n";
+		}
+	} else {
+		print "Directory already exists\n";
+	}
+} else {
+	install();
 }
 
-my $svn_url = $repos . $branch .$command;
-#my @cmd = ('svn', 'co' , '--username', $svn_user , $svn_url, "$dstdir/$command");
-#my $result = (system(@cmd) == 0);
+sub run{
+	my ($commandline) = @_;
 
-#Do the svn stuff!
-my $credentials = ( (defined $svn_user and $svn_user =~ /^\w+$/ ) ? "--username $svn_user" : "");
-my $commandline = "$svn checkout $credentials $svn_url $dstdir/$command";
-print STDERR "commandline = $commandline\n";
-my $pid = open( README, "$commandline |") or die "Couldn't fork svn: $!\n";
-my $files = 0 ;
-my $lines = 0;
-while (my $line = <README>) {
-   #we expect a few "A filename", followed by "Checked out revision n."
-   chomp $line;
-   $lines++;
-   if ($line =~ /^A\s+.*?$/) {
-     #looks OK...
-     $files++;
-   } elsif ($line =~ /^Checked out revision (\d+)\.$/) {
-     #Tada!
-     print "Done ($files files, rev $1)\n";
-   } else {
-     #problem?
-     print STDERR "svn output: $line\n";
-     print "Problem with checkout, see console for more info\n";
-   }
+	print STDERR "commandline = $commandline\n";
+	my $pid = open( README, "$commandline |") or die "Couldn't fork svn: $!\n";
+	my $files = 0 ;
+	my $lines = 0;
+	while (my $line = <README>) {
+		#we expect a few "A filename", followed by "Checked out revision n."
+		chomp $line;
+		$lines++;
+		if ($line =~ /^[UDA]\s+.*?$/) {
+			#looks OK...
+			$files++;
+		} elsif ($line =~ /^Checked out revision (\d+)\.$/) {
+			#Tada!
+			print "Done ($files files, rev $1)\n";
+		} elsif ( ($line =~ /^At revision (\d+)\.$/) or ($line =~ /^Updated to revision (\d+)\.$/) ) {
+			#Tada!
+			print "Done ($files files updated, rev $1)\n";
+		} else {
+			#problem?
+			print STDERR "svn output: $line\n";
+			print "Problem with checkout, see console for more info\n";
+		}
+	}
+	close README;
+
+	if ($lines == 0 ) {
+		print "Nothing done. See console for possible errors\n";
+	}
 }
-close README;
 
-if ($lines == 0 ) {
-   print "Nothing done. See console for possible errors\n";
+sub switch {
+	my $credentials = ( (defined $svn_user and $svn_user =~ /^\w+$/ ) ? "--username $svn_user" : "");
+	my $svn_url = $repos . $branch .$command;
+	my $commandline = "$svn switch $credentials $svn_url $dstdir/$command";
+	run($commandline);
+}
+
+sub install {
+	my $svn_url = $repos . $branch .$command;
+	#my @cmd = ('svn', 'co' , '--username', $svn_user , $svn_url, "$dstdir/$command");
+	#my $result = (system(@cmd) == 0);
+
+	#Do the svn stuff!
+	my $credentials = ( (defined $svn_user and $svn_user =~ /^\w+$/ ) ? "--username $svn_user" : "");
+	my $commandline = "$svn checkout $credentials $svn_url $dstdir/$command";
+	run($commandline);
 }
