@@ -30,9 +30,6 @@ if( $command =~ /(.+?)\/(.+)/ ) {
 	$branch = 'trunk/';
 }
 
-print $command."\n";
-print $branch."\n";
-
 unless ($command =~ /^\w+$/) {
    print "Invalid characters in command: \"$command\"\n";
    exit 0;
