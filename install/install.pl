@@ -6,9 +6,10 @@ use strict;
 my $multidir = $ENV{MULTI_ROOT};
 my $dstdir = "${multidir}/commands";
 #Fixme, get from configfile
-my $repos = 'https://svn.muze.nl/svn/multigate_commands/trunk/';
+my $repos = 'https://svn.muze.nl/svn/multigate_commands/';
 my $svn_user = '';
 my $svn = '/usr/bin/svn';
+my $branch;
 
 unless (defined $multidir and -d $dstdir) {
   print "Installation directory \"$dstdir\" undefined or invalid\n";
@@ -22,6 +23,16 @@ unless (-x $svn) {
 
 my $command = defined $ARGV[0] ? $ARGV[0] : '';
 
+if( $command =~ /(.+?)\/(.+)/ ) {
+	$command = $1;
+	$branch = 'branches/'.$2."/";
+} else {
+	$branch = 'trunk/';
+}
+
+print $command."\n";
+print $branch."\n";
+
 unless ($command =~ /^\w+$/) {
    print "Invalid characters in command: \"$command\"\n";
    exit 0;
@@ -32,7 +43,7 @@ if (-d "$dstdir/$command") {
    exit 0;
 }
 
-my $svn_url = $repos . $command;
+my $svn_url = $repos . $branch .$command;
 #my @cmd = ('svn', 'co' , '--username', $svn_user , $svn_url, "$dstdir/$command");
 #my $result = (system(@cmd) == 0);
 
