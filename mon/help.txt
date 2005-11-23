@@ -1,0 +1,9 @@
+mon:       list | disabled | status [host] |
+           fullstatus (spamt hard)
+ 
+mon admin: (enable|disable) <host> [service] |
+           ack <host> <service> [enab_time] [message] |
+           nack <host> <service> |
+           test ([up]alert|monitor|...)
+               <host> <service> [exitlvl] [period] |
+           cmd <command> [params ...]
