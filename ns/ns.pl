@@ -14,8 +14,19 @@ $agent = "Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)";
 $ua->agent($agent);
 
 #$ua->proxy( "http", "http://www.area53.nl:4242/" ); #temporary proxy
+#
+my $sub;
 
-$url = "http://teletekst.nos.nl/tekst/751-01.html";    # what else???
+if ( $ARGV[0] =~ m|(\d+)| ) {
+	$sub = $1;
+	if ( $sub < 10 ) { $sub = "0$sub" }
+} else {
+	$sub = '01';
+}
+
+
+$url = "http://teletekst.nos.nl/tekst/751-$sub.html";    # what else???
+
 
 ##Haal pagina  op
 $request = new HTTP::Request( 'GET', $url );
