@@ -29,8 +29,7 @@ my $tijdstip;
 my $dummy;
 
 my @output  = ();
-#my $datadir = "./data";
-my $datadir = "/home/multilink/multigate/commands/tv/data";
+my $datadir = "./data";
 
 my $is_multicast = $ENV{'MULTI_IS_MULTICAST'};    # message to multiple recipients (channels)
 
