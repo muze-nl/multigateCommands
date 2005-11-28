@@ -31,6 +31,11 @@ my $dummy;
 my @output  = ();
 my $datadir = "./data";
 
+if( ! -e $datadir ) {
+	print "Instaleer de data fetcher cronjob of een symlink naar een bestaande data directory\n";
+	exit 0;
+}
+
 my $is_multicast = $ENV{'MULTI_IS_MULTICAST'};    # message to multiple recipients (channels)
 
 ## Welke zenders zijn beschikbaar?
