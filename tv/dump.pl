@@ -53,7 +53,7 @@ sub bytvtime {
 }
 
 #### allerlei fijne definities en initialisaties ########
-$datadir = "/home/multilink/multigate/commands/tv/data/";
+$datadir = "./data/";
 
 @agents = (
     "Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)",
