@@ -14,7 +14,7 @@ sub verwerk {
 	
 	$date = ParseDate($text);
 	$secs = &UnixDate($date,"%s");
-	if($secs > time()) {
+	if($secs+86399 > time()) {
 		return 1;
 	}
 	return 0;
