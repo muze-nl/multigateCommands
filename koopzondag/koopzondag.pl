@@ -32,7 +32,7 @@ $ua = new LWP::UserAgent;
 $agent = @agents[ int( rand(@agents) ) ];
 $ua->agent($agent);
 
-$request = new HTTP::Request( 'GET', "http://cms.enschede.nl/stadenschede/winkelen/");
+$request = new HTTP::Request( 'GET', "http://cms.enschede.nl/nl/stadenschede/winkelen/");
 $response = $ua->request($request);
 $html     = $response->content;
 
