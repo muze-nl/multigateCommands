@@ -13,6 +13,9 @@ use strict;
 use vars qw( $dbh $password );
 use FileHandle;
 use DBI;
+use lib '../../lib';
+use Multigate::Config qw( getconf readconfig );
+use Multigate::Users;
 use Date::Calc qw( Language Decode_Language Delta_DHMS Add_Delta_YMD Today Today_and_Now );
 
 #
@@ -22,12 +25,16 @@ use Date::Calc qw( Language Decode_Language Delta_DHMS Add_Delta_YMD Today Today
 
 my $fh = new FileHandle;
 
-if ( ( open $fh, '< ../../../.multigatepassword' ) ) {
-    $password = <$fh>;
-    chomp $password;
-    close $fh;
-} else {
-    $password = '';
+readconfig("../../multi.conf");    #allowed this way?
+my $password = getconf('db_passwd');
+my $db_user  = getconf('db_user');
+my $database = getconf('db_name');
+my $dbh = DBI->connect( 'DBI:mysql:' . $database,
+    $db_user, $password, { RaiseError => 0, AutoCommit => 1 } );
+
+if ( !defined $dbh ) {
+    print STDERR DBI::errstr;
+    exit 0;
 }
 
 my $arg = $ARGV[0];
@@ -47,10 +54,6 @@ exit 0;
 sub douptime {
     my $nick = shift;
 
-    $dbh = DBI->connect( 'DBI:mysql:multigate', 'multilink', $password );
-
-    die "Cannot access database" unless defined $dbh;
-
     my $user = aliastouser($arg);
 
     my @row = $dbh->selectrow_array( <<'EOT', {}, $user );
@@ -61,8 +64,6 @@ FROM
 WHERE
   username LIKE ?
 EOT
-
-    $dbh->disconnect;
 
     my ( $bdt, $btm ) = @row;
 
@@ -115,6 +116,10 @@ WHERE
 EOT
     return $alias unless defined $res;
     return $res;
+}
+
+if ( defined $dbh ) {
+    $dbh->disconnect;
 }
 
 1;    # You never know...
