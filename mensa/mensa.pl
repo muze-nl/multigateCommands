@@ -6,9 +6,8 @@
 
 use strict;
 
-print "Mensamenu is alleen nog beschikbaar in pdf, dus niet meer hier...\n";
-
-exit 0;
+#print "Mensamenu is alleen nog beschikbaar in pdf, dus niet meer hier...\n";
+#exit 0;
 
 my $day = `date +%a`;
 $day =~ s/\n//g;
@@ -27,7 +26,9 @@ if ( index( $day, "Thu" ) == 0 ) { $dag = "Donderdag"; $morgen = "Vrijdag"; }
 if ( index( $day, "Fri" ) == 0 ) { $dag = "Vrijdag";   $morgen = "Zaterdag"; }
 if ( index( $day, "Sat" ) == 0 ) { $dag = "Zaterdag";  $morgen = "Zondag"; }
 
-my @html = `lynx -dump -nolist "http://www.utwente.nl/fb/catering/studentenrestaurant/dagmenu_studentenrestaurant.whlink/_printableversion.html"`;
+#my @html = `lynx -dump -nolist "http://www.utwente.nl/fb/catering/studentenrestaurant/dagmenu_studentenrestaurant.whlink/_printableversion.html"`;
+ my @html = `lynx -dump -nolist "http://www.utwente.nl/fb/catering/studentenrestaurant/dagmenus/_printableversion.html"`;
+
 
 my $line;
 my $daggevonden  = 0;
