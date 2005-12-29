@@ -33,7 +33,7 @@ while (my $line = <LOG> ) {
    $line =~ s/&lt;/</g;
    $line =~ s/&gt;/>/g;
 
-   if ($line =~ m|^(\[.*?\]) (<.*?> .*?) (<a href=".*?">)(.*?)</a>(.*?)<br>$| ){
+   if ($line =~ m|^(\[.*?\]) (<.*?>.*?) (<a href=".*?">)(.*?)</a>(.*?)<br>$| ){
       #wellformed :)
       my $time = $1;
       my $nick = $2;
