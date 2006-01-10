@@ -199,16 +199,17 @@ sub load_zender($) {
 #
 sub search($$) {
 	my ( $term, $count ) = @_;
+	my $regex = qr{\Q$term\E}i;
 	#patch voor gwen, laser en diddlien:
     if (lc($term) eq 'csi') {
-       $term = 'Crime Scene Investigation';
+       $regex = qr{$regex|(Crime Scene Investigation)}i;
     }
-	my @resultlist;
+    my @resultlist;
 	foreach my $zender ( values %zenders ) {
 		my @programs = @{load_zender($zender)};
 		foreach my $program (@programs) {
 			my $naam = $program->{'naam'};
-			if ( ( $naam =~ /\Q$term\E/i ) && ( $naam !~ /Trekking/i ) ) { # but... WHY?!
+			if ( ( $naam =~ /$regex/ ) && ( $naam !~ /Trekking/i ) ) { # but... WHY?!
 				push @resultlist, $program;
 			}
 		}
