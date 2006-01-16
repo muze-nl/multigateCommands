@@ -17,26 +17,23 @@ $ua = new LWP::UserAgent;
 $agent = @agents[ int( rand(@agents) ) ];
 $ua->agent($agent);
 
-$request = new HTTP::Request( 'GET', "http://www.arrow.nl/jazz/now_playing.php" );
-$request->referer("http://www.arrow.nl/jazz/indexjazz.php");
+$request = new HTTP::Request( 'GET', "http://www.arrow.nl/jazz/" );
+$request->referer("http://www.arrow.nl/");
 $response = $ua->request($request);
 $html     = $response->content;
 @lines    = split /^/m, $html;
 
-my $resultline;
-my $go = 0;
-foreach $line (@lines) {
-    if ($go) {
-       $resultline = $line;
-       $go = 0;    
-    }
-    if ( $line =~ m|.*?images/nowplaying2kl_05.jpg.*?| ) {
-        $go = 1;
-    }
-}                
-#print STDERR $resultline , "\n";
-if ( $resultline =~ m/\s*(.*?)-(.*?)\s*$/) {
-   print lc("Now playing on arrow jazz: $2 (by $1)\n");
-} else {
-   print "Unable to find current song for arrow jazz\n";
+# <div name="playlist" id="playlist" style="margin: 5px;">\s*(.*?)\s*</div>
+
+foreach my $line (@lines) {
+   print "$line\n";
 }
+
+exit 0;
+ 
+#print STDERR $resultline , "\n";
+#if ( $resultline =~ m/\s*(.*?)-(.*?)\s*$/) {
+#   print lc("Now playing on arrow jazz: $2 (by $1)\n");
+#} else {
+#   print "Unable to find current song for arrow jazz\n";
+#}
