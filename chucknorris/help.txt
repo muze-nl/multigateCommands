@@ -1,0 +1,1 @@
+shows a random chuck norris fact; thanks to http://www.chucknorrisfacts.com/
