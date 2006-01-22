@@ -79,6 +79,9 @@ $content =~ s/\n/ - /g; #rock uses a newline, jazz uses a -
 
 if ( $content =~ /"stdClass":1:{s:7:"artiest";s:\d+:"(.*?)";}/) {
    my $artist = $1;
+   if ($artist =~ /- - -/) {
+      $artist = "Reclame/Nieuws";
+   }
    print "Now playing on arrow $type: $artist\n";
 } else {
    print "Problem interpreting result from arrow...\n";
