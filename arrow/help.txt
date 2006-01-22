@@ -1,1 +1,1 @@
-arrow: currently playing on arrow jazz (90.7FM)
+arrow [rock]: song currently playing on arrow classic rock or arrow jazz (90.7FM). Default = jazz
