@@ -1,0 +1,1 @@
+despair [<search>]: displays a despair.com quote with title matching <search> (or a random one)  
