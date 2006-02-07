@@ -12,7 +12,11 @@ if (defined $ARGV[0] and $ARGV[0] =~ /^\w+$/) {
        if (lc($key) =~ /\Q$commandline\E/o) {
           print $line;
           exit 0;
-       }
+       } elsif (lc($value) =~ /\Q$commandline\E/o) {
+          #search in "body" lower priority :)
+          print $line;
+          exit 0;
+       }  
     }
 }
 
