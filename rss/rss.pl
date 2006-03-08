@@ -33,7 +33,7 @@ my %urls = (
 # read known codes..
 if ( opendir D, "./codes/" ) {
     while ( my $file = readdir D ) {
-        next if $file eq '.' || $file eq '..';
+        next if $file eq '.' || $file eq '..' || $file eq '.svn' ;
         if ( open F, "< ./codes/$file" ) {
             my $url = <F>;
             chomp $url;
