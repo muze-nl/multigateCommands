@@ -1,13 +1,9 @@
 #!/usr/bin/perl -w
 # Geeft mensa menu
-# Nieuwe versie van 22 sept 2001, omdat FB een lelijke nieuwe website heeft
-# "Crude but effective" (en dus lelijk)
+# Nieuwe versie van 22 maart 2006, omdat FB een lelijke nieuwe website heeft
 # Titanhead
 
 use strict;
-
-#print "Mensamenu is alleen nog beschikbaar in pdf, dus niet meer hier...\n";
-#exit 0;
 
 my $day = `date +%a`;
 $day =~ s/\n//g;
@@ -27,24 +23,32 @@ if ( index( $day, "Fri" ) == 0 ) { $dag = "Vrijdag";   $morgen = "Zaterdag"; }
 if ( index( $day, "Sat" ) == 0 ) { $dag = "Zaterdag";  $morgen = "Zondag"; }
 
 #my @html = `lynx -dump -nolist "http://www.utwente.nl/fb/catering/studentenrestaurant/dagmenu_studentenrestaurant.whlink/_printableversion.html"`;
- my @html = `lynx -dump -nolist "http://www.utwente.nl/fb/catering/studentenrestaurant/dagmenus/_printableversion.html"`;
+ my @html = `lynx -dump -nolist "http://www.utnws.utwente.nl/utnieuws/laatste/af.info.html"`;
 
 
 my $line;
 my $daggevonden  = 0;
 my $menu;
+my $menugevonden = 0;
 
+chomp @html;
 foreach $line (@html) {
-    #print STDERR "--> $line\n";
-    if ( $line =~ /dagmenu $dag/i ) {
+    #print STDERR "-->$line<--\n";
+    if ($line =~ /^\s*UT-CATERING/){
+      $menugevonden = 1;
+    };
+
+    next unless $menugevonden;
+
+    if ( $line =~ /^\s*$dag/i ) {
         $daggevonden = 1;
     }
 
-    if ( $daggevonden and ( $line =~ /$morgen/  or $line =~ /dagsoepen/i or $line =~ /menu of the day/i ) ) {
+    if ( $daggevonden and ( $line =~ /$morgen/  or $line =~ /DE STEK/i or $line =~ /menu of the day/i ) ) {
        last; 
     }
-    if ( $daggevonden ) {
-       $menu .= $line;
+    if ( $daggevonden and $line =~ /\w/ ) {
+       $menu .= $line . ',' ;
     }
 
 }
