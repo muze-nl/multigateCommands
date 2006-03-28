@@ -34,7 +34,7 @@ my $menugevonden = 0;
 chomp @html;
 foreach $line (@html) {
     #print STDERR "-->$line<--\n";
-    if ($line =~ /^\s*UT-CATERING/){
+    if ($line =~ /^\s*UT-CATERING/ or $line =~ /^\s*DAGMENU/){
       $menugevonden = 1;
     };
 
