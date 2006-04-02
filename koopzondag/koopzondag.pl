@@ -36,7 +36,7 @@ $request = new HTTP::Request( 'GET', "http://cms.enschede.nl/nl/stadenschede/win
 $response = $ua->request($request);
 $html     = $response->content;
 
-$html =~ s|.*<h3>Koopzondagen voor het <a href="#kernwinkelapparaat" ar:type="to anchor">kernwinkelapparaat</a> in het kalenderjaar 2005:</h3>||sm;
+$html =~ s|.*p>Koopzondagen voor de <b>binnenstad</b> in 2006:</p>||sm;
 
 $html =~ /<ul>(.+?)<\/ul>.+?<ul>(.+?)<\/ul>.*/s;
 
