@@ -93,7 +93,7 @@ if ( $thishour < 6 ) {
 
 sub convert_time($) {
 	my $tijd = shift;
-	my ( $hour, $minute ) = $tijd =~ /(\d+)\.(\d+)/;
+	my ( $hour, $minute ) = $tijd =~ /(\d+)[\.:](\d+)/;
 	if ( $hour < 6 ) { $hour += 24; }
 	return ($hour, $minute);
 }

@@ -2,8 +2,8 @@
 # Script om tvgids voor vandaag naar file te schrijven
 # Geschreven in het kader van DND Progathon 2000
 # 16 Januari 2000
-# Casper Joost Eyckelhof (Titanhead)
-# casper@joost.student.utwente.nl
+
+#7 april 2006, rtl is nu "web2.0" bah... tvgids.nl eens proberen
 
 #2 december 2001, omgeschreven voor gebruik op rtl.nl
 
@@ -13,7 +13,7 @@
 use LWP::UserAgent;
 use HTTP::Cookies;
 
-$ua         = new LWP::UserAgent;
+my $ua         = new LWP::UserAgent;
 $cookie_jar = HTTP::Cookies->new;
 
 # fisher_yates_shuffle( \@array ) : generate a random permutation
@@ -54,6 +54,11 @@ sub bytvtime {
 
 #### allerlei fijne definities en initialisaties ########
 $datadir = "./data/";
+
+unless (-d $datadir) {
+   print STDERR "No datadir, creating!\n";
+   mkdir $datadir;
+}
 
 @agents = (
     "Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)",
@@ -99,7 +104,7 @@ $ua->agent($agent);
     #	20 => "TCM",
     #	21 => "CartoonNetwork",
     #	22 => "Kindernet",
-    	25 => "MTV",
+    #	25 => "MTV",
     #	26 => "CNN",
     #	27 => "RAIUNO",
     #	28 => "Sat1",
@@ -122,18 +127,15 @@ $ua->agent($agent);
     #   89 => "Nickelodeon"
 );
 
-$base_url = "http://www.rtl.nl/active/tvview/index.xml?station=1&zender=";
+$base_url = 'http://www.tvgids.nl/zoeken/?trefwoord=Titel+of+trefwoord&dagdeel=0.0&station=';
 
 #Get my first cookie!
-$request = new HTTP::Request( 'GET', "http://www.rtl.nl/active/tvview/index.xml" );
+$request = new HTTP::Request( 'GET', "http://www.tvgids.nl/" );
 $request->header( "Accept"          => "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png" );
-$request->header( "Accept-Encoding" => "gzip" );
 $request->header( "Accept-Language" => "en" );
 $request->header( "Accept-Charset"  => "iso-8859-1,*,utf-8" );
 $response = $ua->request($request);
 $cookie_jar->extract_cookies($response);
-
-#print STDERR "Cookie: ". $cookie_jar->as_string();
 
 @zenderrij = keys %zenders;
 
@@ -150,25 +152,21 @@ foreach $zender (@zenderrij) {
         sleep( int( rand(60) ) + 30 );
 
         #Haal pagina voor zender op
-        $request = new HTTP::Request( 'GET', $base_url . $zender . "&dag=1" );
-        $request->referer("http://www.rtl.nl/active/tvview/index.xml");
+        $request = new HTTP::Request( 'GET', $base_url . $zender );
+        $request->referer("http://www.tvgids.nl/");
         $request->header( "Accept"          => "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png" );
-        $request->header( "Accept-Encoding" => "gzip" );
         $request->header( "Accept-Language" => "en" );
         $request->header( "Accept-Charset"  => "iso-8859-1,*,utf-8" );
         $cookie_jar->add_cookie_header($request);
 
-        #print STDERR "Getting: ". $base_url.$zender."&dag=1" ."\n";
+        #print STDERR "Getting: ". $base_url.$zender ."\n";
         $response = $ua->request($request);
         $content  = $response->content;
         $cookie_jar->extract_cookies($response);
 
-        #print STDERR "Cookie: ". $cookie_jar->as_string() . "\n";
-        #print STDERR $content;
         my $teopenen = $datadir . $zenders{$zender};
         open( DATA, "> $teopenen" );
 
-        #print STDERR "$zenders{$zender}\n";
         #Een beetje cleaning
         $content =~ s/&nbsp;//gi;
         $content =~ s/&amp;/&/gi;
@@ -176,54 +174,80 @@ foreach $zender (@zenderrij) {
         $content =~ s/<br>\n//sgi;
         $content =~ s/\xA0//g;
 
-#       @items = split /<starttime>(\d{2}:\d{2}).*?<\/starttime>/, $content;
-#       @items = split m|<td width="48" bgcolor="#666666" valign="bottom">.*?(\d{1,2}:\d{2}).*?</td>|, $content;
-        my $prop1 = 'bgcolor="#666666"';
-        my $prop2 = 'valign="bottom"';
-        my $prop3 = 'width="48"';
         
-        @items = split m@<td (?:$prop1\s?|$prop2\s?|$prop3\s?){3}>.*?(\d{1,2}:\d{2}).*?</td>@, $content;
+        my @items = split m|(<th width="74">\d{2}:\d{2} - \d{2}:\d{2}</th>)|, $content;
         
         shift @items;    #eerste item is "header"
+        pop   @items;    #laatste item is "footer"
 
         my @outlines;
         while (@items) {
-            $beschrijving = "";
-            $ltijd        = shift @items;    # eerst een tijd
-            $ltijd =~ s/:/./;
-            $rest = shift @items;            # alles tot de volgende tijd
-            $rest =~ s/\n+/\n/g;             # geen dubbele newlines
-            @inhoud = split /\n/, $rest;     # bovenstaande per regel
-                                             # er zijn nu 13 regels in @inhoud, waarvan slechts een aantal spannend
-            shift @inhoud;                   # eerst een </td>
+            my ($ltijd, $film, $titel, $beschrijving, $info);
 
-            $titel = shift @inhoud;          # de regel met de titel erin
-                                             #print STDERR "Titel: $titel\n";
-            $titel =~ /<b>(.*?)<\/b>/;
-            $titel = $1;
-            $titel =~ s/<.*?>//g;            #geen URL's in de titel
-
-            $extras = shift @inhoud;         #de symbolen, zoals film, herhaling en teletekst
-            if ( $extras =~ /alt="speelfilm"/i ) { $film = "F" }
-            else { $film = " " }
-
-            while (@inhoud) {
-                $frop = shift @inhoud;
-                if ( $frop =~ /colspan="2"/ ) {    #alle regels met colspan=2 bevatten nuttige info
-                    $frop =~ s/<.*?>//g;    #html eruit gooien
-                    $beschrijving .= "$frop ";
-                }
-
+            my $time = shift @items;
+            # <th width="74">19:30 - 20:00</th>
+            if ($time =~ m|<th width="74">(\d{2}:\d{2}) - (\d{2}:\d{2})</th>|){
+               $ltijd = $1;
+               $info = shift @items;
+               if (defined $info) {
+                  my @infolines = split /\n/, $info;
+                  chomp @infolines;
+                  foreach my $line (@infolines) {
+                     # <td width="227"><div><a href="/programmadetail/?ID=5235032">De Kinderpolikliniek</a></div></td>
+                     if ($line =~ m|^.*?<td width="227"><div><a href="/programmadetail/\?ID=(\d+)">(.*?)</a></div></td>.*?$|i ){ 
+                        my $prog_id = $1;
+                        $titel = $2;
+                        sleep 1;
+                        $beschrijving = get_beschijving($ua, $prog_id);
+                        unless (defined $beschrijving) {
+                          $beschrijving = $prog_id;
+                        }
+                        my $line = join("\xb6", ( $ltijd, '' , $titel, $beschrijving ));
+                        push @outlines, $line;
+                        last;
+                     }
+                  } 
+               }
             }
-
-            #print STDERR "$ltijd - $film - $titel - $beschrijving\n";              
-            #print DATA join "\xb6", ( $ltijd, $film, $titel, $beschrijving ), "\n";    #wegschrijven naar file
-            my $line = join("\xb6", ( $ltijd, $film, $titel, $beschrijving ));
-            push @outlines, $line;
         }
-        foreach my $line (sort bytvtime @outlines ) {
-           print DATA $line , "\n";        
-        }
+         foreach my $line (sort bytvtime @outlines ) {
+            print DATA $line , "\n";        
+         }
         close DATA;
     }
+}
+
+
+sub get_beschijving {
+  my ($ua, $id) = @_;
+
+  return undef unless (defined $id and $id =~ /^\d+$/);
+
+  my $url = 'http://www.tvgids.nl/programmadetail/?ID=';
+
+  my $request = new HTTP::Request( 'GET', $url . $id );
+  $request->header( "Accept"          => "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png" );
+  $request->header( "Accept-Language" => "en" );
+  $request->header( "Accept-Charset"  => "iso-8859-1,*,utf-8" );
+  my $response = $ua->request($request);
+  my $content  = $response->content;
+
+  # <table id="progDetail" border="0" cellspacing="0" cellpadding="0">
+  if ($content =~ m|^.*?<table id="progDetail" border="0" cellspacing="0" cellpadding="0">(.*?)<p class="meerLinks">.*?$|is){
+    my $stuff = $1;
+    $stuff =~ s/\n+/ /g;
+    $stuff =~ s/\s+/ /g;
+    if ($stuff =~ m|^.*?<h3><span>(.*?)</span></h3>.*?<p class="inleiding">(.*?)</p>\s*<p>(.*?)</p>\s*<p>(.*?)</p>.*?$|i){
+      my $title = $1;
+      my $genre = $2;
+      my $vervolg = $3;
+      my $omschrijving = $4;
+
+      my $result = "$title: $genre $vervolg - $omschrijving";
+      $result =~ s/\n//g;
+      $result =~ s/\s+/ /g;
+      return $result;
+    } 
+  }
+  return "Geen beschijving gevonden";
 }
