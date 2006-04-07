@@ -55,7 +55,7 @@ sub bytvtime {
 #### allerlei fijne definities en initialisaties ########
 $datadir = "./data/";
 
-unless (-d $datadir) {
+unless (-e $datadir) {
    print STDERR "No datadir, creating!\n";
    mkdir $datadir;
 }
@@ -73,7 +73,7 @@ $ua->agent($agent);
 
 #random delay voor start: 0-10 minuten 
 
-#sleep( int( rand(600) ) );
+sleep( int( rand(600) ) );
 
 %zenders = (
     1  => "Nederland1",
