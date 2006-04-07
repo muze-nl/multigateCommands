@@ -55,7 +55,7 @@ sub nu {
 
     #print STDERR "nu: ($nuzender, $nutijd, $nuaantal )\n";
 
-    $nutijd =~ /(\d+)\.(\d+)/;
+    $nutijd =~ /(\d+)[\.:](\d+)/;
     my ( $nuhour, $numinute ) = ( $1, $2 );
     if ( $nuhour < 6 ) { $nuhour += 24 }
 
@@ -73,7 +73,7 @@ sub nu {
     my $laatste = "opdezestringmatchtechtniksQWERTY";
     foreach $line (@lines) {
         ( $ftijd, $film, $lnaam, $beschrijving, $prut ) = split /\xb6/, $line;
-        $ftijd =~ /(\d+)\.(\d+)/;
+        $ftijd =~ /(\d+)[\.:](\d+)/;
         my ( $fhour, $fminute ) = ( $1, $2 );
         if ( $fhour < 6 ) { $fhour += 24; }
         if ( ( ( ( $fhour < $nuhour ) || ( ( $fhour == $nuhour ) && ( $fminute < $numinute ) ) ) ) ) {
@@ -119,8 +119,8 @@ sub min2 {
 sub bytime {
     my ( $frop,  $tijda, $frop2 ) = split /\s/, $a, 3;
     my ( $frop3, $tijdb, $frop4 ) = split /\s/, $b, 3;
-    my ( $uura, $minuuta ) = split /\./, $tijda;
-    my ( $uurb, $minuutb ) = split /\./, $tijdb;
+    my ( $uura, $minuuta ) = split /[\.:]/, $tijda;
+    my ( $uurb, $minuutb ) = split /[\.:]/, $tijdb;
 
     if ( $uura < 6 ) { $uura += 24 }
     if ( $uurb < 6 ) { $uurb += 24 }
