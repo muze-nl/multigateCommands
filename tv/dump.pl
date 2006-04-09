@@ -13,6 +13,11 @@
 use LWP::UserAgent;
 use HTTP::Cookies;
 
+my $fast = 0;
+if (lc($ARGV[0]) eq 'fast') {
+  $fast = 1;
+}
+
 my $ua         = new LWP::UserAgent;
 $cookie_jar = HTTP::Cookies->new;
 
@@ -73,7 +78,7 @@ $ua->agent($agent);
 
 #random delay voor start: 0-10 minuten 
 
-sleep( int( rand(600) ) );
+sleep( int( rand(600) ) ) unless ($fast);
 
 %zenders = (
     1  => "Nederland1",
@@ -124,7 +129,8 @@ sleep( int( rand(600) ) );
     #	90 => "BVN-TV",
     #	24 => "Canal+1",
     #	39 => "Canal+2",
-    #   89 => "Nickelodeon"
+    #   89 => "Nickelodeon",
+        92 => "Talpa",
 );
 
 $base_url = 'http://www.tvgids.nl/zoeken/?trefwoord=Titel+of+trefwoord&dagdeel=0.0&station=';
@@ -149,7 +155,7 @@ foreach $zender (@zenderrij) {
     if ( ( !-e $zenderfile ) || ( -z $zenderfile ) ) {
 
         #Een korte random slaap, om het op echt klikgedrag te laten lijken
-        sleep( int( rand(60) ) + 30 );
+        sleep( int( rand(60) ) + 30 ) unless ($fast);
 
         #Haal pagina voor zender op
         $request = new HTTP::Request( 'GET', $base_url . $zender );
@@ -197,12 +203,15 @@ foreach $zender (@zenderrij) {
                      if ($line =~ m|^.*?<td width="227"><div><a href="/programmadetail/\?ID=(\d+)">(.*?)</a></div></td>.*?$|i ){ 
                         my $prog_id = $1;
                         $titel = $2;
-                        sleep 1;
-                        $beschrijving = get_beschijving($ua, $prog_id);
+                        sleep 1 unless ($fast);
+                        ($beschrijving, $film) = get_beschijving($ua, $prog_id);
                         unless (defined $beschrijving) {
                           $beschrijving = $prog_id;
                         }
-                        my $line = join("\xb6", ( $ltijd, '' , $titel, $beschrijving ));
+                        unless (defined $film) {
+                          $film = '';
+                        }
+                        my $line = join("\xb6", ( $ltijd, $film , $titel, $beschrijving ));
                         push @outlines, $line;
                         last;
                      }
@@ -232,6 +241,7 @@ sub get_beschijving {
   my $response = $ua->request($request);
   my $content  = $response->content;
 
+  my $result;
   # <table id="progDetail" border="0" cellspacing="0" cellpadding="0">
   if ($content =~ m|^.*?<table id="progDetail" border="0" cellspacing="0" cellpadding="0">(.*?)<p class="meerLinks">.*?$|is){
     my $stuff = $1;
@@ -243,11 +253,17 @@ sub get_beschijving {
       my $vervolg = $3;
       my $omschrijving = $4;
 
-      my $result = "$title: $genre $vervolg - $omschrijving";
+      $result = "$title: $genre $vervolg - $omschrijving";
       $result =~ s/\n//g;
       $result =~ s/\s+/ /g;
-      return $result;
     } 
+    #controleer of dit een film is...
+    # <th>Genre:</th>\s*    <td><div>Film</div></td>
+    if ($content =~ m|^.*?<th>Genre:</th>\s*<td><div>Film</div></td>.*?$|is) {
+       #print STDERR "FILM: $result\n";
+        return ($result , 'F');
+    }
+    return $result;
   }
   return "Geen beschijving gevonden";
 }
