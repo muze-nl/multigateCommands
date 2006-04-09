@@ -67,6 +67,7 @@ my %aliases = (
 		"rtlvijf" => "rtl5",
 		"rtlvier" => "rtl4",
 		"yorin"   => "rtl7",
+        "tien"    => "talpa",
 		);
 
 my %nulijst = ();
