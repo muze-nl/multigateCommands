@@ -12,7 +12,6 @@ $word = lc($word);
 my $multicast = $ENV{'MULTI_IS_MULTICAST'};
 my $maxlines  = 4;                            #maxlines on multicast channel
 
-print STDERR "multicast = $multicast\n";
 
 my %langtable = (
     'e' => 2,
@@ -63,7 +62,7 @@ foreach my $line (@lines) {
    }
 }
 
-my $cut = ( scalar(@results) > ($maxlines+1) ) and $multicast;  # do not show extra header when you can also show all results!
+my $cut = ( scalar(@results) > ($maxlines+1) ) && $multicast;  # do not show extra header when you can also show all results!
 if ( $cut  ) {
    print scalar @results , " results. For complete list try a non-multicast channel.\n";
    splice @results, $maxlines; 
