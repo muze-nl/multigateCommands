@@ -4,7 +4,7 @@
 use strict;
 
 #Bouw 2 tabellen met de gegevens (1 met index landcode, 1 met index landnaam)
-my $filenaam = "/home/multilink/multigate/commands/convert/koerstabel.txt";
+my $filenaam = "./koerstabel.txt";
 my @page;
 if ( ( -z $filenaam ) || ( !-e $filenaam ) ) {
 
@@ -21,7 +21,12 @@ my %tabel_code = ();
 my %tabel_land = ();
 my $line;
 
-frop:
+if(not defined(@page)){
+	print "Conversie tabel leeg\n";
+	exit 0;
+}
+
+#frop:
 foreach $line (@page) {
     $line =~ s/,//g;
     #print $line, "\n";
