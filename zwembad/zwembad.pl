@@ -2,13 +2,13 @@
 use strict;
 
 my %openingstijden = (
-    "zondag"    => "14:00 - 17:00",
-    "maandag"   => "11:45 - 14:00",
-    "dinsdag"   => "11:45 - 14:00 en 16:00 - 18:00",
-    "woensdag"  => "11:45 - 14:00 en 16:00 - 18:00",
-    "donderdag" => "11:45 - 14:00 en 16:00 - 18:00",
-    "vrijdag"   => "11:30 - 14:00 en 15:30 - 17:30",
-    "zaterdag"  => "14:00 - 17:00"
+    "maandag"   => "11:00 - 18:00",
+    "dinsdag"   => "11:00 - 18:00",
+    "woensdag"  => "11:00 - 18:00",
+    "donderdag" => "11:00 - 18:00",
+    "vrijdag"   => "11:00 - 18:00",
+    "zaterdag"  => "12:00 - 18:00",
+    "zondag"    => "12:00 - 18:00",
 );
 
 my $thisday = ( 'zondag', 'maandag', 'dinsdag', 'woensdag', 'donderdag', 'vrijdag', 'zaterdag' )[ (localtime)[6] ];
