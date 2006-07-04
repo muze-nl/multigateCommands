@@ -9,7 +9,8 @@ if ( $ARGV[0] ) {
         $plaats .= $argument . " ";
     }
 }
-my @html     = `lynx -dump http://www.knmi.nl/voorl/weer/aktueel.html`;
+#my @html     = `lynx -dump http://www.knmi.nl/voorl/weer/aktueel.html`;
+my @html     = `lynx -dump -nolist http://www.knmi.nl/actueel/index.html`;
 my $result   = "onbekend";
 my $gevonden = 0;
 foreach my $regel (@html) {
@@ -27,8 +28,9 @@ if ( $result =~ /niet ontvangen/i ) {
 
 $result =~ s/^\s*//g;
 $result =~ s/De\sBilt/DeBilt/ig;
+$result =~ s/Den\sHelder/DenHelder/ig;
 $result =~ s/Vliegveld//ig;
-$result =~ /(.*?)\s{1,}(.*)\s{1,}(-{0,1}\d{1,}\.\d)/;
+$result =~ /^(\w+)(.*?)\s+(-{0,1}\d{1,}\.\d).*?$/;
 my @twente = ( $1, $2, $3 );
 $plaats =~ s/\s{1,}$//g;
 $twente[1] =~ s/\s{1,}$//g;
