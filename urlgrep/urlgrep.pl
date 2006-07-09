@@ -12,7 +12,7 @@ readconfig("../../multi.conf");
 
 my $maxresults = 3;
 
-my $urlfile = "$multiroot/www/allautolink.shtml";
+my $urlfile = "$multiroot/web/allautolink.shtml";
 
 unless (-e $urlfile) {
   print "url log not found\n";
