@@ -56,4 +56,5 @@ if ($gevonden) {
     print "Huidige weersituatie te $plaats: $twente[1], $twente[2] graden. (Bron: KNMI)";
 } else {
     print "Geen weerstation gevonden in $plaats.";
+    exit 1; #no caching
 }
