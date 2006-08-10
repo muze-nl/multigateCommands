@@ -65,8 +65,10 @@ my $w = lc($woord);
 $woord = uc($woord);
 $woord =~ s/IJ/y/g;
 
-die "[$w]  Woord te lang.\n"
-	if length($woord) > 15;
+if ( length($woord) > 15 ) {
+    print "[$w]  Woord te lang.\n";
+    exit 1;
+}
 
 my $min = undef;
 my $max = undef;
@@ -82,11 +84,15 @@ foreach my $line (@field) {
 			$l = 'IJ' if $l eq 'y';
 
 			my $s = substr($str  , $i, 1);
-			die "[$w]  Letter '$l' niet gevonden.\n"
-				unless $tiles{$l};
+			unless ( $tiles{$l} ){
+               print "[$w]  Letter '$l' niet gevonden.\n";
+               exit 1;
+            }
 			$used{$l}++;
-			die "[$w]  Te weinig letters '$l' in het spel.\n"
-				if $used{$l} > $tiles{$l}[0];
+			if ($used{$l} > $tiles{$l}[0]) {
+               print "[$w]  Te weinig letters '$l' in het spel.\n";
+               exit 1;
+            }
 			$s = $s eq 'b' ? 2 : $s eq 'c' ? 3 : 1;
 			$score += $s * $tiles{$l}[1];
 		}
@@ -98,7 +104,9 @@ foreach my $line (@field) {
 	}
 }
 
-die "[$w]  Kan woord niet plaatsen op bord.\n"
-	unless defined $min && defined $max;
+unless (defined $min && defined $max) {
+   print "[$w]  Kan woord niet plaatsen op bord.\n";
+   exit 1;
+}
 
 print "[$w]  Minimale score: $min, maximale score: $max.\n";
