@@ -1,0 +1,1 @@
+scrabble <word>: berekent minimale en maximale score te behalen met <word>
