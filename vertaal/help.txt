@@ -1,2 +1,2 @@
-vertaal <code> <woord>: vertaalt woord van of naar nederlands. (Codes: en, ne, fn, nf, dn, nd, sn, sn)
+vertaal <code> <woord>: vertaalt woord van of naar nederlands. (Codes: en, ne, fn, nf, dn, nd, sn, sn, zn, nz)
 zie ook: http://www.interglot.com/
