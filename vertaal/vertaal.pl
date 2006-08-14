@@ -18,7 +18,7 @@ my %langtable = (
     'n' => 1,
     'f' => 4,
     'd' => 3,
-#   's' => 6,  #(zweeds)
+    'z' => 6,  #(zweeds)
     's' => 5,  #(spaans)
 );
 
