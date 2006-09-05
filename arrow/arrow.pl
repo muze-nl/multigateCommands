@@ -75,6 +75,8 @@ my $content  = $response->content;
 # "stdClass":1:{s:7:"artiest";s:49:"Erma Franklin - (take A Little) Piece Of My Heart";}
 # Lets just regex it, not parse it :)
 
+print STDERR $content, "\n\n";
+
 $content =~ s/Error.*?\n//g; #some issues with 'rock', workaround
 $content =~ s/\n/ - /g; #rock uses a newline, jazz uses a -
 
