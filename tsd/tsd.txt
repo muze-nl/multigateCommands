@@ -16,3 +16,4 @@ tsd thinks low level languages are too high level, just use dd and /dev/mem
 the NSA does not like files encrypted by tsd, it overheats their computers
 tsd uses 40 desktops at once, one for every cerebral hemisphere
 tsd usually doesn't write code to solve a problem, he already solved it 
+tsd started reading intel bytecode before reading winnie the pooh
