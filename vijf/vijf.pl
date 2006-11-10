@@ -9,7 +9,7 @@ $tijd =~ s/[^5]//g;
 
 if ( length($tijd) == 0 ) {
     if( $realuser eq "ctlaltdel" ) {
-        print "Voor jou altijd!\n";
+        print "Voor jou altijd!\nOf moest je nog rijden?";
     } else {   
         print "Jammer joh, geen vijf in de klok.\n";
     }
