@@ -4,7 +4,7 @@ use Socket;
 
 my $invoer = $ARGV[0];
 
-unless ( $invoer =~ /[a-f0-9]{8}/i ) {
+unless ( $invoer =~ /^[a-f0-9]{8}$/i ) {
     print "Foute invoer\n";
     exit 0;
 }
