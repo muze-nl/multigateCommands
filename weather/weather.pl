@@ -23,17 +23,23 @@ if ( $response =~ /\((-?\d+)&deg;c\)/i ) {
         $weathertype = $1;
     }
 
-    while ( $response =~
-        m|<td bgcolor="#EFEFEF" class="cnnBodyText"><b>(.*?)</b><BR><span class="cnnTempHi"><b>-?\d+&deg;F</b> \((-?\d+)&deg;C\).*?http://i.cnn.net/cnn/.element/img/1.0/weather/med/(.*?)\.gif(.*)$"|si
-      )
-    {
-        #print STDERR "Match\n";
-        @type = split ( /\./, $3 );
+    my @lines = split "\n", $response;
+ 
+    #<td bgcolor="#EFEFEF" class="cnnBodyText"><b>Wednesday</b><BR><span class="cnnTempHi"><b>20&deg;F</b> (-7&deg;C)</span> | <span class="cnnTempLo"><b>18&deg;F</b> (-8&deg;C)</span></td> 
+    foreach my $line (@lines) {
+      if ($line =~
+        m|.*?<td bgcolor="#EFEFEF" class="cnnBodyText"><b>(.*?)</b><BR><span class="cnnTempHi"><b>-?\d+&deg;F</b>\s\((-?\d+)&deg;C\).*?|i
+      ) {
+        #print STDERR "Match: $line\n";
+        #@type = split ( /\./, $3 );
         $day = $1;
         $daytemp  = $2;
         $response = $4;
-        $type[0] =~ s/^(.)/\u$1/;
-        $forecast = $forecast . $day . ": " . $daytemp . " C (" . join ( " ", @type ) . ") ";
+        #$type[0] =~ s/^(.)/\u$1/;
+        $forecast = $forecast . $day . ": " . $daytemp . "C ";
+        } else {
+        #print STDERR "No match: $line \n";
+        }
     }
 
     $query =~ s/^(.)/\u$1/;
