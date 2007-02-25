@@ -8,7 +8,21 @@ my $commandline = defined $ARGV[0] ? $ARGV[0] : '';
 
 my ($expression, $payload) = split " ", $commandline, 2;
 
-my @lines = split /\xb6/, $payload;
-my @result = grep { /$expression/i } @lines;
+my $inverse = 0;
+if ($expression eq '-v') { # inverse
+	$inverse = 1;
+	($expression, $payload) = split " ", $payload, 2;
+}
 
-print join("\n", @result);
+# prepare regexp
+$expression = qr/$expression/i;
+
+my @lines = split /\xb6/, $payload;
+my @result;
+if ($inverse) {
+	@result = grep { ! /$expression/ } @lines;
+} else {
+	@result = grep {   /$expression/ } @lines;
+}
+
+print map { $_."\n" } @result;

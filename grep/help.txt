@@ -1,1 +1,2 @@
-grep <string> <command-output>: shows only lines containing <string>
+grep    <string> <command-output>: shows only lines containing <string>
+grep -v <string> <command-output>: shows only lines not containing <string>
