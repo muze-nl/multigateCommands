@@ -26,7 +26,7 @@ $ua->agent($agent);
 
 my $cookie_jar = HTTP::Cookies->new;
 
-my $request = new HTTP::Request( 'GET', "http://imdb.com/" );
+my $request = new HTTP::Request( 'GET', "http://former.imdb.com/" );
 my $response = $ua->request($request);
 $cookie_jar->extract_cookies($response);
 
@@ -37,7 +37,7 @@ sub lookup_title {
 
 	my $t = uri_escape($titel);
 	$t =~ s/%20/+/g;
-    my $url = "http://imdb.com/find?q=$t;s=all";
+    my $url = "http://former.imdb.com/find?q=$t;s=all";
 
 	#print STDERR "getting $url\n";
 	#sleep 2;
@@ -64,7 +64,7 @@ sub lookup_title {
 			return;
 		}
 
-		$url = "http://www.imdb.com/title/$id/";
+		$url = "http://former.imdb.com/title/$id/";
 		$request = new HTTP::Request( 'GET', $url );
 		$cookie_jar->add_cookie_header($request);
 		$response = $ua->request($request);
