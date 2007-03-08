@@ -1,0 +1,1 @@
+netnummer <nummer>: geeft lijst van plaatsnamen met dit netnummer
