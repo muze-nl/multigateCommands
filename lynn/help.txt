@@ -1,0 +1,1 @@
+lynn: geeft een random password, en een handige manier om het aan een klant door te geven.
