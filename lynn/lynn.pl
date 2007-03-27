@@ -5,12 +5,12 @@ use warnings;
 
 
 #evil backticks, but no user-input
-my $pass =`./pwgen -c -n 6`;
+my $pass =`./pwgen -c -n 7`;
 chomp $pass;
 
 my %table = ( 
     A => ["autobus", "aapje", "AOL", "afgeschreven", "amstel" ], 
-    B => ["brandweerauto", ], 
+    B => ["brandweerauto", "bewoner" ], 
     C => ["chaos", ], 
     D => ["dombo", "debiel"], 
     E => ["eikel", ], 
@@ -19,18 +19,18 @@ my %table = (
     H => ["halve-zool", "heineken" ], 
     I => ["incompetent", ], 
     J => ["josti", ], 
-    K => ["klootviool", "kastanje"], 
-    L => ["looprek", ], 
-    M => ["muts", "mongool"], 
+    K => ["klootviool", "kastanje", "koe"], 
+    L => ["looprek", "lagere school"], 
+    M => ["muts", "mongool", "mavo"], 
     N => ["nono", ],
     O => ["opa", "oma" ],
     P => ["prutser", "paashaas"],
     Q => ["quasi-onverschillig", ],
     R => ["randdebiel", ],
-    S => ["sul", "sulletje"],
+    S => ["sul", "sulletje", "spruitjes", "sandalen"],
     T => ["traag", ],
     U => ["uberhaupt", ],
-    V => ["vrouw", ],
+    V => ["vrouw", "vmbo"],
     W => ["wanbetaler", ],
     X => ["xantippevogel", ],
     Y => ["yahoo", ],
