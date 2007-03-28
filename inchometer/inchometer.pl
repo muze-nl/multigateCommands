@@ -88,7 +88,11 @@ my %words = (
     'bier' => 3,
     'porno' => -3,
     'viagra' => -2,
-    
+#update 2007
+    'buma' => -2,
+    'vista' => 3,
+    'duo' => 2,
+    'core' => 2,
 );
 
 $inches += $users{$user} if (exists $users{$user} );
