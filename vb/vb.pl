@@ -8,7 +8,7 @@ my %openingstijden = (
     "woensdag"  => "21:00",
     "donderdag" => "22:00",
     "vrijdag"   => "22:00",
-    "zaterdag"  => "21:00"
+    "zaterdag"  => "22:00"
 );
 
 my $thisday = ( 'zondag', 'maandag', 'dinsdag', 'woensdag', 'donderdag', 'vrijdag', 'zaterdag' )[ (localtime)[6] ];
