@@ -16,9 +16,9 @@ if ( @ARGV >= 1 ) {
     }
 }
 
-my @editors  = qw(vi ultraedit joe emacs MSWord vim edlin);
-my @browsers = qw(Mozilla IE5 IE IE6 Netscape Lynx Opera w3m Amaya);
-my @langs    = qw(perl python java C C++ VBScript fortran php pascal);
+my @editors  = qw(vi ultraedit joe emacs MSWord vim edlin notepad++);
+my @browsers = qw(Mozilla IE5 IE IE6 Netscape Lynx Opera w3m Amaya Safari);
+my @langs    = qw(perl python java C C++ VBScript fortran php pascal lisp ruby prolog);
 my @OSs      = qw(Windows Windows2000 Linux DOS OS/2 WinXP Win98 Win95 WinNT Debian BeOS RedHat Slackware Suse);
 my @clients  = qw (mIRC ircII BitchX irssi GatorChat Word);
 
