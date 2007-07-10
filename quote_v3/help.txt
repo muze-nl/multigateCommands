@@ -1,0 +1,6 @@
+quote [quote_id] - without quote_id it shows a random quote
+quote add <something> - adds a quote
+quote del <quote_id> - removes a quote
+quote [count|ls] [keyword] - tries to find a quote with keyword in it, otherwise displays random quote; count=count entries, ls=list all entries
+quote vote <quote_id> <vote> - vote for a quote (vote = 1..10)
+quote top <num> - show top quotes
