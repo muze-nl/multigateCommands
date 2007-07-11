@@ -206,7 +206,8 @@ sub quote_random { &connect;
 			'quotes.id, '.
 			'(quotes.realuser IS NOT NULL AND quotes.realuser = ?) AS is_own, '.
 			'(SUM(quote_votes_own.id) IS NOT NULL) AS has_voted, '.
-			'COUNT(quote_votes.vote) AS count '.
+			'COUNT(quote_votes.vote) AS count, '.
+			'RANDOM() AS rnd '.
 		'FROM '.
 			'quotes '.
 		'LEFT JOIN '.
@@ -217,21 +218,15 @@ sub quote_random { &connect;
 			'quote_votes '.
 		  'ON quotes.id = quote_votes.quote_id '.
 		'GROUP BY quotes.id, quotes.realuser '.
-		'ORDER BY is_own, has_voted, count';
+		'ORDER BY is_own, has_voted, count, rnd '.
+		'LIMIT 1';
 
-	my $sth = $dbh->prepare($sql);
-	$sth->execute($realuser, $realuser);
+	my $sth  = $dbh->prepare($sql);
+	my $rows = $sth->execute($realuser, $realuser);
+	return unless $rows > 0;
 
-	my @quote_ids = ();
-	my $state = undef;
-	while (my ($quote_id, @s) = $sth->fetchrow_array) {
-		map { $_ = defined $_ ? '+'.$_ : '-' } @s;
-		$state = "@s" unless defined $state;
-		push @quote_ids, $quote_id if $state eq "@s";
-#		warn "{ @s }\n";
-	}
-
-	return @quote_ids;
+	my ($quote_id) = $sth->fetchrow_array;
+	return $quote_id;
 }
 
 sub quote_set_next_id { &connect;

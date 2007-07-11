@@ -227,11 +227,11 @@ if ($args =~ /^\s*(?:$RE_id\s*;\s*)*$RE_id\s*\z/) {
 	}
 
 } else {
-	my @quote_ids = quote_random($realuser);
+	my $quote_id = quote_random($realuser);
 
 	# show result
-	if (@quote_ids) {
-		print_quotes $quote_ids[rand(@quote_ids)];
+	if ($quote_id) {
+		print_quotes $quote_id;
 	} else {
 		print "No quotes in database.\n";
 	}
