@@ -181,7 +181,7 @@ foreach $zender (@zenderrij) {
         $content =~ s/\xA0//g;
 
         
-        my @items = split m|(<th width="74">\d{2}:\d{2} - \d{2}:\d{2}</th>)|, $content;
+        my @items = split m|(<th width="74">\d{2}:\d{2} - (?:\d{2}:\d{2})?</th>)|, $content;
         
         shift @items;    #eerste item is "header"
         pop   @items;    #laatste item is "footer"
@@ -192,7 +192,7 @@ foreach $zender (@zenderrij) {
 
             my $time = shift @items;
             # <th width="74">19:30 - 20:00</th>
-            if ($time =~ m|<th width="74">(\d{2}:\d{2}) - (\d{2}:\d{2})</th>|){
+            if ($time =~ m|<th width="74">(\d{2}:\d{2}) - (\d{2}:\d{2})?</th>|){
                $ltijd = $1;
                $info = shift @items;
                if (defined $info) {
