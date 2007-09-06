@@ -130,7 +130,7 @@ sleep( int( rand(600) ) ) unless ($fast);
     #	24 => "Canal+1",
     #	39 => "Canal+2",
     #   89 => "Nickelodeon",
-        92 => "Talpa",
+        92 => "RTL8",
 );
 
 $base_url = 'http://www.tvgids.nl/zoeken/?trefwoord=Titel+of+trefwoord&dagdeel=0.0&station=';

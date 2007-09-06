@@ -49,7 +49,7 @@ while ( defined( my $file = readdir BIN ) ) {
 close BIN;
 
 # alles dat in de "tv nu" getoond moet worden
-my @nuzenderlijst = qw(Nederland1 Nederland2 Nederland3 RTL4 RTL5 SBS6 Net5 RTL7 BBC1 BBC2 Veronica);
+my @nuzenderlijst = qw(Nederland1 Nederland2 Nederland3 RTL4 RTL5 SBS6 Net5 RTL7 BBC1 BBC2 Veronica RTL8);
 
 my %aliases = (
 		"ned1"    => "nederland1",
@@ -67,7 +67,7 @@ my %aliases = (
 		"rtlvijf" => "rtl5",
 		"rtlvier" => "rtl4",
 		"yorin"   => "rtl7",
-        "tien"    => "talpa",
+		"talpa"   => "rtl8",
 		);
 
 my %nulijst = ();
