@@ -15,6 +15,11 @@ if ($commandline =~ /^ut/i) {
    $a = 130;
    $b = 89;
 }
+if ($commandline =~ /^snt/i) {
+   $a = 130;
+   $b = 89;
+   $c = 175;
+}
 
 my $address = "$a.$b.$c.$d";
 my $name = gethostbyaddr( pack( "C4", ( split m|\.|, $address ) ), AF_INET );
