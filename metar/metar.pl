@@ -76,7 +76,7 @@ if ( $commandline =~ /^[A-Za-z]{4}$/ ) {
     print "Weather at $locations{$commandline} ($time). Temperature: $c_temp (C). Wind: $wind_r $wind_s (knots)\n";
     print "Code: $metarcode \n" unless ($is_multicast);
 } else {
-    print "Geef METAR ID, zie bijvoorbeeld http://www.gironet.nl/home/aviator1/icao4/icao4.htm\n";
+    print "Geef METAR ID, zie bijvoorbeeld http://www.airport-technology.com/icao-codes/\n";
     my @hints = ();
 
     ## Zoek match
