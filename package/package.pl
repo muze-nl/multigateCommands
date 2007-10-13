@@ -10,9 +10,10 @@ my $maxaantal = 5;
 $commandline = uri_escape($commandline);
 
 ## Get a certain URL
+#my $url =
+#  "http://packages.debian.org/cgi-bin/search_contents.pl?word=$commandline&searchmode=searchfilesanddirs&case=insensitive&version=stable&arch=i386";
 my $url =
-  "http://packages.debian.org/cgi-bin/search_contents.pl?word=$commandline&searchmode=searchfilesanddirs&case=insensitive&version=stable&arch=i386";
-
+  "http://packages.debian.org/search?searchon=contents&keywords=$commandline&mode=exactfilename&suite=stable&arch=any";
 my $ua = new LWP::UserAgent;
 
 #Set agent name, we are not a script! :)
@@ -22,18 +23,23 @@ $ua->agent($agent);
 my $request = new HTTP::Request( 'GET', $url );
 my $content = $ua->request($request)->content;
 
+# Glue a few lines together, so we can actually search
+$content =~ s/<td>\s+<a/<td><a/og;
+$content =~ s/<\/a>\s+<\/td/<\/a><\/td/og;
+$content =~ s/<\/td>\s+<td>/<\/td><td>/og;
+
 my @lines = split /^/m, $content;
 my @result = ();
-my $aantal = 0;
+my $count = 0;
 foreach my $line (@lines) {
-    if ( $line =~ /^(\S+)\s+<a href="http:\/\/packages.debian.org\/stable.*?>(.*?)<\/a>/i ) {    # if it matches something
-        $aantal++;
-        push @result, "$1 : $2" if ( $aantal <= $maxaantal );
+    if ( $line =~ m/^\s*<td class="file">(.*?)<span class="keyword">(.*?)<\/span><\/td><td><a href="(.*?)">(.*?)<\/a><\/td>\s*$/ ) {
+    	$count++;
+    	push @result, "$4: $1$2" if $count <= 5;
     }
 }
 
-if (@result) {
-    print join "\n", @result;
+if (scalar @result) {
+    print map { ($_, "\n") } @result;
 } else {
     print "Package \"$commandline\" niet gevonden\n";
 }
