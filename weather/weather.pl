@@ -80,7 +80,7 @@ $content = $httpresult->content;
 $content =~ m|.*cnnWeatherForecastCurrentContent(.*?)cnnWeatherForecastCurrentDetails.*|s;
 my $currentpart = $1;
 # Extract the temperature
-$currentpart =~ m|.*cnnWeatherTempCurrent\">(\d+)&deg;.*|s;
+$currentpart =~ m|.*cnnWeatherTempCurrent\">(-*\d+)&deg;.*|s;
 my $currenttemp = $1;
 # And the condition
 $currentpart =~ m|.*cnnWeatherConditionCurrent\">(.*)</span>.*|s;
@@ -100,7 +100,7 @@ $tomorrowpart =~ m|cnnWeatherTimeStamp\">(.*?)</span>|s;
 $fcinfo->{'day'} = substr($1, 0, 3);
 $fcinfo->{'temps'} = ();
 # Extract the temperatures
-while ($tomorrowpart =~ m|cnnWeatherTemp\">(\d+)&deg;</span>|gs) {
+while ($tomorrowpart =~ m|cnnWeatherTemp\">(-*\d+)&deg;</span>|gs) {
 	push(@{$fcinfo->{'temps'}}, $1);
 }
 # And the condition
@@ -124,7 +124,7 @@ while ($extendedpart =~ m|<td class=\".*?\">\s*?(\w+?)\s*?<br />|gs) {
 }
 # Next loop over the table cells to get temperature and condition
 my @extcondlist;
-while ($extendedpart =~ m|cnnWeatherExtForecastDetails\">\s*?(\d+)&deg;.*?</span>\s*?(\d+)&deg;.*?cnnWeatherExtForecastDayCond\">(.*?)</span>|gs) {
+while ($extendedpart =~ m|cnnWeatherExtForecastDetails\">\s*?(-*\d+)&deg;.*?</span>\s*?(-*\d+)&deg;.*?cnnWeatherExtForecastDayCond\">(.*?)</span>|gs) {
 	my $extcond = {};
 	$extcond->{'temps'} = ();
 	push(@{$extcond->{'temps'}}, $1, $2);
