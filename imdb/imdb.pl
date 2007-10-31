@@ -108,7 +108,8 @@ if ( @ARGV < 1 ) {
 
     foreach my $title (@titles) {
         # strip !tv context
-        $title =~ s/^\w+\s+:\s+[0-9?]{1,2}\.[0-9?]{1,2}\s+-\s+[0-9?]{1,2}\.[0-9?]{1,2}\s+(.*)$/$1/;
+        # example: "RTL5 : 20:30 - 22:25 Imagine me and you"
+        $title =~ s/^\w+\s+:\s+[0-9?]{1,2}:[0-9?]{1,2}\s+-\s+[0-9?]{1,2}\:[0-9?]{1,2}\s+(.*)$/$1/;
 		lookup_title($title);
     }
 }
