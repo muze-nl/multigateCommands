@@ -59,7 +59,6 @@ $request->header( "Accept-Charset"  => "iso-8859-1,*,utf-8" );
 my $response = $ua->request($request);
 my $content  = $response->content;
 
-
 my $data = $content;
 $data =~ s/\n\s+/\n/g;
 $data =~ s/<br[^>]*>/\n/ig;
@@ -75,8 +74,9 @@ $data =~ s/^.*?\nRESULTAAT[^\n]*\n//s
 			print "Woord niet gevonden.\n";
 			exit 0;
 		};
-		
-$data =~ s/\nOpnieuw\/verfijnd zoeken.*?$//s
+
+#$data =~ s/\nOpnieuw\/verfijnd zoeken.*?$//s
+$data =~ s/\ncopyright.*?$//s
 	or do {
 			print "Woord niet gevonden.\n";
 			exit 0;
@@ -90,7 +90,10 @@ my @words = split /\n\n/, $data;
 my @out = ();
 
 while (@words && ($max_words-- > 0)) {
-	push @out, shift @words;
+	my $w = shift @words;
+	$w =~ s/\xc2\xa0/\n/g;
+	$w =~ s/\xc2\xb7/./g;
+	push @out, $w;
 }
 
 print join("\n\n", @out)."\n";
