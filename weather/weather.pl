@@ -100,7 +100,7 @@ $tomorrowpart =~ m|cnnWeatherTimeStamp\">(.*?)</span>|s;
 $fcinfo->{'day'} = substr($1, 0, 3);
 $fcinfo->{'temps'} = ();
 # Extract the temperatures
-while ($tomorrowpart =~ m|cnnWeatherTemp\">(-*\d+)&deg;</span>|gs) {
+while ($tomorrowpart =~ m|cnnWeatherTemp\">[HiLo ]+(-*\d+)&deg;</span>|gs) {
 	push(@{$fcinfo->{'temps'}}, $1);
 }
 # And the condition
