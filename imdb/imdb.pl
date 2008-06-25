@@ -26,7 +26,7 @@ $ua->agent($agent);
 
 my $cookie_jar = HTTP::Cookies->new;
 
-my $request = new HTTP::Request( 'GET', "http://former.imdb.com/" );
+my $request = new HTTP::Request( 'GET', "http://www.imdb.com/" );
 my $response = $ua->request($request);
 $cookie_jar->extract_cookies($response);
 
@@ -37,7 +37,7 @@ sub lookup_title {
 
 	my $t = uri_escape($titel);
 	$t =~ s/%20/+/g;
-    my $url = "http://former.imdb.com/find?q=$t;s=all";
+	my $url = "http://www.imdb.com/find?q=$t;s=all";
 
 	#print STDERR "getting $url\n";
 	#sleep 2;
@@ -64,7 +64,7 @@ sub lookup_title {
 			return;
 		}
 
-		$url = "http://former.imdb.com/title/$id/";
+		$url = "http://www.imdb.com/title/$id/";
 		$request = new HTTP::Request( 'GET', $url );
 		$cookie_jar->add_cookie_header($request);
 		$response = $ua->request($request);
@@ -74,7 +74,7 @@ sub lookup_title {
 		return;
 	}
    
-    $url = $response->base(); #we might have been redirected...
+	$url = $response->base(); #we might have been redirected...
 	my @html = $response->content;
 
 	my $alles = join '', @html;
@@ -82,13 +82,29 @@ sub lookup_title {
 	#print $alles;
 	$alles =~ /.*?<title>(.*?)<\/title>.*?/si;
 	my $naam = "$1 ";
-	$alles =~ /.*?Directed by<\/B><BR>.*?>(.*?)<\/A>.*?/si;
+	
+	#<div class="info">
+	#<h5>Director:</h5>
+	#<a href="/name/nm0000229/">Steven Spielberg</a><br/>
+	#
+	#</div>
+	
+	$alles =~ /.*?Director:<\/h5>.*?>(.*?)<\/a>.*?/si;
 	my $regisseur = "$1 ";
-	$alles =~ /.*?Plot (Outline|Summary):<\/b>(.*?)<a.*?/si;
-	my $plot = "$2 ";
+	
+	#<div class="info">
+	#<h5>Plot:</h5>
+	#When a gigantic great white shark begins to menace the small island community of Amity, a police chief, a marine scientist and grizzled fisherman set out to stop it. <a class="tn15more inline" href="/title/tt0073195/plotsummary" onClick="(new Image()).src='/rg/title-tease/plotsummary/images/b.gif?link=/title/tt0073195/plotsummary';">full summary</a> | <a class="tn15more inline" href="synopsis">full synopsis (warning! may contain spoilers)</a>
+	#
+	#</div>
+	
+	
+	$alles =~ /.*?Plot:<\/h5>\s*(.*?)<a.*?/si;
+	my $plot = "$1 ";
 
-	# <b>8.2/10</b> (26,379 votes)</b>
-	$alles =~ /.*?<b>(\d*\.\d*)\/10<\/b> \(\d+.*? votes\).*?/si;
+	# <b>User Rating:</b> 
+	# <b>8.3/10</b>  
+	$alles =~ /.*?<b>User Rating:<\/b>\s*<b>(\d*\.\d*)\/10<\/b>.*?/si;
 	my $rating = "$1 ";
 	my $result = "$naam. Regisseur: $regisseur. Plot outline: $plot Rating: $rating. (Zie: $url)";
 	$result =~ s/\n//g;
