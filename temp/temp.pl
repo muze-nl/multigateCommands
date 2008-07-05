@@ -49,7 +49,7 @@ if ( $plaats eq "Twenthe" ) {
     } elsif ( $temp > 29 ) {
         $plaats = "titan's sauna";
     } elsif ( $temp > 19 ) {
-        $plaats = "titan's balkon";
+        $plaats = "titan's ex-balkon";
     }
 }
 if ($gevonden) {
