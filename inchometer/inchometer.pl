@@ -42,6 +42,7 @@ my %words = (
     'quad' => 5,         
     'civ'  => -10,
     'itbe' => -12,
+    'icts' => -8,
     'herfst' => -1,
     'mod' => 3,
     'osx' => -5,
@@ -81,6 +82,7 @@ my %words = (
     'vinyl' => 12,
     '3ware' => 3,
     '3com' => -8,
+    'hp' => 5,
 #En een paar voor de VB tussendoor    
     'sex' => 2,
     'nijlpaard' => 2,
