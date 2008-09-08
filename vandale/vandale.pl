@@ -71,14 +71,14 @@ $data =~ s/\r//g;
 
 $data =~ s/^.*?\nRESULTAAT[^\n]*\n//s
 	or do {
-			print "Woord niet gevonden.\n";
+			print "Woord '$zoekwoord' niet gevonden.\n";
 			exit 0;
 		};
 
 #$data =~ s/\nOpnieuw\/verfijnd zoeken.*?$//s
 $data =~ s/\ncopyright.*?$//s
 	or do {
-			print "Woord niet gevonden.\n";
+			print "Woord '$zoekwoord' niet gevonden.\n";
 			exit 0;
 		};
 
