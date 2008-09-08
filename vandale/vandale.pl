@@ -47,7 +47,8 @@ $zoekwoord =~ s/\s//g;
 $zoekwoord = uri_escape($zoekwoord);
 
 #$zoek_url = "http://www.vandale.nl/NASApp/cs/ContentServer?zoekwoord=$zoekwoord&pagename=VanDale%2FZoekResultaat";
-my $zoek_url = "http://www.vandale.nl/opzoeken/woordenboek/?zoekwoord=$zoekwoord";
+my $zoek_url = "http://www.vandale.nl/vandale/opzoeken/woordenboek/?zoekwoord=$zoekwoord";
+
 
 my $request = new HTTP::Request( 'GET', $zoek_url );
 $request->referer("http://www.vandale.nl/");
