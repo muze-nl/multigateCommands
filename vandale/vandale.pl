@@ -19,7 +19,7 @@ my $command_level = $ENV{'MULTI_COMMANDLEVEL'};    # level needed for this comma
 my $is_multicast  = $ENV{'MULTI_IS_MULTICAST'};    # message to multiple recipients (channels)
 
 
-my $max_words = $is_multicast ? 1 : 3;
+my $max_words = $is_multicast ? 1 : 4;
 
 if ( !( defined $ARGV[0] ) || ( $ARGV[0] =~ /^\s*$/ ) ) {
     print "Geef zoekterm\n";
@@ -27,11 +27,6 @@ if ( !( defined $ARGV[0] ) || ( $ARGV[0] =~ /^\s*$/ ) ) {
 }
 
 my $zoekwoord = $ARGV[0];
-
-#if (( $ENV{'MULTI_REALUSER'} =~ /grit/i ) && ( $zoekwoord =~ /^kleptocratentax$/i )) {
-#    print "kleptocratentax: extra belasting op vertrekbonussen voor hoge bestuurders\n";
-#    exit 0;
-#}
 
 my $ua = new LWP::UserAgent;
 
@@ -46,9 +41,7 @@ $ua->agent($agent);
 $zoekwoord =~ s/\s//g;
 $zoekwoord = uri_escape($zoekwoord);
 
-#$zoek_url = "http://www.vandale.nl/NASApp/cs/ContentServer?zoekwoord=$zoekwoord&pagename=VanDale%2FZoekResultaat";
 my $zoek_url = "http://www.vandale.nl/vandale/opzoeken/woordenboek/?zoekwoord=$zoekwoord";
-
 
 my $request = new HTTP::Request( 'GET', $zoek_url );
 $request->referer("http://www.vandale.nl/");
@@ -68,6 +61,8 @@ $data =~ s/<u[^>]*>(.*?)<\/u[^>]*>/\c_$1\c_/ig;
 $data =~ s/<[^>]*>//g;
 $data = decode_entities($data);
 
+#print "===>\n$data\n<===\n";
+
 $data =~ s/\r//g;
 
 $data =~ s/^.*?\nRESULTAAT[^\n]*\n//s
@@ -76,8 +71,7 @@ $data =~ s/^.*?\nRESULTAAT[^\n]*\n//s
 			exit 0;
 		};
 
-#$data =~ s/\nOpnieuw\/verfijnd zoeken.*?$//s
-$data =~ s/\ncopyright.*?$//s
+$data =~ s/\nCopyright.*?$//s
 	or do {
 			print "Woord '$zoekwoord' niet gevonden.\n";
 			exit 0;
@@ -92,9 +86,16 @@ my @out = ();
 
 while (@words && ($max_words-- > 0)) {
 	my $w = shift @words;
+    if ($w =~ m/Dit woord staat niet in het gratis woordenboek/i) {
+        $max_words++;
+        next;
+    }
+    $w =~ s/^\d+//g;
 	$w =~ s/\xc2\xa0/\n/g;
 	$w =~ s/\xc2\xb7/./g;
+    $w =~ s/\x80\x82//g;
+    $w =~ s/â//g;
 	push @out, $w;
 }
 
-print join("\n\n", @out)."\n";
+print join("\n", @out)."\n";
