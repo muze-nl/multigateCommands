@@ -17,7 +17,7 @@ if($mday < 10) {
 	$mday = "0".$mday;
 }
 $year = $year+1900;
-my $rssdate = "$year-$mon-$mday";
+my $rssdate = "$mday-$mon-$year";
 
 my $rss = new XML::RSS;
 
@@ -42,8 +42,8 @@ $rss->parse($content);
 my $item;
 #print $rss->as_string;
 foreach $item (@{$rss->{'items'}}) {
-	if($item->{'description'} eq $rssdate) {
-		$istedoen .= "$item->{'link'} - $item->{'title'}\n";
+	if ($item->{'title'} =~ m/^\Q$rssdate\E: (.*)$/) {
+		$istedoen .= "$item->{'title'}\n";
 	}
 
 }
