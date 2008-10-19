@@ -6,7 +6,7 @@ use HTTP::Cookies;
 
 use config;
 
-my $base_url = 'http://www.tvgids.nl/zoeken/?q=&d=0&z=%i&t=&g=&v=0';
+my $base_url = 'http://www.tvgids.nl/zoeken/?q=&d=0&z=%s&t=&g=%s&v=0';
 
 my @user_agents = (
 		"Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)",
@@ -33,17 +33,19 @@ sub shuffle { map { $_->[1] } sort { $a->[0] <=> $b->[0] } map { [ rand(), $_ ] 
 my $req = HTTP::Request->new( GET => 'http://www.tvgids.nl/' );
 my $res = $ua->request($req);
 
-foreach my $channel (shuffle keys %channels) {
-	next if -f 'data/'.$channel;
+foreach my $channel (shuffle('film', keys %channels)) {
+	my $file = 'raw_data/'.$channel;
+	next if -f $file;
 
 	sleep 5 + rand(5);
 
-	my $url = sprintf $base_url, $channel;
+	my $url = $channel ne 'film' ? sprintf($base_url, $channel, '') : sprintf($base_url, '', 'Film');
+
 	my $req = HTTP::Request->new( GET => $url );
 	$req->referer( 'http://www.tvgids.nl/' );
 	my $res = $ua->request($req);
 
-	open my $out, '>', 'data/'.$channel;
+	open my $out, '>', $file;
 	print $out $res->content;
 	close $out;
 }

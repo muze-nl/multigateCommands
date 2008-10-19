@@ -3,6 +3,7 @@
 use strict;
 use config qw/ %channels /;
 use HTML::Entities;
+use Data::Dumper;
 
 sub conv_time {
 	my ($d,$h,$m) = @_;
@@ -20,23 +21,42 @@ sub conv_time {
 	return timelocal(0,$m,$h, @lt[3..5]);
 }
 
-foreach my $channel (sort { $a <=> $b } keys %channels) {
-	my $channel_name = $channels{$channel};
-
-	open my $f, '<', 'data/'.$channel;
+my %url_film = ();
+{
+	open my $f, '<', 'raw_data/'.'film';
 	my $data = do { local $/; <$f> };
 	close $f;
 
 	my @programs = ();
 	$data =~ s{<div class="program">(.*?)</div>}{push @programs, $1}ges;
 
-	print "[$channel_name]\n";
-	use Data::Dumper;
-#	print Dumper(@programs);
+	my $day_shift = 0;
+	my $t_last = conv_time 0, 6, 0;
+
+	foreach my $program (@programs) {
+		$program =~ m{<a href="([^"]*?)">}
+			or die "tvgids.nl format has changed..\n";
+
+		my $url = $1;
+		decode_entities($url);
+		$url_film{$url}++;
+	}
+}
+
+foreach my $channel (sort { $a <=> $b } keys %channels) {
+	my $channel_name = $channels{$channel}[0];
+
+	open my $f, '<', 'raw_data/'.$channel;
+	my $data = do { local $/; <$f> };
+	close $f;
+
+	my @programs = ();
+	$data =~ s{<div class="program">(.*?)</div>}{push @programs, $1}ges;
 
 	my $day_shift = 0;
 	my $t_last = conv_time 0, 6, 0;
 
+	my $tv_data = '';
 	foreach my $program (@programs) {
 		$program =~ m{<a href="([^"]*?)">\s*?<span class="time">([^<]*?)</span>\s*?<span class="title">([^<]*?)</span>\s*?<span class="channel">([^<]*?)</span>\s*?</a>}
 			or die "tvgids.nl format has changed..\n";
@@ -47,12 +67,7 @@ foreach my $channel (sort { $a <=> $b } keys %channels) {
 		decode_entities($title);
 		decode_entities($chan);
 
-#		print Dumper({
-#				url => $url,
-#				time => $time,
-#				title => $title,
-#				channel => $chan,
-#			});
+		my $is_film = defined $url_film{$url};
 
 		warn "Channel mismatch: '$channel_name' <=> '$chan'.\n"
 			unless $channel_name eq $chan;
@@ -77,9 +92,22 @@ foreach my $channel (sort { $a <=> $b } keys %channels) {
 
 		$t_last = $t_end;
 
-		print "$t_begin-$t_end: $title\n";
+#		print "$t_begin-$t_end: $title\n";
 #		$time = scalar(localtime $t_begin) . ' - '. scalar(localtime $t_end)
 
-#		print "$time $title\n";
+		# convert to old format
+		my @t = localtime($t_begin);
+		my $tv_tijd = sprintf '%02u:%02u', $t[2], $t[1];
+		my $tv_film = $is_film ? 'F' : '';
+		my $tv_naam = $title;
+		my $tv_beschrijving = '(not available)';
+		my $tv_prut = '';
+		$tv_data .= join("\xb6", $tv_tijd, $tv_film, $tv_naam, $tv_beschrijving, $tv_prut)."\n";
+	}
+
+	if ($tv_data) {
+		open my $t, '>', 'data/'.$channels{$channel}[1];
+		print $t $tv_data;
+		close $t;
 	}
 }
