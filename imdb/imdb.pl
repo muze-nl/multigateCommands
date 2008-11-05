@@ -17,18 +17,18 @@ my $command_level = $ENV{'MULTI_COMMANDLEVEL'};    # level needed for this comma
 my $commandline = defined $ARGV[0] ? $ARGV[0] : '';
 
 ## Get a certain URL
+my @user_agents = (
+		'Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)'
+	);
 
-my $ua = new LWP::UserAgent;
-
-#Set agent name, we are not a script! :)
-my $agent = "Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)";
-$ua->agent($agent);
-
-my $cookie_jar = HTTP::Cookies->new;
+my $ua = LWP::UserAgent->new(
+		#Set agent name, we are not a script! :)
+		agent		=> $user_agents[rand @user_agents],
+		cookie_jar	=> HTTP::Cookies->new(),
+	);
 
 my $request = new HTTP::Request( 'GET', "http://www.imdb.com/" );
 my $response = $ua->request($request);
-$cookie_jar->extract_cookies($response);
 
 sub lookup_title {
 	my $titel = shift;
@@ -43,7 +43,6 @@ sub lookup_title {
 	#sleep 2;
 
 	$request = new HTTP::Request( 'GET', $url );
-	$cookie_jar->add_cookie_header($request);
 	$response = $ua->request($request);
 
 	if ( $response->headers->title() =~ /IMDb\s+search/i ) {
@@ -66,7 +65,6 @@ sub lookup_title {
 
 		$url = "http://www.imdb.com/title/$id/";
 		$request = new HTTP::Request( 'GET', $url );
-		$cookie_jar->add_cookie_header($request);
 		$response = $ua->request($request);
 
 	} elsif ( $response->headers->title() =~ /The Internet Movie Database \(IMDb\)/i ) {
@@ -97,16 +95,28 @@ sub lookup_title {
 	#When a gigantic great white shark begins to menace the small island community of Amity, a police chief, a marine scientist and grizzled fisherman set out to stop it. <a class="tn15more inline" href="/title/tt0073195/plotsummary" onClick="(new Image()).src='/rg/title-tease/plotsummary/images/b.gif?link=/title/tt0073195/plotsummary';">full summary</a> | <a class="tn15more inline" href="synopsis">full synopsis (warning! may contain spoilers)</a>
 	#
 	#</div>
-	
-	
-	$alles =~ /.*?Plot:<\/h5>\s*(.*?)<a.*?/si;
-	my $plot = "$1 ";
 
-	# <b>User Rating:</b> 
-	# <b>8.3/10</b>  
-	$alles =~ /.*?<b>User Rating:<\/b>\s*<b>(\d*\.\d*)\/10<\/b>.*?/si;
-	my $rating = "$1 ";
-	my $result = "$naam. Regisseur: $regisseur. Plot outline: $plot Rating: $rating. (Zie: $url)";
+	# <h5>Plot:</h5>
+	# A neo-nazi sentenced to community service at a church clashes with the blindly devotional priest. | <a class="tn15more inline" href="synopsis">add synopsis</a>
+	# </div>
+
+	my $plot = '';
+	if ($alles =~ /<h5>Plot:<\/h5>\s+(.*?)\s*\|?\s*<a class=/s) {
+		$plot = " Plot outline: $1";
+	}
+
+	### try to extract rating
+	# <div class="meta">
+	# <b>7.8/10</b> 
+	# &nbsp;&nbsp;<a href="ratings" class="tn15more">6,367 votes</a>
+	# </div>
+
+	my $rating = '';
+	if ($alles =~ /<div class="meta">\s+<b>(\d+\.\d+)\/10<\/b>\s+&nbsp;&nbsp;<a href="ratings"/) {
+		$rating = " Rating: $1";
+	}
+
+	my $result = "$naam. Regisseur: $regisseur.$plot$rating. (Zie: $url)";
 	$result =~ s/\n//g;
 	$result =~ s/<.*?>//g;
 	$result =~ s/\s{2,}/ /g;
