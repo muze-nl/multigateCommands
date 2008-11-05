@@ -39,31 +39,18 @@ sub lookup_title {
 	$t =~ s/%20/+/g;
 	my $url = "http://www.imdb.com/find?q=$t;s=all";
 
-	#print STDERR "getting $url\n";
-	#sleep 2;
-
 	$request = new HTTP::Request( 'GET', $url );
 	$response = $ua->request($request);
 
 	if ( $response->headers->title() =~ /IMDb\s+search/i ) {
-		my @lines    = $response->content;
-		my $gevonden = 0;
-		my $id;
-		while ( !$gevonden && ( my $line = shift @lines ) ) {
-			#print $line;
-			if ( $line =~ m|<a href="/title/(tt\d+)/.*?">|i ) {
-				$gevonden = 1;
-				$id       = $1;
-				last;
-			}
-		}
-
-		if (!defined $id) {
+		# multiple results, select first anchor
+		my $lines = $response->content;
+		unless ( $lines =~ m{<a href="/title/(tt\d+)/.*?">}i ) {
 			print "Film '$titel' niet gevonden.\n";
 			return;
 		}
 
-		$url = "http://www.imdb.com/title/$id/";
+		$url = "http://www.imdb.com/title/$1/";
 		$request = new HTTP::Request( 'GET', $url );
 		$response = $ua->request($request);
 
@@ -73,56 +60,56 @@ sub lookup_title {
 	}
    
 	$url = $response->base(); #we might have been redirected...
-	my @html = $response->content;
+	my $alles = $response->content;
 
-	my $alles = join '', @html;
+	#### extract name
+	my $name = '';
+	if ($alles =~ /.*?<title>(.*?)<\/title>.*?/si) {
+		$name = "$1 ";
+	} else {
+		print "Film '$titel' niet gevonden.\n";
+		return;
+	}
 
-	#print $alles;
-	$alles =~ /.*?<title>(.*?)<\/title>.*?/si;
-	my $naam = "$1 ";
-	
+	#### extract director
 	#<div class="info">
 	#<h5>Director:</h5>
 	#<a href="/name/nm0000229/">Steven Spielberg</a><br/>
 	#
 	#</div>
+	my $director = '';
+	if ($alles =~ /.*?Director:<\/h5>.*?>(.*?)<\/a>.*?/si) {
+		$director = " Director: $1.";
+	}
 	
-	$alles =~ /.*?Director:<\/h5>.*?>(.*?)<\/a>.*?/si;
-	my $regisseur = "$1 ";
-	
-	#<div class="info">
-	#<h5>Plot:</h5>
-	#When a gigantic great white shark begins to menace the small island community of Amity, a police chief, a marine scientist and grizzled fisherman set out to stop it. <a class="tn15more inline" href="/title/tt0073195/plotsummary" onClick="(new Image()).src='/rg/title-tease/plotsummary/images/b.gif?link=/title/tt0073195/plotsummary';">full summary</a> | <a class="tn15more inline" href="synopsis">full synopsis (warning! may contain spoilers)</a>
-	#
-	#</div>
-
+	#### extract plot
 	# <h5>Plot:</h5>
 	# A neo-nazi sentenced to community service at a church clashes with the blindly devotional priest. | <a class="tn15more inline" href="synopsis">add synopsis</a>
 	# </div>
-
 	my $plot = '';
 	if ($alles =~ /<h5>Plot:<\/h5>\s+(.*?)\s*\|?\s*<a class=/s) {
 		$plot = " Plot outline: $1";
 	}
 
-	### try to extract rating
+	#### extract rating
 	# <div class="meta">
 	# <b>7.8/10</b> 
 	# &nbsp;&nbsp;<a href="ratings" class="tn15more">6,367 votes</a>
 	# </div>
-
 	my $rating = '';
 	if ($alles =~ /<div class="meta">\s+<b>(\d+\.\d+)\/10<\/b>\s+&nbsp;&nbsp;<a href="ratings"/) {
 		$rating = " Rating: $1";
 	}
 
-	my $result = "$naam. Regisseur: $regisseur.$plot$rating. (Zie: $url)";
+	my $result = "$name.$director$plot$rating";
 	$result =~ s/\n//g;
 	$result =~ s/<.*?>//g;
 	$result =~ s/\s{2,}/ /g;
 	$result =~ s/\s\././g;
 
 	$result = HTML::Entities::decode($result);
+
+	$result .= " (Zie: $url)";
 	print "$result\n";
 }
 
