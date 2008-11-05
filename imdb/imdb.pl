@@ -27,8 +27,8 @@ my $ua = LWP::UserAgent->new(
 		cookie_jar	=> HTTP::Cookies->new(),
 	);
 
-my $request = new HTTP::Request( 'GET', "http://www.imdb.com/" );
-my $response = $ua->request($request);
+# grab cookie
+$ua->get('http://www.imdb.com/');
 
 sub lookup_title {
 	my $titel = shift;
@@ -39,20 +39,18 @@ sub lookup_title {
 	$t =~ s/%20/+/g;
 	my $url = "http://www.imdb.com/find?q=$t;s=all";
 
-	$request = new HTTP::Request( 'GET', $url );
-	$response = $ua->request($request);
+	my $response = $ua->get($url);
 
 	if ( $response->headers->title() =~ /IMDb\s+search/i ) {
-		# multiple results, select first anchor
+		# multiple results, select first movie
 		my $lines = $response->content;
-		unless ( $lines =~ m{<a href="/title/(tt\d+)/.*?">}i ) {
+		unless ( $lines =~ m{<a href="/title/(tt\d+)/.*?">} ) {
 			print "Film '$titel' niet gevonden.\n";
 			return;
 		}
 
 		$url = "http://www.imdb.com/title/$1/";
-		$request = new HTTP::Request( 'GET', $url );
-		$response = $ua->request($request);
+		$response = $ua->get($url);
 
 	} elsif ( $response->headers->title() =~ /The Internet Movie Database \(IMDb\)/i ) {
 		print "Film '$titel' niet gevonden.\n";
@@ -64,7 +62,7 @@ sub lookup_title {
 
 	#### extract name
 	my $name = '';
-	if ($alles =~ /.*?<title>(.*?)<\/title>.*?/si) {
+	if ($alles =~ /<title>(.*?)<\/title>/s) {
 		$name = "$1 ";
 	} else {
 		print "Film '$titel' niet gevonden.\n";
@@ -78,7 +76,7 @@ sub lookup_title {
 	#
 	#</div>
 	my $director = '';
-	if ($alles =~ /.*?Director:<\/h5>.*?>(.*?)<\/a>.*?/si) {
+	if ($alles =~ /<h5>Director:<\/h5>.*?>(.*?)<\/a>/s) {
 		$director = " Director: $1.";
 	}
 	
@@ -102,19 +100,18 @@ sub lookup_title {
 	}
 
 	my $result = "$name.$director$plot$rating";
-	$result =~ s/\n//g;
 	$result =~ s/<.*?>//g;
-	$result =~ s/\s{2,}/ /g;
+	$result =~ s/\s+/ /g;
 	$result =~ s/\s\././g;
 
 	$result = HTML::Entities::decode($result);
 
-	$result .= " (Zie: $url)";
-	print "$result\n";
+	print "$result (Zie: $url)\n";
 }
 
 if ( @ARGV < 1 ) {
 	print "Te weinig argumenten.\n"
+
 } else {
     my $title  = $commandline;
     my @titles = split ';', $title;
