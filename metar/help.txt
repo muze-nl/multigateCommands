@@ -1,1 +1,1 @@
-metar <4-lettercode>: geeft weerrapport van de gevraagde locatie. (lokaties: http://www.airport-technology.com/icao-codes/)
+metar <4-lettercode>: geeft weerrapport van de gevraagde locatie. (lokaties: http://www.airlinecodes.co.uk/aptcodesearch.asp)
