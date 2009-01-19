@@ -15,7 +15,7 @@ my $request = new HTTP::Request( 'GET', $url );
 my $content = $ua->request($request)->content;
 
 my @lines = split /\n/, $content;
-my $first_line = pop @lines;
+my $first_line = shift @lines;
 
 $first_line =~ /^text1=<b>NOW PLAYING<\/b>: ([^<]*)<br><b>BY:<\/b>( )?([^ ].*)\r$/;
 my ( $song, $artist ) = ( ucfirst( lc($1) ), ucfirst( lc($3) ) );
