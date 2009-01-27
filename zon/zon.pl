@@ -1,7 +1,9 @@
 #!/usr/bin/perl -w
 
 use strict;
-use Astro::Sunrise;
+use DateTime;
+use DateTime::Astro::Sunrise;
+#use Astro::Sunrise;
 
 # locations
 my %locations = (		# [ lat, long ]
@@ -39,7 +41,16 @@ unless (defined $locations{$location}) {
 
 my ($lat, $long) = @{$locations{$location}};
 
-my $op    = sun_rise( $long, $lat );
-my $onder = sun_set( $long,  $lat );
+#my $op    = sun_rise( $long, $lat );
+#my $onder = sun_set( $long,  $lat );
 
-print "[$location] zon op $op; zon onder $onder\n";
+my $dt = DateTime->now;
+
+my $sunrise = DateTime::Astro::Sunrise ->new($long, $lat, undef, 1);
+
+my ($op, $onder) = $sunrise->sunrise($dt);
+
+$op->set_time_zone( 'Europe/Amsterdam' );
+$onder->set_time_zone( 'Europe/Amsterdam' );
+
+print "[$location] zon op ", $op->hms, " zon onder ", $onder->hms, "\n";
