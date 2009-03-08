@@ -34,6 +34,7 @@ $result =~ /^(\w+)(.*?)\s+(-{0,1}\d{1,}\.\d).*?$/;
 my @twente = ( $1, $2, $3 );
 $plaats =~ s/\s{1,}$//g;
 $twente[1] =~ s/\s{1,}$//g;
+$twente[1] =~ s/^\s*//;
 
 if ( $twente[1] !~ /\w+/ ) { $twente[1] = "geen waarneming"; }
 
@@ -53,8 +54,8 @@ if ( $plaats eq "Twenthe" ) {
     }
 }
 if ($gevonden) {
-    print "Huidige weersituatie te $plaats: $twente[1], $twente[2] graden. (Bron: KNMI)";
+    print "Huidige weersituatie te $plaats: $twente[1], $twente[2] graden. (Bron: KNMI)\n";
 } else {
-    print "Geen weerstation gevonden in $plaats.";
+    print "Geen weerstation gevonden in $plaats.\n";
     exit 1; #no caching
 }
