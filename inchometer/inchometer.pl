@@ -95,6 +95,17 @@ my %words = (
     'vista' => 3,
     'duo' => 2,
     'core' => 2,
+#update voor wat camera-dingen enzo
+    'colourspace' => -3,
+    'slr' => 1,
+    'fisheye' => -2,
+    'camera' => 3,
+    'analoog' => 4,
+    'digita' => 2,
+    'opel' => -3,
+    'ccd' => 2,
+    'cmos' => -2,
+    'canon' => 2,
 );
 
 $inches += $users{$user} if (exists $users{$user} );
