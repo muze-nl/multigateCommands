@@ -19,8 +19,14 @@ my %maand = (
     12 => "december"
 );
 
-unless ( $year =~ /^\d+$/ ) {
+unless ( defined $year && $year =~ /^\d+$/ ) {
     $year = (localtime)[5] + 1900;
+    my ($y, $m, $d) = Date::Calc::Easter_Sunday($year);
+    if ($m < ((localtime)[4]+1)) {
+      $year++;
+    } elsif (($m == (localtime)[4]+1) && ($d <= localtime[3])) {
+      $year++;
+    }
 }
 
 if ( $year < 1583 ) {
