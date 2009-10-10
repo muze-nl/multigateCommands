@@ -21,7 +21,7 @@ my %tabel_code = ();
 my %tabel_land = ();
 my $line;
 
-if(not defined(@page)){
+if(not @page){
 	print "Conversie tabel leeg\n";
 	exit 0;
 }
@@ -65,34 +65,38 @@ if ( defined( $ARGV[0] ) ) {
 my $koers = 0;
 my ( $code, $land, $bedrag );
 
-if ( $commandline =~ /^(\w{3})\s+(.*?)$/ ) {
+if ( $commandline =~ /^(\d*?)\s+(\w{3})$/ ) {
+    $bedrag = $1;
+    $code = uc($2);
+} elsif ( $commandline =~ /^(\d*?)\s+(.*?)$/ ) {
+    $bedrag = $1;
+    $land = lc($2);
+} elsif ( $commandline =~ /^(\w{3})\s+(.*?)$/ ) {
     $code   = uc($1);
     $bedrag = $2;
-    if ( defined $tabel_code{$code} ) {
-        $koers = $tabel_code{$code}[1];
-        $land  = $tabel_code{$code}[0];
-
-        #print "Gevonden(1) $code , $bedrag, $koers, $land \n";
-    } else {
-        print "Onbekende landcode.\n";
-        exit 1;
-    }
 } elsif ( $commandline =~ /^(\w*?)\s+(\d.*?)$/ ) {
     $land   = lc($1);
     $bedrag = $2;
-    if ( defined $tabel_land{$land} ) {
-        $koers = $tabel_land{$land}[1];
-        $code  = $tabel_land{$land}[0];
-
-        #print "Gevonden(2) $land , $bedrag, $koers, $code \n"
-    } else {
-        print "Snap landcode of land niet...\n";
-        exit 1;
-    }
 } else {
     print "Geef landcode en bedrag dat je wilt omrekenen\n";
     exit 1;
 }
+
+if ( defined $code && defined $tabel_code{$code} ) {
+    $koers = $tabel_code{$code}[1];
+    $land  = $tabel_code{$code}[0];
+
+#    print "Gevonden(1) $code , $bedrag, $koers, $land \n";
+} elsif ( defined $land && defined $tabel_land{$land} ) {
+    $koers = $tabel_land{$land}[1];
+    $code  = $tabel_land{$land}[0];
+
+#    print "Gevonden(2) $land , $bedrag, $koers, $code \n"
+} else {
+    print "Snap landcode of land niet...\n";
+    exit 1;
+}
+
 
 if ( ( $koers > 0 ) && ( $bedrag =~ /^-?\d+\.?\d*$/ ) ) {
     my $a = sprintf( "%.2f", $bedrag / $koers );
