@@ -65,13 +65,13 @@ if ( defined( $ARGV[0] ) ) {
 my $koers = 0;
 my ( $code, $land, $bedrag );
 
-if ( $commandline =~ /^(\d*?)\s+(\w{3})$/ ) {
+if ( $commandline =~ /^(\d.*?)\s+(\w{3})$/ ) {
     $bedrag = $1;
     $code = uc($2);
-} elsif ( $commandline =~ /^(\d*?)\s+(.*?)$/ ) {
+} elsif ( $commandline =~ /^(\d.*?)\s+(.*?)$/ ) {
     $bedrag = $1;
     $land = lc($2);
-} elsif ( $commandline =~ /^(\w{3})\s+(.*?)$/ ) {
+} elsif ( $commandline =~ /^(\w{3})\s+(\d.*?)$/ ) {
     $code   = uc($1);
     $bedrag = $2;
 } elsif ( $commandline =~ /^(\w*?)\s+(\d.*?)$/ ) {
