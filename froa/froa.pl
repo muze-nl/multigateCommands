@@ -11,7 +11,7 @@ if ( ( defined( $ARGV[0] ) ) && ( $ARGV[0] =~ /(\d+)/ ) ) {
 
 #Inlezen file
 
-open( RULES, "< /home/multilink/multigate/commands/froa/froa.txt" );
+open( RULES, "< ./froa.txt" );
 
 my @rules;
 my @numrules;
