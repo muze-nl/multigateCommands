@@ -33,8 +33,8 @@ my $content = $ua->request($request)->content;
 my $data = XMLin($content);
 
 my ($song, $artist, $album) = ($data->{'Current'}->{'titleName'}, $data->{'Current'}->{'artistName'}, $data->{'Current'}->{'albumName'});
-if ($song ne "" and $artist ne "" and $album ne "") {
-	print "$artist - $song  [Album: $album]\n";
+if ($song ne "" and $artist ne "" ) {
+	print "$artist - $song\n";
 }
 else {
 	print "Sorry, no information available...\n";
