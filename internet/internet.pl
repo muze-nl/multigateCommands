@@ -1,74 +1,58 @@
-#!/usr/bin/perl -w
-
-# GoogleSearch.pl
-# 11apr2002 - matt@interconnected.org http://interconnected.org/home/
-# Demonstrates use of the doGoogleSearch method on the Google API.
-# See http://www.google.com/apis/ to get your key and download the WSDL
-#(which this script expects to find in its directory).
+#!/usr/bin/perl -w 
+# Arjan Opmeer (Ado)
+# ado@dnd.utwente.nl
 
 use strict;
-use HTML::Entities();
-use lib '../../lib/';
-use SOAP::Lite;
 
-# Configuration
-my $key   = "3xMMU35wtVSsVOWll+jsV6X/qAOgATde";    # <-- PUT YOUR KEY HERE
-my $query = $ARGV[0] || "google api";              # either type on the command line,
-                                                   # or it defaults to 'google api'
+use URI::Escape;
+use LWP::UserAgent;
+use JSON;
+use HTML::Entities;
 
-# Redefine how the default deserializer handles booleans.
-# Workaround because the 1999 schema implementation incorrectly doesn't
-# accept "true" and "false" for boolean values.
-# See http://groups.yahoo.com/group/soaplite/message/895
-*SOAP::XMLSchema1999::Deserializer::as_boolean = *SOAP::XMLSchemaSOAP1_1::Deserializer::as_boolean =
-  \&SOAP::XMLSchema2001::Deserializer::as_boolean;
+# What are we looking for?
+my $query = "internet";
+if (defined $ARGV[0]) {
+	$query = uri_escape($ARGV[0]);
+}
+my $url = "http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=$query";
 
-# Initialise with local SOAP::Lite file
-my $service = SOAP::Lite->service('file:./GoogleSearch.wsdl');
+# Quote van Google:
+# "Applications MUST always include a valid and accurate http referer header
+#  in their requests. In addition, we ask, but do not require, that each
+#  request contains a valid API Key."
+#
+# Use this as the referer header
+my $referer = "http://ringbreak.dnd.utwente.nl";
 
-my $result = $service->doGoogleSearch(
-    $key,        # key
-    $query,      # search query
-    0,           # start results
-    1,           # max results
-    "false",     # filter: boolean
-    "",          # restrict (string)
-    "false",     # safeSearch: boolean
-    "",          # lr
-    "latin1",    # ie
-    "latin1"     # oe
-);
+# Create a new UserAgent and JSON instance
+my $ua = new LWP::UserAgent;
+my $json = new JSON;
 
-# $result is hash of the return structure. Each result is an element in the
-# array keyed by 'resultElements'. See the WSDL for more details. 
+# Create a new Request instance
+my $request = HTTP::Request->new(GET => $url);
+# and set the required referer header
+$request->headers->referer($referer);
 
-if ( defined( $result->{resultElements} ) ) {
-
-    #my $count = $result->{estimatedTotalResultsCount};
-    #my $time =  $result->{searchTime}; 
-    my $title = $result->{resultElements}->[0]->{title};
-    my $url   = $result->{resultElements}->[0]->{URL};
-
-    #print STDERR "$title\n";
-    if ($title) {
-        $title =~ s/&lt;.*?&gt;//g;
-        $title =~ s/<.*?>//g;
-        $title =~ s/&\w+;//g;
-    }
-    if ( defined $url ) {
-        $title = HTML::Entities::decode($title);
-        print "$url  [$title]\n";
-
-        #(total: $count searchtime: $time)\n";
-    } else {
-        print "No results";
-    }
+# Fetch the requested page
+my $response = $ua->request($request);
+if (!$response->is_success) {
+	print "Error performing Google search\n";
+	print $response->status_line, "\n";
+	exit 1;
 }
 
-# nb:
-# - The two booleans in the search above must be "false" or "true" (not 1 or
-#   0). Previously this script used 'SOAP::Data->type(boolean => "false")'
-#   which came out as '0' in the SOAP message, but wasn't understood by the
-#   Google interface.
-# - I understand that the Schema definition workaround above isn't needed if
-#   you're using SOAP::Lite 0.52 or above. I've been using 0.51.
+# JSON decode the search response
+my $decoded = $json->decode($response->content);
+# This is the first result (top of the page)
+my $result = $decoded->{'responseData'}->{'results'}[0];
+
+if (not defined $result) {
+	print "No search results\n";
+	exit;
+}
+
+my $foundurl = $result->{'url'};
+my $foundtitle = decode_entities($result->{'titleNoFormatting'});
+
+print $foundurl , "   [ ", $foundtitle , " ]\n";
+
