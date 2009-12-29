@@ -20,6 +20,11 @@ my $content = $ua->request($request)->content;
 my $data = XMLin($content);
 
 my ($song, $artist, $album) = ($data->{'Current'}->{'titleName'}, $data->{'Current'}->{'artistName'}, $data->{'Current'}->{'albumName'});
+
+#check for references in xml-structure, we want strings!
+$artist = 'none' if (ref $artist ne '');
+$album  = 'none' if (ref $album ne '');
+
 if ($song ne "" and $artist ne "" and $album ne "") {
 	print "$artist - $song  [Album: $album]\n";
 }
