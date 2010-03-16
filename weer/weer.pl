@@ -1,37 +1,37 @@
-#!/usr/bin/perl -w
-# Casper Joost Eyckelhof (Titanhead)
-# casper@joost.student.utwente.nl
+#!/usr/bin/perl
+#
+# Haal het weer op van de knmi RSS reed. (http://www.knmi.nl/rss_feeds/)
+#
+# In elkaar gebeund door Wieger op basis van !rss van Casper Joost.
+#
 
+use strict;
+use warnings;
+
+use XML::RSS;
 use LWP::UserAgent;
-use HTTP::Cookies;
 
-$ua = new LWP::UserAgent;
+my $url = 'http://www.knmi.nl/rssfeeds/knmi-rssweer.cgi';
 
-#### allerlei fijne definities en initialisaties ########
+my $rss = new XML::RSS;
+my $ua  = new LWP::UserAgent;
 
-@agents = (
-    "Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)", "Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)",
-    "Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0)"
-);
 
-$agent = @agents[ int( rand(@agents) ) ];
-$ua->agent($agent);
+my $request = new HTTP::Request( 'GET', $url );
+my $response = $ua->request($request);
 
-$request = new HTTP::Request( 'GET', "http://www.knmi.nl/voorl/weer/weermain.html" );
-$request->referer("http://www.knmi.nl/voorl/weer/");
-$response = $ua->request($request);
-$html     = $response->content;
-#$html =~ s/\n/ /g;
-
-#$html =~ m/Het weer.*?<td(.*?)Meer/is;
-$html =~ m/Het weer.*?td>.*?<td(.*?)<\/td>/s;
-
-my $weer = $1;
-$weer =~ s/<a.*?<\/a>//;
-$weer =~ s/<.*?>//g;
-$weer =~ s/^.*?>//;
-$weer =~ s/\n/ /g;
-$weer =~ s/\r//g;
-$weer =~ s/(\s+)/ /g;
-$weer =~ s/\.\.\.//;
-print "$weer (Bron: KNMI)\n";
+if ( $response->is_success() ) {
+	my $content = $response->content;
+	eval { $rss->parse($content); };
+	if ($@) {
+		print "Error parsing $url\n";
+		exit;
+	}
+	my $i1 = @{ $rss->{'items'} }[0]->{'description'};
+	my $i2 = @{ $rss->{'items'} }[1]->{'description'};
+	$i1 = $1 if $i1 =~ /\s*(.*?)<br>/ms;
+        $i2 = $1 if $i2 =~ /\s*(.*?)<br>/ms;
+	print "$i1 $i2 (Bron: KNMI)\n";
+} else {
+	print "Error retrieving url: $url\n";
+}
