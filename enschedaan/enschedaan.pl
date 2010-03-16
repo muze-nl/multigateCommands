@@ -21,14 +21,14 @@ if ( $delta =~ m/^([+-])(.*)$/ ) {
 
 my ($year, $month, $week, $day, $hour, $minute, $second) = split ':', $delta;
 if ($sign eq '+') {
-   print "Daan komt over $month " . ($month = 1 ? "maand" : "maanden") . 
-                      ", $week "  . ($week  = 1 ? "week"  : "weken")  .
-                      ", $day "   . ($day   = 1 ? "dag"   : "dagen")   . 
+   print "Daan komt over $month " . ($month == 1 ? "maand" : "maanden") . 
+                      ", $week "  . ($week  == 1 ? "week"  : "weken")  .
+                      ", $day "   . ($day   == 1 ? "dag"   : "dagen")   . 
                       " en $hour uur naar Enschede\n";
 } else {
   print "Daan is al in Enschede!\n";
-  print "($year jaar, $month " . ($month = 1 ? "maand" : "maanden") .
-        ", $week "  . ($week  = 1 ? "week"   : "weken")  .
-        ", $day "   . ($day   = 1 ? "dag"   : "dagen")   .
+  print "($year jaar, $month " . ($month == 1 ? "maand" : "maanden") .
+        ", $week "  . ($week  == 1 ? "week"   : "weken")  .
+        ", $day "   . ($day   == 1 ? "dag"   : "dagen")   .
         " en $hour uur)\n";
 }   
