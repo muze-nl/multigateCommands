@@ -5,7 +5,9 @@ use strict;
 use Date::Manip;
 
 #Op 1 april verhuist Daan!
-my $daandate = "1 April 2010";
+#my $daandate = "1 April 2010";
+#Min 1 adv-dag
+my $daandate = "Tue Mar 30 22:00:00 CEST 2010";
 
 my $err;
 my $delta = DateCalc("today",$daandate,\$err,1);
