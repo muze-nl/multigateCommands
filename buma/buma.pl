@@ -44,6 +44,7 @@ my @second = (
     "de kinderen nu achter de PC zitten",
     "om 7:30 de aannemer voor de deur zal staan",
     "ik mijn bonsai-knipkruk nog moet schilderen",
+    "er een oud-ijzerboer de fietswrakken komt ophalen"
 );
 
 my $result = $first[ rand(@first) ] . " omdat " . $second[ rand(@second) ] . ".";
