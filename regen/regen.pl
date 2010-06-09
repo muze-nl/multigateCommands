@@ -45,6 +45,7 @@ $loc .= ' ';
 
 my $do_ascii = 0;
 my $do_color = 0;
+my $do_exact = 0;
 
 while ($loc =~ s/\A--(\w+) //) {
 	my $opt = lc $1;
@@ -52,6 +53,10 @@ while ($loc =~ s/\A--(\w+) //) {
 		$do_ascii++;
 	} elsif ($opt eq 'color') {
 		$do_color++;
+	} elsif ($opt eq 'colour') {
+		$do_color++;
+	} elsif ($opt eq 'exact') {
+		$do_exact++;
 	} else {
 		print "Onbekende optie '$opt'.\n";
 		exit 0;
@@ -90,11 +95,10 @@ unless ($data =~ /\A(\d{3}\|\d{2}:\d{2}\r?\n)+\z/) {
 
 my @res = (); # [ begin, end, value ]
 my $ascii = undef;
-my $i = 0;
 while ($data =~ s/\A(\d{3})\|(\d{2}:\d{2})\r?\n//) {
 	my ($waarde, $tijd) = ($1, $2);
 
-	$ascii //= "$tijd|";
+	$ascii //= "$tijd\cC14|";
 
 	$waarde =~ s/\A0+(\d)/$1/;
 
@@ -105,20 +109,28 @@ while ($data =~ s/\A(\d{3})\|(\d{2}:\d{2})\r?\n//) {
 		$waarde = 10 ** (($waarde - 109)/32);
 
 		$ascii
-			.= $waarde < 1.000 ? '_'  # motregen
-			:  $waarde < 10.00 ? '.'  # regen
-			:  $waarde < 20.00 ? '-'  # veel regen
-			:  $waarde < 100.0 ? '~'  # hoosbui
-			:  '`';                   # mayhem?
+			.= $waarde < 1.000 ? "\cC3,1_"  # motregen
+			:  $waarde < 10.00 ? "\cC9,1."  # regen
+			:  $waarde < 20.00 ? "\cC8,1-"  # veel regen
+			:  $waarde < 100.0 ? "\cC4,1~"  # hoosbui
+			:  "\cC5,1`";             # mayhem?
 
-		if ($waarde < 1.0) {
-			$waarde = 'motregen';
-		} else {
+		if ($do_exact) {
 			$waarde = sprintf '%.3f mm/h', $waarde;
+		} elsif ($waarde < 1.0) {
+			$waarde = 'motregen';
+		} elsif ($waarde < 10.0) {
+			$waarde = 'regen';
+		} elsif ($waarde < 20.0) {
+			$waarde = 'veel regen';
+		} elsif ($waarde < 100.0) {
+			$waarde = 'hoosbui';
+		} else {
+			$waarde = 'total mayhem';
 		}
 	}
 
-	$ascii .= '|' if $i++ % 6 == 5;
+	$ascii .= "\cC14|" if $tijd =~ /:[25]5\z/;
 
 	if (@res && $res[-1][2] eq $waarde) {
 		$res[-1][1] = $tijd;
@@ -131,7 +143,7 @@ my $out = "\cC2[\cC12$location\cC2]\cC ";
 if ($do_ascii) {
 	$out .= $ascii;
 } else {
-	$out .= join("\cC14;\cC ", map { ($_->[0]eq$_->[1]?$_->[0]:$_->[0] . '-' . $_->[1]) . ":\cC10 ". $_->[2]."\cC" } @res);
+	$out .= join("\cC14;\cC ", map { ($_->[0]eq$_->[1]?$_->[0]:$_->[0] . "\cC14-\cC\c_\c_" . $_->[1]) . "\cC14:\cC10 ". $_->[2]."\cC" } @res);
 }
 $out .= "\cC14 (Bron: buienradar.nl)\cC\n";
 
