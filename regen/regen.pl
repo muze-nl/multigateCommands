@@ -97,20 +97,28 @@ while ($data =~ s/\A(\d{3})\|(\d{2}:\d{2})\r?\n//) {
 
 	$waarde =~ s/\A0+(\d)/$1/;
 
-	$ascii
-		.= $waarde ==   0 ? ' '
-		:  $waarde <   50 ? '_'
-		:  $waarde <  100 ? '.'
-		:  $waarde <  150 ? '-'
-		:  $waarde <  200 ? '='
-		:  '~';
-	$ascii .= '|' if $i++ % 6 == 5;
-
 	if ($waarde == 0) {
 		$waarde = 'droog';
+		$ascii .= ' ';
 	} else {
-		$waarde = sprintf '%.3f mm/h', 10 ** (($waarde - 109)/32);
+		$waarde = 10 ** (($waarde - 109)/32);
+
+		$ascii
+			.= $waarde < 1.000 ? '_'  # motregen
+			:  $waarde < 10.00 ? '.'  # regen
+			:  $waarde < 20.00 ? '-'  # veel regen
+			:  $waarde < 100.0 ? '~'  # hoosbui
+			:  '~';                   # mayhem?
+
+		if ($waarde < 1.0) {
+			$waarde = 'motregen';
+		} else {
+			$waarde = sprintf '%.3f mm/h', $waarde;
+		}
 	}
+
+	$ascii .= '|' if $i++ % 6 == 5;
+
 	if (@res && $res[-1][2] eq $waarde) {
 		$res[-1][1] = $tijd;
 	} else {
