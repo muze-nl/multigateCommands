@@ -64,11 +64,12 @@ if (defined $loc && $loc =~ /\S/) {
 	$location = $loc;
 }
 
-$location = "\u\L$location";
-unless (defined $locations{$location}) {
+my @locs = grep { lc($location) eq lc($_) } keys %locations;
+unless (@locs == 1) {
 	print "Lokatie '$location' niet gevonden.\n";
 	exit 0;
 }
+$location = $locs[0];
 
 my ($lat, $long) = @{$locations{$location}};
 
@@ -108,7 +109,7 @@ while ($data =~ s/\A(\d{3})\|(\d{2}:\d{2})\r?\n//) {
 			:  $waarde < 10.00 ? '.'  # regen
 			:  $waarde < 20.00 ? '-'  # veel regen
 			:  $waarde < 100.0 ? '~'  # hoosbui
-			:  '~';                   # mayhem?
+			:  '`';                   # mayhem?
 
 		if ($waarde < 1.0) {
 			$waarde = 'motregen';
