@@ -83,4 +83,4 @@ while ($data =~ s/\A(\d{3})\|(\d{2}:\d{2})\r?\n//) {
 	}
 }
 
-print join('; ', map { ($_->[0]eq$_->[1]?$_->[0]:$_->[0] . '-' . $_->[1]) . ': '. $_->[2] } @res), " (Bron: buienradar.nl)\n";
+print "[$location] ", join('; ', map { ($_->[0]eq$_->[1]?$_->[0]:$_->[0] . '-' . $_->[1]) . ': '. $_->[2] } @res), " (Bron: buienradar.nl)\n";
