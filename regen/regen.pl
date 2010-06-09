@@ -63,9 +63,13 @@ while ($loc =~ s/\A--(\w+) //) {
 	}
 }
 
-if (defined $loc && $loc =~ /\S/) {
+if ($loc =~ /\S/) {
 	$loc =~ s/^\s+//;
 	$loc =~ s/\s+$//;
+	if (lc($loc) eq 'aan' || lc($loc) eq 'uit') {
+		print "Niet genoeg rechten.\n";
+		exit 0;
+	}
 	$location = $loc;
 }
 
