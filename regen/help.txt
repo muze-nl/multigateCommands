@@ -1,0 +1,1 @@
+Geeft de regen-voorspellingen voor de komende 2 uur in een bepaalde plaats weer
