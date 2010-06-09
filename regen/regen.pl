@@ -37,7 +37,27 @@ if (open LOC, '<', '../zon/xearth.markers') {
 # default location
 my $location = 'Enschede';
 
-my $loc = shift;
+my $loc = join(' ', @ARGV);
+$loc =~ s/\s+/ /g;
+$loc =~ s/\A\s//;
+$loc =~ s/\s\z//;
+$loc .= ' ';
+
+my $do_ascii = 0;
+my $do_color = 0;
+
+while ($loc =~ s/\A--(\w+) //) {
+	my $opt = lc $1;
+	if ($opt eq 'ascii') {
+		$do_ascii++;
+	} elsif ($opt eq 'color') {
+		$do_color++;
+	} else {
+		print "Onbekende optie '$opt'.\n";
+		exit 0;
+	}
+}
+
 if (defined $loc && $loc =~ /\S/) {
 	$loc =~ s/^\s+//;
 	$loc =~ s/\s+$//;
@@ -46,7 +66,7 @@ if (defined $loc && $loc =~ /\S/) {
 
 $location = "\u\L$location";
 unless (defined $locations{$location}) {
-	print "Lokatie '$location' niet gevonden.";
+	print "Lokatie '$location' niet gevonden.\n";
 	exit 0;
 }
 
@@ -62,16 +82,31 @@ unless ($response->is_success) {
 
 my $data = $response->content;
 
-unless ($data =~ /\A(\d{3}\|\d{2}:\d{2}\r?\n)*\z/) {
+unless ($data =~ /\A(\d{3}\|\d{2}:\d{2}\r?\n)+\z/) {
 	print "Kan buienradar.nl gegevens niet verwerken.\n";
 	exit 0;
 }
 
 my @res = (); # [ begin, end, value ]
+my $ascii = undef;
+my $i = 0;
 while ($data =~ s/\A(\d{3})\|(\d{2}:\d{2})\r?\n//) {
 	my ($waarde, $tijd) = ($1, $2);
 
-	if ($waarde eq '000') {
+	$ascii //= "$tijd|";
+
+	$waarde =~ s/\A0+(\d)/$1/;
+
+	$ascii
+		.= $waarde ==   0 ? ' '
+		:  $waarde <   50 ? '_'
+		:  $waarde <  100 ? '.'
+		:  $waarde <  150 ? '-'
+		:  $waarde <  200 ? '='
+		:  '~';
+	$ascii .= '|' if $i++ % 6 == 5;
+
+	if ($waarde == 0) {
 		$waarde = 'droog';
 	} else {
 		$waarde = sprintf '%.3f mm/h', 10 ** (($waarde - 109)/32);
@@ -83,4 +118,14 @@ while ($data =~ s/\A(\d{3})\|(\d{2}:\d{2})\r?\n//) {
 	}
 }
 
-print "[$location] ", join('; ', map { ($_->[0]eq$_->[1]?$_->[0]:$_->[0] . '-' . $_->[1]) . ': '. $_->[2] } @res), " (Bron: buienradar.nl)\n";
+my $out = "\cC2[\cC12$location\cC2]\cC ";
+if ($do_ascii) {
+	$out .= $ascii;
+} else {
+	$out .= join("\cC14;\cC ", map { ($_->[0]eq$_->[1]?$_->[0]:$_->[0] . '-' . $_->[1]) . ":\cC10 ". $_->[2]."\cC" } @res);
+}
+$out .= "\cC14 (Bron: buienradar.nl)\cC\n";
+
+$out =~ s/\cC(?:\d+(?:,\d+)?)?//g unless $do_color;
+
+print $out;
