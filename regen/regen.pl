@@ -102,13 +102,13 @@ my $ascii = undef;
 while ($data =~ s/\A(\d{3})\|(\d{2}:\d{2})\r?\n//) {
 	my ($waarde, $tijd) = ($1, $2);
 
-	$ascii //= "$tijd\cC14|";
+	$ascii //= "$tijd\cC14,1|";
 
 	$waarde =~ s/\A0+(\d)/$1/;
 
 	if ($waarde == 0) {
 		$waarde = 'droog';
-		$ascii .= ' ';
+		$ascii .= "\cC15,1 ";
 	} else {
 		$waarde = 10 ** (($waarde - 109)/32);
 
@@ -134,7 +134,7 @@ while ($data =~ s/\A(\d{3})\|(\d{2}:\d{2})\r?\n//) {
 		}
 	}
 
-	$ascii .= "\cC14|" if $tijd =~ /:[25]5\z/;
+	$ascii .= "\cC14,1|" if $tijd =~ /:[25]5\z/;
 
 	if (@res && $res[-1][2] eq $waarde) {
 		$res[-1][1] = $tijd;
@@ -149,7 +149,7 @@ if ($do_ascii) {
 } else {
 	$out .= join("\cC14;\cC ", map { ($_->[0]eq$_->[1]?$_->[0]:$_->[0] . "\cC14-\cC\c_\c_" . $_->[1]) . "\cC14:\cC10 ". $_->[2]."\cC" } @res);
 }
-$out .= "\cC14 (Bron: buienradar.nl)\cC\n";
+$out .= "\cC\cC14 (Bron: buienradar.nl)\cC\n";
 
 $out =~ s/\cC(?:\d+(?:,\d+)?)?//g unless $do_color;
 
