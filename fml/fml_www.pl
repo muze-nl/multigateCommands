@@ -34,7 +34,7 @@ unless ( $response->is_success() ) {
 }
 
 my $content = $response->content;
-unless ($content =~ /\A.*?<div class="post">(.*?)<\/div>/s) {
+unless ($content =~ /\A.*?<div class="post"(?: [^>]*?)?>(.*?)<\/div>/s) {
 	print "Could not parse server response.\n";
 	exit;
 }
