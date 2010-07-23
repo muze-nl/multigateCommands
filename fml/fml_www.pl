@@ -34,13 +34,13 @@ unless ( $response->is_success() ) {
 }
 
 my $content = $response->content;
-unless ($content =~ /\A.*?<div class="post"(?: [^>]*?)?>(.*?)<\/div>/s) {
+unless ($content =~ /\A.*?<div class="post"(?: [^>]*?)?><p>(.*?)<\/div>/s) {
 	print "Could not parse server response.\n";
 	exit;
 }
 my $res = $1;
 
-unless ($res =~ /\A<p><a href="\/\w+\/(\d+)" class="fmllink">(.*?)<\/p>/) {
+unless ($res =~ /\A<a href="\/\w+\/(\d+)" class="fmllink">(.*?)<\/p>/) {
 	print "Could not parse server response.\n";
 	exit;
 }
