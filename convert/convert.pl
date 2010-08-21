@@ -1,55 +1,52 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 # Berekent actuele wisselkoersen
 
 use strict;
+use warnings;
 
-#Bouw 2 tabellen met de gegevens (1 met index landcode, 1 met index landnaam)
-my $filenaam = "./koerstabel.txt";
-my @page;
-if ( ( -z $filenaam ) || ( !-e $filenaam ) ) {
+use Data::Dumper;
+use List::MoreUtils qw( any );
+use LWP::UserAgent;
+use XML::Simple;
 
-    #@page = `lynx -dump http://www.abnamro.nl/ibs/valutacentrum/vvnlg.html`;
-    #@page = `lynx -dump http://www.abnamro.nl/ibs/valutacentrum/eurovv.html`;
-    @page = `lynx -dump http://www.abnamro.nl/interactie/nl/effecten/jsp/eur_vv.jsp`;
-} else {
-    my $file = open( FOO, "<$filenaam" );
-    @page = <FOO>;
-    close FOO;
+my $koersurl = "http://www.abnamro.nl/nl/adviesenrekenmodellen/valuta_centrum_euro_usd_noteringen/js/Euro.xml";
+
+my $ua       = new LWP::UserAgent;
+my $request  = new HTTP::Request( 'GET', $koersurl );
+my $response = $ua->request($request);
+
+unless ( $response->is_success ) {
+    print "Er ging wat mis met het ophalen van $koersurl: " . $response->status_line . "\n";
+    exit 1;
 }
 
-my %tabel_code = ();
-my %tabel_land = ();
-my $line;
+my $xml = $response->content;
 
-if(not @page){
-	print "Conversie tabel leeg\n";
-	exit 0;
-}
+my $ref = XMLin($xml, forcearray => [ 'countercurrency' ]);
 
-#frop:
-foreach $line (@page) {
-    $line =~ s/,//g;
-    #print $line, "\n";
-    if ( $line =~ /^.*?(\S+)\s+(\w+)\s+(\w{3})\s+(.*?)\s+(\d+\.\d*?)\s(.*?)$/ ) {
-        my ( $land, $eenheid, $code, $inkoop, $midden, $verkoop );
-        $land    = $1;
-        $eenheid = $2;
-        $code    = $3;
-        $midden  = $5;
-        $verkoop = $6;
-        $land =~ s/^\s+(.*)$/$1/;
-        $land = lc($land);    #kleine letters
-        $land =~ s/\xEB/e/g;
-        my $factor = 1;
+#print Dumper($ref);
+#exit 0;
 
-        #print STDERR "$land $code $midden\n";
-        if ( $midden !~ /#/ ) {
-            $tabel_code{$code} = [ $land, $midden / $factor ];
-            $tabel_land{$land} = [ $code, $midden / $factor ];
+my %tabel_code;
+my %tabel_land;
+my %tabel_valuta;
+
+foreach my $rate ( @{$ref->{rate}} ) {
+    #print Dumper($rate);
+    my $code = $rate->{'isocode'};
+    my $land = lc $rate->{'country_description'};
+    my $valuta = lc $rate->{'currency_description'};
+    my $koers;
+    foreach ( @{$rate->{'countercurrency'}} ) {
+        if ($_->{'isocode'} eq 'EUR' ) {
+            $koers = $_->{'value'};
+            #print "$code $land $valuta $koers\n";
         }
-
-        #if ($land =~ /.*?zwitserland.*?/i ) { print STDERR "zwitserland\n"; last frop };
     }
+
+    $tabel_code{$code} = [ $code, $land, $valuta, $koers ];
+    $tabel_land{$land} = [ $code, $land, $valuta, $koers ];
+    $tabel_valuta{$valuta} = [ $code, $land, $valuta, $koers ];
 }
 
 #Bepaal wat we zoeken
@@ -63,7 +60,7 @@ if ( defined( $ARGV[0] ) ) {
 }
 
 my $koers = 0;
-my ( $code, $land, $bedrag );
+my ( $code, $land, $valuta, $bedrag );
 
 if ( $commandline =~ /^(\d.*?)\s+(\w{3})$/ ) {
     $bedrag = $1;
@@ -83,15 +80,21 @@ if ( $commandline =~ /^(\d.*?)\s+(\w{3})$/ ) {
 }
 
 if ( defined $code && defined $tabel_code{$code} ) {
-    $koers = $tabel_code{$code}[1];
-    $land  = $tabel_code{$code}[0];
-
-#    print "Gevonden(1) $code , $bedrag, $koers, $land \n";
+    $koers = $tabel_code{$code}[3];
+    $land  = $tabel_code{$code}[1];
+    $valuta = $tabel_code{$code}[2];
+    #print "Gevonden(1) $code , $bedrag, $koers, $land \n";
 } elsif ( defined $land && defined $tabel_land{$land} ) {
-    $koers = $tabel_land{$land}[1];
+    $koers = $tabel_land{$land}[3];
     $code  = $tabel_land{$land}[0];
-
-#    print "Gevonden(2) $land , $bedrag, $koers, $code \n"
+    $valuta = $tabel_code{$code}[2];
+    #print "Gevonden(2) $land , $bedrag, $koers, $code \n"
+} elsif ( defined $land && defined $tabel_valuta{$land} ) {
+    $valuta = $land;
+    $koers = $tabel_valuta{$land}[3];
+    $code  = $tabel_valuta{$land}[0];
+    $land = $tabel_valuta{$land}[1];
+    #print "Gevonden(3) $land , $bedrag, $koers, $valuta, $code \n"
 } else {
     print "Snap landcode of land niet...\n";
     exit 1;
@@ -101,7 +104,7 @@ if ( defined $code && defined $tabel_code{$code} ) {
 if ( ( $koers > 0 ) && ( $bedrag =~ /^-?\d+\.?\d*$/ ) ) {
     my $a = sprintf( "%.2f", $bedrag / $koers );
     my $b = sprintf( "%.2f", $bedrag * $koers );
-    print "$bedrag $code is $a euro. $bedrag euro is $b $code ($land).\n";
+    print "$bedrag $valuta ($code) is $a Euro. $bedrag Euro is $b $valuta ($code) ($land).\n";
 } else {
     print "Sorry, snap iets niet, is het bedrag wel in cijfers?\n";
 }
