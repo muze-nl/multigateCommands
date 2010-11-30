@@ -3,7 +3,7 @@ use strict;
 use LWP::UserAgent;
 
 ## Get a certain URL
-my $url = "http://www.knmi.nl/voorl/weer/aktueel.html";
+my $url = "http://www.knmi.nl/actueel/";
 
 my $ua = new LWP::UserAgent;
 
@@ -22,7 +22,7 @@ my $result;
 my $location_name;
 if ( defined( $ARGV[0] ) && $ARGV[0] =~ /^([\w ]+)$/ ) {
     $location_name = $1;
-    $result        = "Er is een fout opgetreden... ($1 is geen locatie volgens http://www.knmi.nl/voorl/weer/aktueel.html ?)";
+    $result        = "Er is een fout opgetreden... ($1 is geen locatie volgens ".$url." ?)";
 } else {
     $location_name = "Twenthe";
     $result        = "Er is een fout opgetreden... !windchill kapot?";
