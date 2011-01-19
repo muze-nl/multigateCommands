@@ -30,7 +30,7 @@ if ( $response->is_success() ) {
 	my $i1 = @{ $rss->{'items'} }[0]->{'description'};
 	my $i2 = @{ $rss->{'items'} }[1]->{'description'};
 	$i1 = $1 if $i1 =~ /\s*(.*?)<br>/ms;
-        $i2 = $1 if $i2 =~ /\s*(.*?)<br>/ms;
+        $i2 = "Vooruitzichten: $1" if $i2 =~ /\s*Vooruitzichten<br>(.*?)<br>/ms;
 	print "$i1 $i2 (Bron: KNMI)\n";
 } else {
 	print "Error retrieving url: $url\n";
