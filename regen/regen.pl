@@ -113,21 +113,21 @@ while ($data =~ s/\A(\d{3})\|(\d{2}:\d{2})\r?\n//) {
 		$waarde = 10 ** (($waarde - 109)/32);
 
 		$ascii
-			.= $waarde < 1.000 ? "\cC3,1_"  # motregen
-			:  $waarde < 10.00 ? "\cC9,1."  # regen
-			:  $waarde < 20.00 ? "\cC8,1-"  # veel regen
-			:  $waarde < 100.0 ? "\cC4,1~"  # hoosbui
+			.= $waarde < 0.400 ? "\cC3,1_"  # motregen
+			:  $waarde < 1.000 ? "\cC9,1."  # regen
+			:  $waarde < 10.00 ? "\cC8,1-"  # veel regen
+			:  $waarde < 50.00 ? "\cC4,1~"  # hoosbui
 			:  "\cC5,1`";             # mayhem?
 
 		if ($do_exact) {
 			$waarde = sprintf '%.3f mm/h', $waarde;
-		} elsif ($waarde < 1.0) {
+		} elsif ($waarde < 0.4) {
 			$waarde = 'motregen';
-		} elsif ($waarde < 10.0) {
+		} elsif ($waarde < 1.0) {
 			$waarde = 'regen';
-		} elsif ($waarde < 20.0) {
+		} elsif ($waarde < 10.0) {
 			$waarde = 'veel regen';
-		} elsif ($waarde < 100.0) {
+		} elsif ($waarde < 50.0) {
 			$waarde = 'hoosbui';
 		} else {
 			$waarde = 'total mayhem';
