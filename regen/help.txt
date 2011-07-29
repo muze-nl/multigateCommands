@@ -1,2 +1,4 @@
-Geeft de regen-voorspellingen voor de komende 2 uur in een bepaalde plaats weer
+Geeft de regen-voorspellingen voor de komende 2 uur in een bepaalde plaats weer.
+In ascii-mode staat de begin-tijd vooraan en geeft elke | de scheiding aan tussen
+de halve uren. Hoe hoger het character, hoe meer regen.
 Gebruik: !regen [--color] [--ascii] [<plaats>]
