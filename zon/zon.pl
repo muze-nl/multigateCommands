@@ -2,7 +2,7 @@
 
 use strict;
 use DateTime;
-use DateTime::Astro::Sunrise;
+use DateTime::Event::Sunrise;
 
 my $tz = 'Europe/Amsterdam';
 
@@ -41,7 +41,7 @@ unless (defined $locations{lc($location)}) {
 
 ($location, my $lat, my $long) = @{$locations{lc($location)}};
 
-sub DateTime::Astro::Sunrise::carp {
+sub DateTime::Event::Sunrise::carp {
 	my $msg = shift;
 	chomp $msg;
 	print "[$location] $msg\n";
@@ -50,9 +50,10 @@ sub DateTime::Astro::Sunrise::carp {
 
 my $dt = DateTime->now;
 
-my $sunrise = DateTime::Astro::Sunrise->new($long, $lat, undef, 1);
+my $sunrise = DateTime::Event::Sunrise->new( longitude => $long, latitude => $lat, iteration => 1 );
 
-my ($op, $onder) = $sunrise->sunrise($dt);
+my $op    = $sunrise->sunrise_datetime($dt);
+my $onder = $sunrise->sunset_datetime($dt);
 
 $op->set_time_zone($tz);
 $onder->set_time_zone($tz);
