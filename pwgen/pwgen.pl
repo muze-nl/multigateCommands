@@ -23,5 +23,5 @@ if ( $length < 3 ) {
 if ( int( rand(100) ) == 42 ) {   #in 1% van de gevallen
     print "frop";
 } else {
-    system( "./pwgen", @newargs, $length, 1 );
+    system( "/usr/bin/pwgen", @newargs, $length, 1 );
 }
