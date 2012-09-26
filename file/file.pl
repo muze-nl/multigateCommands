@@ -4,6 +4,14 @@
 # Haalt het meest recente file-nieuws van tt op en scrijft deze naar STDOUT
 # Niet kort of heel efficient, maar werkt prima :)
 
+# Frans van Dijk (`36`)
+# fransd@scintilla.utwente.nl
+# Volgende aanpassingen:
+#  - Als er geen argument gegeven wordt alleen een opsomming geven.
+#  - Betere controle of er een volgende pagina is door te kijken of de huidige pagina een link 'volgende subpagina' bevat.
+#  - Mogelijk gemaakt dat 730-10 en verder worden opgevraagd ipv 730-010
+
+
 use HTML::Entities();
 use LWP::UserAgent;
 $ua = new LWP::UserAgent;
@@ -31,6 +39,10 @@ sub get_url {
 sub parse_page {
     #get everything between <pre> </pre>
     if ( $content =~ /<pre>/ ) {
+        my $lastpage = 1;
+        if ( $content =~ /volgende subpagina/ ) {
+            $lastpage = 0;
+        }
         $content =~ s/^.*?<pre>.*?\n(.*?)<\/pre>.*?$/$1/si;
         $content =~ s/.*?Files.*?\n(.*)/$1/si;
         #      $content =~ s/\*+//g;
@@ -61,29 +73,30 @@ sub parse_page {
                 $wegen{$last_weg} .= $line;
             }
         }
-        return $content;
+        return $lastpage;
     } else {
         return undef;
     }
 }
 
-my $result;
 
-my $base_url   = "http://teletekst.nos.nl/tekst/730-0";
+
+my $base_url   = "http://teletekst.nos.nl/tekst/730-";
 my $page_index = 1;
-
-$url = $base_url . $page_index . ".html";
 
 my $next = 1;
 while ($next) {
-    my $content = parse_page( get_url($url) );
-    if ( defined $content ) {
-        $result .= $content;
+    $url = $base_url . sprintf("%02d", $page_index) . ".html";
+    #print $url ."\n";
+    my $lastpage = parse_page( get_url($url) );
+    if ( defined $lastpage ) {
+        if ($lastpage == 1) {
+            $next = 0;
+        }
     } else {
         $next = 0;
     }
     $page_index++;
-    $url = $base_url . $page_index . ".html";
 }
 
 delete $wegen{"rest"};
@@ -106,10 +119,14 @@ unless ( $args eq "" ) {
 else {
     foreach my $key ( keys %wegen ) {
         $wegen{$key} =~ s/\s{2,}/ /g;
-        $output .= "$key - " . $wegen{$key} . "\n";
+        $output .= "$key, ";# . $wegen{$key} . "\n";
     }
     if ( $output eq "" ) {
         $output = "Er zijn op dit moment geen files\n";
+    } else {
+        $output =~ s/(.*), /$1/;
+        $output =~ s/(.*),/$1 en/;
+        $output = "Er zijn momenteel files op: $output\n";
     }
 }
 
