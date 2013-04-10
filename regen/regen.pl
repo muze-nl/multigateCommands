@@ -86,8 +86,19 @@ my $url = "http://gps.buienradar.nl/getrr.php?lat=$lat&lon=$long";
 my $response = $ua->get($url);
 
 unless ($response->is_success) {
-	print "Kan buienradar.nl niet bereiken.\n";
-	exit 0;
+	# hmm, let's retry
+	$response = $ua->get($url);
+
+	unless ($response->is_success) {
+		# still no luck; sleep and retry
+		sleep 1;
+		$response = $ua->get($url);
+
+		unless ($response->is_success) {
+			print "Kan buienradar.nl niet bereiken.\n";
+			exit 0;
+		}
+	}
 }
 
 my $data = $response->content;
