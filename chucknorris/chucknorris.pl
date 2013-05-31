@@ -4,8 +4,7 @@ use strict;
 my $number = 0;
 
 if ( ( defined( $ARGV[0] ) ) && ( $ARGV[0] =~ /(\d+)/ ) ) {
-
-    #het is een nummertje
+    #nummertje gevraagd
     $number = $1;
 }
 
@@ -14,25 +13,27 @@ if ( ( defined( $ARGV[0] ) ) && ( $ARGV[0] =~ /(\d+)/ ) ) {
 open( FACTS, "< chucknorris.txt" );
 
 my @facts;
-my @numfacts;
+my $count = 0;
 
 while ( my $line = <FACTS> ) {
     chomp $line;
+    $count++;
     push @facts, $line;
 }
 
 close FACTS;
 
-my $rule = $facts[ int( rand(@facts) ) ];
-
-#if ( $number > 0 ) {
-#    if ( defined $numfacts[$number] ) {
-#
-#        #arg is gegeven en rule nummer $arg bestaat
-#        print "$numfacts[$number]";
-#        exit 0;
-#    }
-#}
-
-#pak random rule en print.
-print $rule;
+if ( $number > 0 && $number > $count ) {
+    print "$number bestaat niet, een nummer tussen 1 en $count (incl).";    
+} elsif ( $number > 0 ) {
+    if ( defined $facts[$number - 1] ) {
+        #arg is gegeven en rule nummer $arg bestaat
+        print $facts[$number - 1] ." ($number)";
+    } else {
+        print "Helaas bestaat $number niet, probeer een ander nummer tussen 1 en $count (incl).";
+    }
+} else {
+    #pak random rule en print.
+    $number = int( rand(@facts));
+    print $facts[$number] .' (' . ($number + 1) . ')';
+}
