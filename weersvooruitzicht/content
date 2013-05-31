@@ -1,108 +1,577 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<title>NOS teletekst, Pagina: 704-01</title>
-	<script language="JavaScript" src="/scripts/functions.js"></script>
-	<link rel="STYLESHEET" type="text/css" href="/styles/tttekst.css">
+<link rel="stylesheet" href="/styles/rijksvinkstyle.css" type="text/css">
+<link rel="shortcut icon" href="/favicon.ico" /> 
+<META HTTP-EQUIV="Cache Control" CONTENT="max-age=120,must-revalidate">
+<META HTTP-EQUIV="Pragma" CONTENT="max-age=120,must-revalidate">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv='imagetoolbar' content='no'>
+<title>KNMI - Weer Waarschuwingen en Verwachtingen</title>
+<script language="javascript" src="/library/javascript/pop_page.js"></script> 
+<script language="javascript" src="/library/javascript/pop_picture.js"></script> 
+<script language="javascript" src="/library/javascript/sorttable.js"></script>
+<script type="text/javascript" src="/library/javascript/cookies.js"></script>
+<script type="text/javascript" src="/library/javascript/makelogicalpath.js"></script>
 
+<meta http-equiv="refresh" content="300">
 </head>
-<body background="/images/background.gif" bgcolor="#FFFFFF" leftmargin=0 topmargin=15  onload="document.navigatie.navi.focus()">
-<form action="javascript:NaviGoToTextUrl();" name="navigatie" id="navigatie">
-<table border="0" HEIGHT="36" width="350" bgcolor="#FFFFFF" cellspacing="1" cellpadding="2" align="center">
-	<tr bgcolor="#9494DA">
-		<td CLASS="tekstMenu"></td>		
-		<td align="center"><A href="100-01.html" CLASS="tekstMenu">100</a></td>
-		<td CLASS="tekstMenu" align="center"><a href="703-01.html"><</SHL_PREV_PAGEREF></td>
-		<td CLASS="tekstMenu" align="center"><<</SHL_PREV_SUBPAGEREF></td>
-		<td CLASS="tekstMenu" align="center">>></td></td>
-		<td CLASS="tekstMenu" align="center"><a href="705-01.html">></a></td></td>
-		<td CLASS="tekstMenu" align="center"><A href="/favtext.html" CLASS="tekstMenu">Favorieten</a></td>												
-		<td CLASS="tekstMenu" align="center"><A href="/gif/704-01.html" CLASS="tekstMenu">Grafisch</a></td>
-		<td CLASS="tekstMenu" align="center"><A href="/help/help_tekst.html" CLASS="tekstMenu">Info</a></td>	
-		<td CLASS="tekstMenu" align="center"><A href="/help/help_tekst_mobiel.html" CLASS="tekstMenu">Mobiel</a></td>
-		<td CLASS="tekstMenu" align="center"></td>
-	</tr>
-</table>	
+<body>
+<!-- De kop van de pagina wordt automatisch ingevoegd -->
+<script type="text/javascript" src="/library/javascript/pop_page.js"></script>
+<script type="text/javascript" src="/library/javascript/change_font_size4.js"></script>
+<script type="text/javascript" src="/library/javascript/cookies.js"></script>
+<!-- 21-07-09: begin toevoeging voor de header -->
 
-<table border="0" width="350" cellspacing="1" cellpadding="0" align="center">
-	<tr HEIGHT="3"><td align="center"></td></tr>
-	<tr bgcolor="#000000"><td align="center">
-	<pre><font color=white>  <a href="704-01.html">704</a>     </font><font color=lime>Teletekst </font><font color=yellow>ma 17 mei           </font>
-<font color=white> </font><font color=blue>                                       </font>
-<font color=white> </font><font color=lime>   </font><font color=blue> W E E R              vooruitzichten</font>
+<div class="container">
+   <div class="header">
+     <span></span>
 
-<font color=white> </font><font color=blue>***************************************</font>
-<font color=white> </font><font color=lime>tot en met zaterdag </font><font color=aqua>                   </font>
-<font color=white> </font><font color=aqua>Perioden met zon en vooral later ook   </font>
-<font color=white> </font><font color=aqua>kans op een enkele bui.                </font>
-<font color=white> </font><font color=aqua>Middagtemperatuur eerst rond 21 graden,</font>
-<font color=white> </font><font color=aqua>tegen het einde van de week frisser.   </font>
-<font color=white>                                        </font>
-<font color=white> </font><font color=blue>***************************************</font>
-<font color=white> </font><font color=aqua>             di    wo    do    vr    za</font>
-<font color=white> </font><font color=aqua>zon     % </font><font color=lime>   40    70    40    40    30</font>
-<font color=white> </font><font color=aqua>kans op                                </font>
-<font color=white> </font><font color=aqua>neersl. % </font><font color=lime>   30    30    30    30    40</font>
-<font color=white> </font><font color=aqua>                                       </font>
-<font color=white> </font><font color=aqua>min.temp. </font><font color=lime>    9    10     9     5     4</font>
-<font color=white> </font><font color=aqua>max.temp. </font><font color=lime>   20    22    17    15    13</font>
-<font color=white> </font><font color=aqua>                                       </font>
-<font color=white> </font><font color=aqua>wind                                   </font>
-<font color=white> </font><font color=aqua>-richting </font><font color=lime>    W     W    NW     N    NW</font>
-<font color=white> </font><font color=aqua>-kracht   </font><font color=lime>    3     4     2     4     4</font>
-<font color=white> </font><font color=blue>********</font><font color=lime>Bron:www.weathernews.nl </font><font color=blue>*******</font>
-<font color=white> </font><font color=red>weerrapport </font><font color=lime>nieuws </font><font color=yellow>index </font><font color=aqua>sportnieuws   </font>
-</pre>		
-	</td></tr>		
-</table>	
-<table border="0" width="350" cellspacing="0" cellpadding="0" align="center">
-	<tr bgcolor="#E1E1F9" height="55"><td align="center">
-		<SCRIPT LANGUAGE="JavaScript">document.write(buildCookieTextButtons());</script>	
-	</td></tr>		
-</table>	
-<table border="0" background="/images/onder_uitvul_tekst.gif" width="100%" cellspacing="0" cellpadding="0" align="center">
-	<tr background="/images/onder_uitvul.gif">
-	<td width="50%">&nbsp;</td>
-	<td width="350">
-<table border="0" bgcolor="#9D9CFA" width="350" cellspacing="1" cellpadding="0" align="center">
-<tr height="14"><td background="/images/onder_b_uitvul.gif"></td></tr>
-<tr><td>	
-	<table border="0" bgcolor="#8B8BAD" width="350" cellspacing="1" cellpadding="0" align="center">
-		<tr bgcolor="#C0C0C0">
-			<td CLASS="tekstMenu"></td>		
-			<td align="center"><a href="http://www.nos.nl" target="_new" CLASS="tekstMenu">NOS Home</a></td>
-			<td align="center"><a href="http://www.nosnieuws.nl" target="_new" CLASS="tekstMenu">NOS Nieuws</td>
-			<td align="center"><a href="http://www.voetbalkrant.nl" target="_new" CLASS="tekstMenu">NOS Sport</td>
-			<td CLASS="tekstMenu" align="center"><input type="text" name="navi" size="3" maxlength="3"> <a href="javascript:NaviGoToTextUrl()" CLASS="tekstMenu">GA</a></td>			
-		</tr>
-	</table>	
-	</td>	
-	</tr>
-<tr height="12"><td background="/images/onder_o_uitvul.gif"></td></tr>
-</table>	
-	</td>	
-	<td width="50%">&nbsp;</td>	
-	</tr>
-</table>	
-</form>
-	
-<table border="0" cellspacing="3" cellpadding="2" align="center">
-<tr><td align="right" width="350" class="tekstTekst">Copyright NOS 2004</td></tr>
-<tr><td align="center" width="350">
-       <a href="http://download.omroep.nl/nos/tbsetup.exe" target="_new" class="tekstTekst"><font color="#336699">download hier de Teletekst browser voor windows</font></a></b><br>
-       <a href="http://download.omroep.nl/nos/TeletekstBrowser.dmg" target="_new" class="tekstTekst"><font color="#336699">NIEUW: Nu ook een browser applicatie voor de MAC</font></a></b>
-</td></tr>
-</table>
-<script language="JavaScript" type="text/javascript">
-var PoAlignment = 'Porighttop';
-var PoLogoType  =  2;
-var PoVSpace  = 13;
-var PoHSpace  = 2;
-var PoFloatX  = false;
-var PoFloatY = false;
-var PoVert  = true;
-PoSubMenuWidth = 95; 
+     <h1 class="branding"><img src="/images/logo_knmi_venw.png" alt="Koninklijk Nederlands Meteorologisch Instituut; Ministerie van Infrastructuur en Milieu" title="Koninklijk Nederlands Meteorologisch Instituut; Ministerie van Infrastructuur en Milieu" height="87" width="500"></h1>
+
+     <div class="nav_bar">
+
+        <ul class="nav_main">
+           <li class="sel"><a href="/" title="Home">Home</a></li>
+           <li><a href="/over_het_knmi" title="Over het KNMI">Over het KNMI</a></li>
+           <li><a href="/agenda" title="Agenda">Agenda</a></li>
+           <li><a href="/bibliotheek/publicaties.html" title="Publicaties">Publicaties</a></li>
+           <li><a href="/research" title="Research" target="_new">Research</a></li>
+           <li>
+<script language="javascript">
+<!--
+now      = new Date();
+kickoff  = Date.parse("December 12, 2012 00:00:00");
+diff = now - kickoff;
+days  = Math.floor( diff / (1000*60*60*24) );
+if (days >= 0) {
+   //document.write('<a href="https://data.knmi.nl/admin/cgi-bin/redirect.pl?lang=nl&url=/portal-webapp/KNMI-Datacentrum.html" target="datacentrum" title="Datacentrum">Datacentrum</a>');
+} else {
+   //document.write('<a href="http://www.knmi.nl/datacentrum" title="Datacentrum">Datacentrum</a>');
+}
+//-->
 </script>
-<script language="JavaScript" type="text/javascript" src="http://p.omroep.nl/menu/scripts/pomenu.js"></script>
+           <a href="/datacentrum" title="Datacentrum" onclick="window.open('https://data.knmi.nl/admin/cgi-bin/redirect.pl?lang=nl&url=/portal-webapp/KNMI-Datacentrum.html', 'datacentrum'); window.focus(); return true;">Datacentrum</a></
+		   </li>
+		   <li><a href="/faq" title="Veelgestelde vragen">Veelgestelde vragen</a></li>
+           <!--<li><a href="/over_het_knmi/werken.html" title="Vacatures">Vacatures</a></li>-->
+        </ul>
+
+
+        <div class="search centered">
+           <form method=GET action="/search/search.cgi" id="zoeken">
+              <fieldset>
+                 <legend>Zoeken</legend>
+                 <dl>
+                    <dd><input type="text" class="text" name="q" maxlength=255 value=""></dd>
+                    <dd><input type="submit" name="submit" value="zoek" class="submit"></dd>
+                 </dl>
+              </fieldset>
+           </form>
+        </div>
+
+     </div>
+
+  </div>
+
+  <div class="c1"><div class="c2">
+
+<div class="content">
+<!-- einde toevoeging voor de template -->
+
+<script type="text/javascript">
+window.onLoad=init_prefs();
+</script>
+<!-- De rest van de pagina-->
+
+<!-- EINDE HEADER INCLUDE -->
+
+
+
+
+<table border=0>
+<tr>
+<td>
+<div style="padding-left:234px; margin-top:10px; width:100%;">
+<script type="text/javascript">
+<!-- cloaking
+document.write(makeLogicalPath());
+// uncloaking -->
+</script>
+</div>
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width=3></td>
+<td width="220" valign=top>
+   <div style="height:46px;"></div>
+   <!-- Geen extreemweer (groen) -->
+
+   <!-- Geen extreemweer (groen) -->
+
+   <!-- Geen weeralarm (groen) -->
+
+   <!-- Geen weeralarm (groen) -->
+
+</td>
+<td width="11">&nbsp;</td>
+<td width="451" valign="top">  
+
+   <div id="printable"> 
+   <!-- Begin Linker Data Kolom -->
+   <div class="rubriekkop">Weer</div>
+
+   <a name="verw"></a>
+   <!-- De verwachting van vandaag en morgen wordt automatisch ingevoegd -->
+   <div class="hoofdkop">Verwachting</div>
+<span class="alineakop">donderdag 30 mei tot en met woensdag 05 juni 2013<br><br>
+Vandaag en morgen: Wisselend bewolkt en eerst een enkele bui. </span><br>
+Vannacht is het wisselend bewolkt en kan er een enkele bui voorkomen. De minimumtemperatuur ligt rond de 11 graden. De wind is noord tot noordwest, matig, kracht 3 tot 4 en langs de kust en op het IJsselmeer, vrij krachtig, 5.<p>Overdag is de zon geregeld te zien, maar in het zuidoosten is er meer bewolking. Vlak aan zee kan er soms ook bewolking van zee binnendrijven. Het blijft vrijwel overal droog, alleen in Limburg kan eer in de ochtend een enkele bui vallen. De temperatuur loopt uiteen van 14 graden vlak aan zee tot lokaal 21 graden landinwaarts. De noord- tot noordwestelijke wind is matig tot vrij krachtig. (Bron: KNMI)<p>
+
+   <a name="meerdaagse"></a>
+   <!-- Meerdaagse verwachting, tabel & trend wordt automatisch ingevoegd -->
+   
+<!-- Tabel met Middellange Termijn Verwachting
+<div class="hoofdkop">Verwachting komende 6 dagen</div>
+<div class="subkop"></div>-->
+<!-- <div class=alineakop>vrijdag 31 mei tot en met woensdag 05 juni</div> -->
+<div class=alineakop>Vooruitzichten</div>
+Perioden met zon en vrij koel, daarbij is er ook een kleine kans op een bui.<br>
+
+
+<table width=451 border=0 cellspacing=0 cellpadding=0 class="realtable">
+
+<tr class="trcolor">
+
+<th></th>
+
+<th align="left" width=40>Vr</th>
+
+<th align="left" width=40>Za</th>
+
+<th align="left" width=40>Zo</th>
+
+<th align="left" width=40>Ma</th>
+
+<th align="left" width=40>Di</th>
+
+<th align="left" width=40>Wo</th>
+
+</tr>
+
+<tr>
+
+<td>Zonneschijn (%)</td>
+
+<td align="left" width=40>    60</td>
+
+<td align="left" width=40>10</td>
+
+<td align="left" width=40>30</td>
+
+<td align="left" width=40>50</td>
+
+<td align="left" width=40>40</td>
+
+<td align="left" width=40>50</td>
+
+</tr>
+
+<tr>
+
+<td>Neerslagkans (%)</td>
+
+<td align="left" width=40>    20</td>
+
+<td align="left" width=40>40</td>
+
+<td align="left" width=40>20</td>
+
+<td align="left" width=40>30</td>
+
+<td align="left" width=40>40</td>
+
+<td align="left" width=40>40</td>
+
+</tr>
+
+<tr>
+
+<td>Neerslaghoeveelheid (mm)</td>
+
+<td align="left" width=40>   0/1</td>
+
+<td align="left" width=40>0</td>
+
+<td align="left" width=40>0</td>
+
+<td align="left" width=40>0/1</td>
+
+<td align="left" width=40>0/2</td>
+
+<td align="left" width=40>0/2</td>
+
+</tr>
+
+<tr>
+
+<td>Minimumtemperatuur (&deg;C)</td>
+
+<td align="left" width=40>    11</td>
+
+<td align="left" width=40>9/11</td>
+
+<td align="left" width=40>8/9</td>
+
+<td align="left" width=40>6/8</td>
+
+<td align="left" width=40>5/8</td>
+
+<td align="left" width=40>7/9</td>
+
+</tr>
+
+<tr>
+
+<td>Middagtemperatuur (&deg;C)</td>
+
+<td align="left" width=40>    20</td>
+
+<td align="left" width=40>14/15</td>
+
+<td align="left" width=40>13/15</td>
+
+<td align="left" width=40>13/15</td>
+
+<td align="left" width=40>15/18</td>
+
+<td align="left" width=40>16/19</td>
+
+</tr>
+
+<tr>
+
+<td>Windrichting</td>
+
+<td align="left" width=40>     N</td>
+
+<td align="left" width=40>NW</td>
+
+<td align="left" width=40>NW</td>
+
+<td align="left" width=40>NW</td>
+
+<td align="left" width=40>NW</td>
+
+<td align="left" width=40>NO</td>
+
+</tr>
+
+<tr>
+
+<td>Windkracht (bft)</td>
+
+<td align="left" width=40>     4</td>
+
+<td align="left" width=40>4</td>
+
+<td align="left" width=40>4</td>
+
+<td align="left" width=40>3</td>
+
+<td align="left" width=40>3</td>
+
+<td align="left" width=40>2</td>
+
+</tr>
+
+</table>
+
+<table width=451 border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td width=275 align=left valign=top>
+<span class="datumtijd">Uitgifte: 30/05/2013 21.49 uur LT</span>
+</td>
+<td width=176 align=right valign=top>
+<!--
+<span class="kalelink" style="float:right">
+<img style="vertical-align:top;margin-right:5px" src="/images/info-i.gif" vspace
+=0 hspace=0 border=0>
+<a href="javascript:pop_page('legenda_meerdaagse.html',600,451)">Uitleg</a>
+</span>
+-->
+</td>
+</tr>
+</table>
+   <span class="kalelink" style="float:right">
+   <img style="vertical-align:top;margin-right:5px" src="/images/info-i.gif" vspace=0 hspace=0 border=0>
+   <a href="javascript:pop_page('legenda_meerdaagse.html',600,451)">Uitleg</a>
+   </span>
+
+   <br>
+   <a name="tien"></a>
+   
+<!-- Tabel met Lange Termijn Verwachting 
+<div class="hoofdkop">Verwachting 6 tot 9 dagen vooruit</div>
+<div class="subkop"></div>-->
+<div class="alineakop">Vooruitzichten lange termijn</div>
+<div class=alineakop>donderdag 06 juni tot en met donderdag 13 juni</div>
+Vrij grote kans (ca 60 %) op het aanhouden van het onstandvastige weertype, maar met temperaturen oplopend naar waarden die normaal zijn voor deze tijd van het jaar. Daarnaast is er een kleine kans op een overgang naar een stabieler weertype met beduidend hogere temperaturen.<br>
+
+<table width=451 border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td width=275 align=left valign=top>
+<span class="datumtijd">Uitgifte: 30/05/2013 15.57 uur LT</span>
+</td>
+<td width=176 align=right valign=top>
+<!--
+<span class="kalelink" style="float:right">
+<img style="vertical-align:top;margin-right:5px" src="/images/info-i.gif" vspace=0 hspace=0 border=0>
+<a href="javascript:pop_page('legenda_trend.html',600,451)">Uitleg</a>
+</span>
+-->
+</td>
+</tr>
+</table>
+   <span class="kalelink" style="float:right">
+   <img style="vertical-align:top;margin-right:5px" src="/images/info-i.gif" vspace=0 hspace=0 border=0>
+   <a href="javascript:pop_page('legenda_trend.html',300,451)">Uitleg</a>
+   </span>
+
+   <div style="height:25px;"></div>
+   <a name="normalen"></a>
+   
+<!-- Tabel met normalen -->
+<div class="hoofdkop">Langjarige gemiddelden, tijdvak 1981-2010</div>
+<table class="realtable" width=451 border=0 cellpadding=0 cellspacing=0>
+<tr>
+<th width=151>&nbsp;</th>
+<th width=150 colspan=3><center>Mei</center></th>
+<th width=150 colspan=3><center>Juni</center></th>
+</tr>
+<tr>
+<td>Periode</td>
+<td width=50>1-10</td>
+<td width=50>11-20</td>
+<td width=50>21-eind</td>
+<td width=50>1-10</td>
+<td width=50>11-20</td>
+<td width=50>21-eind</td>
+</tr>
+<tr>
+<td>Maximumtemperatuur (&deg;C)</td>
+<td width=50>15.9</td>
+<td width=50>17.4</td>
+<td width=50>18</td>
+<td width=50>19.4</td>
+<td width=50>19.2</td>
+<td width=50>20.3</td>
+</tr>
+<tr>
+<td>Minimumtemperatuur (&deg;C)</td>
+<td width=50>7.3</td>
+<td width=50>8.4</td>
+<td width=50>9.2</td>
+<td width=50>10.6</td>
+<td width=50>10.8</td>
+<td width=50>11.7</td>
+</tr>
+</table>
+<table width=451 border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td width=275 align=left valign=top>
+<span class="datumtijd">Uitgifte: 30/05/2013 15.57 uur LT</span>
+</td>
+<td width=176 align=right valign=top>
+<!--
+<span class="kalelink" style="float:right">
+<img style="vertical-align:top;margin-right:5px" src="/images/info-i.gif" vspace=0 hspace=0 border=0>
+ <a href="javascript:pop_page('legenda_normalen.html',150,451)">Uitleg</a>
+</span>
+-->
+</td>
+</tr>
+</table>
+
+   <span class="kalelink" style="float:right">
+   <img style="vertical-align:top;margin-right:5px" src="/images/info-i.gif" vspace=0 hspace=0 border=0>
+   <a href="javascript:pop_page('legenda_normalen.html',250,451)">Uitleg</a>
+   </span>
+
+   <!-- Einde Data Kolom -->
+   </div>
+</td>
+<td width="11">&nbsp;</td>
+<td width="220" valign=top>
+   <!-- Begin Rechter Menu Kolom -->
+   
+
+<div class="menukopje">Verwachtingen</div>
+<!--<div class="menulink"><a href="/waarschuwingen_en_verwachtingen/index.html#verw">Tot morgen middernacht</a></div>-->
+<!--
+<div class="menulink"><a href="/waarschuwingen_en_verwachtingen/index.html#meerdaagse">Tabel komende 5 dagen</a></div>
+<div class="menulink"><a href="/waarschuwingen_en_verwachtingen/index.html#tien">6 tot 9 dagen vooruit</a></div>
+-->
+<div class="menulink"><a href="/waarschuwingen_en_verwachtingen#meerdaagse">Middellange en lange termijnverwachting</a></div>
+<div class="menulink"><a href="/waarschuwingen_en_verwachtingen/weerkaarten.php">Weerkaarten komende 3 dagen</a></div>
+
+<div class="menukopje">Specialistische verwachtingen</div>
+<div class="menulink"><a href="/waarschuwingen_en_verwachtingen/ensemble.html">10-daagse ensembleverwachting</a></div>
+<script language="javascript" src="/library/javascript/summertime.js"></script>
+<script language="javascript">
+<!-- cloaking
+// Alleen link naar de verwachting IJsaangroei in de Wintertijdperiode
+var zomertijd = zomertijduur();
+if (zomertijd == 1) {
+   // Wintertijd
+   document.write('<div class="menulink"><a href="/waarschuwingen_en_verwachtingen/extra/pluimijsaangroei.html">IJsaangroei Midden-Nederland</a></div>');
+
+}
+// uncloaking -->
+</script>
+<!--<div class="menulink"><a href="/waarschuwingen_en_verwachtingen/11steden">Weerbericht voor de Elfstedentocht</a></div>-->
+<div class="menulink"><a href="/waarschuwingen_en_verwachtingen/extra/index.html">Verwachting in meer detail</a></div>
+<div class="menulink"><a href="/waarschuwingen_en_verwachtingen/luchtvaart/index.html">Luchtvaart</a></div>
+<div class="menulink"><a href="/waarschuwingen_en_verwachtingen/maritiem/index.html">Maritiem</a></div>
+
+<script type="text/javascript">
+<!-- cloaking
+// Alleen link naar de Zonkrachtverwachting in de Zomertijdperiode
+if (zomertijd != 1) {
+   // Zomertijd
+    document.write('<div class="menulink"><a href="/datacentrum/weer_en_gezondheid/zonkracht.html">Zonkracht</a></div>');
+}
+// uncloaking -->
+</script>
+
+<div class="menukopje">Lange-termijnverwachtingen</div>
+<div class="menulink"><a href="/waarschuwingen_en_verwachtingen/maandverwachting">Experimentele maandverwachting</a></div>
+<div class="menulink"><a href="/waarschuwingen_en_verwachtingen/seizoensverwachting/index.html">Seizoensverwachting</a></div>
+
+<div class="menukopje">Waarschuwingen</div>
+<div class="menulink"><a href="overzicht_waarschuwingen.html">Overzicht</a></div>
+
+<div class="menukopje">Actueel</div>
+<div class="menulink"><a href="/actueel/index.html">Overzicht</a></div>
+
+<div class="menukopje">Nader Verklaard dossier</div>
+<div class="menulink"><a href="/VinkCMS/dossier_detail.jsp?id=206">Weeralarm</a></div>
+<div class="menulink"><a href="/VinkCMS/dossier_detail.jsp?id=214">Weers- en seizoensverwachting</a></div>
+
+<div class="menukopje">Diversen</div>
+<div class="menulink"><a href="/waarschuwingen_en_verwachtingen/index.html#normalen">Langjarige gemiddelden, tijdvak 1981-2010</a></div>
+<div class="menulink"><a href="/datacentrum/">Datacentrum</a></div>
+<div class="menulink"><a href="/waarschuwingen_en_verwachtingen/omrekenen.html">Omrekenen temperatuur en wind</a></div>
+<div class="menulink"><a href="/actueel/externe_links.html">Externe links</a></div>
+<div class="menulink"><a href="/waarschuwingen_en_verwachtingen/disclaimer.html">Disclaimer</a></div>
+
+   <!-- Einde Rechter Menu Kolom -->
+</td>
+</tr>
+</table>
+
+<!-- Bottomfloat bevat de copyright-vermelding, printknop en de 'terug naar boven'-knop -->
+<!-- 21-07-2009: begin toevoeging voor de template -->
+
+<!--Afsluiting van de buitenste tabel-->
+</td>
+</tr>
+</table>
+<p><br>
+
+</div> <!-- EINDE 'content' div -->
+</div></div> <!-- EINDE 'c1', 'c2' div -->
+
+<div class="func_links" id="service_menu">
+   <h3>Service menu</h3>
+   <ul class="right">
+      <li><span id = "printertje">
+             <a href="javascript:printpage();"><img src="/images/rijksprintertje.gif" border=0 alt="Print deze pagina" title="Print deze pagina"></a>
+          </span>
+      </li>
+
+      <!--<li><a href="/faq" title="Veelgestelde vragen">Veelgestelde vragen</a></li>-->
+	  <li><a href="/over_het_knmi/cookies.html" title="Cookies">Cookies</a></li>
+      <li><a href="/contact/" title="Contact">Contact</a></li>
+      <li><a href="/links/" title="Links">Links</a></li>
+      <li><a href="/index_en.html" title="English">English</a></li>
+   </ul>
+   <ul class="left">
+      <!--Your IP is 82.93.22.9 eg You're using : IPv4-->
+      <!--li><a href="/rss_feeds/" title="Abonneer op de RSS nieuws feed" class="rss">RSS</a></li-->
+      
+      <li><a href="/rss_feeds/"><img src="/images/rssgrey.png" border=0 alt="RSS feeds" title="RSS feeds"></a></li>
+	  <li><a href="http://m.knmi.nl" title="Mobiele website KNMI">Mobiel</a></li>
+      <li><a href="http://twitter.com/knmi" target="Twitter"><img src="/library/images/Twitter-icon14.png" border=0  alt="Volg het KNMI op Twitter - Follow KNMI on Twitter" title="Volg het KNMI op Twitter - Follow KNMI on Twitter"></a></li>
+      <li>Tekstgrootte</li>
+      <li><a href="javascript:changeFontSize(-1);"><img src="/images/tsizemin.png" border=0 alt="Kleinere letters" title="Kleinere letters"></a>&nbsp;</li>
+      <li><a href="javascript:resetFontSize();"><img src="/images/tsizenul.png" border=0 alt="Standaardlettergrootte" title="Standaardlettergrootte"></a>&nbsp;</li>
+      <li><a href="javascript:changeFontSize(+1);"><img src="/images/tsizeplus.png" border=0 alt="Grotere letters" title="Grotere letters"></a></li>
+            <!--<a href="javascript:changeFontSize(-1);"><span class="minnulplus"> - </span></a>&nbsp;-->
+            <!--<a href="javascript:resetFontSize();"><span class="minnulplus"> 0 </span></a>&nbsp;-->
+            <!--<a href="javascript:changeFontSize(+1);"><span class="minnulplus"> + </span></a>--> 
+   </ul>
+</div>
+
+<div class="footer">
+   <div class="ref"><img src="/images/RO_footer.png" height="25" width="500" alt="Rijkshuisstijl footer" title="Rijkshuisstijl footer"></div>
+   <span></span>
+</div>
+
+<div class="func_links_footer" id="service_menu2">
+<ul class="left">
+<li>
+</li>
+</ul>
+<!--
+<ul class="right">
+<li><a href="">Cookies</a></li>
+</ul>
+-->
+</div>
+
+</div> <!-- EINDE 'container' DIV -->
+
+<!-- einde toevoeging voor de template -->
+
+
+<!-- EINDE FOOTER INCLUDE -->
+<script type="text/javascript">
+<!-- cloaking
+
+function printpage() {
+  newwindow = window.open("","Printje","toolbar=0,location=0,status=0,menubar=0,scrollbars=1,width=600,height=600")
+  newwindow.document.open();
+  newwindow.focus();
+  newwindow.document.write("\<html\>\<head\>\<link rel='stylesheet' ");
+  newwindow.document.write("href='\/styles\/rijksvinkstyle.css' type='text\/css'\>\<\/head\>");
+  newwindow.document.write("\<body style='background-color: #ffffff;' onLoad='this.print();'\>");
+  var body = document.getElementById('printable').innerHTML;
+  newwindow.document.write(body);
+  newwindow.document.write("<\/body\>\<\/html\>");
+  newwindow.document.close();
+}
+
+   if (document.getElementById('printable')) {
+      var kiekeboe = document.getElementById('printertje');
+      kiekeboe.style.display = "inline";
+   }
+   if (document.getElementById('engelse_taal')) {
+      var kiekeboe = document.getElementById('engelse_taal');
+	  var newStr = "href=\""+kiekeboe.innerHTML+"\"";
+	  
+      var kiekeboe = document.getElementById('english-language');
+	  kiekeboe.style.display = "inline";
+	  
+	  var oldStr = kiekeboe.innerHTML;
+ 	  kiekeboe.innerHTML = oldStr.replace(/href=\"\"/g,newStr); 
+	  //alert(kiekeboe.innerHTML + "\n" + newStr);
+   }
+
+// uncloaking -->
+</script>
+
+
 
 </body>
 </html>
