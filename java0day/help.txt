@@ -1,0 +1,1 @@
+tells you if there's a java0day and if so since when (http://istherejava0day.com/ http://java-0day.com/)
