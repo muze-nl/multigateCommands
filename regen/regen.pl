@@ -103,21 +103,28 @@ unless ($response->is_success) {
 
 my $data = $response->content;
 
-unless ($data =~ /\A(\d{3}\|\d{2}:\d{2}\r?\n)+\z/) {
+unless ($data =~ /\A((\d{3})?\|\d{2}:\d{2}\r?\n)+\z/) {
 	print "Kan buienradar.nl gegevens niet verwerken.\n";
 	exit 0;
 }
 
 my @res = (); # [ begin, end, value ]
 my $ascii = undef;
-while ($data =~ s/\A(\d{3})\|(\d{2}:\d{2})\r?\n//) {
+while ($data =~ s/\A(\d{3})?\|(\d{2}:\d{2})\r?\n//) {
 	my ($waarde, $tijd) = ($1, $2);
 
 	$ascii //= "$tijd\cC14,1|";
 
-	$waarde =~ s/\A0+(\d)/$1/;
+	if (defined $waarde) {
+		$waarde =~ s/\A0+(\d)/$1/;
+	} else {
+		$waarde = '?';
+	}
 
-	if ($waarde == 0) {
+	if ($waarde eq '?') {
+		$waarde = 'droog?';
+		$ascii .= "\cC13,1?";
+	} elsif ($waarde == 0) {
 		$waarde = 'droog';
 		$ascii .= "\cC15,1 ";
 	} else {
