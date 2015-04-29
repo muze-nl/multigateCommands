@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 # Casper Eyckelhof /  06-01-2003 / After teletekst layout change
-# Frans van Dijk   /  26-04-2015 / New json source
+# Frans van Dijk   /  29-04-2015 / New json source
 
 use strict;
 use LWP::UserAgent;
@@ -35,16 +35,15 @@ $request->header( "Accept-Encoding" => "gzip,deflate" );
 $request->header( "Accept-Language" => "en-us, en;q=0.5" );
 $request->header( "Accept-Charset"  => "ISO-8859-1,utf-8;q=0.7,*" );
 
-my $content = $ua->request($request)->content;
-print "STOEK! Probeer het later nog eens." unless $content =~ /^\{/;
+my $response = $ua->request($request);
+print "Pagina niet gevonden\n" and exit unless $response->is_success;
+my $content = $response->content;
+print "STOEK! Probeer het later nog eens." and exit unless $content =~ /^\{/;
 $content = $json->decode($content);
 $content = $content->{'content'};
 
 if ( $content ) {
-    #$content =~ s/\*+//g;
     $content =~ s/&#xF0[0-9a-f]{2};//g;
-    $content =~ s/<font .*?>//sgi;
-    $content =~ s/<\/font>//sgi;
     $content =~ s/<span.*?>//sgi;
     $content =~ s/<\/span>//sgi;
     $content =~ s/<a .*?>(\d{3}).*?<\/a>/($1),/gi;
@@ -55,8 +54,6 @@ if ( $content ) {
     $content =~ s/\s{2,}/ /g;
     $content =~ s/^\s//;
     $content = HTML::Entities::decode($content);
-    $content =~ s/(volgende|index.*?) nieuws.*$//i;    #index tv nieuws financieel sport
-    $content =~ s/(volgende|index.*?).*?nieuws.*$//i;    #volgende nosnieuws financieel nossport
     print $content . "\n";
 } else {
     print "Pagina niet gevonden\n";
