@@ -28,7 +28,8 @@ if ( defined( $ARGV[0] ) && $ARGV[0] =~ /^([\w ]+)$/ ) {
     $result        = "Er is een fout opgetreden... !windchill kapot?";
 }
 
-if ( $content =~ /$location_name.*?\n.*?\n.*?(-?[0-9\.]+).*?\n.*?\n.*?\n.*?([0-9\.]+)/im ) {
+if ( $content =~ /$location_name.*?\n.*?\n.*?(-?[0-9\.]+).*?\n.*?\n.*?\n.*?([0-9\.]+)/im ||
+     $content =~ /$location_name.*?\n.*?\n.*?(-?[0-9\.]+).*?\n.*?\n.*?\n.*?\n.*?([0-9\.]+)/im) {
     my $temp = $1;
     my $wind = $2;
 
