@@ -2,7 +2,7 @@
 #Geeft huidige weersituatie (default in twente, met parameters van andere weerstation)
 #Gegevens van  http://www.knmi.nl/voorl/weer/aktueel.html
 use strict;
-my $plaats = "Twenthe";
+my $plaats = "Twente";
 if ( $ARGV[0] ) {
     $plaats = '';
     foreach my $argument (@ARGV) {
@@ -38,7 +38,7 @@ $twente[1] =~ s/^\s*//;
 
 if ( $twente[1] !~ /\w+/ ) { $twente[1] = "geen waarneming"; }
 
-if ( $plaats eq "Twenthe" ) {
+if ( $plaats eq "Twente" ) {
     $plaats = "titan's ex-koelkast";
 
     #$plaats ="a6502's tijdelijke koelkast";

@@ -24,7 +24,7 @@ if ( defined( $ARGV[0] ) && $ARGV[0] =~ /^([\w ]+)$/ ) {
     $location_name = $1;
     $result        = "Er is een fout opgetreden... ($1 is geen locatie volgens ".$url." ?)";
 } else {
-    $location_name = "Twenthe";
+    $location_name = "Twente";
     $result        = "Er is een fout opgetreden... !windchill kapot?";
 }
 
