@@ -1,0 +1,2 @@
+!rekrowten [ID|category]
+shows a random network joke [from category] or the requested joke; thanks to http://rekrowten.wordpress.com/list-of-network-jokes/

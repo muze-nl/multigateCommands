@@ -1,0 +1,203 @@
+>>>Chuck Norris<<<
+911 is Chuck Norris’ cell phone number.
+Chuck Norris doesn’t do TCP handshake – he does TCP roundhouse-kick to initiate the connection.
+Chuck Norris can strangle you with a cordless phone.
+Chuck Norris is able to answer missed call before it is missed.
+Chuck Norris can cut cable from WiFi.
+Chuck Norris doesn’t use pickup lines, he simply says, “Now.”
+The world is moving from IPv4 and going straight to IPv6 because Chuck Norris doesn’t like the number 5!
+There are no hidden IOS commands. Only those Chuck Norris chooses not to look at!
+Cisco implemented the “test crash” hidden IOS command because it was otherwise impossible to break a router that Chuck Norris had worked on!
+Metric in RIP represents distance between router and Chuck Norris. Lower the distance is, Chuck is closer to punch your packet and send it to grave.
+Every VPN is an EasyVPN for Chuck Norris!
+Chuck Norris slayed the Kerberos daemon.
+Chuck Norris ran track in high school and always won the 100 meter frame relay!
+>>>DHCP<<<
+DHCP jokes are leased.
+A DHCP packet walks into a bar and asks for a beer. Bartender says: “here, but I’ll need that back in an hour!
+I’m a DHCP server at a local restaurant. This chick came up and asked me for my address, and I told her she was out of my scope.
+>>>DNS<<<
+The best thing about DNSSEC jokes is that you can check if they were told wrong.
+DNS is the root of all problems.
+You know it’s love when you memorize her IP number to skip DNS overhead.
+WHOIS going to tell us a Domain Name joke?
+A forged DNS packet tells the barman: “Need a root?” The next day, no-one can find the bar…
+>>>Ethernet<<<
+I had an Ethernet joke, but somebody else told it at the same time. So I exponentially backed off and tried again.
+{1,Two guys}{2,Hear about}{1,are talking}{2,the dope}{1,in}{2,who confused}{1.full-duplex,}{2,TDM with full-duplex?}
+LAN jokes can only be told properly if you tell an STP joke first.
+You have to tell a broadcast joke to everybody to find the one who see the fun on it.
+Broadcast your own ARP jokes, mine are only funny within the same collision domain.
+ARP jokes are often gratuitous.
+An ARP request goes to McDonald’s and asks for a Big MAC.
+I like ARP jokes, because it’s so easy to make them appear to originate from other persons.
+How do you catch an Ether bunny? With an Ethernet.
+I once went to an ARP restaurant. Thank god I didn’t eat the food! It was poisoned…
+The worst thing about broadcast storm jokes is that everyone’s already heard them a hundred times.
+What does networking seal say? Arp! Arp! Arp!
+A broadcast walks into the bar, everyone stops what they are doing to look…>>n<< am i the only girl on here or what ?!
+>>>HTTP<<<
+The best thing about 404 jokes is… wait, damnit, it’s around here somewhere…
+There’s no more 301 jokes because they have all been moved permanently.
+HTTP 200 jokes are only OK.
+The truth is out there. Anybody got the URL?
+What kind of doctor fixes broken websites? A URLologist.
+>>>IPv4<<<
+An IPv4 address walks into a bar and says: “Quick, give me a drink. I am exhausted!”
+The worst thing about protocol jokes is the ridiculous TTL.
+I’d tell you the one about the CIDR block, but you’re too classy.
+Didn’t we run out of IPv4 jokes?
+After dropping the packet the IP said it was my best effort.
+RFC1918 jokes are inside jokes.
+IP packet with TTL=1 arrives at bar. Bartender: “Sorry, can’t let you leave… and you don’t get any beer either…”
+Router: It hurts when IP.
+Network pray: Dear Lord, Please grant me the ability to punch people in the face over standard TCP/IP.
+We need to find more space for the IPv4 Comedy Roadshow, since all seats are taken.
+There’s no place like 127.0.0.1.
+I have told IPv4 joke 254 times. Then it stopped being funny.
+I have told IPv4 joke to my friend. He checked checksum and had best effort laugh.
+I have tried to tell you IPv4 joke, but you were unreachable.
+Yo mama is so used, they call her IPv4.
+“Hello, here’s a packet : “The problem with low MTU jokes is you can”. Hello, here’s a packet : “wait a long time before reading”. Hello, here’s a packet : “it.”
+192.168.0.1 jokes are best told in private.
+Dude 1 : Hey, did you watch that new movie called ‘IP Address’?>>n<<Dude 2: Which one, original or spoof?
+>>>IPv6<<<
+The bad thing about IPv6 jokes is that nobody wants to tell them first.
+The best part about IPv6 jokes is that you don’t have to make up the punchline for 15 years.
+The great thing about Teredo jokes is that you can tell smart jokes even when surrounded by dumb peers.
+The problem with IPv6 jokes is they’re long, obscure and no one gets them without a translation.
+I know a great IPv6 joke, but I just don’t think you’re ready for it.
+An IPv6 packet walks into a bar. Nobody talks to him.
+The great thing about Teredo jokes is that you can tell smart jokes even when surrounded by dumb peers.
+I will tell you IPv6 joke, but first I need to tell you IPv4 joke, so you get it.
+If you run IPv6 then you’re a c001:d00d.
+IPv4 is soon dead:beef.
+>>>Multicast<<<
+Sometimes I feel like a multicast packet. Ask 10 different people how to get somewhere and get 10 different answers.
+A multicast packet walks into a bar and leaves by four different exits at the same time.
+A multicast packet walks into 100 bars at one time.
+Multicast jokes are good, but you can only get them if you bother to listen.
+>>>NTP<<<
+An NTP packet calls ahead to make sure the bar’s open. By the time he gets there, it’s closed.
+I made an NTP joke once. The timing was perfect.
+The trick of telling a good NTP joke is about the timing…
+>>>QoS<<<
+The great thing about QoS jokes is that you may never know how much attention you are getting.
+I’m getting the license plate DSCP EF so I don’t get policed when I’m inside my CAR.
+I tried telling a joke, but the better jokes was being prioritized.
+>>>Routing<<<
+Is “smoke signal” a routable protocol?
+I’d like to tell you the full joke about a BGP table but I don’t think you can remember it all.
+The best thing about RIP jokes is that they’re funny 15 more times.
+The strange thing about BGP jokes is that they’re borderline funny but everybody repeats them anyway.
+A LSA Type 6 packet walks into a bar and asks the bartender for a drink. The bartender ignores him.
+A LSA Type 2 packet walks into a bar and asks for a beer. Bartender say’s “here, but don’t leave the area with it.”
+Q. What did the OSPF router say to the other OSPF router ?>>n<<A. Hello. Hello. Hello. Hello. Hello. Hello. Hello. Hello.
+Five routers walk into a bar. Who gets the car keys? The Designated Router.
+Is IS-IS = 0 ?
+People who tell routing jokes always exceed their time-to-live.
+My new OSPF neighbor told me all his jokes after we said hello to each other. Then he tells me the whole database of jokes every 30 minutes.
+I keep telling him all my RIP jokes, but he is passive about it.
+I was asking all my neighbors for an EIGRP joke. Didn’t receive all replies, so I am stuck in active.
+Son, If I fail to route jokes to this destination, I want you to be my feasible successor. You have good distance.
+I told EIGRP all my OSPF jokes. EIGRP said that they are infinite.
+I would tell a BGP joke, but everyone probably already knows it.
+The great thing about BGP jokes? Anyone can claim they are their own, all you can do is hope your neighbours like them.
+I just heard 300.000 BGP jokes.
+I was arguing with my neighbor about who will tell great new BGP joke. I was locally more preferred joke teller, but didn’t want to compete with his weight.
+Game Lemmings is like static routing. If improperly configured, you loose Lemmings.
+A BGP packet walks into a bar. He rudely interrupts anyone talking to him, and says, “I only talk to my neighbors”.
+>>>Security<<<
+SSH 1.33 and/or 1.5 protocol jokes are useless.
+I heard a great one about IPSEC, but you wouldn’t get it — it’s an inside joke.
+There are no good DH jokes because nobody agrees on the same prime.
+The problem with a cryptography joke is that you need to tell a pair of them before anyone understand what’s being said.
+Why are ASAs so noisy? They don’t know how to ssh.
+He said he was open to networking, but when we met up, he didn’t make a PEAP.
+The great thing about HTTP Upgrade jokes is… wait, someone might be listening, come closer add I’ll whisper.
+The great thing about TLS jokes is that you can tell if it’s not original.
+>>>SNMP<<<
+The problem with SMTP jokes are, you need some good reason to came back after greylisting and tell them again.
+SNMP walks into a bar and gets unknown object identifier.
+You need to tell a authorized POP3 joke before you can have a SMTP laugh.
+Unfortunately you need MIB files to understand the best SNMP jokes.
+My name is Bond, James Bond, SNMP agent.
+I was going to tell an SMTP joke about Viagra, but my reputation will be devastated.
+I was told to come undercover. So I came as SNMP agent.
+>>>TCP & UDP<<<
+The problem with UDP jokes: I don’t get half of them.
+In high society, TCP is more welcome than UDP. At least it knows a proper handshake.
+arrival order packet joke is critical to good a make
+T he bes thin gabou tTCPfl owcontr oljokesi sthatthey knowwhento backo ff….
+I was promised a three way and all I got was a TCP handshake.
+A TCP packet walks in to a bar and says “I want a beer”, barman says “you want a beer?” and TCP packet says “yes, a beer”.
+A bunch of TCP packets go into a bar, until it’s overcrowded. The next day, half as many go in.
+A bunch of TCP packets walk into a bar. The bartender says, “Hang on just a second, I need to close the window.”
+I’m going to keep telling you this TCP joke until you get it.
+Want to hear a SYN FLOOD joke? -Want to hear a SYN FLOOD joke? -Want to hear a SYN FLOOD joke? -Want to hear a SYN FLOOD joke? -Want to hear a SYN FLOOD joke?
+When I try to send SYNs to chicks, I don’t get any ACKs. Just FINs and RSTs.
+I dressed up as a UDP packet… I don’t think anyone got it, but I couldn’t tell.
+Whats the worst thing about sending a joke in TCP? I’ll keep telling it slower and slower until you get it.
+A UDP packet walks into a bar without a checksum. Nobody cares.
+TCP must be religious… Why? Because it all starts with a SYN….
+Adam and Eve where in the Garden of Eden. Snake offered apple to Eve and that was the first SYN.
+“Knock knock.” “Who’s there?” “SYN flood.” “SYN flood who?” “Knock knock.” …
+>>>Token Ring<<<
+A token walks into a bar. Another token can’t walk into the bar because it’s afraid of the dog.
+The problem with token ring jokes is you need to wait your turn to laugh.
+The worst part about token ring jokes is that if someone starts telling one while you are telling yours, all joking stops.
+>>>Voice<<<
+I always get jittery when making jokes in real time.
+An RTP packet walks into a bar through the wrong entrance. The barman says “You’re not getting any special treatment”.
+The best thing about Delay-Tolerant Networking jokes is that everyone gets them eventually.
+What do you call an elephant in a phone box? Stuck.
+Who was that on the phone, Fred? Fred: No one important. Just some man who said it was long distance from Australia, so I told him I knew that already and put the phone down!
+Mother: Why was the phone busy all night? Babysitter: The fire department put me on hold.
+Moody was awakened by the telephone at four A.M. It was his Ku Klux Klan buddy, Crumm, calling long distance from Montgomery. “What’s the matter?” asked Moody. “Are you in trouble?” “No!” said Crumm. “What do you want, then?” “Nothing!” “Then how come you are calling me in the middle of the night?” asked Moody. “Cause!” said the other redneck, “the rates is cheaper!”
+What asks no question but demands an answer? Ringing telephone.
+Why is an engaged girl like a telephone? Because they both have rings.
+Man: I’d like to call you. What is your telephone number?>>n<<Woman: It’s in the phone book.>>n<<Man: But I don’t know your name.>>n<<Woman: That’s in the phone book too.
+This is the Auto Attendant message at Britain’s National Health Service, Mental Health Helpline:>>n<<“If you have obsessive compulsive disorder, press 1 repeatedly. If you have multiple personalities, press 2,3,4, & 5. If you are paranoid, we know who you are, stay on the line so we can trace your call. If you are schizophrenic, listen carefully and a small voice will tell you what to do. If you are delusional, press 6 and your call will be transferred to the mother ship. If you have manic depression, it doesn’t matter what you press, no-one will answer anyway. If you have amnesia, press 7 and state your name, address, date of birth, telephone number, social security number and your mother’s maiden name. If you have post traumatic stress, press 8 very gently, slowly and carefully. If you have short term memory loss, press 9. If you have short term memory loss, press 9. If you have short term memory loss, press 9. If you have bipolar disorder, please leave a message after the beep or before the beep or after the beep. Please wait for the beep. If you have low self esteem, please hang up, our operators are too busy to talk to you anyway”.
+What kind of phone makes music? A saxophone.
+How can you tell if a bee is on the phone? You get a buzzy signal.
+What do you get if you cross a phone with a rooster? A wake-up call!
+What do you get if you cross a phone with a birthday celebration? A party line!
+Hello? Is this the butcher?>>n<<Yup. Glad to meat you!
+Hello? I’m not interrupting your dinner, am I?>>n<<Actually, you are.>>n<<Good. Wait for me, and I’ll be right over!
+Why didn’t the skeleton need a telephone?>>n<<He had no body to talk with!
+Why didn’t the mummy want a telephone?>>n<<He always got too wrapped up in his calls!
+What does a polar bear operator say?>>n<<“Glad I cold help you. Have an ice day!”
+>>>Wireless<<<
+The bad thing about RTS jokes is, you must first get ready to get them told.
+The bad thing about WEP jokes is that they all stink, so better don’t sniff them.
+A joke about IEEE 802.15.5 is pointless if you tell it right.
+Telling a lot of bluetooth jokes will reduce the bandwidth of your WiFi jokes.
+I would tell you a WEP joke, but I need to collect 50,000 packets first.
+I was telling joke to my house neighbor over WiFi, but someone interfered.
+The problem with 802.11 jokes is they probably go over your head.
+>>>Other<<<
+I tweeted several IPX/SPX jokes, but they can’t reach the Internet.
+XML jokes are well-formed
+Open Traffic shaping: All packets are equal, but some are more equal than others.
+CRC jokes tend to get repeated until you get them right.
+Serial jokes must be told bit by bit.
+An ICMP Redirect walks into a bar. Everybody moves next door.
+See most people talk about the OSI model as having 7 layers but they don’t mention layer 8 where a lot of the problems actually occur.
+When I go to the doctor for a cold and congestion, I usually tell him I have a ton of BECN bits set on the flow of my breathing through my nose.
+CCIE people don’t use steering wheel in their cars. They use CLI.
+CCIE people plan their trips with a route map.
+My new year’s resolution is 1080p.
+“I had a dream.. and there were 1’s and 0’s everywhere, and I think I saw a 2!” – Futurama
+If you have experienced an ICMP joke, ping me.
+We were supposed to be dressed in disguise. So I dressed as NAT.
+A packet walks into an 802.3x bar. The bartender says, “Be with you in a second.”
+A runt packet walks into a bar, the bartender says “You could use a byte.”
+Yo momma so big, she’s got her own OSI layer between L3 and L4, because the Transport layer can’t handle her.
+I broke up with my ex girlfriend since we were incompatible at all 7 layers of the OSI stack.. From application to physical.
+I once MPLS called my girl friend. She quickly hung up doubting my identity since I kept switching labels.
+Caution: Do not stare into the fiber optic laser with remaining good eye.
+How do you get someone with a CCNA off your porch? You pay for your pizza.
+I received a Tor joke from someone… have no idea who they are though…
+Have you secured your login properly? Yes, I have turned on CAPS LOCK.
+A network engineer was shipwrecked on an island with very few supplies. Taking an inventory, he tallied a pocketknife, a granola bar, and a scrap of fiber. He ate part of the granola bar and started looking for some food. Finding nothing, he figured he didn’t need the fiber anymore, so he dug a small hole and buried it. Half an hour later, a backhoe showed up, dug up the fiber, and rescued the network engineer.
+I heard you like vlans so I got you some 802.1ad so you could have vlans in your vlans.
