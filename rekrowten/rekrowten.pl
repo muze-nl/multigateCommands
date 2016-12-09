@@ -18,7 +18,7 @@ if ( defined( $ARGV[0] ) ) {
 
 open( JOKES, "< rekrowten.txt" );
 
-.my @jokes;
+my @jokes;
 my $count = 0;
 my @categories;
 my %categoriesbegin;
