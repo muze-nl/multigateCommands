@@ -5,7 +5,7 @@ my $number = 0;
 my $categoryrequest = '';
 
 if ( defined( $ARGV[0] ) ) {
-    if ( ( $ARGV[0] =~ /(\d+)/ ) && ( !defined( $ARGV[1] ) ) ) {
+    if ( ( $ARGV[0] =~ /^(\d+)$/ ) && ( !defined( $ARGV[1] ) ) ) {
         #nummertje gevraagd
         $number = $1;
     } else {
@@ -18,7 +18,7 @@ if ( defined( $ARGV[0] ) ) {
 
 open( JOKES, "< rekrowten.txt" );
 
-my @jokes;
+.my @jokes;
 my $count = 0;
 my @categories;
 my %categoriesbegin;
@@ -49,7 +49,7 @@ $categoriesend{$category} = $count;
 close JOKES;
 
 sub printjoke {
-    print join("\n", split('>>n<<', $jokes[$_[0] - 1] ."$_[0])"));
+    print join("\n", split('>>n<<', $jokes[$_[0] - 1] ."$_[0])"))."\n";
 }
 
 if ( $number > 0 && $number > $count ) {
