@@ -3,7 +3,7 @@ use strict;
 
 my $number = 0;
 
-if ( ( defined( $ARGV[0] ) ) && ( $ARGV[0] =~ /(\d+)/ ) ) {
+if ( ( defined( $ARGV[0] ) ) && ( $ARGV[0] =~ /^(\d+)$/ ) ) {
     #nummertje gevraagd
     $number = $1;
 }
@@ -23,9 +23,7 @@ while ( my $line = <FACTS> ) {
 
 close FACTS;
 
-if ( $number > 0 && $number > $count ) {
-    print "$number bestaat niet, een nummer tussen 1 en $count (incl).";    
-} elsif ( $number > 0 ) {
+if ( $number > 0 ) {
     if ( defined $facts[$number - 1] ) {
         #arg is gegeven en rule nummer $arg bestaat
         print $facts[$number - 1] ." ($number)";
