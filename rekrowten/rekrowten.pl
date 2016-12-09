@@ -49,7 +49,7 @@ $categoriesend{$category} = $count;
 close JOKES;
 
 sub printjoke {
-    print join("\n", split('>>n<<', $jokes[$_[0] - 1] ."$_[0])"));
+    print join("\n", split('>>n<<', $jokes[$_[0] - 1] ."$_[0])"))."\n";
 }
 
 if ( $number > 0 ) {
