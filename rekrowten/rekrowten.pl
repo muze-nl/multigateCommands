@@ -5,7 +5,7 @@ my $number = 0;
 my $categoryrequest = '';
 
 if ( defined( $ARGV[0] ) ) {
-    if ( ( $ARGV[0] =~ /(\d+)/ ) && ( !defined( $ARGV[1] ) ) ) {
+    if ( ( $ARGV[0] =~ /^(\d+)$/ ) && ( !defined( $ARGV[1] ) ) ) {
         #nummertje gevraagd
         $number = $1;
     } else {
@@ -27,13 +27,13 @@ my $category = '';
 
 while ( my $line = <JOKES> ) {
     chomp $line;
-    
+
     if ( $line=~ /^>>>(.*)<<<$/) {
         push @categories, $1;
-        
+
         $category  =~ tr/A-Z/a-z/;
         $categoriesend{$category} = $count;
-        
+
         $category = $1;
         my $cat = $1;
         $cat  =~ tr/A-Z/a-z/;
@@ -52,9 +52,7 @@ sub printjoke {
     print join("\n", split('>>n<<', $jokes[$_[0] - 1] ."$_[0])"));
 }
 
-if ( $number > 0 && $number > $count ) {
-    print "$number bestaat niet, een nummer tussen 1 en $count (incl).";    
-} elsif ( $number > 0 ) {
+if ( $number > 0 ) {
     if ( defined $jokes[$number - 1] ) {
         #arg is gegeven en rule nummer $arg bestaat
         printjoke $number;
