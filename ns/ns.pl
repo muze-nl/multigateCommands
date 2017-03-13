@@ -43,9 +43,15 @@ $request->header( "Accept-Encoding" => "gzip,deflate" );
 $request->header( "Accept-Language" => "en-us, en;q=0.5" );
 $request->header( "Accept-Charset"  => "ISO-8859-1,utf-8;q=0.7,*" );
 my $content = $ua->request($request)->content;
-print "STOEK! Probeer het later nog eens." unless $content =~ /^\{/;
-$content = $json->decode($content);
-$content = $content->{'content'};
+eval {
+    $content = $json->decode($content);
+    $content = $content->{'content'};
+};
+if (my $e = $@) {
+    #print "Could not decode JSON: $e";
+    print "Geen geldig antwoord ontvangen van $url";
+    exit;
+}
 
 if ( $content ) {
     $content =~ s/&#xF0[0-9a-f]{2};//g;
