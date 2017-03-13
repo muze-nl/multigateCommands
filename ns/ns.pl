@@ -4,13 +4,20 @@
 # Haalt het meest recente NS-nieuws van tt op en scrijft deze naar STDOUT
 # Niet kort of heel efficient, maar werkt prima :)
 
+# Frans van Dijk (`36`)
+# fransd@scintilla.utwente.nl
+#  - Nieuwe json bron url (26-04-2015)
+
+use strict;
 use HTML::Entities();
 use LWP::UserAgent;
+use JSON;
 
-$ua = new LWP::UserAgent;
+my $ua = new LWP::UserAgent;
+my $json = new JSON;
 
 #Set agent name, vooral niet laten weten dat we een script zijn
-$agent = "Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)";
+my $agent = "Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)";
 $ua->agent($agent);
 
 #$ua->proxy( "http", "http://www.area53.nl:4242/" ); #temporary proxy
@@ -24,36 +31,47 @@ if ( $ARGV[0] =~ m|(\d+)| ) {
 	$sub = '01';
 }
 
-
-$url = "http://teletekst.nos.nl/tekst/751-$sub.html";    # what else???
+my $t = '?t='.time.'0000';
+my $url = "http://teletekst-data.nos.nl/json/751-$sub$t";
 
 
 ##Haal pagina  op
-$request = new HTTP::Request( 'GET', $url );
+my $request = new HTTP::Request( 'GET', $url );
 $request->referer('http://portal.omroep.nl/');
 $request->header( "Accept" => 'application/x-shockwave-flash,text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,video/x-mng,image/png,image/jpeg,image/gif;q=0.2,*/*;q=0.1' );
 $request->header( "Accept-Encoding" => "gzip,deflate" );
 $request->header( "Accept-Language" => "en-us, en;q=0.5" );
 $request->header( "Accept-Charset"  => "ISO-8859-1,utf-8;q=0.7,*" );
-$content = $ua->request($request)->content;
+my $content = $ua->request($request)->content;
+eval {
+    $content = $json->decode($content);
+    $content = $content->{'content'};
+};
+if (my $e = $@) {
+    #print "Could not decode JSON: $e";
+    print "Geen geldig antwoord ontvangen van $url";
+    exit;
+}
 
-#get everything between <pre> </pre>
-if ( $content =~ /<pre>/ ) {
-    $content =~ s/^.*?<pre>.*?\n(.*?)<\/pre>.*?$/$1/si;
-    $content =~ s/\*+//g;
+if ( $content ) {
+    $content =~ s/&#xF0[0-9a-f]{2};//g;
     $content =~ s/<font .*?>//sgi;
     $content =~ s/<\/font>//sgi;
-    $content =~ s/<A HREF=".*?html">(\d{3})<\/A>/($1),/gi;
+    $content =~ s/<span.*?>//sgi;
+    $content =~ s/<\/span>//sgi;
+    $content =~ s/<a .*?>(\d{3}).*?<\/a>/($1),/gi;
+    $content =~ s/<a .*? class="(red|green|yellow|cyan)" .*?>.*?<\/a>//gi;
     $content =~ s/\n+//g;
     $content =~ s/\.{2,}//g;
     $content =~ s/([,.])/$1 /g;
     $content =~ s/\s{2,}/ /g;
     $content =~ s/^\s//;
-    $content =~ s/<A HREF=".*?html">(\d{3})<\/A>/($1),/gi;
     $content =~ s/volledig nieuwsoverzicht.*?$//i;
     $content =~ s/,\s*$//;
     $content =~ s/^(.*?ProRail).*$/$1/i;
+    $content =~ s/S P O O R W E G E N actueel //i;
     $content =~ s/volgende nieuws.*$//i;
+    $content =~ s/plan uw reis op ns.*$//i;
     $content = HTML::Entities::decode($content);
 
     print $content . "\n";
