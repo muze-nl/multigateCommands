@@ -10,14 +10,17 @@
 #  - Als er geen argument gegeven wordt alleen een opsomming geven.
 #  - Betere controle of er een volgende pagina is door te kijken of de huidige pagina een link 'volgende subpagina' bevat.
 #  - Mogelijk gemaakt dat 730-10 en verder worden opgevraagd ipv 730-010
+#  - Nieuwe json bron url (26-04-2015)
 
-
+use strict;
 use HTML::Entities();
 use LWP::UserAgent;
-$ua = new LWP::UserAgent;
+use JSON;
+my $ua = new LWP::UserAgent;
+my $json = new JSON;
 
 #Set agent name, vooral niet laten weten dat we een script zijn
-$agent = "Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)";
+my $agent = "Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)";
 $ua->agent($agent);
 
 my $args = shift @ARGV;
@@ -25,38 +28,42 @@ my %wegen;
 
 sub get_url {
     my $url = shift;
-    $request = new HTTP::Request( 'GET', $url );
-    $request->referer('http://portal.omroep.nl/');
+    my $request = new HTTP::Request( 'GET', $url );
     $request->header( "Accept" => 'application/x-shockwave-flash,text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,video/x-mng,image/png,image/jpeg,image/gif;q=0.2,*/*;q=0.1' );
     $request->header( "Accept-Encoding" => "gzip,deflate" );
     $request->header( "Accept-Language" => "en-us, en;q=0.5" );
     $request->header( "Accept-Charset"  => "ISO-8859-1,utf-8;q=0.7,*" );
 
-    $content = $ua->request($request)->content;
-    return $content;
+    return $ua->request($request)->content;
 }
 
 sub parse_page {
+    my $content = shift;
+    eval {
+        $content = $json->decode($content);
+        die unless $content->{'content'};
+    };
+    if (my $e = $@) {
+        #print "Could not decode JSON: $e";
+        print "Geen geldig antwoord ontvangen van de server.";
+        exit;
+    }
     #get everything between <pre> </pre>
-    if ( $content =~ /<pre>/ ) {
+    if ( $content->{'content'} ) {
         my $lastpage = 1;
-        if ( $content =~ /volgende subpagina/ ) {
+        if ( $content->{'nextSubPage'} =~ /730-\d+/ ) {
             $lastpage = 0;
         }
-        $content =~ s/^.*?<pre>.*?\n(.*?)<\/pre>.*?$/$1/si;
-        $content =~ s/.*?Files.*?\n(.*)/$1/si;
-        #      $content =~ s/\*+//g;
-        $content =~ s/<font .*?>//sgi;
-        $content =~ s/<\/font>//sgi;
-        #      $content =~ s/<A HREF=".*?html">(\d{3})<\/A>/($1),/gi;
-        #      $content =~ s/\n+//g;
-        #      $content =~ s/\.{2,}//g;
-        #      $content =~ s/([,.])/$1 /g;
-        #      $content =~ s/\s{2,}/ /g;
-        #      $content =~ s/^\s//g;
-        #      $content =~ s/<A HREF=".*?html">(\d{3})<\/A>/($1),/gi;
-        #      $content =~ s/volgende nieuws index.*$//i;
-        #      $content =~ s|binnenland.*?VERKEERSINFORMATIE actueel .*? uur||gi;
+        $content = $content->{'content'};
+        $content =~ s/&#xF0[0-9a-f]{2};//g;
+        $content =~ s/.*?Files:.*?\n(.*)Bron:ANWB.*?/$1/si;
+        $content =~ s/<span.*?>//sgi;
+        $content =~ s/<\/span>//sgi;
+        $content =~ s/\n -/\r/g;
+        $content =~ s/\n+//g;
+        $content =~ s/\r/\n -/g;
+        $content =~ s/<a .*?>(\d{3}).*?<\/a>/($1),/gi;
+        $content =~ s/<a .*? class="(red|green|yellow|cyan)" .*?>.*?<\/a>//gi;
 
         $content = HTML::Entities::decode($content);
 
@@ -69,8 +76,8 @@ sub parse_page {
             } else {
                 if ( $line =~ /\*+/ ) {
                     $last_weg = "rest";
+                    $wegen{$last_weg} .= $line;
                 }
-                $wegen{$last_weg} .= $line;
             }
         }
         return $lastpage;
@@ -81,12 +88,13 @@ sub parse_page {
 
 
 
-my $base_url   = "http://teletekst.nos.nl/tekst/730-";
+my $base_url = 'http://teletekst-data.nos.nl/json/730-';
+my $t = '?t='.time.'0000';
 my $page_index = 1;
 
 my $next = 1;
 while ($next) {
-    $url = $base_url . sprintf("%02d", $page_index) . ".html";
+    my $url = $base_url . sprintf("%02d", $page_index) . $t;
     #print $url ."\n";
     my $lastpage = parse_page( get_url($url) );
     if ( defined $lastpage ) {
