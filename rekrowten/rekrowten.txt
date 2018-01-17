@@ -36,6 +36,7 @@ I once went to an ARP restaurant. Thank god I didn’t eat the food! It was pois
 The worst thing about broadcast storm jokes is that everyone’s already heard them a hundred times.
 What does networking seal say? Arp! Arp! Arp!
 A broadcast walks into the bar, everyone stops what they are doing to look…>>n<< am i the only girl on here or what ?!
+A packet walks into an 802.3x bar. The bartender says, “Be with you in a second.”
 >>>HTTP<<<
 The best thing about 404 jokes is… wait, damnit, it’s around here somewhere…
 There’s no more 301 jokes because they have all been moved permanently.
@@ -190,7 +191,6 @@ My new year’s resolution is 1080p.
 “I had a dream.. and there were 1’s and 0’s everywhere, and I think I saw a 2!” – Futurama
 If you have experienced an ICMP joke, ping me.
 We were supposed to be dressed in disguise. So I dressed as NAT.
-A packet walks into an 802.3x bar. The bartender says, “Be with you in a second.”
 A runt packet walks into a bar, the bartender says “You could use a byte.”
 Yo momma so big, she’s got her own OSI layer between L3 and L4, because the Transport layer can’t handle her.
 I broke up with my ex girlfriend since we were incompatible at all 7 layers of the OSI stack.. From application to physical.
