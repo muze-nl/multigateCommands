@@ -106,6 +106,8 @@ my %words = (
     'ccd' => 2,
     'cmos' => -2,
     'canon' => 2,
+#Het is 2018
+    'blockchain' => 4,
 );
 
 $inches += $users{$user} if (exists $users{$user} );
