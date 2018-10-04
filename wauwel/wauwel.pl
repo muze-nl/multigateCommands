@@ -15,10 +15,10 @@ my @second = (
     "innovatie", "concept"
 );
 my @third = (
-    "standaardisatie", "synthese",  "inschaling",   "mobiliteit",    "analyse",    "programmering",
-    "fasering",        "projectie", "stabilisatie", "flexibiliteit", "rapportage", "participatie",
+    "standaardisatie", "synthese",   "inschaling",   "mobiliteit",    "analyse",    "programmering",
+    "fasering",        "projectie",  "stabilisatie", "flexibiliteit", "rapportage", "participatie",
     "bevordering",     "blockchain", "maatschappij", "programma's",  "ontwikkeling", "omgeving"
-    "visie",           "cultuur"
+    "visie",           "cultuur",    "katalysator"
 );
 
 my $result = $first[ rand(@first) ] . $second[ rand(@second) ] . $third[ rand(@third) ];
