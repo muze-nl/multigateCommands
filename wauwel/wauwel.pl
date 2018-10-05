@@ -6,7 +6,7 @@ my @first = (
     "functionele ",   "optionele ",        "geobjectiveerde ", "uitgekristalliseerde ",
     "normatieve ",    "progressieve ",     "decentrale ",      "centrale ",
     "strategische ",  "pseudo-",           "duurzame ",        "ingebouwde ",
-    "innoverende "    "community-driven ", "exponentiële ",    "circulaire ",
+    "innoverende ",    "community-driven ", "exponentiële ",    "circulaire ",
     "revitaliserende "
 );
 my @second = (
@@ -17,7 +17,7 @@ my @second = (
 my @third = (
     "standaardisatie", "synthese",   "inschaling",   "mobiliteit",    "analyse",    "programmering",
     "fasering",        "projectie",  "stabilisatie", "flexibiliteit", "rapportage", "participatie",
-    "bevordering",     "blockchain", "maatschappij", "programma's",  "ontwikkeling", "omgeving"
+    "bevordering",     "blockchain", "maatschappij", "programma's",  "ontwikkeling", "omgeving",
     "visie",           "cultuur",    "katalysator"
 );
 
