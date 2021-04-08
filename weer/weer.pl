@@ -1,37 +1,46 @@
-#!/usr/bin/perl
-#
-# Haal het weer op van de knmi RSS reed. (http://www.knmi.nl/rss_feeds/)
-#
-# In elkaar gebeund door Wieger op basis van !rss van Casper Joost.
-#
+#!/usr/bin/perl -w
+# Yvo Brevoort (Ylebre);
+# yvo@brevoort.nl
 
-use strict;
-use warnings;
-
-use XML::RSS;
 use LWP::UserAgent;
+use HTTP::Cookies;
+use Data::Dumper;
 
-my $url = 'http://www.knmi.nl/rssfeeds/knmi-rssweer.cgi';
+my $ua = new LWP::UserAgent;
 
-my $rss = new XML::RSS;
-my $ua  = new LWP::UserAgent;
+#### allerlei fijne definities en initialisaties ########
 
+@agents = (
+    "Mozilla/4.0 (compatible; MSIE 4.01; Windows 98)", "Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)",
+    "Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0)"
+);
 
-my $request = new HTTP::Request( 'GET', $url );
-my $response = $ua->request($request);
+$agent = @agents[ int( rand(@agents) ) ];
+$ua->agent($agent);
+
+$request = new HTTP::Request( 'GET', "ftp://ftp.knmi.nl/pub_weerberichten/basisverwachting.xml" );
+$response = $ua->request($request);
 
 if ( $response->is_success() ) {
-	my $content = $response->content;
-	eval { $rss->parse($content); };
-	if ($@) {
-		print "Error parsing $url\n";
-		exit;
-	}
-	my $i1 = @{ $rss->{'items'} }[0]->{'description'};
-	my $i2 = @{ $rss->{'items'} }[1]->{'description'};
-	$i1 = $1 if $i1 =~ /\s*(.*?)<br>/ms;
-        $i2 = "Vooruitzichten: $1" if $i2 =~ /\s*Vooruitzichten<br>(.*?)<br>/ms;
-	print "$i1 $i2 (Bron: KNMI)\n";
+        my $content = $response->content;
+        @blocks = split(/<block>/, $content);
+        shift(@blocks);
+
+        my %info;
+        while (@blocks) {
+                $block = shift(@blocks);
+                if ($block =~ /<field_id>(.*?)<\/field_id>/ms) {
+                        $id = $1;
+                }
+                if ($block =~ /<field_content>(.*?)<\/field_content>/ms) {
+                        $content = $1;
+                        $content =~ s/\n/ /g;
+                }
+                if ($id && $content) {
+                        $info{$id} = $content;
+                }
+        }
+        print $info{'Verwachting'} . "\n";
 } else {
-	print "Error retrieving url: $url\n";
+        print "Error retrieving data\n";
 }
