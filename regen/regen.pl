@@ -18,6 +18,7 @@ my $ua = LWP::UserAgent->new(
 my %locations = (		# [ lat, long ]
 		# City hall Enschede: f = 52 13' 13.5" N, l = 6 53' 50.8" E
 		'Enschede'	=> [ 52.22041,  6.89744 ],
+		'Twekkelerveld'	=> [ 52.228847, 6.85937 ],
 );
 
 if (open LOC, '<', '../zon/xearth.markers') {
@@ -82,11 +83,13 @@ $location = $locs[0];
 
 my ($lat, $long) = @{$locations{$location}};
 
-my $url = "http://gps.buienradar.nl/getrr.php?lat=$lat&lon=$long";
+my $url =  "https://gpsgadget.buienradar.nl/data/raintext?lat=$lat&lon=$long";
 my $response = $ua->get($url);
 
 unless ($response->is_success) {
 	# hmm, let's retry
+	# but let's limit lat and long to two decimal digits (API sometimes breaks on higher precision)
+	$url = sprintf "https://gpsgadget.buienradar.nl/data/raintext?lat=%.2f&lon=%.2f", $lat, $long;
 	$response = $ua->get($url);
 
 	unless ($response->is_success) {
