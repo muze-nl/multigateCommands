@@ -47,6 +47,7 @@ Op open source krijg je toch geen support.
 Standaarden zijn om uit te breiden.
 IPv6 is voor kneusjes.
 IPv6 voegt niets toe, behalve onleesbare hostnames.
+Er is helemaal niets mis met NAT.
 SCSI is gewoon IDE met een rare stekker, zodat malloten er meer voor willen betalen
 BSD-style is zo veel suffer dan SYSV!
 BSD license? GPL natuurlijk!

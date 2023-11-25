@@ -36,6 +36,8 @@ I once went to an ARP restaurant. Thank god I didn’t eat the food! It was pois
 The worst thing about broadcast storm jokes is that everyone’s already heard them a hundred times.
 What does networking seal say? Arp! Arp! Arp!
 A broadcast walks into the bar, everyone stops what they are doing to look…>>n<< am i the only girl on here or what ?!
+A packet walks into an 802.3x bar. The bartender says, “Be with you in a second.”
+I heard you like vlans so I got you some 802.1ad so you could have vlans in your vlans.
 >>>HTTP<<<
 The best thing about 404 jokes is… wait, damnit, it’s around here somewhere…
 There’s no more 301 jokes because they have all been moved permanently.
@@ -117,13 +119,14 @@ He said he was open to networking, but when we met up, he didn’t make a PEAP.
 The great thing about HTTP Upgrade jokes is… wait, someone might be listening, come closer add I’ll whisper.
 The great thing about TLS jokes is that you can tell if it’s not original.
 >>>SNMP<<<
-The problem with SMTP jokes are, you need some good reason to came back after greylisting and tell them again.
 SNMP walks into a bar and gets unknown object identifier.
-You need to tell a authorized POP3 joke before you can have a SMTP laugh.
 Unfortunately you need MIB files to understand the best SNMP jokes.
 My name is Bond, James Bond, SNMP agent.
-I was going to tell an SMTP joke about Viagra, but my reputation will be devastated.
 I was told to come undercover. So I came as SNMP agent.
+>>>SMTP<<<
+The problem with SMTP jokes are, you need some good reason to came back after greylisting and tell them again.
+You need to tell a authorized POP3 joke before you can have a SMTP laugh.
+I was going to tell an SMTP joke about Viagra, but my reputation will be devastated.
 >>>TCP & UDP<<<
 The problem with UDP jokes: I don’t get half of them.
 In high society, TCP is more welcome than UDP. At least it knows a proper handshake.
@@ -190,7 +193,6 @@ My new year’s resolution is 1080p.
 “I had a dream.. and there were 1’s and 0’s everywhere, and I think I saw a 2!” – Futurama
 If you have experienced an ICMP joke, ping me.
 We were supposed to be dressed in disguise. So I dressed as NAT.
-A packet walks into an 802.3x bar. The bartender says, “Be with you in a second.”
 A runt packet walks into a bar, the bartender says “You could use a byte.”
 Yo momma so big, she’s got her own OSI layer between L3 and L4, because the Transport layer can’t handle her.
 I broke up with my ex girlfriend since we were incompatible at all 7 layers of the OSI stack.. From application to physical.
@@ -200,4 +202,3 @@ How do you get someone with a CCNA off your porch? You pay for your pizza.
 I received a Tor joke from someone… have no idea who they are though…
 Have you secured your login properly? Yes, I have turned on CAPS LOCK.
 A network engineer was shipwrecked on an island with very few supplies. Taking an inventory, he tallied a pocketknife, a granola bar, and a scrap of fiber. He ate part of the granola bar and started looking for some food. Finding nothing, he figured he didn’t need the fiber anymore, so he dug a small hole and buried it. Half an hour later, a backhoe showed up, dug up the fiber, and rescued the network engineer.
-I heard you like vlans so I got you some 802.1ad so you could have vlans in your vlans.
