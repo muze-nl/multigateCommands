@@ -51,3 +51,8 @@ Er is helemaal niets mis met NAT.
 SCSI is gewoon IDE met een rare stekker, zodat malloten er meer voor willen betalen
 BSD-style is zo veel suffer dan SYSV!
 BSD license? GPL natuurlijk!
+NixOS? Dat werkt theoretisch vast heel goed maar in de praktijk heb je er niks aan.
+Arch Linux werkt toch zo veel fijner dan NixOS.
+LaTex is veel beter dan Typst.
+Typst is niet bedoeld voor professionele documenten.
+Wat is LaTex? Bedoel je Overleaf?
